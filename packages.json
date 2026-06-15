@@ -1,0 +1,607 @@
+{
+    "packages": [
+        {
+            "slug": "apppress/activity-log",
+            "github_repo": "appkitgo/plugin-activity-log",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-activity-log/appress.json"
+        },
+        {
+            "slug": "apppress/analytics",
+            "github_repo": "appkitgo/plugin-analytics",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-analytics/appress.json"
+        },
+        {
+            "slug": "apppress/anti-spam",
+            "github_repo": "appkitgo/plugin-antispam",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-antispam/appress.json"
+        },
+        {
+            "slug": "apppress/api-keys",
+            "github_repo": "appkitgo/plugin-api-keys",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-api-keys/appress.json"
+        },
+        {
+            "slug": "apppress/appointments",
+            "github_repo": "appkitgo/plugin-appointments",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-appointments/appress.json"
+        },
+        {
+            "slug": "apppress/assignments",
+            "github_repo": "appkitgo/plugin-assignments",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-assignments/appress.json"
+        },
+        {
+            "slug": "apppress/backup",
+            "github_repo": "appkitgo/plugin-backup",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-backup/appress.json"
+        },
+        {
+            "slug": "apppress/billing",
+            "github_repo": "appkitgo/plugin-billing",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-billing/appress.json"
+        },
+        {
+            "slug": "apppress/blog",
+            "github_repo": "appkitgo/plugin-blog",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-blog/appress.json"
+        },
+        {
+            "slug": "apppress/booking-appointments",
+            "github_repo": "appkitgo/app-press",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../app-press/apps/api/modules/app-packs/booking-appointments/appress.json",
+            "release_tag_prefix": "booking-appointments-v"
+        },
+        {
+            "slug": "apppress/booking-portal",
+            "github_repo": "appkitgo/apppack-booking",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../apppack-booking/apppress.json"
+        },
+        {
+            "slug": "apppress/calendar",
+            "github_repo": "appkitgo/plugin-calendar",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-calendar/appress.json"
+        },
+        {
+            "slug": "apppress/certificates",
+            "github_repo": "appkitgo/plugin-certificates",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-certificates/appress.json"
+        },
+        {
+            "slug": "apppress/changelog",
+            "github_repo": "appkitgo/plugin-changelog",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-changelog/appress.json"
+        },
+        {
+            "slug": "apppress/chat",
+            "github_repo": "appkitgo/plugin-chat",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-chat/appress.json"
+        },
+        {
+            "slug": "apppress/client-desk",
+            "github_repo": "appkitgo/theme-client-desk",
+            "tier": "first_party",
+            "type": "theme",
+            "manifest_path": "../theme-client-desk/apppress.json"
+        },
+        {
+            "slug": "apppress/client-portal",
+            "github_repo": "appkitgo/apppack-client-portal",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../apppack-client-portal/apppress.json"
+        },
+        {
+            "slug": "apppress/client-portal",
+            "github_repo": "appkitgo/app-press",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../app-press/apps/api/modules/app-packs/client-portal/appress.json",
+            "release_tag_prefix": "client-portal-v"
+        },
+        {
+            "slug": "apppress/clinic-pro",
+            "github_repo": "appkitgo/theme-clinic-pro",
+            "tier": "first_party",
+            "type": "theme",
+            "manifest_path": "../theme-clinic-pro/apppress.json"
+        },
+        {
+            "slug": "apppress/cloud-vps",
+            "github_repo": "appkitgo/plugin-cloud-vps",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-cloud-vps/appress.json"
+        },
+        {
+            "slug": "apppress/commerce-pro",
+            "github_repo": "appkitgo/theme-commerce-pro",
+            "tier": "first_party",
+            "type": "theme",
+            "manifest_path": "../theme-commerce-pro/apppress.json"
+        },
+        {
+            "slug": "apppress/community-pro",
+            "github_repo": "appkitgo/theme-community-pro",
+            "tier": "first_party",
+            "type": "theme",
+            "manifest_path": "../theme-community-pro/apppress.json"
+        },
+        {
+            "slug": "apppress/composed-app",
+            "github_repo": "appkitgo/app-press",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../app-press/apps/api/modules/app-packs/composed-app/appress.json",
+            "release_tag_prefix": "composed-app-v"
+        },
+        {
+            "slug": "apppress/contacts",
+            "github_repo": "appkitgo/plugin-contacts",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-contacts/appress.json"
+        },
+        {
+            "slug": "apppress/content-drip",
+            "github_repo": "appkitgo/plugin-content-drip",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-content-drip/appress.json"
+        },
+        {
+            "slug": "apppress/contractor-connector-pack",
+            "github_repo": "appkitgo/app-press",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../app-press/apps/api/modules/app-packs/contractor-connector-pack/appress.json",
+            "release_tag_prefix": "contractor-connector-pack-v"
+        },
+        {
+            "slug": "apppress/coupons",
+            "github_repo": "appkitgo/plugin-coupons",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-coupons/appress.json"
+        },
+        {
+            "slug": "apppress/custom-fields",
+            "github_repo": "appkitgo/plugin-custom-fields",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-custom-fields/appress.json"
+        },
+        {
+            "slug": "apppress/discussions",
+            "github_repo": "appkitgo/plugin-discussions",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-discussions/appress.json"
+        },
+        {
+            "slug": "apppress/documents",
+            "github_repo": "appkitgo/plugin-documents",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-documents/appress.json"
+        },
+        {
+            "slug": "apppress/email-campaigns",
+            "github_repo": "appkitgo/plugin-email-campaigns",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-email-campaigns/appress.json"
+        },
+        {
+            "slug": "apppress/events",
+            "github_repo": "appkitgo/plugin-events",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-events/appress.json"
+        },
+        {
+            "slug": "apppress/feature-flags",
+            "github_repo": "appkitgo/plugin-feature-flags",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-feature-flags/appress.json"
+        },
+        {
+            "slug": "apppress/file-vault",
+            "github_repo": "appkitgo/plugin-file-vault",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-file-vault/appress.json"
+        },
+        {
+            "slug": "apppress/forms",
+            "github_repo": "appkitgo/plugin-forms",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-forms/appress.json"
+        },
+        {
+            "slug": "apppress/gamification",
+            "github_repo": "appkitgo/plugin-gamification",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-gamification/appress.json"
+        },
+        {
+            "slug": "apppress/geo",
+            "github_repo": "appkitgo/plugin-geo",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-geo/appress.json"
+        },
+        {
+            "slug": "apppress/helpdesk",
+            "github_repo": "appkitgo/apppack-helpdesk",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../apppack-helpdesk/appress.json"
+        },
+        {
+            "slug": "apppress/helpdesk-portal",
+            "github_repo": "appkitgo/apppack-helpdesk",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../apppack-helpdesk/apppress.json"
+        },
+        {
+            "slug": "apppress/i18n",
+            "github_repo": "appkitgo/plugin-i18n",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-i18n/appress.json"
+        },
+        {
+            "slug": "apppress/import-export",
+            "github_repo": "appkitgo/plugin-import-export",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-import-export/appress.json"
+        },
+        {
+            "slug": "apppress/invoices",
+            "github_repo": "appkitgo/plugin-invoices",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-invoices/appress.json"
+        },
+        {
+            "slug": "apppress/knowledge-base",
+            "github_repo": "appkitgo/plugin-knowledge-base",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-knowledge-base/appress.json"
+        },
+        {
+            "slug": "apppress/launch-pro",
+            "github_repo": "appkitgo/theme-launch-pro",
+            "tier": "first_party",
+            "type": "theme",
+            "manifest_path": "../theme-launch-pro/apppress.json"
+        },
+        {
+            "slug": "apppress/learn-pro",
+            "github_repo": "appkitgo/theme-learn-pro",
+            "tier": "first_party",
+            "type": "theme",
+            "manifest_path": "../theme-learn-pro/apppress.json"
+        },
+        {
+            "slug": "apppress/lightweight-crm",
+            "github_repo": "appkitgo/apppack-crm",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../apppack-crm/apppress.json"
+        },
+        {
+            "slug": "apppress/lightweight-crm",
+            "github_repo": "appkitgo/app-press",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../app-press/apps/api/modules/app-packs/lightweight-crm/appress.json",
+            "release_tag_prefix": "lightweight-crm-v"
+        },
+        {
+            "slug": "apppress/loyalty",
+            "github_repo": "appkitgo/plugin-loyalty",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-loyalty/appress.json"
+        },
+        {
+            "slug": "apppress/marketplace",
+            "github_repo": "appkitgo/apppack-marketplace",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../apppack-marketplace/appress.json"
+        },
+        {
+            "slug": "apppress/media",
+            "github_repo": "appkitgo/plugin-media",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-media/appress.json"
+        },
+        {
+            "slug": "apppress/minimal",
+            "github_repo": "appkitgo/theme-minimal",
+            "tier": "first_party",
+            "type": "theme",
+            "manifest_path": "../theme-minimal/apppress.json"
+        },
+        {
+            "slug": "apppress/newsletters",
+            "github_repo": "appkitgo/plugin-newsletters",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-newsletters/appress.json"
+        },
+        {
+            "slug": "apppress/notifications",
+            "github_repo": "appkitgo/plugin-notifications",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-notifications/appress.json"
+        },
+        {
+            "slug": "apppress/onboarding",
+            "github_repo": "appkitgo/plugin-onboarding",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-onboarding/appress.json"
+        },
+        {
+            "slug": "apppress/orders",
+            "github_repo": "appkitgo/plugin-orders",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-orders/appress.json"
+        },
+        {
+            "slug": "apppress/pages",
+            "github_repo": "appkitgo/plugin-pages",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-pages/appress.json"
+        },
+        {
+            "slug": "apppress/payments",
+            "github_repo": "appkitgo/plugin-payments",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-payments/appress.json"
+        },
+        {
+            "slug": "apppress/pipelines",
+            "github_repo": "appkitgo/plugin-pipelines",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-pipelines/appress.json"
+        },
+        {
+            "slug": "apppress/products",
+            "github_repo": "appkitgo/plugin-products",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-products/appress.json"
+        },
+        {
+            "slug": "apppress/progress",
+            "github_repo": "appkitgo/plugin-progress",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-progress/appress.json"
+        },
+        {
+            "slug": "apppress/projects",
+            "github_repo": "appkitgo/plugin-projects",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-projects/appress.json"
+        },
+        {
+            "slug": "apppress/quizzes",
+            "github_repo": "appkitgo/plugin-quizzes",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-quizzes/appress.json"
+        },
+        {
+            "slug": "apppress/quote-portal",
+            "github_repo": "appkitgo/apppack-quote-portal",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../apppack-quote-portal/apppress.json"
+        },
+        {
+            "slug": "apppress/quote-request-portal",
+            "github_repo": "appkitgo/app-press",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../app-press/apps/api/modules/app-packs/quote-request-portal/appress.json",
+            "release_tag_prefix": "quote-request-portal-v"
+        },
+        {
+            "slug": "apppress/ratings",
+            "github_repo": "appkitgo/plugin-ratings",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-ratings/appress.json"
+        },
+        {
+            "slug": "apppress/real-estate-leads",
+            "github_repo": "appkitgo/app-press",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../app-press/apps/api/modules/app-packs/real-estate-leads/appress.json",
+            "release_tag_prefix": "real-estate-leads-v"
+        },
+        {
+            "slug": "apppress/referrals",
+            "github_repo": "appkitgo/plugin-referrals",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-referrals/appress.json"
+        },
+        {
+            "slug": "apppress/reports",
+            "github_repo": "appkitgo/plugin-reports",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-reports/appress.json"
+        },
+        {
+            "slug": "apppress/reviews",
+            "github_repo": "appkitgo/plugin-reviews",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-reviews/appress.json"
+        },
+        {
+            "slug": "apppress/scheduler",
+            "github_repo": "appkitgo/plugin-scheduler",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-scheduler/appress.json"
+        },
+        {
+            "slug": "apppress/search",
+            "github_repo": "appkitgo/plugin-search",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-search/appress.json"
+        },
+        {
+            "slug": "apppress/seo",
+            "github_repo": "appkitgo/plugin-seo",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-seo/appress.json"
+        },
+        {
+            "slug": "apppress/service-pro",
+            "github_repo": "appkitgo/theme-service-pro",
+            "tier": "first_party",
+            "type": "theme",
+            "manifest_path": "../theme-service-pro/apppress.json"
+        },
+        {
+            "slug": "apppress/social-auth",
+            "github_repo": "appkitgo/plugin-social-auth",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-social-auth/appress.json"
+        },
+        {
+            "slug": "apppress/storefront",
+            "github_repo": "appkitgo/theme-storefront",
+            "tier": "first_party",
+            "type": "theme",
+            "manifest_path": "../theme-storefront/apppress.json"
+        },
+        {
+            "slug": "apppress/student-org-request-portal",
+            "github_repo": "appkitgo/apppack-student-org-request-portal",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../apppack-student-org-request-portal/appress.json"
+        },
+        {
+            "slug": "apppress/student-org-request-portal",
+            "github_repo": "appkitgo/app-press",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../app-press/apps/api/modules/app-packs/student-org-request-portal/appress.json",
+            "release_tag_prefix": "student-org-request-portal-v"
+        },
+        {
+            "slug": "apppress/subscriptions",
+            "github_repo": "appkitgo/plugin-subscriptions",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-subscriptions/appress.json"
+        },
+        {
+            "slug": "apppress/surveys",
+            "github_repo": "appkitgo/plugin-surveys",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-surveys/appress.json"
+        },
+        {
+            "slug": "apppress/tags",
+            "github_repo": "appkitgo/plugin-tags",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-tags/appress.json"
+        },
+        {
+            "slug": "apppress/teams",
+            "github_repo": "appkitgo/plugin-teams",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-teams/appress.json"
+        },
+        {
+            "slug": "apppress/tickets",
+            "github_repo": "appkitgo/plugin-tickets",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-tickets/appress.json"
+        },
+        {
+            "slug": "apppress/two-factor",
+            "github_repo": "appkitgo/plugin-two-factor",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-two-factor/appress.json"
+        },
+        {
+            "slug": "apppress/waitlist",
+            "github_repo": "appkitgo/plugin-waitlist",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-waitlist/appress.json"
+        },
+        {
+            "slug": "apppress/workflows",
+            "github_repo": "appkitgo/plugin-workflows",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-workflows/appress.json"
+        }
+    ]
+}

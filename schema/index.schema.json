@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://appress.io/schemas/registry-index/v1",
+  "title": "AppPress Registry Index",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "packages", "signature"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0.0" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "index_ref": { "type": "string" },
+    "signature": { "type": "string", "pattern": "^[0-9a-f]{128}$" },
+    "packages": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/$defs/package" }
+    }
+  },
+  "$defs": {
+    "package": {
+      "type": "object",
+      "required": ["slug", "name", "type", "github_repo", "tier", "versions"],
+      "properties": {
+        "slug": { "type": "string" },
+        "name": { "type": "string" },
+        "type": { "enum": ["plugin", "theme", "app-pack"] },
+        "github_repo": { "type": "string" },
+        "tier": { "enum": ["first_party", "certified", "community"] },
+        "description": { "type": "string" },
+        "author": { "type": "string" },
+        "categories": { "type": "array", "items": { "type": "string" } },
+        "versions": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/version" }
+        }
+      }
+    },
+    "version": {
+      "type": "object",
+      "required": ["version", "download_url", "checksum_sha256", "signature"],
+      "properties": {
+        "version": { "type": "string" },
+        "download_url": { "type": "string", "format": "uri" },
+        "checksum_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "signature": { "type": "string", "pattern": "^[0-9a-f]{128}$" },
+        "min_core_version": { "type": "string" },
+        "dependencies": { "type": "object" },
+        "requires_plugins": { "type": "array", "items": { "type": "string" } },
+        "capabilities": { "type": "array", "items": { "type": "string" } },
+        "yanked": { "type": "boolean" },
+        "published_at": { "type": "string", "format": "date-time" }
+      }
+    }
+  }
+}

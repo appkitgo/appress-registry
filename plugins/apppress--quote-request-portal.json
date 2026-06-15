@@ -1,0 +1,67 @@
+{
+    "slug": "apppress/quote-request-portal",
+    "name": "Quote Request Portal",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Public quote request forms, staff queue, and email automations for service businesses.",
+    "categories": [
+        "app-packs",
+        "quotes"
+    ],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-06-13T18:41:58+00:00",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://github.com/appkitgo/app-press/releases/download/v1.0.0/quote-request-portal-1.0.0.zip",
+    "checksum_sha256": "",
+    "signature": "",
+    "min_core_version": "1.0.0",
+    "dependencies": {
+        "apppress/documents": "^1.0.0",
+        "apppress/billing": "^1.0.0"
+    },
+    "requires_plugins": {
+        "apppress/documents": "^1.0.0",
+        "apppress/billing": "^1.0.0"
+    },
+    "capabilities": [
+        "forms",
+        "contacts",
+        "workflow",
+        "mail",
+        "files"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://github.com/appkitgo/app-press/releases/download/v1.0.0/quote-request-portal-1.0.0.zip",
+            "checksum_sha256": "",
+            "signature": "",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/documents": "^1.0.0",
+                "apppress/billing": "^1.0.0"
+            },
+            "requires_plugins": {
+                "apppress/documents": "^1.0.0",
+                "apppress/billing": "^1.0.0"
+            },
+            "capabilities": [
+                "forms",
+                "contacts",
+                "workflow",
+                "mail",
+                "files"
+            ],
+            "yanked": false,
+            "published_at": "2026-06-13T18:41:58+00:00"
+        }
+    ]
+}

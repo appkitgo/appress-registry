@@ -1,0 +1,44 @@
+name: Rebuild registry index
+
+on:
+  repository_dispatch:
+    types: [package-released]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: sodium
+
+      - name: Generate signed index
+        env:
+          APPRESS_REGISTRY_PRIVATE_KEY: ${{ secrets.APPRESS_REGISTRY_PRIVATE_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: php scripts/generate-index.php
+
+      - name: Commit index
+        run: |
+          git config user.name "appress-registry-bot"
+          git config user.email "registry@appress.io"
+          git add index.json plugins/
+          git diff --staged --quiet || git commit -m "chore: rebuild registry index"
+          git push
+
+      - name: Publish GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4

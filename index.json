@@ -1,0 +1,107 @@
+{
+    "schema_version": "1.0.0",
+    "generated_at": "2026-06-13T18:41:58+00:00",
+    "index_ref": "main",
+    "packages": {
+        "apppress/billing": {
+            "slug": "apppress/billing",
+            "name": "AppPress Billing",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-billing",
+            "tier": "first_party",
+            "description": "Stripe-powered subscription billing with plans, feature quotas, usage tracking, customer portal, and webhook sync. Implements StandardContracts::BILLING and core.send_payment_link workflow action.",
+            "author": "AppPress",
+            "categories": [
+                "billing",
+                "payments"
+            ],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://github.com/appkitgo/plugin-billing/releases/download/v1.0.0/billing-1.0.0.zip",
+                    "checksum_sha256": false,
+                    "signature": false,
+                    "min_core_version": "1.0.0",
+                    "dependencies": [],
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "billing",
+                        "payments",
+                        "subscriptions"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-06-13T18:41:57+00:00"
+                }
+            ]
+        },
+        "apppress/documents": {
+            "slug": "apppress/documents",
+            "name": "AppPress Documents",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-documents",
+            "tier": "first_party",
+            "description": "HTML templating and PDF generation for workflows and business records. Implements StandardContracts::DOCUMENTS and core.generate_pdf workflow action.",
+            "author": "AppPress",
+            "categories": [
+                "documents"
+            ],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://github.com/appkitgo/plugin-documents/releases/download/v1.0.0/documents-1.0.0.zip",
+                    "checksum_sha256": "",
+                    "signature": "",
+                    "min_core_version": "1.0.0",
+                    "dependencies": [],
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "documents",
+                        "pdf"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-06-13T18:41:57+00:00"
+                }
+            ]
+        },
+        "apppress/quote-request-portal": {
+            "slug": "apppress/quote-request-portal",
+            "name": "Quote Request Portal",
+            "type": "app-pack",
+            "github_repo": "appkitgo/app-press",
+            "tier": "first_party",
+            "description": "Public quote request forms, staff queue, and email automations for service businesses.",
+            "author": "AppPress",
+            "categories": [
+                "app-packs",
+                "quotes"
+            ],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://github.com/appkitgo/app-press/releases/download/v1.0.0/quote-request-portal-1.0.0.zip",
+                    "checksum_sha256": "",
+                    "signature": "",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {
+                        "apppress/documents": "^1.0.0",
+                        "apppress/billing": "^1.0.0"
+                    },
+                    "requires_plugins": {
+                        "apppress/documents": "^1.0.0",
+                        "apppress/billing": "^1.0.0"
+                    },
+                    "capabilities": [
+                        "forms",
+                        "contacts",
+                        "workflow",
+                        "mail",
+                        "files"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-06-13T18:41:58+00:00"
+                }
+            ]
+        }
+    },
+    "signature": "1f230097f666e9f833e76962f2f863b0bf7c0888a59c171e137899bbdc017a08ba0ab19a00e943d019d6756a907ae7214bd3d99d92b9ac7d58f967d22821620e"
+}

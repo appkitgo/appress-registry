@@ -1,0 +1,51 @@
+{
+    "slug": "apppress/billing",
+    "name": "AppPress Billing",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Stripe-powered subscription billing with plans, feature quotas, usage tracking, customer portal, and webhook sync. Implements StandardContracts::BILLING and core.send_payment_link workflow action.",
+    "categories": [
+        "billing",
+        "payments"
+    ],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-06-13T18:41:57+00:00",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://github.com/appkitgo/plugin-billing/releases/download/v1.0.0/billing-1.0.0.zip",
+    "checksum_sha256": false,
+    "signature": false,
+    "min_core_version": "1.0.0",
+    "dependencies": [],
+    "requires_plugins": [],
+    "capabilities": [
+        "billing",
+        "payments",
+        "subscriptions"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://github.com/appkitgo/plugin-billing/releases/download/v1.0.0/billing-1.0.0.zip",
+            "checksum_sha256": false,
+            "signature": false,
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "billing",
+                "payments",
+                "subscriptions"
+            ],
+            "yanked": false,
+            "published_at": "2026-06-13T18:41:57+00:00"
+        }
+    ]
+}
