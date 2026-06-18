@@ -15,6 +15,13 @@
       "manifest_path": "../plugin-documents/appress.json"
     },
     {
+      "slug": "apppress/workflows",
+      "github_repo": "appkitgo/plugin-workflows",
+      "tier": "first_party",
+      "categories": ["workflow", "automation"],
+      "manifest_path": "../plugin-workflows/appress.json"
+    },
+    {
       "slug": "apppress/quote-request-portal",
       "github_repo": "appkitgo/app-press",
       "release_tag_prefix": "quote-request-portal-v",
