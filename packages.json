@@ -560,6 +560,13 @@
             "manifest_path": "../plugin-reviews/appress.json"
         },
         {
+            "slug": "apppress/salesforce-connector",
+            "github_repo": "appkitgo/plugin-salesforce-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-salesforce-connector/appress.json"
+        },
+        {
             "slug": "apppress/saml-sso-connector",
             "github_repo": "appkitgo/plugin-saml-sso-connector",
             "tier": "first_party",
