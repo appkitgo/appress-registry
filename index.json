@@ -1,7 +1,7 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-06-13T18:41:58+00:00",
-    "index_ref": "main",
+    "generated_at": "2026-07-10T14:27:26+00:00",
+    "index_ref": "tags",
     "packages": {
         "apppress/billing": {
             "slug": "apppress/billing",
@@ -9,99 +9,31 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-billing",
             "tier": "first_party",
-            "description": "Stripe-powered subscription billing with plans, feature quotas, usage tracking, customer portal, and webhook sync. Implements StandardContracts::BILLING and core.send_payment_link workflow action.",
+            "description": "Stripe-powered subscription billing with plans, feature quotas, usage tracking, customer portal, and webhook sync. Implements StandardContracts::BILLING and emits eight outbound workflow triggers (subscription_created, subscription_cancelled, subscription_renewed, payment_failed, payment_succeeded, plan_changed, trial_started, trial_ended). Provides workflow actions for sending payment links, cancelling subscriptions, checking subscription status, assigning plans, and recording usage. Exposes connector query surfaces for subscriptions, invoices, and feature usage.",
             "author": "AppPress",
-            "categories": [
-                "billing",
-                "payments"
-            ],
+            "categories": [],
             "versions": [
                 {
-                    "version": "1.0.0",
-                    "download_url": "https://github.com/appkitgo/plugin-billing/releases/download/v1.0.0/billing-1.0.0.zip",
-                    "checksum_sha256": false,
-                    "signature": false,
+                    "version": "1.0.4",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-billing/releases/assets/472552915",
+                    "checksum_sha256": "d3b682b0eb247c745f97ed28a12525fe9679c3a1a6412cb28cc6661633a42e6c",
+                    "signature": "98ba80869b88f7914e8b99e0607a34888cf0c613e2342073a7062e155a98cee89674019f103677f4fc52f48865061b06e62666c798bb76e00c0ccdfd2867b600",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "billing",
                         "payments",
-                        "subscriptions"
+                        "subscriptions",
+                        "feature_gating",
+                        "usage_tracking",
+                        "customer_portal"
                     ],
                     "yanked": false,
-                    "published_at": "2026-06-13T18:41:57+00:00"
-                }
-            ]
-        },
-        "apppress/documents": {
-            "slug": "apppress/documents",
-            "name": "AppPress Documents",
-            "type": "plugin",
-            "github_repo": "appkitgo/plugin-documents",
-            "tier": "first_party",
-            "description": "HTML templating and PDF generation for workflows and business records. Implements StandardContracts::DOCUMENTS and core.generate_pdf workflow action.",
-            "author": "AppPress",
-            "categories": [
-                "documents"
-            ],
-            "versions": [
-                {
-                    "version": "1.0.0",
-                    "download_url": "https://github.com/appkitgo/plugin-documents/releases/download/v1.0.0/documents-1.0.0.zip",
-                    "checksum_sha256": "",
-                    "signature": "",
-                    "min_core_version": "1.0.0",
-                    "dependencies": [],
-                    "requires_plugins": [],
-                    "capabilities": [
-                        "documents",
-                        "pdf"
-                    ],
-                    "yanked": false,
-                    "published_at": "2026-06-13T18:41:57+00:00"
-                }
-            ]
-        },
-        "apppress/quote-request-portal": {
-            "slug": "apppress/quote-request-portal",
-            "name": "Quote Request Portal",
-            "type": "app-pack",
-            "github_repo": "appkitgo/app-press",
-            "tier": "first_party",
-            "description": "Public quote request forms, staff queue, and email automations for service businesses.",
-            "author": "AppPress",
-            "categories": [
-                "app-packs",
-                "quotes"
-            ],
-            "versions": [
-                {
-                    "version": "1.0.0",
-                    "download_url": "https://github.com/appkitgo/app-press/releases/download/v1.0.0/quote-request-portal-1.0.0.zip",
-                    "checksum_sha256": "",
-                    "signature": "",
-                    "min_core_version": "1.0.0",
-                    "dependencies": {
-                        "apppress/documents": "^1.0.0",
-                        "apppress/billing": "^1.0.0"
-                    },
-                    "requires_plugins": {
-                        "apppress/documents": "^1.0.0",
-                        "apppress/billing": "^1.0.0"
-                    },
-                    "capabilities": [
-                        "forms",
-                        "contacts",
-                        "workflow",
-                        "mail",
-                        "files"
-                    ],
-                    "yanked": false,
-                    "published_at": "2026-06-13T18:41:58+00:00"
+                    "published_at": "2026-07-10T14:15:02Z"
                 }
             ]
         }
     },
-    "signature": "1f230097f666e9f833e76962f2f863b0bf7c0888a59c171e137899bbdc017a08ba0ab19a00e943d019d6756a907ae7214bd3d99d92b9ac7d58f967d22821620e"
+    "signature": "40f5ac5f84ab365fe6422b43325aa70c0def6af52465709243bd60a539f8ad7a628161280e8ef11f25d81e67eede5733ab5c68aeec4837b34b07e7a78dfcc105"
 }
