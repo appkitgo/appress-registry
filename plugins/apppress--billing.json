@@ -8,16 +8,16 @@
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-10T14:15:02Z",
+    "last_updated": "2026-07-10T14:32:51Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-billing/releases/assets/472552915",
-    "checksum_sha256": "d3b682b0eb247c745f97ed28a12525fe9679c3a1a6412cb28cc6661633a42e6c",
-    "signature": "98ba80869b88f7914e8b99e0607a34888cf0c613e2342073a7062e155a98cee89674019f103677f4fc52f48865061b06e62666c798bb76e00c0ccdfd2867b600",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-billing/releases/assets/472568012",
+    "checksum_sha256": "9e206546754fc1077203206702234c809de843328211efd4371fc074e5265d17",
+    "signature": "ae7b1ca8fc4a3b92eb00f2a27bdb3b4232000dfb8f193f37fef45af5fe1d0ba8aba3694c53daf4e6e67fab2d06ba54e9e452ceee2099f65949d27756dcfdf506",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,9 +33,9 @@
     "versions": [
         {
             "version": "1.0.4",
-            "download_url": "https://api.github.com/repos/appkitgo/plugin-billing/releases/assets/472552915",
-            "checksum_sha256": "d3b682b0eb247c745f97ed28a12525fe9679c3a1a6412cb28cc6661633a42e6c",
-            "signature": "98ba80869b88f7914e8b99e0607a34888cf0c613e2342073a7062e155a98cee89674019f103677f4fc52f48865061b06e62666c798bb76e00c0ccdfd2867b600",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-billing/releases/assets/472568012",
+            "checksum_sha256": "9e206546754fc1077203206702234c809de843328211efd4371fc074e5265d17",
+            "signature": "ae7b1ca8fc4a3b92eb00f2a27bdb3b4232000dfb8f193f37fef45af5fe1d0ba8aba3694c53daf4e6e67fab2d06ba54e9e452ceee2099f65949d27756dcfdf506",
             "min_core_version": "1.0.0",
             "dependencies": {},
             "requires_plugins": [],
@@ -48,7 +48,7 @@
                 "customer_portal"
             ],
             "yanked": false,
-            "published_at": "2026-07-10T14:15:02Z"
+            "published_at": "2026-07-10T14:32:51Z"
         }
     ]
 }

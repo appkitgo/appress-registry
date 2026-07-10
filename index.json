@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-10T14:27:26+00:00",
+    "generated_at": "2026-07-10T14:33:50+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/billing": {
@@ -15,9 +15,9 @@
             "versions": [
                 {
                     "version": "1.0.4",
-                    "download_url": "https://api.github.com/repos/appkitgo/plugin-billing/releases/assets/472552915",
-                    "checksum_sha256": "d3b682b0eb247c745f97ed28a12525fe9679c3a1a6412cb28cc6661633a42e6c",
-                    "signature": "98ba80869b88f7914e8b99e0607a34888cf0c613e2342073a7062e155a98cee89674019f103677f4fc52f48865061b06e62666c798bb76e00c0ccdfd2867b600",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-billing/releases/assets/472568012",
+                    "checksum_sha256": "9e206546754fc1077203206702234c809de843328211efd4371fc074e5265d17",
+                    "signature": "ae7b1ca8fc4a3b92eb00f2a27bdb3b4232000dfb8f193f37fef45af5fe1d0ba8aba3694c53daf4e6e67fab2d06ba54e9e452ceee2099f65949d27756dcfdf506",
                     "min_core_version": "1.0.0",
                     "dependencies": {},
                     "requires_plugins": [],
@@ -30,10 +30,10 @@
                         "customer_portal"
                     ],
                     "yanked": false,
-                    "published_at": "2026-07-10T14:15:02Z"
+                    "published_at": "2026-07-10T14:32:51Z"
                 }
             ]
         }
     },
-    "signature": "40f5ac5f84ab365fe6422b43325aa70c0def6af52465709243bd60a539f8ad7a628161280e8ef11f25d81e67eede5733ab5c68aeec4837b34b07e7a78dfcc105"
+    "signature": "ac4ec15997d1c698fbe0ed037334759d08674df68305c2607b4ade1e9461f76d0b6941cbe0737eb9b0bd6fd849a0c3f5d5f73b3d9152232cd21ec2273c710e08"
 }
