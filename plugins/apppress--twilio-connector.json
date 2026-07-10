@@ -1,0 +1,46 @@
+{
+    "slug": "apppress/twilio-connector",
+    "name": "Twilio Connector",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Connect Twilio for SMS notifications, message lookup/redaction, and workflow automation on inbound SMS and delivery-status events.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-10T20:08:13Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-twilio-connector/releases/assets/472849798",
+    "checksum_sha256": "1dd9244d29ef67c7300821e7debf6a698081fc66bd74113a0652f22be5939464",
+    "signature": "10040c5f17d0be9913c7b71d09fbfefa7c977efb020bc045e401605634e458584a1e0d2425226accf9f476e737a49980c3968570294bc251c106e7feb26fa10d",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.twilio",
+        "notifications.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-twilio-connector/releases/assets/472849798",
+            "checksum_sha256": "1dd9244d29ef67c7300821e7debf6a698081fc66bd74113a0652f22be5939464",
+            "signature": "10040c5f17d0be9913c7b71d09fbfefa7c977efb020bc045e401605634e458584a1e0d2425226accf9f476e737a49980c3968570294bc251c106e7feb26fa10d",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.twilio",
+                "notifications.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-10T20:08:13Z"
+        }
+    ]
+}

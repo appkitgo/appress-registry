@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-10T19:41:54+00:00",
+    "generated_at": "2026-07-10T20:09:00+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/billing": {
@@ -106,7 +106,34 @@
                     "published_at": "2026-07-10T19:41:01Z"
                 }
             ]
+        },
+        "apppress/twilio-connector": {
+            "slug": "apppress/twilio-connector",
+            "name": "Twilio Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-twilio-connector",
+            "tier": "first_party",
+            "description": "Connect Twilio for SMS notifications, message lookup/redaction, and workflow automation on inbound SMS and delivery-status events.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-twilio-connector/releases/assets/472849798",
+                    "checksum_sha256": "1dd9244d29ef67c7300821e7debf6a698081fc66bd74113a0652f22be5939464",
+                    "signature": "10040c5f17d0be9913c7b71d09fbfefa7c977efb020bc045e401605634e458584a1e0d2425226accf9f476e737a49980c3968570294bc251c106e7feb26fa10d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.twilio",
+                        "notifications.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-10T20:08:13Z"
+                }
+            ]
         }
     },
-    "signature": "13dfb544aec14f72af5fc287be2c8c64d46525d25dda823e9f7d7d8075b689f905e294298c45e69e46cebcc4a8787744c2300c06b54ef8498582f20826b17603"
+    "signature": "af943670c1df740aa60d181714d71cb85e86503d2cad1eb68a799d302e5b9cabb9a56e445dcc7341541d09e147261eaedacf8ff948e48ee739fb98ef75b51607"
 }
