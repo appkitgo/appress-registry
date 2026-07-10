@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-10T14:33:50+00:00",
+    "generated_at": "2026-07-10T19:07:14+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/billing": {
@@ -19,7 +19,7 @@
                     "checksum_sha256": "9e206546754fc1077203206702234c809de843328211efd4371fc074e5265d17",
                     "signature": "ae7b1ca8fc4a3b92eb00f2a27bdb3b4232000dfb8f193f37fef45af5fe1d0ba8aba3694c53daf4e6e67fab2d06ba54e9e452ceee2099f65949d27756dcfdf506",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "billing",
@@ -31,9 +31,28 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-10T14:32:51Z"
+                },
+                {
+                    "version": "1.0.5",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-billing/releases/assets/472798397",
+                    "checksum_sha256": "a0b26364e0fee6ad34cd3681111bbf16a2855b26c1e535d2e83d32fa5fc4ff57",
+                    "signature": "433f319c4c22262bc16bfd0e9e5c76ee79485e4a1342a0714d8c292570af47bfa18f66965c0c1d1b693a0bb6085dd0000606901973976b7fcc642dcd1383bb02",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "billing",
+                        "payments",
+                        "subscriptions",
+                        "feature_gating",
+                        "usage_tracking",
+                        "customer_portal"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-10T19:06:10Z"
                 }
             ]
         }
     },
-    "signature": "ac4ec15997d1c698fbe0ed037334759d08674df68305c2607b4ade1e9461f76d0b6941cbe0737eb9b0bd6fd849a0c3f5d5f73b3d9152232cd21ec2273c710e08"
+    "signature": "317c41d329860b0cb6d5a19b48086ac515e4e03bcd27878f3871423119a93b465e751afbdcc72b1d8570e6400c60688820cd353cf7f382f2b6961b0a9fc5e90f"
 }
