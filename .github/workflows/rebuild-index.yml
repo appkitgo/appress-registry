@@ -24,7 +24,12 @@ jobs:
       - name: Generate signed index
         env:
           APPRESS_REGISTRY_PRIVATE_KEY: ${{ secrets.APPRESS_REGISTRY_PRIVATE_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # generate-index.php reads releases/manifests from other private
+          # package repos — the automatic secrets.GITHUB_TOKEN is scoped to
+          # THIS repo only and cannot see them. "GITHUB_TOKEN" is also a
+          # reserved secret name (cannot be overridden), so a differently
+          # named PAT-backed secret is required here.
+          GITHUB_TOKEN: ${{ secrets.REGISTRY_READ_TOKEN }}
         run: php scripts/generate-index.php
 
       - name: Validate index against schema
