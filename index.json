@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-10T19:16:12+00:00",
+    "generated_at": "2026-07-10T19:17:59+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/billing": {
@@ -52,7 +52,34 @@
                     "published_at": "2026-07-10T19:06:10Z"
                 }
             ]
+        },
+        "apppress/salesforce-connector": {
+            "slug": "apppress/salesforce-connector",
+            "name": "Salesforce Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-salesforce-connector",
+            "tier": "first_party",
+            "description": "Connect Salesforce CRM for lead, contact, and opportunity sync plus workflow automation.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-salesforce-connector/releases/assets/472805511",
+                    "checksum_sha256": "5a5a981578e89e90ad3b9e098e7b870fedcbf2dcd4415a847e4af02cc158f37b",
+                    "signature": "78d7a93a48f34e1fe1b681b8e7a878112fbd80d114ba053ac3cb919525887e87fca337233c669f3fa8bb0c4e6e1427642dac70a18c45c43a6e2814b42ad17202",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.salesforce",
+                        "crm.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-10T19:15:14Z"
+                }
+            ]
         }
     },
-    "signature": "c7248c274cc8ae40b3b843144e3bd4cd7a1dad4c9c589beaf9a94d8a38c93ee9f53746e22afa22a87a6180c3cf01d3aa937f10844457b12891772a90dc57a106"
+    "signature": "5ef87809d54c42d1a81df65d60a71cd1fde0b644ec4a97fe9dd250b06e367b377d1292d02bfca1df1db1055ea9bc163eb6ca205b3b6e2b8852cb7c72f785db01"
 }
