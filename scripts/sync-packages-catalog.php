@@ -39,9 +39,52 @@ foreach (glob($embeddedRoot.'/*/appress.json') ?: [] as $manifestPath) {
     );
 }
 
+$entries = dedupeBySlug($entries);
+
 usort($entries, static fn (array $a, array $b): int => strcmp($a['slug'], $b['slug']));
 
 echo json_encode(['packages' => $entries], JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES)."\n";
+
+/**
+ * Some app-packs exist both as a standalone sibling repo (the "graduated"
+ * copy) and an embedded copy under app-press/apps/api/modules/app-packs/
+ * left over from before the graduation. When both resolve to the same
+ * manifest id, keep the standalone repo — it's the one CI actually tags and
+ * releases independently — and drop the embedded duplicate. Logs what was
+ * dropped rather than silently discarding it (M3: no silent caps).
+ *
+ * @param  list<array<string, mixed>>  $entries
+ * @return list<array<string, mixed>>
+ */
+function dedupeBySlug(array $entries): array
+{
+    $bySlug = [];
+
+    foreach ($entries as $entry) {
+        $slug = (string) $entry['slug'];
+        $existing = $bySlug[$slug] ?? null;
+
+        if ($existing === null) {
+            $bySlug[$slug] = $entry;
+
+            continue;
+        }
+
+        $existingIsEmbedded = ($existing['github_repo'] ?? '') === 'appkitgo/app-press';
+        $newIsEmbedded = ($entry['github_repo'] ?? '') === 'appkitgo/app-press';
+
+        if ($existingIsEmbedded && ! $newIsEmbedded) {
+            fwrite(STDERR, "Duplicate slug {$slug}: keeping standalone {$entry['github_repo']}, dropping embedded app-press copy.\n");
+            $bySlug[$slug] = $entry;
+        } elseif (! $existingIsEmbedded && $newIsEmbedded) {
+            fwrite(STDERR, "Duplicate slug {$slug}: keeping standalone {$existing['github_repo']}, dropping embedded app-press copy.\n");
+        } else {
+            fwrite(STDERR, "Duplicate slug {$slug}: both {$existing['github_repo']} and {$entry['github_repo']} claim it — keeping the first, drop the other manually.\n");
+        }
+    }
+
+    return array_values($bySlug);
+}
 
 /**
  * @param  list<array<string, mixed>>  $entries

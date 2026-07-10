@@ -36,6 +36,13 @@
             "manifest_path": "../plugin-appointments/appress.json"
         },
         {
+            "slug": "apppress/approvals",
+            "github_repo": "appkitgo/plugin-approvals",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-approvals/appress.json"
+        },
+        {
             "slug": "apppress/assignments",
             "github_repo": "appkitgo/plugin-assignments",
             "tier": "first_party",
@@ -76,7 +83,14 @@
             "github_repo": "appkitgo/apppack-booking",
             "tier": "first_party",
             "type": "app-pack",
-            "manifest_path": "../apppack-booking/apppress.json"
+            "manifest_path": "../apppack-booking/appress.json"
+        },
+        {
+            "slug": "apppress/brightspace-d2l-connector",
+            "github_repo": "appkitgo/plugin-brightspace-d2l-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-brightspace-d2l-connector/appress.json"
         },
         {
             "slug": "apppress/calendar",
@@ -84,6 +98,21 @@
             "tier": "first_party",
             "type": "plugin",
             "manifest_path": "../plugin-calendar/appress.json"
+        },
+        {
+            "slug": "apppress/campus-event-ops",
+            "github_repo": "appkitgo/app-press",
+            "tier": "first_party",
+            "type": "app-pack",
+            "manifest_path": "../app-press/apps/api/modules/app-packs/campus-event-ops/appress.json",
+            "release_tag_prefix": "campus-event-ops-v"
+        },
+        {
+            "slug": "apppress/cas-sso-connector",
+            "github_repo": "appkitgo/plugin-cas-sso-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-cas-sso-connector/appress.json"
         },
         {
             "slug": "apppress/certificates",
@@ -111,29 +140,21 @@
             "github_repo": "appkitgo/theme-client-desk",
             "tier": "first_party",
             "type": "theme",
-            "manifest_path": "../theme-client-desk/apppress.json"
+            "manifest_path": "../theme-client-desk/appress.json"
         },
         {
             "slug": "apppress/client-portal",
             "github_repo": "appkitgo/apppack-client-portal",
             "tier": "first_party",
             "type": "app-pack",
-            "manifest_path": "../apppack-client-portal/apppress.json"
-        },
-        {
-            "slug": "apppress/client-portal",
-            "github_repo": "appkitgo/app-press",
-            "tier": "first_party",
-            "type": "app-pack",
-            "manifest_path": "../app-press/apps/api/modules/app-packs/client-portal/appress.json",
-            "release_tag_prefix": "client-portal-v"
+            "manifest_path": "../apppack-client-portal/appress.json"
         },
         {
             "slug": "apppress/clinic-pro",
             "github_repo": "appkitgo/theme-clinic-pro",
             "tier": "first_party",
             "type": "theme",
-            "manifest_path": "../theme-clinic-pro/apppress.json"
+            "manifest_path": "../theme-clinic-pro/appress.json"
         },
         {
             "slug": "apppress/cloud-vps",
@@ -147,14 +168,14 @@
             "github_repo": "appkitgo/theme-commerce-pro",
             "tier": "first_party",
             "type": "theme",
-            "manifest_path": "../theme-commerce-pro/apppress.json"
+            "manifest_path": "../theme-commerce-pro/appress.json"
         },
         {
             "slug": "apppress/community-pro",
             "github_repo": "appkitgo/theme-community-pro",
             "tier": "first_party",
             "type": "theme",
-            "manifest_path": "../theme-community-pro/apppress.json"
+            "manifest_path": "../theme-community-pro/appress.json"
         },
         {
             "slug": "apppress/composed-app",
@@ -229,6 +250,13 @@
             "manifest_path": "../plugin-events/appress.json"
         },
         {
+            "slug": "apppress/excel-connector",
+            "github_repo": "appkitgo/plugin-excel-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-excel-connector/appress.json"
+        },
+        {
             "slug": "apppress/feature-flags",
             "github_repo": "appkitgo/plugin-feature-flags",
             "tier": "first_party",
@@ -278,6 +306,13 @@
             "manifest_path": "../apppack-helpdesk/apppress.json"
         },
         {
+            "slug": "apppress/hubspot-connector",
+            "github_repo": "appkitgo/plugin-hubspot-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-hubspot-connector/appress.json"
+        },
+        {
             "slug": "apppress/i18n",
             "github_repo": "appkitgo/plugin-i18n",
             "tier": "first_party",
@@ -310,29 +345,21 @@
             "github_repo": "appkitgo/theme-launch-pro",
             "tier": "first_party",
             "type": "theme",
-            "manifest_path": "../theme-launch-pro/apppress.json"
+            "manifest_path": "../theme-launch-pro/appress.json"
         },
         {
             "slug": "apppress/learn-pro",
             "github_repo": "appkitgo/theme-learn-pro",
             "tier": "first_party",
             "type": "theme",
-            "manifest_path": "../theme-learn-pro/apppress.json"
+            "manifest_path": "../theme-learn-pro/appress.json"
         },
         {
             "slug": "apppress/lightweight-crm",
             "github_repo": "appkitgo/apppack-crm",
             "tier": "first_party",
             "type": "app-pack",
-            "manifest_path": "../apppack-crm/apppress.json"
-        },
-        {
-            "slug": "apppress/lightweight-crm",
-            "github_repo": "appkitgo/app-press",
-            "tier": "first_party",
-            "type": "app-pack",
-            "manifest_path": "../app-press/apps/api/modules/app-packs/lightweight-crm/appress.json",
-            "release_tag_prefix": "lightweight-crm-v"
+            "manifest_path": "../apppack-crm/appress.json"
         },
         {
             "slug": "apppress/loyalty",
@@ -356,11 +383,25 @@
             "manifest_path": "../plugin-media/appress.json"
         },
         {
+            "slug": "apppress/microsoft-graph-connector",
+            "github_repo": "appkitgo/plugin-microsoft-graph-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-microsoft-graph-connector/appress.json"
+        },
+        {
+            "slug": "apppress/microsoft-identity-connector",
+            "github_repo": "appkitgo/plugin-microsoft-identity-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-microsoft-identity-connector/appress.json"
+        },
+        {
             "slug": "apppress/minimal",
             "github_repo": "appkitgo/theme-minimal",
             "tier": "first_party",
             "type": "theme",
-            "manifest_path": "../theme-minimal/apppress.json"
+            "manifest_path": "../theme-minimal/appress.json"
         },
         {
             "slug": "apppress/newsletters",
@@ -368,6 +409,13 @@
             "tier": "first_party",
             "type": "plugin",
             "manifest_path": "../plugin-newsletters/appress.json"
+        },
+        {
+            "slug": "apppress/notes",
+            "github_repo": "appkitgo/plugin-notes",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-notes/appress.json"
         },
         {
             "slug": "apppress/notifications",
@@ -389,6 +437,13 @@
             "tier": "first_party",
             "type": "plugin",
             "manifest_path": "../plugin-orders/appress.json"
+        },
+        {
+            "slug": "apppress/outlook-connector",
+            "github_repo": "appkitgo/plugin-outlook-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-outlook-connector/appress.json"
         },
         {
             "slug": "apppress/pages",
@@ -433,6 +488,13 @@
             "manifest_path": "../plugin-projects/appress.json"
         },
         {
+            "slug": "apppress/public-campus-web-connector",
+            "github_repo": "appkitgo/plugin-public-campus-web-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-public-campus-web-connector/appress.json"
+        },
+        {
             "slug": "apppress/quizzes",
             "github_repo": "appkitgo/plugin-quizzes",
             "tier": "first_party",
@@ -444,7 +506,7 @@
             "github_repo": "appkitgo/apppack-quote-portal",
             "tier": "first_party",
             "type": "app-pack",
-            "manifest_path": "../apppack-quote-portal/apppress.json"
+            "manifest_path": "../apppack-quote-portal/appress.json"
         },
         {
             "slug": "apppress/quote-request-portal",
@@ -453,6 +515,13 @@
             "type": "app-pack",
             "manifest_path": "../app-press/apps/api/modules/app-packs/quote-request-portal/appress.json",
             "release_tag_prefix": "quote-request-portal-v"
+        },
+        {
+            "slug": "apppress/quotes",
+            "github_repo": "appkitgo/plugin-quotes",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-quotes/appress.json"
         },
         {
             "slug": "apppress/ratings",
@@ -491,6 +560,13 @@
             "manifest_path": "../plugin-reviews/appress.json"
         },
         {
+            "slug": "apppress/saml-sso-connector",
+            "github_repo": "appkitgo/plugin-saml-sso-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-saml-sso-connector/appress.json"
+        },
+        {
             "slug": "apppress/scheduler",
             "github_repo": "appkitgo/plugin-scheduler",
             "tier": "first_party",
@@ -516,7 +592,21 @@
             "github_repo": "appkitgo/theme-service-pro",
             "tier": "first_party",
             "type": "theme",
-            "manifest_path": "../theme-service-pro/apppress.json"
+            "manifest_path": "../theme-service-pro/appress.json"
+        },
+        {
+            "slug": "apppress/sftp-csv-import-connector",
+            "github_repo": "appkitgo/plugin-sftp-csv-import-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-sftp-csv-import-connector/appress.json"
+        },
+        {
+            "slug": "apppress/sharepoint-files-connector",
+            "github_repo": "appkitgo/plugin-sharepoint-files-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-sharepoint-files-connector/appress.json"
         },
         {
             "slug": "apppress/social-auth",
@@ -526,11 +616,25 @@
             "manifest_path": "../plugin-social-auth/appress.json"
         },
         {
+            "slug": "apppress/square-connector",
+            "github_repo": "appkitgo/plugin-square-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-square-connector/appress.json"
+        },
+        {
             "slug": "apppress/storefront",
             "github_repo": "appkitgo/theme-storefront",
             "tier": "first_party",
             "type": "theme",
-            "manifest_path": "../theme-storefront/apppress.json"
+            "manifest_path": "../theme-storefront/appress.json"
+        },
+        {
+            "slug": "apppress/stripe-connector",
+            "github_repo": "appkitgo/plugin-stripe-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-stripe-connector/appress.json"
         },
         {
             "slug": "apppress/student-org-request-portal",
@@ -538,14 +642,6 @@
             "tier": "first_party",
             "type": "app-pack",
             "manifest_path": "../apppack-student-org-request-portal/appress.json"
-        },
-        {
-            "slug": "apppress/student-org-request-portal",
-            "github_repo": "appkitgo/app-press",
-            "tier": "first_party",
-            "type": "app-pack",
-            "manifest_path": "../app-press/apps/api/modules/app-packs/student-org-request-portal/appress.json",
-            "release_tag_prefix": "student-org-request-portal-v"
         },
         {
             "slug": "apppress/subscriptions",
@@ -576,6 +672,13 @@
             "manifest_path": "../plugin-teams/appress.json"
         },
         {
+            "slug": "apppress/teams-connector",
+            "github_repo": "appkitgo/plugin-teams-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-teams-connector/appress.json"
+        },
+        {
             "slug": "apppress/tickets",
             "github_repo": "appkitgo/plugin-tickets",
             "tier": "first_party",
@@ -590,6 +693,13 @@
             "manifest_path": "../plugin-two-factor/appress.json"
         },
         {
+            "slug": "apppress/university-directory-connector",
+            "github_repo": "appkitgo/plugin-university-directory-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-university-directory-connector/appress.json"
+        },
+        {
             "slug": "apppress/waitlist",
             "github_repo": "appkitgo/plugin-waitlist",
             "tier": "first_party",
@@ -597,11 +707,25 @@
             "manifest_path": "../plugin-waitlist/appress.json"
         },
         {
+            "slug": "apppress/webhooks-api-connector",
+            "github_repo": "appkitgo/plugin-webhooks-api-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-webhooks-api-connector/appress.json"
+        },
+        {
             "slug": "apppress/workflows",
             "github_repo": "appkitgo/plugin-workflows",
             "tier": "first_party",
             "type": "plugin",
             "manifest_path": "../plugin-workflows/appress.json"
+        },
+        {
+            "slug": "apppress/zoom-connector",
+            "github_repo": "appkitgo/plugin-zoom-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-zoom-connector/appress.json"
         }
     ]
 }

@@ -27,6 +27,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: php scripts/generate-index.php
 
+      - name: Validate index against schema
+        # H2: the workflow must be unable to publish a schema-violating index.
+        run: php scripts/validate-index.php
+
       - name: Commit index
         run: |
           git config user.name "appress-registry-bot"
