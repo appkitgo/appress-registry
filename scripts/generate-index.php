@@ -89,7 +89,11 @@ foreach ($catalog['packages'] as $entry) {
 
     $release = fetchLatestRelease($githubRepo, $githubToken);
     if ($release === null) {
-        $failures[] = "{$slug}: no GitHub release found for {$githubRepo}";
+        // No release cut yet — a soft skip during incremental fleet rollout:
+        // the package is simply absent from the index (uninstallable), which
+        // is safe. A release that EXISTS but is broken or unverifiable is
+        // still a hard failure below — nothing unverifiable enters the index.
+        fwrite(STDERR, "Skipping {$slug}: no GitHub release yet for {$githubRepo}\n");
 
         continue;
     }
@@ -111,6 +115,23 @@ foreach ($catalog['packages'] as $entry) {
 
     $shortSlug = basename($slug);
     $artifact = "{$shortSlug}-{$version}.zip";
+
+    // A release with ZERO matching artifact assets is a legacy empty release
+    // (the retired `appress publish` created bare releases with no zip) —
+    // equivalent to no release at all, so soft-skip it. A release with SOME
+    // but not all of zip/.sha256/.sig is a broken or tampered build — that
+    // stays a hard failure.
+    $assetNames = array_map(
+        static fn ($asset): string => is_array($asset) ? (string) ($asset['name'] ?? '') : '',
+        (array) ($release['assets'] ?? []),
+    );
+    $matching = array_intersect([$artifact, "{$artifact}.sha256", "{$artifact}.sig"], $assetNames);
+    if ($matching === []) {
+        fwrite(STDERR, "Skipping {$slug}: release {$tag} has no signed artifact assets (legacy empty release)\n");
+
+        continue;
+    }
+
     $assetMeta = extractReleaseAssets($release, $artifact, $githubToken);
 
     if ($assetMeta === null) {
@@ -179,11 +200,29 @@ if ($failures !== []) {
 }
 
 // Carry forward any previously-indexed package this run's catalog didn't
-// touch (e.g. --featured runs only cover a subset) so it isn't dropped.
+// touch (e.g. --featured runs only cover a subset) so it isn't dropped —
+// but strip unverifiable legacy version entries (empty checksum/signature)
+// on the way through, dropping the package entirely if nothing real remains.
 foreach ($previousPackages as $slug => $priorEntry) {
-    if (! isset($packages[$slug]) && is_array($priorEntry)) {
-        $packages[$slug] = $priorEntry;
+    if (isset($packages[$slug]) || ! is_array($priorEntry)) {
+        continue;
     }
+
+    $verifiable = array_values(array_filter(
+        (array) ($priorEntry['versions'] ?? []),
+        static fn ($v): bool => is_array($v)
+            && preg_match('/^[0-9a-f]{64}$/', (string) ($v['checksum_sha256'] ?? '')) === 1
+            && preg_match('/^[0-9a-f]{128}$/', (string) ($v['signature'] ?? '')) === 1,
+    ));
+
+    if ($verifiable === []) {
+        fwrite(STDERR, "Dropping carried-forward {$slug}: no verifiable version entries\n");
+
+        continue;
+    }
+
+    $priorEntry['versions'] = $verifiable;
+    $packages[$slug] = $priorEntry;
 }
 
 $index = [
@@ -221,6 +260,16 @@ function mergeVersionHistory(array $priorVersions, array $newVersion): array
         if (($existing['version'] ?? null) === $newVersion['version']) {
             $merged[] = $newVersion;
             $replaced = true;
+
+            continue;
+        }
+
+        // Purge legacy pre-pipeline entries with empty/invalid integrity
+        // fields — they are exactly the "installable but unverifiable" gap
+        // the schema bans, and would fail validate-index.php anyway.
+        if (! preg_match('/^[0-9a-f]{64}$/', (string) ($existing['checksum_sha256'] ?? ''))
+            || ! preg_match('/^[0-9a-f]{128}$/', (string) ($existing['signature'] ?? ''))) {
+            fwrite(STDERR, '  dropping unverifiable legacy version entry '.(string) ($existing['version'] ?? '?')."\n");
 
             continue;
         }
@@ -363,12 +412,17 @@ function extractReleaseAssets(array $release, string $artifact, string $githubTo
         return null;
     }
 
-    $downloadUrl = (string) ($byName[$artifact]['browser_download_url'] ?? '');
+    // Use the API asset URL (api.github.com/.../releases/assets/{id}), not
+    // browser_download_url: the browser URL 404s for private repos even with
+    // a valid token, while the API URL serves the binary for public AND
+    // private repos given Accept: application/octet-stream — which both this
+    // script and the platform downloader (PackageDistributionService) send.
+    $downloadUrl = (string) ($byName[$artifact]['url'] ?? '');
 
-    $checksumBody = httpGet((string) ($byName["{$artifact}.sha256"]['browser_download_url'] ?? ''), $headers);
+    $checksumBody = httpGet((string) ($byName["{$artifact}.sha256"]['url'] ?? ''), $headers);
     $checksum = $checksumBody !== null ? trim(strtok(trim($checksumBody), ' ')) : '';
 
-    $sigBody = httpGet((string) ($byName["{$artifact}.sig"]['browser_download_url'] ?? ''), $headers);
+    $sigBody = httpGet((string) ($byName["{$artifact}.sig"]['url'] ?? ''), $headers);
     $signature = $sigBody !== null ? trim($sigBody) : '';
 
     if ($downloadUrl === '' || ! preg_match('/^[0-9a-f]{64}$/', $checksum) || ! preg_match('/^[0-9a-f]{128}$/', $signature)) {
@@ -391,22 +445,35 @@ function httpGet(string $url, array $headers = []): ?string
         return null;
     }
 
+    // Handle redirects manually: GitHub's API asset endpoint 302s to S3,
+    // and S3 rejects requests that carry the forwarded Authorization header
+    // alongside its own signed-URL auth. Follow the Location WITHOUT the
+    // original headers instead of letting PHP forward them.
     $context = stream_context_create([
         'http' => [
             'method' => 'GET',
             'header' => implode("\r\n", $headers),
             'timeout' => 30,
             'ignore_errors' => true,
+            'follow_location' => 0,
         ],
     ]);
 
     $body = file_get_contents($url, false, $context);
 
     $status = 0;
+    $location = '';
     foreach ($http_response_header ?? [] as $headerLine) {
         if (preg_match('#^HTTP/\S+\s+(\d+)#', $headerLine, $matches) === 1) {
             $status = (int) $matches[1];
         }
+        if (stripos($headerLine, 'Location:') === 0) {
+            $location = trim(substr($headerLine, 9));
+        }
+    }
+
+    if ($status >= 300 && $status < 400 && $location !== '') {
+        return httpGet($location, ['User-Agent: appress-registry-index-generator']);
     }
 
     if ($body === false || $status >= 400 || $status === 0) {
@@ -444,7 +511,12 @@ function signIndex(array $index, string $privateKeyHex): string
         return str_repeat('0', 128);
     }
 
-    $payload = $index;
+    // Canonicalize through a JSON round-trip before signing: verifiers
+    // (PackageTrustService::verifyIndexSignature) start from the DECODED
+    // file, where an empty (object) cast like dependencies:{} comes back as
+    // [] — signing the raw in-memory array would produce different bytes
+    // ({} vs []) and the signature would never verify.
+    $payload = json_decode(json_encode($index), true);
     unset($payload['signature']);
     ksort($payload);
 
