@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-10T20:09:00+00:00",
+    "generated_at": "2026-07-10T20:41:20+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/billing": {
@@ -50,6 +50,33 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-10T19:06:10Z"
+                }
+            ]
+        },
+        "apppress/mailchimp-connector": {
+            "slug": "apppress/mailchimp-connector",
+            "name": "Mailchimp Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-mailchimp-connector",
+            "tier": "first_party",
+            "description": "Connect Mailchimp for audience/subscriber management and workflow automation on member subscribe, unsubscribe, and profile-update events.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-mailchimp-connector/releases/assets/472876313",
+                    "checksum_sha256": "1997eef9edd4e9cb703f52ab657ec0e07f0cda72dd2398f30a40657e678c5a2e",
+                    "signature": "751c56f2e9bbe4ddfa73a0573ed34a1e697d6da800dabc8d887903bdc8b83e85a752a6d8b54b9b12ef3c2296a35fab2e7d9bd52f9dfe8b998135fecd7955390c",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.mailchimp",
+                        "marketing.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-10T20:40:31Z"
                 }
             ]
         },
@@ -135,5 +162,5 @@
             ]
         }
     },
-    "signature": "af943670c1df740aa60d181714d71cb85e86503d2cad1eb68a799d302e5b9cabb9a56e445dcc7341541d09e147261eaedacf8ff948e48ee739fb98ef75b51607"
+    "signature": "1d28c6714b45e11aeec46bc767ebbd219b00bef92f6e831dc3bdffeeba904d43d0f5a3691a486d20ec5d9457c6686257b79990212252668444b48f7547ea8b0d"
 }
