@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-10T19:17:59+00:00",
+    "generated_at": "2026-07-10T19:41:54+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/billing": {
@@ -79,7 +79,34 @@
                     "published_at": "2026-07-10T19:15:14Z"
                 }
             ]
+        },
+        "apppress/slack-connector": {
+            "slug": "apppress/slack-connector",
+            "name": "Slack Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-slack-connector",
+            "tier": "first_party",
+            "description": "Connect Slack for channel lookup, message posting/editing, and workflow automation on inbound Slack events.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-slack-connector/releases/assets/472827759",
+                    "checksum_sha256": "6b299da8f0cb7de153f1409d875d0403e98f4a8b6ee94176ade2e467adf05872",
+                    "signature": "076cc80e3f5011e1f842628babdf3d9c39a41fe5b03476ac22a71504c768aa22c2056592fc39fec10162ff3cefad93ec41a44751e87ac9d7b59a0d1688dced0b",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.slack",
+                        "messaging.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-10T19:41:01Z"
+                }
+            ]
         }
     },
-    "signature": "5ef87809d54c42d1a81df65d60a71cd1fde0b644ec4a97fe9dd250b06e367b377d1292d02bfca1df1db1055ea9bc163eb6ca205b3b6e2b8852cb7c72f785db01"
+    "signature": "13dfb544aec14f72af5fc287be2c8c64d46525d25dda823e9f7d7d8075b689f905e294298c45e69e46cebcc4a8787744c2300c06b54ef8498582f20826b17603"
 }

@@ -1,0 +1,46 @@
+{
+    "slug": "apppress/slack-connector",
+    "name": "Slack Connector",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Connect Slack for channel lookup, message posting/editing, and workflow automation on inbound Slack events.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-10T19:41:01Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-slack-connector/releases/assets/472827759",
+    "checksum_sha256": "6b299da8f0cb7de153f1409d875d0403e98f4a8b6ee94176ade2e467adf05872",
+    "signature": "076cc80e3f5011e1f842628babdf3d9c39a41fe5b03476ac22a71504c768aa22c2056592fc39fec10162ff3cefad93ec41a44751e87ac9d7b59a0d1688dced0b",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.slack",
+        "messaging.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-slack-connector/releases/assets/472827759",
+            "checksum_sha256": "6b299da8f0cb7de153f1409d875d0403e98f4a8b6ee94176ade2e467adf05872",
+            "signature": "076cc80e3f5011e1f842628babdf3d9c39a41fe5b03476ac22a71504c768aa22c2056592fc39fec10162ff3cefad93ec41a44751e87ac9d7b59a0d1688dced0b",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.slack",
+                "messaging.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-10T19:41:01Z"
+        }
+    ]
+}
