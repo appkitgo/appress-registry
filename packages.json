@@ -369,6 +369,13 @@
             "manifest_path": "../plugin-loyalty/appress.json"
         },
         {
+            "slug": "apppress/mailchimp-connector",
+            "github_repo": "appkitgo/plugin-mailchimp-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-mailchimp-connector/appress.json"
+        },
+        {
             "slug": "apppress/marketplace",
             "github_repo": "appkitgo/apppack-marketplace",
             "tier": "first_party",
