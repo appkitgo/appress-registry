@@ -250,6 +250,13 @@
             "manifest_path": "../plugin-docusign-connector/appress.json"
         },
         {
+            "slug": "apppress/dropbox-connector",
+            "github_repo": "appkitgo/plugin-dropbox-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-dropbox-connector/appress.json"
+        },
+        {
             "slug": "apppress/email-campaigns",
             "github_repo": "appkitgo/plugin-email-campaigns",
             "tier": "first_party",
