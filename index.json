@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T17:55:50+00:00",
+    "generated_at": "2026-07-11T18:06:39+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -272,6 +272,37 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T03:25:05Z"
+                }
+            ]
+        },
+        "apppress/events": {
+            "slug": "apppress/events",
+            "name": "AppPress Events",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-events",
+            "tier": "first_party",
+            "description": "Campus event management with ticket types, capacity control, waitlist promotion, QR-based check-in, and guest or authenticated registration. Implements StandardContracts::EVENTS for cross-plugin registration flows.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-events/releases/assets/473679766",
+                    "checksum_sha256": "ed6edfa8604a4b84d006b0e65e6d0e22bd5a26b8d4805376cb1c3354a163beb2",
+                    "signature": "f51cc548db26a85b1fe758f2ac54f6d5a60e3385393c3dc047e7b850abc6bbebd10ff978b42ce45dbf875434409a3a6887a23739321c760f4110ea72b1f5da03",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "events",
+                        "event_registration",
+                        "qr_checkin",
+                        "attendance_tracking",
+                        "capacity_management",
+                        "waitlist"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T18:05:10Z"
                 }
             ]
         },
@@ -1039,5 +1070,5 @@
             ]
         }
     },
-    "signature": "28af18933d76822c9a975f20b1bf7d1e45a959e73e8f95e708a4093040a5721a85bb56a163c82398731f0c42ffc156bb79a614147cf8ce125ce374ff6e508d09"
+    "signature": "9409e26258f23ce7f39283bcd1dec918242bd72bef495736b0fdd28ae32062c85f0d48fcbb5f4d17b29c6c434eaa1583fe868cbc6f406f1b247130d26806a20b"
 }
