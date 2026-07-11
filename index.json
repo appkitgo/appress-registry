@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T20:45:15+00:00",
+    "generated_at": "2026-07-11T20:57:25+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -961,6 +961,37 @@
                 }
             ]
         },
+        "apppress/orders": {
+            "slug": "apppress/orders",
+            "name": "AppPress Orders",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-orders",
+            "tier": "first_party",
+            "description": "Order management system covering the full lifecycle from placement through fulfilment, shipping, delivery, and refunds, with status history, member self-service, mobile surfaces, and StandardContracts::ORDERS for commerce App Packs.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-orders/releases/assets/473778735",
+                    "checksum_sha256": "1a666bc2fda294a62d973e611f6dd75ce635873ee84b7fa572317262f1471ab3",
+                    "signature": "9126f348ee9b497cf7599d30726e62b02e2e8312e8f828995086b6e7e4f9ad911fe2446bcced4c53253ebed097ace5a5564adf928eec2d63aa715d85df3b3203",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "orders",
+                        "commerce",
+                        "fulfillment",
+                        "refunds",
+                        "member_self_service",
+                        "mobile_surfaces"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T20:55:14Z"
+                }
+            ]
+        },
         "apppress/pages": {
             "slug": "apppress/pages",
             "name": "AppPress Pages",
@@ -1487,5 +1518,5 @@
             ]
         }
     },
-    "signature": "722756fcf21cd3100d169d54d2f7e33315c713d8bca405b7eba4487a8a2dddffec1a64958772fda8bb5ed9fd045e89862e7cd9b7680fb54b39f5c5e5cc0a880f"
+    "signature": "1fe39cfbecf9b2594366e057a383dec50c7a61baa70f0e154bd58f5bfa7f9562490faeea8ae2431949ad3d08442dbe108b5732988f12c4a04413f60593d6630e"
 }
