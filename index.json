@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T19:34:05+00:00",
+    "generated_at": "2026-07-11T19:43:43+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -650,6 +650,38 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T08:21:17Z"
+                }
+            ]
+        },
+        "apppress/knowledge-base": {
+            "slug": "apppress/knowledge-base",
+            "name": "AppPress Knowledge Base",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-knowledge-base",
+            "tier": "first_party",
+            "description": "Full-featured knowledge base and help center with articles, hierarchical categories, curated collections, revision history, public search, helpfulness voting, mobile help surfaces, and workflow automation for campus support content.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-knowledge-base/releases/assets/473734193",
+                    "checksum_sha256": "da6327512dbd143114cb23b803c1ab1789bf7474535793afcfdf04d130384f4c",
+                    "signature": "a4868ddd63579d8a10e01c388f5a7722f5aa430566d674a9f7f6b6b6ae07ded9fd3cfe2d6056a397d4dfd73dd887303752ac0345a7c2e4957c4a39496726220a",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "knowledge-base",
+                        "help_center",
+                        "articles",
+                        "categories",
+                        "collections",
+                        "public_search",
+                        "helpfulness_voting"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T19:41:37Z"
                 }
             ]
         },
@@ -1321,5 +1353,5 @@
             ]
         }
     },
-    "signature": "f5403d034dbea386da93926786ff30fc99c8eac718181ee438b8b9533c7e3a352a3542111ef43334bf2820578bf86e24feb5fef27a976a94445c657844d73d0d"
+    "signature": "d85bfea46ffdcd8e48d0831cd3fa4bb00754089caafc02dd145ba81751d7274a2e70842fb8c08f41de2eb9977eb2c0a2bae2cc38db6015fad46741c657bade08"
 }
