@@ -299,6 +299,13 @@
             "manifest_path": "../plugin-forms/appress.json"
         },
         {
+            "slug": "apppress/freshdesk-connector",
+            "github_repo": "appkitgo/plugin-freshdesk-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-freshdesk-connector/appress.json"
+        },
+        {
             "slug": "apppress/gamification",
             "github_repo": "appkitgo/plugin-gamification",
             "tier": "first_party",
