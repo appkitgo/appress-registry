@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T04:47:28+00:00",
+    "generated_at": "2026-07-11T05:12:49+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/asana-connector": {
@@ -218,6 +218,34 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T00:06:32Z"
+                }
+            ]
+        },
+        "apppress/intercom-connector": {
+            "slug": "apppress/intercom-connector",
+            "name": "Intercom Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-intercom-connector",
+            "tier": "first_party",
+            "description": "Production Intercom connector for AppPress \u2014 create, update, and look up contacts (leads/users), read and search conversations, post admin replies, and inbound webhook triggers for new conversations and new contacts.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-intercom-connector/releases/assets/473228366",
+                    "checksum_sha256": "3c7a323a3724505ff88e6b8bf8aa5f77fc18c5b09ae10fb86936538bd7351af4",
+                    "signature": "ce45e0d3be1048983b8ee10d15edeabb8cfb22dc1faf897051f0d4ac01f1338f8276bf752e9615583757cd2022827159ad8a6b42955f5155f8ee8bfb95306d00",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.intercom",
+                        "support.external",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T05:12:09Z"
                 }
             ]
         },
@@ -495,5 +523,5 @@
             ]
         }
     },
-    "signature": "84ecdea13bf6869fd47898f131993b36fc79f60a481af159c39e2708f197952673fb8c3f1d0c9c82ad8ee853b9ce65a2a09115fd742c30533a99ec65e5c52909"
+    "signature": "b5ff3d52deae7191beacc95dd3e75458da579ba11ce2cfb1d6cfa5595311a6fec1c6a674ced85f2bc23212032497dee63b51f40252466c8c9499433483349c0b"
 }
