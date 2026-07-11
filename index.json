@@ -1,8 +1,35 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T05:38:21+00:00",
+    "generated_at": "2026-07-11T06:05:36+00:00",
     "index_ref": "tags",
     "packages": {
+        "apppress/airtable-connector": {
+            "slug": "apppress/airtable-connector",
+            "name": "Airtable Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-airtable-connector",
+            "tier": "first_party",
+            "description": "Connect Airtable bases for schema-flexible record read/search/create/update and workflow automation on record changes.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-airtable-connector/releases/assets/473260199",
+                    "checksum_sha256": "c4b24444b163d396aff9e78e472c58e66ae1b2f46fbe01e6ccf30689edb3f312",
+                    "signature": "f699c4b7ab4b525d46a34cfd0015636e5b6fd4f2a801bb7bdd17db1766107e9391e26322093227e56571f456d0eb03d58e798071f12bc57e3368dfe03cdf9006",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.airtable",
+                        "data.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T06:04:41Z"
+                }
+            ]
+        },
         "apppress/asana-connector": {
             "slug": "apppress/asana-connector",
             "name": "Asana Connector",
@@ -550,5 +577,5 @@
             ]
         }
     },
-    "signature": "9b960f46e8b5e9a5a445b4210d8d5a40307a52962fedc48bacab193eb83d2a63b8a2b5806b0b39fda6ce782d7fbac92cdb3a78331c0e030c796dd006f8a1a907"
+    "signature": "5aac7ff0ef13dc7fc35a5356c91080d321797514fe7b2425a4d206cef1e490a6722264c4aacdf47e0063a4040ef87ac0c2c284a587f3af3016740998421d710f"
 }
