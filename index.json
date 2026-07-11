@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T06:55:40+00:00",
+    "generated_at": "2026-07-11T07:24:07+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/airtable-connector": {
@@ -575,6 +575,33 @@
                 }
             ]
         },
+        "apppress/typeform-connector": {
+            "slug": "apppress/typeform-connector",
+            "name": "Typeform Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-typeform-connector",
+            "tier": "first_party",
+            "description": "Typeform connector for AppPress \u2014 inbound form-response webhook trigger plus read/search of forms and form responses via a Personal Access Token. Typeform's public API is response-ingestion-shaped: there is no create/update/delete operation for responses because form responses are end-user submissions, not something an API client writes.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-typeform-connector/releases/assets/473314272",
+                    "checksum_sha256": "64dff5bd79f05dc8ece85356d078e8072629801582ed2f81295bb08a8ff9a6c3",
+                    "signature": "e70e8012499f138c32d7656f3430c31076972b9468adc3343e54fce975e187838d78cc026dd615533563b116319365f8aa4a650d602414f06acb277718b8830d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.typeform",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T07:22:25Z"
+                }
+            ]
+        },
         "apppress/xero-connector": {
             "slug": "apppress/xero-connector",
             "name": "Xero Connector",
@@ -632,5 +659,5 @@
             ]
         }
     },
-    "signature": "cc5f2e2bf27b49bd3d3cb1e35666dc789b298edc9a4943e3ef148f479e1143277e070fa257ba263fd6729fff5d371617472ef3628919d66cf737f7e9f62dbb09"
+    "signature": "edd2b6dd0b8d138d545bd973f4054d8e2d17880f88132f686666916d952f75908b51a8792fb4eeba37b2b59a638f6d4c528178db2cfdf6788647eacf4e92fc03"
 }
