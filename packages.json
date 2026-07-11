@@ -784,6 +784,13 @@
             "manifest_path": "../plugin-workflows/appress.json"
         },
         {
+            "slug": "apppress/xero-connector",
+            "github_repo": "appkitgo/plugin-xero-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-xero-connector/appress.json"
+        },
+        {
             "slug": "apppress/zendesk-connector",
             "github_repo": "appkitgo/plugin-zendesk-connector",
             "tier": "first_party",
