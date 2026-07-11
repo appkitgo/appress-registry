@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T06:33:39+00:00",
+    "generated_at": "2026-07-11T06:37:03+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/airtable-connector": {
@@ -260,9 +260,9 @@
             "versions": [
                 {
                     "version": "1.0.0",
-                    "download_url": "https://api.github.com/repos/appkitgo/plugin-gusto-connector/releases/assets/473280805",
-                    "checksum_sha256": "eb51c13f32277ce8fa0542601321c8f2b33c5b5db3c142c594791c974b853b3f",
-                    "signature": "52d26aab627dc510b2706dca6e828dcd0824ba8187294608bc79c6f49ceafad27d8f386924369caa81b62bb6f155e66befc34148cf3633da61c0a5c2b5637403",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-gusto-connector/releases/assets/473283133",
+                    "checksum_sha256": "7b0e34493170182acb0867e4a3a38cc8d9a311d3d5a69feb4c21d5b3b4aa0af9",
+                    "signature": "56e7dc471b0ac2aeb96577eff665eb6c0a47abc0ca730f280c9eb97213cab254593f99aec2fd03b3ea294b9a92e9da7399b60051d69c1258bb065d1d2278730c",
                     "min_core_version": "1.0.0",
                     "dependencies": {},
                     "requires_plugins": [],
@@ -272,7 +272,7 @@
                         "data_source.external"
                     ],
                     "yanked": false,
-                    "published_at": "2026-07-11T06:32:55Z"
+                    "published_at": "2026-07-11T06:36:20Z"
                 }
             ]
         },
@@ -605,5 +605,5 @@
             ]
         }
     },
-    "signature": "4856c64b3b019bb7fc802fbe4c84724b1c98124ea18669c6198103097f194462d225037a75ee4e46109dce5c87a14c64cbe8e7e5ca3d1ce5211dc75734254808"
+    "signature": "b9765e6505616b41f468bb292170293bc2b7cd85319e3a9de5dc198e282213d0653d1a8f3b71ed1613d676c435b88a56017a87fd70ef2b1fe4e5da91c2083a01"
 }
