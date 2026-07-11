@@ -1,0 +1,58 @@
+{
+    "slug": "apppress/quotes",
+    "name": "AppPress Quotes & Estimates",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Create, send, and track quotes and estimates for campus departments and commercial operators. Features a token-based customer approval portal, line-item pricing, optional invoice conversion, member and mobile client surfaces, workflow triggers, and sales pipeline admin blocks.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T21:31:31Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-quotes/releases/assets/473800645",
+    "checksum_sha256": "e16af33948c710e789404090645e881b384e74de13e5db23834afbc12f2c5c54",
+    "signature": "fd2b2550de4403c71026e2ad211afaf924cab9a551c8a86cba3ce3e8253e12842838fe00f7ff118f60c94cc6af309c643b099eb1eac5b7d4b5d14e80ac11140d",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "quotes",
+        "estimates",
+        "quote_approval_portal",
+        "invoice_conversion",
+        "workflow_triggers",
+        "workflow_actions",
+        "mobile_client_quotes",
+        "member_quote_portal"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-quotes/releases/assets/473800645",
+            "checksum_sha256": "e16af33948c710e789404090645e881b384e74de13e5db23834afbc12f2c5c54",
+            "signature": "fd2b2550de4403c71026e2ad211afaf924cab9a551c8a86cba3ce3e8253e12842838fe00f7ff118f60c94cc6af309c643b099eb1eac5b7d4b5d14e80ac11140d",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "quotes",
+                "estimates",
+                "quote_approval_portal",
+                "invoice_conversion",
+                "workflow_triggers",
+                "workflow_actions",
+                "mobile_client_quotes",
+                "member_quote_portal"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T21:31:31Z"
+        }
+    ]
+}

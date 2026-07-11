@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T21:20:41+00:00",
+    "generated_at": "2026-07-11T21:33:41+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1200,6 +1200,39 @@
                 }
             ]
         },
+        "apppress/quotes": {
+            "slug": "apppress/quotes",
+            "name": "AppPress Quotes & Estimates",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-quotes",
+            "tier": "first_party",
+            "description": "Create, send, and track quotes and estimates for campus departments and commercial operators. Features a token-based customer approval portal, line-item pricing, optional invoice conversion, member and mobile client surfaces, workflow triggers, and sales pipeline admin blocks.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-quotes/releases/assets/473800645",
+                    "checksum_sha256": "e16af33948c710e789404090645e881b384e74de13e5db23834afbc12f2c5c54",
+                    "signature": "fd2b2550de4403c71026e2ad211afaf924cab9a551c8a86cba3ce3e8253e12842838fe00f7ff118f60c94cc6af309c643b099eb1eac5b7d4b5d14e80ac11140d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "quotes",
+                        "estimates",
+                        "quote_approval_portal",
+                        "invoice_conversion",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "mobile_client_quotes",
+                        "member_quote_portal"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T21:31:31Z"
+                }
+            ]
+        },
         "apppress/salesforce-connector": {
             "slug": "apppress/salesforce-connector",
             "name": "Salesforce Connector",
@@ -1576,5 +1609,5 @@
             ]
         }
     },
-    "signature": "480395216128c6b5af5ad2104e6bade845c9900c8d371461ba13d339a23bd4081957247f14fd4c7a3a9ba3182f1a387d024f8673d2dba046dc20a18879d96400"
+    "signature": "5f2b7fcd6481e0d88af4655cf08bdca797d48b86d39aa17983bc81deda45f86ea02fd7c2b303cb09aa63e18d1a93bd6f1a0499a897f6bcf56c5e76bc399d1305"
 }
