@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/gusto-connector",
+    "name": "Gusto Connector",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Production Gusto connector for CampusLaunch \u2014 read/search employees, read compensation rates, and read payroll runs, scoped to a Gusto company (company UUID) via OAuth2. Highly sensitive HR/payroll data: no SSN or bank/direct-deposit fields are ever requested or exposed.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T06:32:55Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-gusto-connector/releases/assets/473280805",
+    "checksum_sha256": "eb51c13f32277ce8fa0542601321c8f2b33c5b5db3c142c594791c974b853b3f",
+    "signature": "52d26aab627dc510b2706dca6e828dcd0824ba8187294608bc79c6f49ceafad27d8f386924369caa81b62bb6f155e66befc34148cf3633da61c0a5c2b5637403",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.gusto",
+        "hr.external",
+        "data_source.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-gusto-connector/releases/assets/473280805",
+            "checksum_sha256": "eb51c13f32277ce8fa0542601321c8f2b33c5b5db3c142c594791c974b853b3f",
+            "signature": "52d26aab627dc510b2706dca6e828dcd0824ba8187294608bc79c6f49ceafad27d8f386924369caa81b62bb6f155e66befc34148cf3633da61c0a5c2b5637403",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.gusto",
+                "hr.external",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T06:32:55Z"
+        }
+    ]
+}

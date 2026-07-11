@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T06:05:36+00:00",
+    "generated_at": "2026-07-11T06:33:39+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/airtable-connector": {
@@ -245,6 +245,34 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T00:06:32Z"
+                }
+            ]
+        },
+        "apppress/gusto-connector": {
+            "slug": "apppress/gusto-connector",
+            "name": "Gusto Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-gusto-connector",
+            "tier": "first_party",
+            "description": "Production Gusto connector for CampusLaunch \u2014 read/search employees, read compensation rates, and read payroll runs, scoped to a Gusto company (company UUID) via OAuth2. Highly sensitive HR/payroll data: no SSN or bank/direct-deposit fields are ever requested or exposed.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-gusto-connector/releases/assets/473280805",
+                    "checksum_sha256": "eb51c13f32277ce8fa0542601321c8f2b33c5b5db3c142c594791c974b853b3f",
+                    "signature": "52d26aab627dc510b2706dca6e828dcd0824ba8187294608bc79c6f49ceafad27d8f386924369caa81b62bb6f155e66befc34148cf3633da61c0a5c2b5637403",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.gusto",
+                        "hr.external",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T06:32:55Z"
                 }
             ]
         },
@@ -577,5 +605,5 @@
             ]
         }
     },
-    "signature": "5aac7ff0ef13dc7fc35a5356c91080d321797514fe7b2425a4d206cef1e490a6722264c4aacdf47e0063a4040ef87ac0c2c284a587f3af3016740998421d710f"
+    "signature": "4856c64b3b019bb7fc802fbe4c84724b1c98124ea18669c6198103097f194462d225037a75ee4e46109dce5c87a14c64cbe8e7e5ca3d1ce5211dc75734254808"
 }
