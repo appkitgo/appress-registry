@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/freshdesk-connector",
+    "name": "Freshdesk Connector",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Production Freshdesk support-desk connector for AppPress \u2014 create, update, and annotate tickets, list/search tickets, look up contacts and companies, and inbound webhook triggers for ticket-created and ticket-updated events.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T04:46:28Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-freshdesk-connector/releases/assets/473215043",
+    "checksum_sha256": "eadf3b6766aa5b11b1270fe0f3f0b4d4dcc5f0be7a86968c55d3f0ae141e36e3",
+    "signature": "dafe6a040734233d1731d87af31df57969b685bc151242406b5b71902319c794af7dbf7799d5015bb41f18b3db7da147d0ab2339b1868d5d950291dbd6df4409",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.freshdesk",
+        "support.external",
+        "data_source.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-freshdesk-connector/releases/assets/473215043",
+            "checksum_sha256": "eadf3b6766aa5b11b1270fe0f3f0b4d4dcc5f0be7a86968c55d3f0ae141e36e3",
+            "signature": "dafe6a040734233d1731d87af31df57969b685bc151242406b5b71902319c794af7dbf7799d5015bb41f18b3db7da147d0ab2339b1868d5d950291dbd6df4409",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.freshdesk",
+                "support.external",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T04:46:28Z"
+        }
+    ]
+}

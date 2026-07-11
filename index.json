@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T04:18:30+00:00",
+    "generated_at": "2026-07-11T04:47:28+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/asana-connector": {
@@ -134,6 +134,34 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T03:25:05Z"
+                }
+            ]
+        },
+        "apppress/freshdesk-connector": {
+            "slug": "apppress/freshdesk-connector",
+            "name": "Freshdesk Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-freshdesk-connector",
+            "tier": "first_party",
+            "description": "Production Freshdesk support-desk connector for AppPress \u2014 create, update, and annotate tickets, list/search tickets, look up contacts and companies, and inbound webhook triggers for ticket-created and ticket-updated events.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-freshdesk-connector/releases/assets/473215043",
+                    "checksum_sha256": "eadf3b6766aa5b11b1270fe0f3f0b4d4dcc5f0be7a86968c55d3f0ae141e36e3",
+                    "signature": "dafe6a040734233d1731d87af31df57969b685bc151242406b5b71902319c794af7dbf7799d5015bb41f18b3db7da147d0ab2339b1868d5d950291dbd6df4409",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.freshdesk",
+                        "support.external",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T04:46:28Z"
                 }
             ]
         },
@@ -467,5 +495,5 @@
             ]
         }
     },
-    "signature": "7881d5c165be027abaf05efefeddcf846844a22619509015dbcf2017f19b9b787f877918700a689999b578c38c7cf0bb077fce0d49b64a04caf2da391ebfd502"
+    "signature": "84ecdea13bf6869fd47898f131993b36fc79f60a481af159c39e2708f197952673fb8c3f1d0c9c82ad8ee853b9ce65a2a09115fd742c30533a99ec65e5c52909"
 }
