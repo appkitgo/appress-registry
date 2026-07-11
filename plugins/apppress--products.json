@@ -1,0 +1,56 @@
+{
+    "slug": "apppress/products",
+    "name": "AppPress Products",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Product catalog supporting simple and variable products with variants, category hierarchy, image galleries, stock tracking, and pricing with compare-at prices.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T21:04:43Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-products/releases/assets/473784270",
+    "checksum_sha256": "3bbfe7090e1c6604f9a8cd04f42815d68af3c9aef6190bad099963c22ff57c7f",
+    "signature": "e7c016f8b7db9650ac95dcdac1b7a382461fad8c2199b20c1ae0d7bd8676ff5f57243500537d2c2447546f1843f98f8c5498ee910b0895bde1b1a99450b8970c",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "products",
+        "catalog",
+        "inventory",
+        "variants",
+        "categories",
+        "stock_tracking",
+        "pricing"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-products/releases/assets/473784270",
+            "checksum_sha256": "3bbfe7090e1c6604f9a8cd04f42815d68af3c9aef6190bad099963c22ff57c7f",
+            "signature": "e7c016f8b7db9650ac95dcdac1b7a382461fad8c2199b20c1ae0d7bd8676ff5f57243500537d2c2447546f1843f98f8c5498ee910b0895bde1b1a99450b8970c",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "products",
+                "catalog",
+                "inventory",
+                "variants",
+                "categories",
+                "stock_tracking",
+                "pricing"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T21:04:43Z"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T20:57:25+00:00",
+    "generated_at": "2026-07-11T21:05:58+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1055,6 +1055,38 @@
                 }
             ]
         },
+        "apppress/products": {
+            "slug": "apppress/products",
+            "name": "AppPress Products",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-products",
+            "tier": "first_party",
+            "description": "Product catalog supporting simple and variable products with variants, category hierarchy, image galleries, stock tracking, and pricing with compare-at prices.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-products/releases/assets/473784270",
+                    "checksum_sha256": "3bbfe7090e1c6604f9a8cd04f42815d68af3c9aef6190bad099963c22ff57c7f",
+                    "signature": "e7c016f8b7db9650ac95dcdac1b7a382461fad8c2199b20c1ae0d7bd8676ff5f57243500537d2c2447546f1843f98f8c5498ee910b0895bde1b1a99450b8970c",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "products",
+                        "catalog",
+                        "inventory",
+                        "variants",
+                        "categories",
+                        "stock_tracking",
+                        "pricing"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T21:04:43Z"
+                }
+            ]
+        },
         "apppress/quickbooks-connector": {
             "slug": "apppress/quickbooks-connector",
             "name": "QuickBooks Connector",
@@ -1518,5 +1550,5 @@
             ]
         }
     },
-    "signature": "1fe39cfbecf9b2594366e057a383dec50c7a61baa70f0e154bd58f5bfa7f9562490faeea8ae2431949ad3d08442dbe108b5732988f12c4a04413f60593d6630e"
+    "signature": "772af070d89d5e6773974ed58e9d204196d6d135421e21547fc18b20c561412e5321a37eddf25787f9b95d954a5570c04265d5f9b2b60655bef90d74cc4dc305"
 }
