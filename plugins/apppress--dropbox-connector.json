@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/dropbox-connector",
+    "name": "Dropbox Connector",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Production Dropbox connector for AppPress \u2014 find/upload/move files and folders, short-lived download links instead of embedded file bytes, and an inbound workflow trigger for file changes driven by Dropbox's real notification-only webhook (list_folder/continue delta discovery), with the GET challenge-echo handshake required for subscription registration.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T03:25:05Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-dropbox-connector/releases/assets/473159856",
+    "checksum_sha256": "cff63bfbbfaff7910951e81192406135f6f365971276fbfd86bc178e263aa67e",
+    "signature": "b664e98c3193ed32174575e5976cf7e9a3b88c30231e11d2b5b87962f8f581ae865865697a2cf16f6de182066a109c72e1e9d37a6b2a2bb58939b3c108856a02",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.dropbox",
+        "file_storage.external",
+        "data_source.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-dropbox-connector/releases/assets/473159856",
+            "checksum_sha256": "cff63bfbbfaff7910951e81192406135f6f365971276fbfd86bc178e263aa67e",
+            "signature": "b664e98c3193ed32174575e5976cf7e9a3b88c30231e11d2b5b87962f8f581ae865865697a2cf16f6de182066a109c72e1e9d37a6b2a2bb58939b3c108856a02",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.dropbox",
+                "file_storage.external",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T03:25:05Z"
+        }
+    ]
+}
