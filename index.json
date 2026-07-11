@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T16:52:19+00:00",
+    "generated_at": "2026-07-11T17:16:22+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/airtable-connector": {
@@ -485,6 +485,43 @@
                 }
             ]
         },
+        "apppress/pages": {
+            "slug": "apppress/pages",
+            "name": "AppPress Pages",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-pages",
+            "tier": "first_party",
+            "description": "Read-only CMS surfaces for AppPress Core's page system: shortcodes ([page], [page_menu]), a page-menu widget, block-editor embed blocks, a mobile RichTextScreen surface, an operator metrics dashboard, and workflow triggers/webhooks fired from core's real page lifecycle events. Does not own page storage or CRUD \u2014 page creation, editing, and revision history are core's canonical apppress/pages system (Admin -> Pages).",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-pages/releases/assets/473653212",
+                    "checksum_sha256": "319e597f4ab4ed398ffe8c32f8bbe063329612ec7fec22c797625c40022a65c4",
+                    "signature": "cdb6ce959e870f389a398afced5ff3cfd6ef25df82b762ce3ec989e8f1029869585d8ebf5612e51cdad5acef284a51cc9bb4ba06278ab69f02069babfac1d90d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "pages",
+                        "cms-content",
+                        "page-hierarchy",
+                        "page-revisions",
+                        "seo-metadata",
+                        "page-menu",
+                        "shortcodes",
+                        "widgets",
+                        "mobile-richtext-surface",
+                        "workflow-triggers",
+                        "webhook-events",
+                        "block-editor"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T17:15:20Z"
+                }
+            ]
+        },
         "apppress/quickbooks-connector": {
             "slug": "apppress/quickbooks-connector",
             "name": "QuickBooks Connector",
@@ -848,5 +885,5 @@
             ]
         }
     },
-    "signature": "0235b4d7b902fe92feb8d630c8b171c668e0ece986cd0b78570751a31ead86c505fa2fbb60c1ac9359937ff354e8041c172264797413d2f724ac9d3265aa8e0a"
+    "signature": "c4586d53861e353386b177648b3dc9d2829d8a3e11541888359cfeabdbb509f79651fc045b4336e92745c4eb7364051932ababf27f95d406990e4f37ac739e0d"
 }
