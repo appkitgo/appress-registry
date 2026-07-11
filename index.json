@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T17:26:03+00:00",
+    "generated_at": "2026-07-11T17:31:48+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/airtable-connector": {
@@ -518,6 +518,35 @@
                 }
             ]
         },
+        "apppress/notifications": {
+            "slug": "apppress/notifications",
+            "name": "AppPress Notifications",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-notifications",
+            "tier": "first_party",
+            "description": "Multi-channel notification center for AppPress \u2014 in-app bell, email, browser push (VAPID), SMS (Twilio), and Expo mobile push. Implements StandardContracts::NOTIFICATIONS so workflows and plugins deliver alerts without direct coupling.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-notifications/releases/assets/473660929",
+                    "checksum_sha256": "3ee1bbe53d1a04b15d69b9783a2f9952549416fdf74711ea5101d1e3c1cf84ab",
+                    "signature": "79a043475a0aa5d4fddb0bca71f030478d5ee4cacf61a9a549dfd4afc0c5a0e2adcfc18d1ef190c84f362758c35a15a0cbedf7b5a9197e73f0bdc619cb47d407",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "notifications",
+                        "mail",
+                        "in_app_notifications",
+                        "expo_push"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T17:30:09Z"
+                }
+            ]
+        },
         "apppress/notion-connector": {
             "slug": "apppress/notion-connector",
             "name": "Notion Connector",
@@ -945,5 +974,5 @@
             ]
         }
     },
-    "signature": "fdff1872d6cf604c061687ebf6b44377135aa0d3aa1d44288802ea702da06e0d52d07032bfde1588de3dae42de7620bd2644a7c2e47d700e085cf1d921a82a05"
+    "signature": "5ae65665d3b9c16b4624388e321708540cde2c15e4d96df759552b6db397daba6163514f0197e22580b09a51b9c6f79d684f5f7a33afa3f09c2cf0601f80000d"
 }
