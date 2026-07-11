@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T18:38:21+00:00",
+    "generated_at": "2026-07-11T18:51:29+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -92,6 +92,30 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T17:54:34Z"
+                }
+            ]
+        },
+        "apppress/appointments": {
+            "slug": "apppress/appointments",
+            "name": "AppPress Appointments",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-appointments",
+            "tier": "first_party",
+            "description": "Let members, clients, or students book time slots with staff or service providers. Manages bookable services, weekly availability windows, automatic slot generation, conflict detection, capacity limits, cancellation policies, and pre-appointment reminders. Supports optional external scheduler ingress (Calendly, etc.) and calendar sync. Implements StandardContracts::APPOINTMENTS so App Packs and other plugins can book and query appointments without direct coupling.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-appointments/releases/assets/473702958",
+                    "checksum_sha256": "4063d136ed5bc3b7a54142c2162a2b03bebf4a8c85f5671a0fbd240ef83f533b",
+                    "signature": "20e2fe40cd616f7854a446f196c5e770caedb3a717e1532316cc2ad310fe7a691baa918fb1c19478d97955244c81d36619d65e65ac96742d0087bd3cc84c8c0a",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-11T18:50:33Z"
                 }
             ]
         },
@@ -1171,5 +1195,5 @@
             ]
         }
     },
-    "signature": "6a87f44aa24bc26cd81200b5cc187d22cf71478b7cd77b73b1023188e42536c1024f7d4bedde7d3588358bab393a702353f1c040a470308549b356563fc54d06"
+    "signature": "2fce42f7c60d4ad110b6e69ed8508e9ac87e99a4a04593225e00b49937196866e57a329f36be7b16cb46d1b87d33ea13d0aa9506be39e59222942f15aa70060e"
 }
