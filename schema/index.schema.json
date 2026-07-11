@@ -27,6 +27,8 @@
         "description": { "type": "string" },
         "author": { "type": "string" },
         "categories": { "type": "array", "items": { "type": "string" } },
+        "license_type": { "enum": ["free", "premium"] },
+        "product_slug": { "type": "string" },
         "versions": {
           "type": "array",
           "items": { "$ref": "#/$defs/version" }

@@ -22,6 +22,7 @@ declare(strict_types=1);
  */
 
 $root = dirname(__DIR__);
+require $root.'/scripts/lib/license_fields.php';
 $useFeatured = in_array('--featured', $argv ?? [], true) || getenv('INDEX_SCOPE') === 'featured';
 $packagesFile = $root.'/'.($useFeatured ? 'featured-packages.json' : 'packages.json');
 $outputIndex = $root.'/index.json';
@@ -178,6 +179,8 @@ foreach ($catalog['packages'] as $entry) {
         'description' => (string) ($manifest['description'] ?? ''),
         'author' => (string) ($manifest['author'] ?? 'AppPress'),
         'categories' => array_values((array) ($entry['categories'] ?? [])),
+        'license_type' => resolveLicenseType($manifest),
+        'product_slug' => resolveProductSlug($manifest, $slug),
         'versions' => $versions,
     ];
 
@@ -309,8 +312,8 @@ function buildPluginDetail(array $package, array $version): array
         'last_updated' => $version['published_at'],
         'requires' => ['core' => '>='.$version['min_core_version']],
         'is_verified' => ($package['tier'] ?? '') === 'first_party',
-        'is_premium' => false,
-        'license_type' => 'free',
+        'is_premium' => ($package['license_type'] ?? 'free') === 'premium',
+        'license_type' => (string) ($package['license_type'] ?? 'free'),
         'download_url' => $version['download_url'],
         'checksum_sha256' => $version['checksum_sha256'],
         'signature' => $version['signature'],
