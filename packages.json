@@ -390,6 +390,13 @@
             "manifest_path": "../plugin-knowledge-base/appress.json"
         },
         {
+            "slug": "apppress/klaviyo-connector",
+            "github_repo": "appkitgo/plugin-klaviyo-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-klaviyo-connector/appress.json"
+        },
+        {
             "slug": "apppress/launch-pro",
             "github_repo": "appkitgo/theme-launch-pro",
             "tier": "first_party",
