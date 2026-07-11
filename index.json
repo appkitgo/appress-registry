@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T22:23:56+00:00",
+    "generated_at": "2026-07-11T22:37:22+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1371,6 +1371,35 @@
                 }
             ]
         },
+        "apppress/scheduler": {
+            "slug": "apppress/scheduler",
+            "name": "AppPress Content Scheduler",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-scheduler",
+            "tier": "first_party",
+            "description": "Schedule any Eloquent content to auto-publish or auto-unpublish at a future date and time. Polymorphic, timezone-aware, multi-site, with missed-schedule recovery, workflow triggers, and mobile operator visibility for schedule managers.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-scheduler/releases/assets/473840077",
+                    "checksum_sha256": "479630fc7546196d341debb4a4fa60cf6218e739a539593a2d2d3e24d8586369",
+                    "signature": "12ef20e64abb14cb348ec77bcfcd7e7dff11559ba24c8457f9693c62c8fb2c1b0c94087bc6feda2b71386a5137a441c404e38601f6b4fae71d6e554a9438fb0f",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "scheduler",
+                        "scheduled_publish",
+                        "scheduled_unpublish",
+                        "polymorphic_scheduling"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T22:36:20Z"
+                }
+            ]
+        },
         "apppress/segment-connector": {
             "slug": "apppress/segment-connector",
             "name": "Segment Connector",
@@ -1720,5 +1749,5 @@
             ]
         }
     },
-    "signature": "522a1b67fc8e289c85fd24adab5caedf2dc861efc887f029f912dd8c9807454a2eb8509a15d4f372aa39d395477fec146c21a2665260b5dbcd58d64307b73500"
+    "signature": "b1058bed0a9fd4dc3df8569b4c874e52d7bc2c84de64856948ef98f4d60aa3e2029b63518a3a6c86d1e9e8a4fc774a9f146267e2d7f542ffd92b29fa6466b301"
 }
