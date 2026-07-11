@@ -516,6 +516,13 @@
             "manifest_path": "../plugin-public-campus-web-connector/appress.json"
         },
         {
+            "slug": "apppress/quickbooks-connector",
+            "github_repo": "appkitgo/plugin-quickbooks-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-quickbooks-connector/appress.json"
+        },
+        {
             "slug": "apppress/quizzes",
             "github_repo": "appkitgo/plugin-quizzes",
             "tier": "first_party",
