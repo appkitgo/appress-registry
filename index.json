@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T03:48:29+00:00",
+    "generated_at": "2026-07-11T04:18:30+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/asana-connector": {
@@ -356,6 +356,33 @@
                 }
             ]
         },
+        "apppress/trello-connector": {
+            "slug": "apppress/trello-connector",
+            "name": "Trello Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-trello-connector",
+            "tier": "first_party",
+            "description": "Production Trello connector for AppPress \u2014 find/create/update cards, read boards and lists, and workflow automation on real card-activity webhooks.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-trello-connector/releases/assets/473197222",
+                    "checksum_sha256": "c4d126486acae9d93fe1d3c616fced8cca24d5abb6968d5e454f6ea327619d7b",
+                    "signature": "eda2b9ba2f7556918957828f4823c41284ce95e4f5f700fb94f041b6e48145a50ec1b39f98ddef2c006379199387c56da280649b5fee8814df7dc8584a4c860b",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.trello",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T04:17:19Z"
+                }
+            ]
+        },
         "apppress/twilio-connector": {
             "slug": "apppress/twilio-connector",
             "name": "Twilio Connector",
@@ -440,5 +467,5 @@
             ]
         }
     },
-    "signature": "4d96fdc9ccf38b8bfe3a3ae4581058df5e01a39683809433887fc4eb5f3d73d5ddc99872917d6e0adfca384e21504ee3ca0beb720acdc5e08e30340f189d100f"
+    "signature": "7881d5c165be027abaf05efefeddcf846844a22619509015dbcf2017f19b9b787f877918700a689999b578c38c7cf0bb077fce0d49b64a04caf2da391ebfd502"
 }

@@ -1,0 +1,46 @@
+{
+    "slug": "apppress/trello-connector",
+    "name": "Trello Connector",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Production Trello connector for AppPress \u2014 find/create/update cards, read boards and lists, and workflow automation on real card-activity webhooks.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T04:17:19Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-trello-connector/releases/assets/473197222",
+    "checksum_sha256": "c4d126486acae9d93fe1d3c616fced8cca24d5abb6968d5e454f6ea327619d7b",
+    "signature": "eda2b9ba2f7556918957828f4823c41284ce95e4f5f700fb94f041b6e48145a50ec1b39f98ddef2c006379199387c56da280649b5fee8814df7dc8584a4c860b",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.trello",
+        "data_source.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-trello-connector/releases/assets/473197222",
+            "checksum_sha256": "c4d126486acae9d93fe1d3c616fced8cca24d5abb6968d5e454f6ea327619d7b",
+            "signature": "eda2b9ba2f7556918957828f4823c41284ce95e4f5f700fb94f041b6e48145a50ec1b39f98ddef2c006379199387c56da280649b5fee8814df7dc8584a4c860b",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.trello",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T04:17:19Z"
+        }
+    ]
+}
