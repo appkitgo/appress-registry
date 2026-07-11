@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T18:24:56+00:00",
+    "generated_at": "2026-07-11T18:30:20+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -120,6 +120,43 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T03:01:47Z"
+                }
+            ]
+        },
+        "apppress/assignments": {
+            "slug": "apppress/assignments",
+            "name": "AppPress Assignments",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-assignments",
+            "tier": "first_party",
+            "description": "Assignment submission, rubric grading, and grade management for LMS and campus apps. Supports due dates, late penalties, pass/fail thresholds, file uploads, SIS/LMS grade import via signed webhook, and workflow automation covering the full submission lifecycle: created \u2192 published \u2192 submitted \u2192 graded \u2192 passed/failed \u2192 returned.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-assignments/releases/assets/473692411",
+                    "checksum_sha256": "46c23b424c07542e523646bdb0e34420dd74835529d105d98cf8249f4866e850",
+                    "signature": "30cbff13c4fdc326a3130c0d2377211df94f713503cb7a8024f50c741a9343daa1de32cd2fbcd5c2d06639b8dfbd5350e37bc9a5b8e3c8ff3da83cfb6143c80f",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "assignments",
+                        "grading",
+                        "rubric_grading",
+                        "submission_management",
+                        "pass_fail_thresholds",
+                        "due_dates",
+                        "late_submission_policy",
+                        "grade_import",
+                        "grade_export",
+                        "sis_integration",
+                        "lms",
+                        "file_submissions"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T18:29:29Z"
                 }
             ]
         },
@@ -1102,5 +1139,5 @@
             ]
         }
     },
-    "signature": "ff0de3519c8c57365604f50453d81c1be1fdd6be44f70a069b611aea4b4d84ee9d7800ec490feedebadf6c4790578d76cc4b05c87fc431507e769ebd67ada30b"
+    "signature": "029716568b789bed03b5da32349d3cfe7daab4b2a3abfc3af7eed68f3d12f5bc2f8f5ead6abb3f5d36904daa3a0555de69edae4ca23a0120ae90ea6ce207e90f"
 }
