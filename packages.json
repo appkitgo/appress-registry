@@ -651,6 +651,13 @@
             "manifest_path": "../plugin-sharepoint-files-connector/appress.json"
         },
         {
+            "slug": "apppress/shopify-connector",
+            "github_repo": "appkitgo/plugin-shopify-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-shopify-connector/appress.json"
+        },
+        {
             "slug": "apppress/slack-connector",
             "github_repo": "appkitgo/plugin-slack-connector",
             "tier": "first_party",
