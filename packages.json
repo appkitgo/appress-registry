@@ -8,6 +8,13 @@
             "manifest_path": "../plugin-activity-log/appress.json"
         },
         {
+            "slug": "apppress/airtable-connector",
+            "github_repo": "appkitgo/plugin-airtable-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-airtable-connector/appress.json"
+        },
+        {
             "slug": "apppress/analytics",
             "github_repo": "appkitgo/plugin-analytics",
             "tier": "first_party",
