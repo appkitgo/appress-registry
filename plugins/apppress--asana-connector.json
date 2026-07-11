@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/asana-connector",
+    "name": "Asana Connector",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Production Asana connector for CampusLaunch \u2014 find/create/update tasks, read projects and sections, and inbound workflow triggers for task-created and task-completed events via Asana's signed webhook handshake.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T03:01:47Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-asana-connector/releases/assets/473145970",
+    "checksum_sha256": "b4b416d754612ee42c47d0bc9793e0df96a6e0f5fb2a65880b144ee530206ec9",
+    "signature": "ba2f023f86a39f8bfb5cec88a13e50b192f443fe36166071891f20b49b1101d5c4179b0fbcc18a508c2862d26bb3ed7f7e75f65c767706c3ce37695ddea2be06",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.asana",
+        "project_management.external",
+        "data_source.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-asana-connector/releases/assets/473145970",
+            "checksum_sha256": "b4b416d754612ee42c47d0bc9793e0df96a6e0f5fb2a65880b144ee530206ec9",
+            "signature": "ba2f023f86a39f8bfb5cec88a13e50b192f443fe36166071891f20b49b1101d5c4179b0fbcc18a508c2862d26bb3ed7f7e75f65c767706c3ce37695ddea2be06",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.asana",
+                "project_management.external",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T03:01:47Z"
+        }
+    ]
+}

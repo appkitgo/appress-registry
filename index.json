@@ -1,8 +1,36 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T02:33:55+00:00",
+    "generated_at": "2026-07-11T03:02:26+00:00",
     "index_ref": "tags",
     "packages": {
+        "apppress/asana-connector": {
+            "slug": "apppress/asana-connector",
+            "name": "Asana Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-asana-connector",
+            "tier": "first_party",
+            "description": "Production Asana connector for CampusLaunch \u2014 find/create/update tasks, read projects and sections, and inbound workflow triggers for task-created and task-completed events via Asana's signed webhook handshake.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-asana-connector/releases/assets/473145970",
+                    "checksum_sha256": "b4b416d754612ee42c47d0bc9793e0df96a6e0f5fb2a65880b144ee530206ec9",
+                    "signature": "ba2f023f86a39f8bfb5cec88a13e50b192f443fe36166071891f20b49b1101d5c4179b0fbcc18a508c2862d26bb3ed7f7e75f65c767706c3ce37695ddea2be06",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.asana",
+                        "project_management.external",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T03:01:47Z"
+                }
+            ]
+        },
         "apppress/billing": {
             "slug": "apppress/billing",
             "name": "AppPress Billing",
@@ -357,5 +385,5 @@
             ]
         }
     },
-    "signature": "abb678bec265365e154c84aed9d00fd09ef738496b04c93e6855977283083bf0c0934216b3e57693ca0721c086a710dc2c473163f33824e47e2256ef6bdada08"
+    "signature": "5e631eba8d23914724f63c5b7f60d4560ca67b61c13c8552a9e0d3647808e9da2b716ad14059dc73a298cf6cb2ce6ae165b0a72ba15b08202d06954c34e0c00f"
 }
