@@ -4,22 +4,20 @@
     "version": "1.0.0",
     "author": "AppPress",
     "description": "HTML templating and PDF generation for workflows and business records. Implements StandardContracts::DOCUMENTS and core.generate_pdf workflow action.",
-    "categories": [
-        "documents"
-    ],
+    "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-06-13T18:41:57+00:00",
+    "last_updated": "2026-07-11T15:56:05Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://github.com/appkitgo/plugin-documents/releases/download/v1.0.0/documents-1.0.0.zip",
-    "checksum_sha256": "",
-    "signature": "",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-documents/releases/assets/473605607",
+    "checksum_sha256": "4acf6847b3de92ea07e3b9a68712cec7a1bb060359538e7ccaa0cf59877bea5d",
+    "signature": "086aab82d4f8db16d697528d8cd9c6b392c22c871b1aaca0274b6ed00a883bf5f779e4c5ccd5839ac11dc011e76696305a7fd6cb131d73ac0aff152a2d3bc001",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -31,9 +29,9 @@
     "versions": [
         {
             "version": "1.0.0",
-            "download_url": "https://github.com/appkitgo/plugin-documents/releases/download/v1.0.0/documents-1.0.0.zip",
-            "checksum_sha256": "",
-            "signature": "",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-documents/releases/assets/473605607",
+            "checksum_sha256": "4acf6847b3de92ea07e3b9a68712cec7a1bb060359538e7ccaa0cf59877bea5d",
+            "signature": "086aab82d4f8db16d697528d8cd9c6b392c22c871b1aaca0274b6ed00a883bf5f779e4c5ccd5839ac11dc011e76696305a7fd6cb131d73ac0aff152a2d3bc001",
             "min_core_version": "1.0.0",
             "dependencies": {},
             "requires_plugins": [],
@@ -42,7 +40,7 @@
                 "pdf"
             ],
             "yanked": false,
-            "published_at": "2026-06-13T18:41:57+00:00"
+            "published_at": "2026-07-11T15:56:05Z"
         }
     ]
 }

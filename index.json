@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T15:37:48+00:00",
+    "generated_at": "2026-07-11T15:57:05+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/airtable-connector": {
@@ -124,6 +124,33 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T15:37:00Z"
+                }
+            ]
+        },
+        "apppress/documents": {
+            "slug": "apppress/documents",
+            "name": "AppPress Documents",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-documents",
+            "tier": "first_party",
+            "description": "HTML templating and PDF generation for workflows and business records. Implements StandardContracts::DOCUMENTS and core.generate_pdf workflow action.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-documents/releases/assets/473605607",
+                    "checksum_sha256": "4acf6847b3de92ea07e3b9a68712cec7a1bb060359538e7ccaa0cf59877bea5d",
+                    "signature": "086aab82d4f8db16d697528d8cd9c6b392c22c871b1aaca0274b6ed00a883bf5f779e4c5ccd5839ac11dc011e76696305a7fd6cb131d73ac0aff152a2d3bc001",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "documents",
+                        "pdf"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T15:56:05Z"
                 }
             ]
         },
@@ -759,5 +786,5 @@
             ]
         }
     },
-    "signature": "1dd2bdbf6ed960d056f83be455e7c396c5fc7615a6c341ff221450d628988357cc362b8518db7e9c7622c5a5f6e5b574fb0071c5ea920efa2ab646f0c49f090b"
+    "signature": "a8e5a09bdf3dc4d893007a8af5db7205f70fcc52939c590b5417ddf386fb79d585ed1ab821eb885d1e1a253b8a53240e01fc6ed84a66ab2d8ee71602da95f20e"
 }
