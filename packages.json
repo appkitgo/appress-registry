@@ -292,6 +292,13 @@
             "manifest_path": "../plugin-geo/appress.json"
         },
         {
+            "slug": "apppress/google-calendar-connector",
+            "github_repo": "appkitgo/plugin-google-calendar-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-google-calendar-connector/appress.json"
+        },
+        {
             "slug": "apppress/helpdesk",
             "github_repo": "appkitgo/apppack-helpdesk",
             "tier": "first_party",
