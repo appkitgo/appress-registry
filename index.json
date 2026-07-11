@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T00:07:27+00:00",
+    "generated_at": "2026-07-11T00:26:45+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/billing": {
@@ -50,6 +50,34 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-10T19:06:10Z"
+                }
+            ]
+        },
+        "apppress/docusign-connector": {
+            "slug": "apppress/docusign-connector",
+            "name": "DocuSign Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-docusign-connector",
+            "tier": "first_party",
+            "description": "Production DocuSign eSignature connector for CampusLaunch \u2014 send envelopes for signature from templates, track envelope and recipient status, list/search envelopes, void envelopes, and inbound Connect webhook triggers for envelope-completed and recipient-completed events.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-docusign-connector/releases/assets/473047705",
+                    "checksum_sha256": "15643d70260990a7844d268efafd85eba37cad3544dab27b6c261d8222d71364",
+                    "signature": "499ade2fb209dfdb5dd45de35374816425bf1ec6a23c33976209dc69342ab00f33bd6daa768b18a4686603ed302b808404be7d52d99d5e1b64da37ad5e5be105",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.docusign",
+                        "esign.external",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T00:26:06Z"
                 }
             ]
         },
@@ -191,5 +219,5 @@
             ]
         }
     },
-    "signature": "2c4a67558ed7f45eac7a23d7af26cf6261d763c3be588bca5c12464be0d168eda91d4d3a2119480875b1f699633adcdd219e9a5ad3c503a70b661cb6157a6e0f"
+    "signature": "8b00191f5e40fea0e8aba421de389a584001b28e100b64f4831d3f90f0afc77fdbec34fcceaf8efdf289a018408ea72414800af156ca8e5f1b4fc3c56b9bb900"
 }
