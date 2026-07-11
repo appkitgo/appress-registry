@@ -1,0 +1,54 @@
+{
+    "slug": "apppress/notes",
+    "name": "AppPress Notes",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Staff-only internal notes and annotations attachable to any entity via polymorphic relations. Operators use the admin dashboard and REST API; field staff use mobile ListScreen, DetailScreen, and FormScreen surfaces. Integrates with workflows (create/delete actions, created/updated/deleted triggers), activity-log audit entries, and outbound webhooks. Not visible to students or public users.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T21:59:35Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-notes/releases/assets/473816062",
+    "checksum_sha256": "3760536a2103baebc87e3c62bafe95209f20706bddf7579a5e72058e53b94a7f",
+    "signature": "d4e6b55df984d20033618e896ec0563aca9659171b290c9a939a84add73edda60cdae5d8fefabe941c50df818aac9770660193e27b921d1b288ad03754fd390d",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "private_notes",
+        "case_notes",
+        "staff_annotations",
+        "entity_attached_notes",
+        "mobile_staff_notes",
+        "workflow_automation"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-notes/releases/assets/473816062",
+            "checksum_sha256": "3760536a2103baebc87e3c62bafe95209f20706bddf7579a5e72058e53b94a7f",
+            "signature": "d4e6b55df984d20033618e896ec0563aca9659171b290c9a939a84add73edda60cdae5d8fefabe941c50df818aac9770660193e27b921d1b288ad03754fd390d",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "private_notes",
+                "case_notes",
+                "staff_annotations",
+                "entity_attached_notes",
+                "mobile_staff_notes",
+                "workflow_automation"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T21:59:35Z"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T21:52:16+00:00",
+    "generated_at": "2026-07-11T22:00:51+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -957,6 +957,37 @@
                 }
             ]
         },
+        "apppress/notes": {
+            "slug": "apppress/notes",
+            "name": "AppPress Notes",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-notes",
+            "tier": "first_party",
+            "description": "Staff-only internal notes and annotations attachable to any entity via polymorphic relations. Operators use the admin dashboard and REST API; field staff use mobile ListScreen, DetailScreen, and FormScreen surfaces. Integrates with workflows (create/delete actions, created/updated/deleted triggers), activity-log audit entries, and outbound webhooks. Not visible to students or public users.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-notes/releases/assets/473816062",
+                    "checksum_sha256": "3760536a2103baebc87e3c62bafe95209f20706bddf7579a5e72058e53b94a7f",
+                    "signature": "d4e6b55df984d20033618e896ec0563aca9659171b290c9a939a84add73edda60cdae5d8fefabe941c50df818aac9770660193e27b921d1b288ad03754fd390d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "private_notes",
+                        "case_notes",
+                        "staff_annotations",
+                        "entity_attached_notes",
+                        "mobile_staff_notes",
+                        "workflow_automation"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T21:59:35Z"
+                }
+            ]
+        },
         "apppress/notifications": {
             "slug": "apppress/notifications",
             "name": "AppPress Notifications",
@@ -1635,5 +1666,5 @@
             ]
         }
     },
-    "signature": "0d91cfb6b85a94e8987d650be02b9a4529de9519c674612f7016932e10fbcadef26c4dcd789a014d45c08f8f41d0f76a778bd441913a3cbe1aa46ae8fc7dab03"
+    "signature": "39faffa086dd97ad6c628716515b5b2fc5382d521e7c5317b46af5dc72d756c9d6685c81c3284423cdb35746a46ffe95c3fc6626fa2317440380c1db14de5c0c"
 }
