@@ -763,6 +763,13 @@
             "manifest_path": "../plugin-workflows/appress.json"
         },
         {
+            "slug": "apppress/zendesk-connector",
+            "github_repo": "appkitgo/plugin-zendesk-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-zendesk-connector/appress.json"
+        },
+        {
             "slug": "apppress/zoom-connector",
             "github_repo": "appkitgo/plugin-zoom-connector",
             "tier": "first_party",
