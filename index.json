@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T02:07:18+00:00",
+    "generated_at": "2026-07-11T02:33:55+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/billing": {
@@ -300,6 +300,34 @@
                 }
             ]
         },
+        "apppress/xero-connector": {
+            "slug": "apppress/xero-connector",
+            "name": "Xero Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-xero-connector",
+            "tier": "first_party",
+            "description": "Production Xero connector for CampusLaunch \u2014 create/update contacts, create invoices, find/search contacts, read payments, and inbound workflow triggers for invoice-created and invoice-paid events, scoped to a real Xero organisation (tenant) discovered via Xero's /connections API after OAuth2 connect.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-xero-connector/releases/assets/473125259",
+                    "checksum_sha256": "b8be129e2b5ca34bf96834e85a682c379f1dc55e91613d5b2e9c0681ed261209",
+                    "signature": "1cfdb259b4ca0aa247a38a14639a2c1b3323108533e4965dc604096e55a22f6e80003e74c03c3b52383414162ed379a8b21fb05f9754197f306f5b3d20e1e40e",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.xero",
+                        "accounting.external",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T02:33:17Z"
+                }
+            ]
+        },
         "apppress/zendesk-connector": {
             "slug": "apppress/zendesk-connector",
             "name": "Zendesk Connector",
@@ -329,5 +357,5 @@
             ]
         }
     },
-    "signature": "228deda858e12e455dcfe0027d75b0876c001fd581464f37c02372e595cc33b088736971c2c03c02e3bb63e48aaf882b232cf15ab7d57c6ea007d3936b84240f"
+    "signature": "abb678bec265365e154c84aed9d00fd09ef738496b04c93e6855977283083bf0c0934216b3e57693ca0721c086a710dc2c473163f33824e47e2256ef6bdada08"
 }
