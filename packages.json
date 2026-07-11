@@ -679,6 +679,13 @@
             "manifest_path": "../plugin-search/appress.json"
         },
         {
+            "slug": "apppress/segment-connector",
+            "github_repo": "appkitgo/plugin-segment-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-segment-connector/appress.json"
+        },
+        {
             "slug": "apppress/seo",
             "github_repo": "appkitgo/plugin-seo",
             "tier": "first_party",
