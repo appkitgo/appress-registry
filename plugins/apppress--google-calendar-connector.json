@@ -1,0 +1,50 @@
+{
+    "slug": "apppress/google-calendar-connector",
+    "name": "Google Calendar Connector",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Production Google Calendar connector for CampusLaunch \u2014 event create/update/delete/get, calendar listing, free/busy availability lookups, search, and webhook triggers for event created/updated via Google's Calendar Watch push notifications.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T00:06:32Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-google-calendar-connector/releases/assets/473035430",
+    "checksum_sha256": "7969a0c44a8bc0a5531f401facf7d522aaf09738821a6d7657a92f7fe7219cf7",
+    "signature": "0d891a016ba9900e328ff69ca539e2cfaaea34e6d93eda990a48474c58c9c1c5081e22b32b7a3fa31708435fa4cd35a24d1dbb1695a003a9bc9d598f8139630f",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.google_calendar",
+        "calendar.create",
+        "calendar.read",
+        "data_source.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-google-calendar-connector/releases/assets/473035430",
+            "checksum_sha256": "7969a0c44a8bc0a5531f401facf7d522aaf09738821a6d7657a92f7fe7219cf7",
+            "signature": "0d891a016ba9900e328ff69ca539e2cfaaea34e6d93eda990a48474c58c9c1c5081e22b32b7a3fa31708435fa4cd35a24d1dbb1695a003a9bc9d598f8139630f",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.google_calendar",
+                "calendar.create",
+                "calendar.read",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T00:06:32Z"
+        }
+    ]
+}

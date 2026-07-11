@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-10T20:41:20+00:00",
+    "generated_at": "2026-07-11T00:07:27+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/billing": {
@@ -50,6 +50,35 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-10T19:06:10Z"
+                }
+            ]
+        },
+        "apppress/google-calendar-connector": {
+            "slug": "apppress/google-calendar-connector",
+            "name": "Google Calendar Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-google-calendar-connector",
+            "tier": "first_party",
+            "description": "Production Google Calendar connector for CampusLaunch \u2014 event create/update/delete/get, calendar listing, free/busy availability lookups, search, and webhook triggers for event created/updated via Google's Calendar Watch push notifications.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-google-calendar-connector/releases/assets/473035430",
+                    "checksum_sha256": "7969a0c44a8bc0a5531f401facf7d522aaf09738821a6d7657a92f7fe7219cf7",
+                    "signature": "0d891a016ba9900e328ff69ca539e2cfaaea34e6d93eda990a48474c58c9c1c5081e22b32b7a3fa31708435fa4cd35a24d1dbb1695a003a9bc9d598f8139630f",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.google_calendar",
+                        "calendar.create",
+                        "calendar.read",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T00:06:32Z"
                 }
             ]
         },
@@ -162,5 +191,5 @@
             ]
         }
     },
-    "signature": "1d28c6714b45e11aeec46bc767ebbd219b00bef92f6e831dc3bdffeeba904d43d0f5a3691a486d20ec5d9457c6686257b79990212252668444b48f7547ea8b0d"
+    "signature": "2c4a67558ed7f45eac7a23d7af26cf6261d763c3be588bca5c12464be0d168eda91d4d3a2119480875b1f699633adcdd219e9a5ad3c503a70b661cb6157a6e0f"
 }
