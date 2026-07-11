@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T19:12:04+00:00",
+    "generated_at": "2026-07-11T19:19:51+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -886,6 +886,32 @@
                 }
             ]
         },
+        "apppress/quizzes": {
+            "slug": "apppress/quizzes",
+            "name": "AppPress Quizzes",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-quizzes",
+            "tier": "first_party",
+            "description": "Assessment engine with question banks, multiple question types, auto and manual grading, time limits, multiple attempts, pass/fail thresholds, and detailed result analytics.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-quizzes/releases/assets/473720412",
+                    "checksum_sha256": "dfc3d0fd3f1d8941cbf9e31466828a45a09d88ea5032c28aea3a0bcb85a76e3b",
+                    "signature": "7c78744d4a011393de348ce4173c699aab33c391156600a83b9ef04ded83d36b55fc8b5458d5f4d30b4a849e49b294920610d02626aed74ffbb3600990523200",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "quizzes"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T19:18:54Z"
+                }
+            ]
+        },
         "apppress/quote-portal": {
             "slug": "apppress/quote-portal",
             "name": "Quote & Estimate Portal",
@@ -1254,5 +1280,5 @@
             ]
         }
     },
-    "signature": "6eb5988f38baac19102f66c9a3c44dedf9caa3bbb2a211d45e63526751d4c68b8bdb7b68b696360a23244495b793cdd437d9b4e9c89b82b3507cc87f19f93c05"
+    "signature": "c4b1ba4d77c0640c8aa463de3e2096d6560e3f019f998256b1205ce1a0fcb1d07d79e24e6573abb9f2acf88da5e090e0e36e32ce53e8e075e6d2324b9f5f900f"
 }

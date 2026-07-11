@@ -1,0 +1,44 @@
+{
+    "slug": "apppress/quizzes",
+    "name": "AppPress Quizzes",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Assessment engine with question banks, multiple question types, auto and manual grading, time limits, multiple attempts, pass/fail thresholds, and detailed result analytics.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T19:18:54Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-quizzes/releases/assets/473720412",
+    "checksum_sha256": "dfc3d0fd3f1d8941cbf9e31466828a45a09d88ea5032c28aea3a0bcb85a76e3b",
+    "signature": "7c78744d4a011393de348ce4173c699aab33c391156600a83b9ef04ded83d36b55fc8b5458d5f4d30b4a849e49b294920610d02626aed74ffbb3600990523200",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "quizzes"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-quizzes/releases/assets/473720412",
+            "checksum_sha256": "dfc3d0fd3f1d8941cbf9e31466828a45a09d88ea5032c28aea3a0bcb85a76e3b",
+            "signature": "7c78744d4a011393de348ce4173c699aab33c391156600a83b9ef04ded83d36b55fc8b5458d5f4d30b4a849e49b294920610d02626aed74ffbb3600990523200",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "quizzes"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T19:18:54Z"
+        }
+    ]
+}
