@@ -341,6 +341,13 @@
             "manifest_path": "../plugin-google-calendar-connector/appress.json"
         },
         {
+            "slug": "apppress/gusto-connector",
+            "github_repo": "appkitgo/plugin-gusto-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-gusto-connector/appress.json"
+        },
+        {
             "slug": "apppress/helpdesk",
             "github_repo": "appkitgo/apppack-helpdesk",
             "tier": "first_party",
