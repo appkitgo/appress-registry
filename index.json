@@ -1,8 +1,38 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T17:31:48+00:00",
+    "generated_at": "2026-07-11T17:39:10+00:00",
     "index_ref": "tags",
     "packages": {
+        "apppress/activity-log": {
+            "slug": "apppress/activity-log",
+            "name": "AppPress Activity Log",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-activity-log",
+            "tier": "first_party",
+            "description": "Immutable audit trail for every action across your AppPress platform \u2014 tracks who did what, when, across all core and plugin events. Provides a filterable, exportable admin log, channel-specific workflow triggers, REST ingestion for external systems, and a before_record filter for FERPA/privacy suppression. Implements StandardContracts::AUDIT_LOG so any plugin or App Pack can write to the log without a direct dependency.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.3",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-activity-log/releases/assets/473665259",
+                    "checksum_sha256": "f30080d6974b917355419c38dbe12c8eaf846bfeac1969fb11d568f7bb20cae1",
+                    "signature": "46ceb3a5c23c398628b26230cf3c5c6f429fc8facabd4d0c07b77231e326fe1bee6809f3d81f1314e1743ab21f1d2c81e175bc8a3ca9c8ede742e84666550908",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "audit_log",
+                        "activity_tracking",
+                        "event_history",
+                        "compliance_logging",
+                        "webhook_audit"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T17:37:28Z"
+                }
+            ]
+        },
         "apppress/airtable-connector": {
             "slug": "apppress/airtable-connector",
             "name": "Airtable Connector",
@@ -974,5 +1004,5 @@
             ]
         }
     },
-    "signature": "5ae65665d3b9c16b4624388e321708540cde2c15e4d96df759552b6db397daba6163514f0197e22580b09a51b9c6f79d684f5f7a33afa3f09c2cf0601f80000d"
+    "signature": "992d33efa214b5cd00d719f43be9095e62ef590fb42018f64434cfa893f53bc81cad25c95631f518ac848e3a0eb18fc270b83133a17dc2180804e0b46189350e"
 }
