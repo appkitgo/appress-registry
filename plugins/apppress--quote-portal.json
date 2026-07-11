@@ -1,0 +1,58 @@
+{
+    "slug": "apppress/quote-portal",
+    "name": "Quote & Estimate Portal",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "A complete business workflow for capturing leads, sending quotes, and getting paid. Replaces disjointed form and invoicing tools.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T16:46:28Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/apppack-quote-portal/releases/assets/473634553",
+    "checksum_sha256": "2033a1fd191a4536b6c884c03adec73420505ee0b33620226b4693824219b650",
+    "signature": "80287b02da27aafbd63734955ae062df849aecacb9356aa3e532d63863ed4d5dd5a2f5860e2fff4541fe536b31f859fcb8be74ffa6fd8fdfbfa65e45efc20d05",
+    "min_core_version": "1.0.0",
+    "dependencies": {
+        "apppress/quotes": "^1.0.0",
+        "apppress/invoices": "^1.0.0",
+        "apppress/payments": "^1.0.0",
+        "apppress/contacts": "^1.0.0",
+        "apppress/forms": "^1.0.0",
+        "apppress/workflows": "^1.0.0"
+    },
+    "requires_plugins": [],
+    "capabilities": [
+        "quote_portal"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/apppack-quote-portal/releases/assets/473634553",
+            "checksum_sha256": "2033a1fd191a4536b6c884c03adec73420505ee0b33620226b4693824219b650",
+            "signature": "80287b02da27aafbd63734955ae062df849aecacb9356aa3e532d63863ed4d5dd5a2f5860e2fff4541fe536b31f859fcb8be74ffa6fd8fdfbfa65e45efc20d05",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/quotes": "^1.0.0",
+                "apppress/invoices": "^1.0.0",
+                "apppress/payments": "^1.0.0",
+                "apppress/contacts": "^1.0.0",
+                "apppress/forms": "^1.0.0",
+                "apppress/workflows": "^1.0.0"
+            },
+            "requires_plugins": [],
+            "capabilities": [
+                "quote_portal"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T16:46:28Z"
+        }
+    ]
+}
