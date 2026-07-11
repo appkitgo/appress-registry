@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T19:19:51+00:00",
+    "generated_at": "2026-07-11T19:34:05+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1113,6 +1113,47 @@
                 }
             ]
         },
+        "apppress/tickets": {
+            "slug": "apppress/tickets",
+            "name": "AppPress Tickets",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-tickets",
+            "tier": "first_party",
+            "description": "Full-featured help desk ticketing with priority levels, SLA tracking, internal notes, agent assignment, and category management. Students submit tickets; staff agents manage and resolve them; admins track volume, response time, and SLA health.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-tickets/releases/assets/473728120",
+                    "checksum_sha256": "6790155361c193c01c1fea4b5db77a0ff506c0de3e441682e4478fb634f19162",
+                    "signature": "b016e7f1c9bf9f997672c92629b62c3e0c73f6da7cfaf4a18565b17337ee0aef65a0237224a3be6401b8959c17035fa99c9b7822b0aba0a55d1c726ffcc2a501",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "tickets",
+                        "case_management",
+                        "support_desk",
+                        "help_desk",
+                        "incident_tracking",
+                        "sla_tracking",
+                        "agent_assignment",
+                        "internal_notes",
+                        "category_management",
+                        "mobile_ticket_submission",
+                        "mobile_ticket_tracking",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "webhook_events",
+                        "admin_block_resolvers",
+                        "member_dashboard_panel"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T19:33:02Z"
+                }
+            ]
+        },
         "apppress/trello-connector": {
             "slug": "apppress/trello-connector",
             "name": "Trello Connector",
@@ -1280,5 +1321,5 @@
             ]
         }
     },
-    "signature": "c4b1ba4d77c0640c8aa463de3e2096d6560e3f019f998256b1205ce1a0fcb1d07d79e24e6573abb9f2acf88da5e090e0e36e32ce53e8e075e6d2324b9f5f900f"
+    "signature": "f5403d034dbea386da93926786ff30fc99c8eac718181ee438b8b9533c7e3a352a3542111ef43334bf2820578bf86e24feb5fef27a976a94445c657844d73d0d"
 }
