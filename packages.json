@@ -369,6 +369,13 @@
             "manifest_path": "../plugin-import-export/appress.json"
         },
         {
+            "slug": "apppress/intercom-connector",
+            "github_repo": "appkitgo/plugin-intercom-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-intercom-connector/appress.json"
+        },
+        {
             "slug": "apppress/invoices",
             "github_repo": "appkitgo/plugin-invoices",
             "tier": "first_party",
