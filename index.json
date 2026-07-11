@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T22:00:51+00:00",
+    "generated_at": "2026-07-11T22:12:12+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1170,6 +1170,32 @@
                 }
             ]
         },
+        "apppress/projects": {
+            "slug": "apppress/projects",
+            "name": "AppPress Projects",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-projects",
+            "tier": "first_party",
+            "description": "Project and task management with kanban board, milestones, member roles, priority levels, due dates, task comments, and completion tracking.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-projects/releases/assets/473822092",
+                    "checksum_sha256": "a531466cbf3c561feb9ee212ea2b75e9848f859e13b507d4af75dfc827e8821e",
+                    "signature": "6501da697d13898234e75f8cc0c671cea58aedf768cb509e412d53e9ba9d339511c0b1da48e7756a819204dc71a697a4a1ae711738dc9d8f98eeea9774c2070c",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "projects"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T22:11:11Z"
+                }
+            ]
+        },
         "apppress/quickbooks-connector": {
             "slug": "apppress/quickbooks-connector",
             "name": "QuickBooks Connector",
@@ -1666,5 +1692,5 @@
             ]
         }
     },
-    "signature": "39faffa086dd97ad6c628716515b5b2fc5382d521e7c5317b46af5dc72d756c9d6685c81c3284423cdb35746a46ffe95c3fc6626fa2317440380c1db14de5c0c"
+    "signature": "0f45e1ee4b744d9075462bc19ed208571f9a1ce92aff82ca320af921ca002ebac48fb1957ae8ee010d2f69817ddc824fbe1f19340eb03403f550ce783f723e04"
 }
