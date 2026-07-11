@@ -1,0 +1,46 @@
+{
+    "slug": "apppress/squarespace-connector",
+    "name": "Squarespace Connector",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Production Squarespace connector for AppPress \u2014 find/create/update customers via the real Contacts API, read/search Commerce orders, and real order webhooks.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T08:51:01Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-squarespace-connector/releases/assets/473365664",
+    "checksum_sha256": "f1e06d37ea8b51074be64bfe0fb7978dbdc936a4622f3b76a95d01aab086480c",
+    "signature": "7a6e03b97d5586f6214a5c18b7b82b9313e899cc164a13b492e484baa06d7913504bf614c8c1ef0ece3c6bfd430310bf95f272b5d106b527d8b178347b512d08",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.squarespace",
+        "data_source.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-squarespace-connector/releases/assets/473365664",
+            "checksum_sha256": "f1e06d37ea8b51074be64bfe0fb7978dbdc936a4622f3b76a95d01aab086480c",
+            "signature": "7a6e03b97d5586f6214a5c18b7b82b9313e899cc164a13b492e484baa06d7913504bf614c8c1ef0ece3c6bfd430310bf95f272b5d106b527d8b178347b512d08",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.squarespace",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T08:51:01Z"
+        }
+    ]
+}

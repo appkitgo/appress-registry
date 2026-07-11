@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T08:22:20+00:00",
+    "generated_at": "2026-07-11T08:51:45+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/airtable-connector": {
@@ -575,6 +575,33 @@
                 }
             ]
         },
+        "apppress/squarespace-connector": {
+            "slug": "apppress/squarespace-connector",
+            "name": "Squarespace Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-squarespace-connector",
+            "tier": "first_party",
+            "description": "Production Squarespace connector for AppPress \u2014 find/create/update customers via the real Contacts API, read/search Commerce orders, and real order webhooks.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-squarespace-connector/releases/assets/473365664",
+                    "checksum_sha256": "f1e06d37ea8b51074be64bfe0fb7978dbdc936a4622f3b76a95d01aab086480c",
+                    "signature": "7a6e03b97d5586f6214a5c18b7b82b9313e899cc164a13b492e484baa06d7913504bf614c8c1ef0ece3c6bfd430310bf95f272b5d106b527d8b178347b512d08",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.squarespace",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T08:51:01Z"
+                }
+            ]
+        },
         "apppress/trello-connector": {
             "slug": "apppress/trello-connector",
             "name": "Trello Connector",
@@ -713,5 +740,5 @@
             ]
         }
     },
-    "signature": "fc00e105ba3ebdd0c28b854f3a30b99bb38f2deb343ed128b38f662bef4e2c8092e2ac4b537d5f6a6fbfca3758f1f1f2f4391165c7967d7f2a38ffdd1568fb0a"
+    "signature": "7f309332ff006684c7216523a2d4d5b1c899ef3bf4391b385e3847668849f368546a6465ccf13c17390a1889ddebd7cebaa00cbea0cf06729113c4ab22e5ba09"
 }
