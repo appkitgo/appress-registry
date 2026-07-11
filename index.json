@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T20:26:13+00:00",
+    "generated_at": "2026-07-11T20:36:22+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -968,6 +968,32 @@
                 }
             ]
         },
+        "apppress/payments": {
+            "slug": "apppress/payments",
+            "name": "AppPress Payments",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-payments",
+            "tier": "first_party",
+            "description": "One-time Stripe payments: checkout sessions, payment records, full/partial refunds, receipts, and webhook sync. Implements StandardContracts::PAYMENTS.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-payments/releases/assets/473767327",
+                    "checksum_sha256": "5b0c8bc5774ee2c9ddbbd88cb2bff9aeff88198483edaa50650936d50225936e",
+                    "signature": "5f51c6fabb4c8b472b8a1a5f98a7881efb3f12fbd54f7b45a2006d370871638357f7c40f1e740cab97a5c675677532e86391410889ec6cc312252b90d94b370d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "payments"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T20:35:23Z"
+                }
+            ]
+        },
         "apppress/quickbooks-connector": {
             "slug": "apppress/quickbooks-connector",
             "name": "QuickBooks Connector",
@@ -1431,5 +1457,5 @@
             ]
         }
     },
-    "signature": "92dee5e4fcea6a993438de279f4cda628ceeb6a0e8147fe35ee18390d04c64551190435483962e15743b5e0b2e2d3680867372371f9b3e20f7af28ddcb35f706"
+    "signature": "63d841523eccf7d5a55c303a5dbcdbcfd9b57d5eb017a3e6f79c14719b58203b94baf0e4add5bf815f06aea2b00bb358be0e0ab1c0a959de0ac20ab583569d0e"
 }
