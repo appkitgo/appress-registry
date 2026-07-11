@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T16:47:24+00:00",
+    "generated_at": "2026-07-11T16:52:19+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/airtable-connector": {
@@ -762,6 +762,35 @@
                 }
             ]
         },
+        "apppress/workflows": {
+            "slug": "apppress/workflows",
+            "name": "AppPress Workflows",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-workflows",
+            "tier": "first_party",
+            "description": "Visual automation engine for AppPress \u2014 trigger \u2192 conditions \u2192 actions. When X happens, do Y. Supports 19 built-in triggers, 13 built-in actions, HMAC-signed webhook ingress, approval gates, delayed steps, conditional branching, formula evaluation, version snapshots with rollback, multi-site scoping, and rate-limiting circuit breakers. Implements StandardContracts::WORKFLOWS so any App Pack can resolve the workflow service without a direct dependency.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-workflows/releases/assets/473637619",
+                    "checksum_sha256": "3897c76a98332451c3672fcc4a99a269df6f49cf27df04b43518e478913ea062",
+                    "signature": "5bab1d29f09b115e2577ab181654121c76d14185d7d1e0b54f5b850ff31f55066cb1067e5b2abd3b976539bc1cac6683b9f1b98fdc3ff5ae79aa6c62b66c5909",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "workflow",
+                        "workflow.trigger",
+                        "workflow.action",
+                        "workflow.condition"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T16:51:23Z"
+                }
+            ]
+        },
         "apppress/xero-connector": {
             "slug": "apppress/xero-connector",
             "name": "Xero Connector",
@@ -819,5 +848,5 @@
             ]
         }
     },
-    "signature": "6e2ce54902aef6970c311ca179b4dd2402cad6a2c9ab1b62377ea5f0109b939c371b39d533e6bb256932bc6f7ec4da642467adc1ba6dd6e260f9be0fa018030a"
+    "signature": "0235b4d7b902fe92feb8d630c8b171c668e0ece986cd0b78570751a31ead86c505fa2fbb60c1ac9359937ff354e8041c172264797413d2f724ac9d3265aa8e0a"
 }
