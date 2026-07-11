@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T17:20:06+00:00",
+    "generated_at": "2026-07-11T17:26:03+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/airtable-connector": {
@@ -460,6 +460,37 @@
                 }
             ]
         },
+        "apppress/media": {
+            "slug": "apppress/media",
+            "name": "AppPress Media Processing",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-media",
+            "tier": "first_party",
+            "description": "Image processing pipeline for the core media library: responsive variants, WebP conversion, EXIF stripping, metadata extraction, background queue processing, operator dashboard, and mobile gallery surfaces. Implements StandardContracts::MEDIA so App Packs and plugins can trigger processing without direct coupling.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-media/releases/assets/473658079",
+                    "checksum_sha256": "61379b1b94f4a1afc90b470fd2346331f32850f77e969564cb3e41e853d26d89",
+                    "signature": "59a14f4aadce2ea7fc4b173c818de280277813400087ecd41803467b83fb3062e160a745daed0eb14ece84264c4052dd8a79707fef2a884af510412f92ff5505",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "media-processing",
+                        "image-variants",
+                        "webp",
+                        "exif-stripping",
+                        "processing-queue",
+                        "storage-savings-reporting"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T17:24:36Z"
+                }
+            ]
+        },
         "apppress/mixpanel-connector": {
             "slug": "apppress/mixpanel-connector",
             "name": "Mixpanel Connector",
@@ -914,5 +945,5 @@
             ]
         }
     },
-    "signature": "881afab09c055c0ce6cbd3bc14d88cb1e6a1f146cac62cb7d249e3479520691afc797b3e87fce0737c34851dcb59322822c764498735dd6220932acdd55b6703"
+    "signature": "fdff1872d6cf604c061687ebf6b44377135aa0d3aa1d44288802ea702da06e0d52d07032bfde1588de3dae42de7620bd2644a7c2e47d700e085cf1d921a82a05"
 }

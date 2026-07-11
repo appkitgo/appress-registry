@@ -1,0 +1,54 @@
+{
+    "slug": "apppress/media",
+    "name": "AppPress Media Processing",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Image processing pipeline for the core media library: responsive variants, WebP conversion, EXIF stripping, metadata extraction, background queue processing, operator dashboard, and mobile gallery surfaces. Implements StandardContracts::MEDIA so App Packs and plugins can trigger processing without direct coupling.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T17:24:36Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-media/releases/assets/473658079",
+    "checksum_sha256": "61379b1b94f4a1afc90b470fd2346331f32850f77e969564cb3e41e853d26d89",
+    "signature": "59a14f4aadce2ea7fc4b173c818de280277813400087ecd41803467b83fb3062e160a745daed0eb14ece84264c4052dd8a79707fef2a884af510412f92ff5505",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "media-processing",
+        "image-variants",
+        "webp",
+        "exif-stripping",
+        "processing-queue",
+        "storage-savings-reporting"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-media/releases/assets/473658079",
+            "checksum_sha256": "61379b1b94f4a1afc90b470fd2346331f32850f77e969564cb3e41e853d26d89",
+            "signature": "59a14f4aadce2ea7fc4b173c818de280277813400087ecd41803467b83fb3062e160a745daed0eb14ece84264c4052dd8a79707fef2a884af510412f92ff5505",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "media-processing",
+                "image-variants",
+                "webp",
+                "exif-stripping",
+                "processing-queue",
+                "storage-savings-reporting"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T17:24:36Z"
+        }
+    ]
+}
