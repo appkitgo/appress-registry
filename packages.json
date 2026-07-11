@@ -446,6 +446,13 @@
             "manifest_path": "../plugin-notifications/appress.json"
         },
         {
+            "slug": "apppress/notion-connector",
+            "github_repo": "appkitgo/plugin-notion-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-notion-connector/appress.json"
+        },
+        {
             "slug": "apppress/onboarding",
             "github_repo": "appkitgo/plugin-onboarding",
             "tier": "first_party",
