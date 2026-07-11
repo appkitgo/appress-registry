@@ -756,6 +756,13 @@
             "manifest_path": "../plugin-square-connector/appress.json"
         },
         {
+            "slug": "apppress/squarespace-connector",
+            "github_repo": "appkitgo/plugin-squarespace-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-squarespace-connector/appress.json"
+        },
+        {
             "slug": "apppress/storefront",
             "github_repo": "appkitgo/theme-storefront",
             "tier": "first_party",
