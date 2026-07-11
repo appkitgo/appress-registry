@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T19:03:27+00:00",
+    "generated_at": "2026-07-11T19:12:04+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1054,6 +1054,39 @@
                 }
             ]
         },
+        "apppress/surveys": {
+            "slug": "apppress/surveys",
+            "name": "AppPress Surveys",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-surveys",
+            "tier": "first_party",
+            "description": "Survey builder with multiple question types, NPS scoring, conditional logic, response analytics, shareable public links, mobile pulse forms, workflow triggers/actions, and StandardContracts::SURVEYS for cross-plugin integration.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-surveys/releases/assets/473715738",
+                    "checksum_sha256": "7aa2c687150814b35c0ab6e23e4347d2ee9cca57761265d4ce30a48b5a438c09",
+                    "signature": "0e7b6bf54d8ad076e76ee3e24d0ffe26e72671c05c0619d8ba01f983bab419dca4b667417a46bc3efb8d841e634949cd692cefc6a7020f74698822ac68226807",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "surveys",
+                        "feedback_collection",
+                        "nps_scoring",
+                        "response_analytics",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "mobile_surfaces",
+                        "admin_dashboard"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T19:11:06Z"
+                }
+            ]
+        },
         "apppress/trello-connector": {
             "slug": "apppress/trello-connector",
             "name": "Trello Connector",
@@ -1221,5 +1254,5 @@
             ]
         }
     },
-    "signature": "0fe09ee211e2c31a6487fed925a3315d519d35879604f9dece59371b3126efb2ff7cebde950ea85b84e0ff835fc092e627098b8fb8f460cc7415c1f10b373207"
+    "signature": "6eb5988f38baac19102f66c9a3c44dedf9caa3bbb2a211d45e63526751d4c68b8bdb7b68b696360a23244495b793cdd437d9b4e9c89b82b3507cc87f19f93c05"
 }
