@@ -397,6 +397,13 @@
             "manifest_path": "../plugin-invoices/appress.json"
         },
         {
+            "slug": "apppress/jira-connector",
+            "github_repo": "appkitgo/plugin-jira-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-jira-connector/appress.json"
+        },
+        {
             "slug": "apppress/knowledge-base",
             "github_repo": "appkitgo/plugin-knowledge-base",
             "tier": "first_party",
