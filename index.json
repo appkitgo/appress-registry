@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T17:16:22+00:00",
+    "generated_at": "2026-07-11T17:20:06+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/airtable-connector": {
@@ -207,6 +207,35 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T03:25:05Z"
+                }
+            ]
+        },
+        "apppress/forms": {
+            "slug": "apppress/forms",
+            "name": "AppPress Forms",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-forms",
+            "tier": "first_party",
+            "description": "Drag-and-drop form builder for public intake and operator-managed capture \u2014 submissions, email notifications, honeypot and rate-limit spam protection, optional anti-spam middleware, CSV export, workflow triggers, and mobile FormScreen embeds. Implements StandardContracts::FORMS.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-forms/releases/assets/473655368",
+                    "checksum_sha256": "ea38f597f54cca5bd56fef78a09c4d9cd1fca7f9f7f263d7ce9ada113d514db6",
+                    "signature": "dea700ba8d9a055556900abf2a2b68cce022571dcc9bdab4539e52764c0cfa5cb567319e663d647bbbfe1141683b2741c4ade623d5aca48c8b67f4d41bc05c04",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "forms",
+                        "intake",
+                        "submission_storage",
+                        "public_submission"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T17:19:16Z"
                 }
             ]
         },
@@ -885,5 +914,5 @@
             ]
         }
     },
-    "signature": "c4586d53861e353386b177648b3dc9d2829d8a3e11541888359cfeabdbb509f79651fc045b4336e92745c4eb7364051932ababf27f95d406990e4f37ac739e0d"
+    "signature": "881afab09c055c0ce6cbd3bc14d88cb1e6a1f146cac62cb7d249e3479520691afc797b3e87fce0737c34851dcb59322822c764498735dd6220932acdd55b6703"
 }
