@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T20:36:22+00:00",
+    "generated_at": "2026-07-11T20:45:15+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -675,6 +675,36 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T05:12:09Z"
+                }
+            ]
+        },
+        "apppress/invoices": {
+            "slug": "apppress/invoices",
+            "name": "AppPress Invoices",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-invoices",
+            "tier": "first_party",
+            "description": "Standalone invoice management with line items, tax, PDF generation, payment recording, overdue detection, automated reminders, and public client view links.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-invoices/releases/assets/473773182",
+                    "checksum_sha256": "cbdce85f1418770f71f2492f9a07cab95b82f59ff899e2938735ecd1fd0d0fed",
+                    "signature": "7e86f055573897756d241318c33a189a43aaf96a7017b3f64d54dfe27f8583f410eee33394f868b77e93b3b1c82a4cfe89de467f0a3cd011714103c61571520d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "invoices",
+                        "receivables",
+                        "manual_payments",
+                        "overdue_reminders",
+                        "public_client_view"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T20:44:14Z"
                 }
             ]
         },
@@ -1457,5 +1487,5 @@
             ]
         }
     },
-    "signature": "63d841523eccf7d5a55c303a5dbcdbcfd9b57d5eb017a3e6f79c14719b58203b94baf0e4add5bf815f06aea2b00bb358be0e0ab1c0a959de0ac20ab583569d0e"
+    "signature": "722756fcf21cd3100d169d54d2f7e33315c713d8bca405b7eba4487a8a2dddffec1a64958772fda8bb5ed9fd045e89862e7cd9b7680fb54b39f5c5e5cc0a880f"
 }
