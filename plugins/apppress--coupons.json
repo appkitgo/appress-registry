@@ -1,0 +1,44 @@
+{
+    "slug": "apppress/coupons",
+    "name": "AppPress Coupons",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Discount codes and coupons with percentage and fixed-amount discounts, usage limits, expiration dates, plan restrictions, and redemption tracking.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T21:19:30Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-coupons/releases/assets/473793751",
+    "checksum_sha256": "23ccf8cd3792af34f540e6294707dd5e8910d20a7b2d47a8c899d114a261f3c4",
+    "signature": "1e38c6b00be60cddd68cebe5dd7ae53aa8c6f609ffd1cd2e74ac07db0240aa7653b8ede1391541c6480d04ab4bb43008995dd5ad68eb95c0b4c8f16d44957a09",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "coupons"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-coupons/releases/assets/473793751",
+            "checksum_sha256": "23ccf8cd3792af34f540e6294707dd5e8910d20a7b2d47a8c899d114a261f3c4",
+            "signature": "1e38c6b00be60cddd68cebe5dd7ae53aa8c6f609ffd1cd2e74ac07db0240aa7653b8ede1391541c6480d04ab4bb43008995dd5ad68eb95c0b4c8f16d44957a09",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "coupons"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T21:19:30Z"
+        }
+    ]
+}

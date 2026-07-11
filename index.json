@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T21:05:58+00:00",
+    "generated_at": "2026-07-11T21:20:41+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -366,6 +366,32 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T19:02:33Z"
+                }
+            ]
+        },
+        "apppress/coupons": {
+            "slug": "apppress/coupons",
+            "name": "AppPress Coupons",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-coupons",
+            "tier": "first_party",
+            "description": "Discount codes and coupons with percentage and fixed-amount discounts, usage limits, expiration dates, plan restrictions, and redemption tracking.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-coupons/releases/assets/473793751",
+                    "checksum_sha256": "23ccf8cd3792af34f540e6294707dd5e8910d20a7b2d47a8c899d114a261f3c4",
+                    "signature": "1e38c6b00be60cddd68cebe5dd7ae53aa8c6f609ffd1cd2e74ac07db0240aa7653b8ede1391541c6480d04ab4bb43008995dd5ad68eb95c0b4c8f16d44957a09",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "coupons"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T21:19:30Z"
                 }
             ]
         },
@@ -1550,5 +1576,5 @@
             ]
         }
     },
-    "signature": "772af070d89d5e6773974ed58e9d204196d6d135421e21547fc18b20c561412e5321a37eddf25787f9b95d954a5570c04265d5f9b2b60655bef90d74cc4dc305"
+    "signature": "480395216128c6b5af5ad2104e6bade845c9900c8d371461ba13d339a23bd4081957247f14fd4c7a3a9ba3182f1a387d024f8673d2dba046dc20a18879d96400"
 }
