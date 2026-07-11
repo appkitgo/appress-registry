@@ -1,0 +1,46 @@
+{
+    "slug": "apppress/notion-connector",
+    "name": "Notion Connector",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Production Notion connector for AppPress \u2014 query, create, update, and read pages in a connected Notion database via workflow automation.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T01:40:26Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-notion-connector/releases/assets/473091401",
+    "checksum_sha256": "373e0754eabafd3678c742b5641e82a5dac1c16b6d8f67acb77902712d4d4dc7",
+    "signature": "f7a7e7f16b8bfe0b683b7aba60a2d40da0bd4266b3c72adabee555a3bee4ac9160b7794ae2e9e7af62ad0d814f4a83f7d2964585d3fda6f92f0301d934aeda0c",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.notion",
+        "data_source.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-notion-connector/releases/assets/473091401",
+            "checksum_sha256": "373e0754eabafd3678c742b5641e82a5dac1c16b6d8f67acb77902712d4d4dc7",
+            "signature": "f7a7e7f16b8bfe0b683b7aba60a2d40da0bd4266b3c72adabee555a3bee4ac9160b7794ae2e9e7af62ad0d814f4a83f7d2964585d3fda6f92f0301d934aeda0c",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.notion",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T01:40:26Z"
+        }
+    ]
+}

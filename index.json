@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T01:16:23+00:00",
+    "generated_at": "2026-07-11T01:41:15+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/billing": {
@@ -134,6 +134,33 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-10T20:40:31Z"
+                }
+            ]
+        },
+        "apppress/notion-connector": {
+            "slug": "apppress/notion-connector",
+            "name": "Notion Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-notion-connector",
+            "tier": "first_party",
+            "description": "Production Notion connector for AppPress \u2014 query, create, update, and read pages in a connected Notion database via workflow automation.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-notion-connector/releases/assets/473091401",
+                    "checksum_sha256": "373e0754eabafd3678c742b5641e82a5dac1c16b6d8f67acb77902712d4d4dc7",
+                    "signature": "f7a7e7f16b8bfe0b683b7aba60a2d40da0bd4266b3c72adabee555a3bee4ac9160b7794ae2e9e7af62ad0d814f4a83f7d2964585d3fda6f92f0301d934aeda0c",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.notion",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T01:40:26Z"
                 }
             ]
         },
@@ -275,5 +302,5 @@
             ]
         }
     },
-    "signature": "fbcd77a426b8aeb4292b6b43757adc219b91684e7108a4489ea5a8494a4d45d161c67a93de335a2ce0fefbdc88b787181102377e65ed716b848944bc08acd902"
+    "signature": "6d01dd491f2c7ca8fb18ce0a25ecc6ad1801bada93cc10f6a2f01df799d691f07085995b5baa68a2ecb599ea7bc850b6ae6d736b11c49092caf2539e376af807"
 }
