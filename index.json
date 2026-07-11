@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T17:39:10+00:00",
+    "generated_at": "2026-07-11T17:55:50+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -57,6 +57,41 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T06:04:41Z"
+                }
+            ]
+        },
+        "apppress/api-keys": {
+            "slug": "apppress/api-keys",
+            "name": "AppPress API Keys",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-api-keys",
+            "tier": "first_party",
+            "description": "Named API keys with scoped permissions, per-key rate limiting, usage analytics, zero-downtime key rotation, and full connector/workflow integration. Implements StandardContracts::API_KEYS.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.2.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-api-keys/releases/assets/473674378",
+                    "checksum_sha256": "15e2bbd96165b1d78dbf4c8625eae0168563d713c6144577351ce46f4961a9aa",
+                    "signature": "6f817ad1ec9f6d4e0b862bdf3ee2e3ec4516a9e9c145ce1c144c54ca13d4dcdfb090c2542e90408523b8ebefb2d824b7ead18f295bfff97adbbc6c8a8744060a",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "api-keys",
+                        "api_key_management",
+                        "developer_credentials",
+                        "scoped_permissions",
+                        "rate_limiting",
+                        "key_rotation",
+                        "usage_analytics",
+                        "webhook_ingress",
+                        "external_provision",
+                        "middleware_auth"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T17:54:34Z"
                 }
             ]
         },
@@ -1004,5 +1039,5 @@
             ]
         }
     },
-    "signature": "992d33efa214b5cd00d719f43be9095e62ef590fb42018f64434cfa893f53bc81cad25c95631f518ac848e3a0eb18fc270b83133a17dc2180804e0b46189350e"
+    "signature": "28af18933d76822c9a975f20b1bf7d1e45a959e73e8f95e708a4093040a5721a85bb56a163c82398731f0c42ffc156bb79a614147cf8ce125ce374ff6e508d09"
 }
