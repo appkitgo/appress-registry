@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T01:41:15+00:00",
+    "generated_at": "2026-07-11T02:07:18+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/billing": {
@@ -219,6 +219,33 @@
                 }
             ]
         },
+        "apppress/shopify-connector": {
+            "slug": "apppress/shopify-connector",
+            "name": "Shopify Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-shopify-connector",
+            "tier": "first_party",
+            "description": "Production Shopify connector for AppPress \u2014 find/create/update customers and read orders via workflow automation, with real order webhooks.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-shopify-connector/releases/assets/473108979",
+                    "checksum_sha256": "3ae00770e6008c3312d86ee4bba79fb8b61eec46ebf75b8973a74dc1c1974c98",
+                    "signature": "635f7daf33ef912efc617c7cb477a678effdb79ed0dd3e9b22a83838eaae92bceb0827ddebceaf4a649f5585ac7c0d36b0dc9ceab4f6225127182c6b95fc2406",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.shopify",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T02:06:37Z"
+                }
+            ]
+        },
         "apppress/slack-connector": {
             "slug": "apppress/slack-connector",
             "name": "Slack Connector",
@@ -302,5 +329,5 @@
             ]
         }
     },
-    "signature": "6d01dd491f2c7ca8fb18ce0a25ecc6ad1801bada93cc10f6a2f01df799d691f07085995b5baa68a2ecb599ea7bc850b6ae6d736b11c49092caf2539e376af807"
+    "signature": "228deda858e12e455dcfe0027d75b0876c001fd581464f37c02372e595cc33b088736971c2c03c02e3bb63e48aaf882b232cf15ab7d57c6ea007d3936b84240f"
 }
