@@ -826,6 +826,13 @@
             "manifest_path": "../plugin-two-factor/appress.json"
         },
         {
+            "slug": "apppress/typeform-connector",
+            "github_repo": "appkitgo/plugin-typeform-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-typeform-connector/appress.json"
+        },
+        {
             "slug": "apppress/university-directory-connector",
             "github_repo": "appkitgo/plugin-university-directory-connector",
             "tier": "first_party",
