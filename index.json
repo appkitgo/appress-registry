@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T03:25:46+00:00",
+    "generated_at": "2026-07-11T03:48:29+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/asana-connector": {
@@ -134,6 +134,33 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T03:25:05Z"
+                }
+            ]
+        },
+        "apppress/github-connector": {
+            "slug": "apppress/github-connector",
+            "name": "GitHub Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-github-connector",
+            "tier": "first_party",
+            "description": "Production GitHub connector for AppPress \u2014 find/create issues, comment on issues, and read repositories via workflow automation, with real issue/comment webhooks.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-github-connector/releases/assets/473177058",
+                    "checksum_sha256": "6f686ce34082e30ade821ec72372ae8069fd572696edfdf9e563d47eba97faf6",
+                    "signature": "a7726cb6e598e78789cfe0d572bddeb2d17db6087eea73c5c5663d5447b437bfbbe9ce4e8567976d79f4fa32b423ad1401940a9f3c371d498a0f01c573396102",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.github",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T03:47:50Z"
                 }
             ]
         },
@@ -413,5 +440,5 @@
             ]
         }
     },
-    "signature": "62db8f73f169c66d3ff9d76ecdbe308a997769d193bbff68e27cf28f0532e757633e700f9d012a110c886a0e531f51906d8c6fe7128f11b12039fcdfd8e54803"
+    "signature": "4d96fdc9ccf38b8bfe3a3ae4581058df5e01a39683809433887fc4eb5f3d73d5ddc99872917d6e0adfca384e21504ee3ca0beb720acdc5e08e30340f189d100f"
 }

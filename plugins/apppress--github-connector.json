@@ -1,0 +1,46 @@
+{
+    "slug": "apppress/github-connector",
+    "name": "GitHub Connector",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Production GitHub connector for AppPress \u2014 find/create issues, comment on issues, and read repositories via workflow automation, with real issue/comment webhooks.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T03:47:50Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-github-connector/releases/assets/473177058",
+    "checksum_sha256": "6f686ce34082e30ade821ec72372ae8069fd572696edfdf9e563d47eba97faf6",
+    "signature": "a7726cb6e598e78789cfe0d572bddeb2d17db6087eea73c5c5663d5447b437bfbbe9ce4e8567976d79f4fa32b423ad1401940a9f3c371d498a0f01c573396102",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.github",
+        "data_source.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-github-connector/releases/assets/473177058",
+            "checksum_sha256": "6f686ce34082e30ade821ec72372ae8069fd572696edfdf9e563d47eba97faf6",
+            "signature": "a7726cb6e598e78789cfe0d572bddeb2d17db6087eea73c5c5663d5447b437bfbbe9ce4e8567976d79f4fa32b423ad1401940a9f3c371d498a0f01c573396102",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.github",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T03:47:50Z"
+        }
+    ]
+}
