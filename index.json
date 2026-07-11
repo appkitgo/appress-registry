@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T05:12:49+00:00",
+    "generated_at": "2026-07-11T05:38:21+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/asana-connector": {
@@ -246,6 +246,33 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T05:12:09Z"
+                }
+            ]
+        },
+        "apppress/klaviyo-connector": {
+            "slug": "apppress/klaviyo-connector",
+            "name": "Klaviyo Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-klaviyo-connector",
+            "tier": "first_party",
+            "description": "Connect Klaviyo for marketing profile/event management and workflow automation on list-subscribe and email-engagement events.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-klaviyo-connector/releases/assets/473243636",
+                    "checksum_sha256": "3890b611c444a3f9b6eda1c1f4dc6da6342a6c0f153a0ccde6c4cacbf9e9d24d",
+                    "signature": "65fd7a7d0dcd9bd2cdbdb1e4108c745541bfe6b777060551f6f759af09684b5309b35fda350b07f4ea81e24bfcbf186b07502e4ee018d3e7962ec9c847b3ac05",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.klaviyo",
+                        "marketing.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T05:37:09Z"
                 }
             ]
         },
@@ -523,5 +550,5 @@
             ]
         }
     },
-    "signature": "b5ff3d52deae7191beacc95dd3e75458da579ba11ce2cfb1d6cfa5595311a6fec1c6a674ced85f2bc23212032497dee63b51f40252466c8c9499433483349c0b"
+    "signature": "9b960f46e8b5e9a5a445b4210d8d5a40307a52962fedc48bacab193eb83d2a63b8a2b5806b0b39fda6ce782d7fbac92cdb3a78331c0e030c796dd006f8a1a907"
 }
