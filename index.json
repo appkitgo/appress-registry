@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T20:13:44+00:00",
+    "generated_at": "2026-07-11T20:26:13+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -849,6 +849,32 @@
                 }
             ]
         },
+        "apppress/newsletters": {
+            "slug": "apppress/newsletters",
+            "name": "AppPress Newsletters",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-newsletters",
+            "tier": "first_party",
+            "description": "Newsletter list management with subscriber opt-in (single or double), HTML issue composition, scheduled or immediate delivery, open and click tracking, public subscribe blocks, mobile FormScreen subscription, and subscriber import/export. Implements StandardContracts::NEWSLETTERS.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-newsletters/releases/assets/473759776",
+                    "checksum_sha256": "eb1d3bc7da8c6c240644993f039519880e4ad532dd3dbcdbd8f2ce72949f22b1",
+                    "signature": "adb42bdf909f07f7d5cca027e6aae751f3283b900fe83e8fb03095ee76b2a3c6dc66be445bb89ae9fa4e28d63da851768923ae2d54401e1479ebbcdcca446d00",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "newsletters"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T20:24:12Z"
+                }
+            ]
+        },
         "apppress/notifications": {
             "slug": "apppress/notifications",
             "name": "AppPress Notifications",
@@ -1405,5 +1431,5 @@
             ]
         }
     },
-    "signature": "cdf53ff9b7ef774a33b73fc9c8512fe06b3f9fd493129621790236da6153f370f6ed2c66ade39a8f9ec230bcabb6cdc145145b27c0c3ea786cf30bd80c2a6300"
+    "signature": "92dee5e4fcea6a993438de279f4cda628ceeb6a0e8147fe35ee18390d04c64551190435483962e15743b5e0b2e2d3680867372371f9b3e20f7af28ddcb35f706"
 }

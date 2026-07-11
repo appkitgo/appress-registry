@@ -1,0 +1,44 @@
+{
+    "slug": "apppress/newsletters",
+    "name": "AppPress Newsletters",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Newsletter list management with subscriber opt-in (single or double), HTML issue composition, scheduled or immediate delivery, open and click tracking, public subscribe blocks, mobile FormScreen subscription, and subscriber import/export. Implements StandardContracts::NEWSLETTERS.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T20:24:12Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-newsletters/releases/assets/473759776",
+    "checksum_sha256": "eb1d3bc7da8c6c240644993f039519880e4ad532dd3dbcdbd8f2ce72949f22b1",
+    "signature": "adb42bdf909f07f7d5cca027e6aae751f3283b900fe83e8fb03095ee76b2a3c6dc66be445bb89ae9fa4e28d63da851768923ae2d54401e1479ebbcdcca446d00",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "newsletters"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-newsletters/releases/assets/473759776",
+            "checksum_sha256": "eb1d3bc7da8c6c240644993f039519880e4ad532dd3dbcdbd8f2ce72949f22b1",
+            "signature": "adb42bdf909f07f7d5cca027e6aae751f3283b900fe83e8fb03095ee76b2a3c6dc66be445bb89ae9fa4e28d63da851768923ae2d54401e1479ebbcdcca446d00",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "newsletters"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T20:24:12Z"
+        }
+    ]
+}
