@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T22:12:12+00:00",
+    "generated_at": "2026-07-11T22:23:56+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1138,6 +1138,34 @@
                 }
             ]
         },
+        "apppress/pipelines": {
+            "slug": "apppress/pipelines",
+            "name": "AppPress Pipelines",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-pipelines",
+            "tier": "first_party",
+            "description": "CRM sales pipeline management with configurable stages, deal tracking, activity logging, win/loss analytics, and kanban board view.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-pipelines/releases/assets/473828377",
+                    "checksum_sha256": "2e6dcf4f9dada63b96a374f882275880fe583976388bac198e07b82cc2f86d76",
+                    "signature": "e81497e3ca28690bdc67cca06c6938c08cb3a3ebe95003e663f86c86a4038c1c30d831d43b7ad2718f67328116152a09772714da79e1828b89e93a62601a450d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "pipelines",
+                        "crm",
+                        "deal_tracking"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T22:22:03Z"
+                }
+            ]
+        },
         "apppress/products": {
             "slug": "apppress/products",
             "name": "AppPress Products",
@@ -1692,5 +1720,5 @@
             ]
         }
     },
-    "signature": "0f45e1ee4b744d9075462bc19ed208571f9a1ce92aff82ca320af921ca002ebac48fb1957ae8ee010d2f69817ddc824fbe1f19340eb03403f550ce783f723e04"
+    "signature": "522a1b67fc8e289c85fd24adab5caedf2dc861efc887f029f912dd8c9807454a2eb8509a15d4f372aa39d395477fec146c21a2665260b5dbcd58d64307b73500"
 }
