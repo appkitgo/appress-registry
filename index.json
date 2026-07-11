@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T07:49:45+00:00",
+    "generated_at": "2026-07-11T08:22:20+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/airtable-connector": {
@@ -301,6 +301,33 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T05:12:09Z"
+                }
+            ]
+        },
+        "apppress/jira-connector": {
+            "slug": "apppress/jira-connector",
+            "name": "Jira Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-jira-connector",
+            "tier": "first_party",
+            "description": "Production Jira Cloud connector for AppPress \u2014 find/create/update issues, read/search projects, and workflow automation on real Jira data.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-jira-connector/releases/assets/473350200",
+                    "checksum_sha256": "b61793ee41207b322f8802d011bcac0230a569c35a38c531b1e5dc86bb34dc13",
+                    "signature": "56b9a8188afd95570af6e330f9c7a75325adb7319748d53eaa2d90c21c2485eca7181325af55ddc04143187e1f5355812bcd6efd50cb3f85d93c18c7683b240e",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.jira",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T08:21:17Z"
                 }
             ]
         },
@@ -686,5 +713,5 @@
             ]
         }
     },
-    "signature": "e6ffb94e8b46ee947cae70d6b172b66df8e4feb7afaa751956910f3a477a2fcf7c54ec589e8d1d7ba406293220eb211c99fe7a70230e66fe295cf7217e75ee0e"
+    "signature": "fc00e105ba3ebdd0c28b854f3a30b99bb38f2deb343ed128b38f662bef4e2c8092e2ac4b537d5f6a6fbfca3758f1f1f2f4391165c7967d7f2a38ffdd1568fb0a"
 }
