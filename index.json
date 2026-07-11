@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T06:37:03+00:00",
+    "generated_at": "2026-07-11T06:55:40+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/airtable-connector": {
@@ -440,6 +440,33 @@
                 }
             ]
         },
+        "apppress/segment-connector": {
+            "slug": "apppress/segment-connector",
+            "name": "Segment Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-segment-connector",
+            "tier": "first_party",
+            "description": "Write-only Segment Tracking API connector for AppPress \u2014 send track/identify events out to a Segment source from workflows. Segment is an event-ingestion endpoint, not a queryable data store: there is no read/search/update/delete operation because Segment's real API does not expose one.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-segment-connector/releases/assets/473294382",
+                    "checksum_sha256": "87d3af97defecece7fee8fc46e3bd488f447c50b081b00a73d2356adc3a296be",
+                    "signature": "366211e0cbdab79f492b723dd5b55badb383c1c1c786ae9b2baa730e1f2050583bb2684d4dcaf099c14a601ec0af13da84453f3c3bc23d98840e61d06f29910e",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.segment",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T06:54:23Z"
+                }
+            ]
+        },
         "apppress/shopify-connector": {
             "slug": "apppress/shopify-connector",
             "name": "Shopify Connector",
@@ -605,5 +632,5 @@
             ]
         }
     },
-    "signature": "b9765e6505616b41f468bb292170293bc2b7cd85319e3a9de5dc198e282213d0653d1a8f3b71ed1613d676c435b88a56017a87fd70ef2b1fe4e5da91c2083a01"
+    "signature": "cc5f2e2bf27b49bd3d3cb1e35666dc789b298edc9a4943e3ef148f479e1143277e070fa257ba263fd6729fff5d371617472ef3628919d66cf737f7e9f62dbb09"
 }
