@@ -481,6 +481,13 @@
             "manifest_path": "../theme-minimal/appress.json"
         },
         {
+            "slug": "apppress/mixpanel-connector",
+            "github_repo": "appkitgo/plugin-mixpanel-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-mixpanel-connector/appress.json"
+        },
+        {
             "slug": "apppress/newsletters",
             "github_repo": "appkitgo/plugin-newsletters",
             "tier": "first_party",
