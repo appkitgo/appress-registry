@@ -23,6 +23,7 @@ declare(strict_types=1);
 
 $root = dirname(__DIR__);
 require $root.'/scripts/lib/license_fields.php';
+require __DIR__.'/lib/index-entry-resolution.php';
 $useFeatured = in_array('--featured', $argv ?? [], true) || getenv('INDEX_SCOPE') === 'featured';
 $packagesFile = $root.'/'.($useFeatured ? 'featured-packages.json' : 'packages.json');
 $outputIndex = $root.'/index.json';
@@ -88,7 +89,10 @@ foreach ($catalog['packages'] as $entry) {
 
     fwrite(STDERR, "Resolving {$slug} ({$githubRepo})...\n");
 
-    $release = fetchLatestRelease($githubRepo, $githubToken);
+    $tagPrefix = (string) ($entry['tag_prefix'] ?? '');
+    $release = $tagPrefix !== ''
+        ? fetchLatestReleaseByPrefix($githubRepo, $tagPrefix, $githubToken)
+        : fetchLatestRelease($githubRepo, $githubToken);
     if ($release === null) {
         // No release cut yet — a soft skip during incremental fleet rollout:
         // the package is simply absent from the index (uninstallable), which
@@ -100,22 +104,35 @@ foreach ($catalog['packages'] as $entry) {
     }
 
     $tag = (string) $release['tag_name'];
-    $manifest = fetchManifestAtRef($githubRepo, $tag, $githubToken);
-    if ($manifest === null) {
-        $failures[] = "{$slug}: could not fetch appress.json at tag {$tag} for {$githubRepo}";
 
-        continue;
+    $versionFile = (string) ($entry['version_file'] ?? '');
+    if ($versionFile !== '') {
+        $rawVersion = fetchRawFileAtRef($githubRepo, $tag, $versionFile, $githubToken);
+        $version = $rawVersion !== null ? trim($rawVersion) : '';
+        $manifest = [
+            'name' => (string) ($entry['name'] ?? $slug),
+            'description' => (string) ($entry['description'] ?? ''),
+            'version' => $version,
+            'min_core_version' => $version,
+        ];
+    } else {
+        $manifest = fetchManifestAtRef($githubRepo, $tag, $githubToken);
+        if ($manifest === null) {
+            $failures[] = "{$slug}: could not fetch appress.json at tag {$tag} for {$githubRepo}";
+
+            continue;
+        }
+        $version = (string) ($manifest['version'] ?? '');
     }
 
-    $version = (string) ($manifest['version'] ?? '');
     if ($version === '') {
-        $failures[] = "{$slug}: manifest at tag {$tag} has no version";
+        $failures[] = "{$slug}: could not resolve a version at tag {$tag}";
 
         continue;
     }
 
     $shortSlug = basename($slug);
-    $artifact = "{$shortSlug}-{$version}.zip";
+    $artifact = resolveArtifactName($entry, $shortSlug, $version);
 
     // A release with ZERO matching artifact assets is a legacy empty release
     // (the retired `appress publish` created bare releases with no zip) —
@@ -355,6 +372,60 @@ function fetchLatestRelease(string $githubRepo, string $githubToken): ?array
     $decoded = json_decode($body, true);
 
     return is_array($decoded) && isset($decoded['tag_name']) ? $decoded : null;
+}
+
+/**
+ * Fetch the latest GitHub release whose tag matches a prefix (newest-first
+ * among matches). Used instead of fetchLatestRelease() /releases/latest,
+ * which returns the single most-recently-published release for the WHOLE
+ * repo — unsafe once that repo also cuts other tag-prefixed releases (e.g.
+ * embedded app-pack releases) from the same repo.
+ *
+ * @return array<string, mixed>|null
+ */
+function fetchLatestReleaseByPrefix(string $githubRepo, string $tagPrefix, string $githubToken): ?array
+{
+    $headers = [
+        'Accept: application/vnd.github+json',
+        'User-Agent: appress-registry-index-generator',
+    ];
+    if ($githubToken !== '') {
+        $headers[] = "Authorization: Bearer {$githubToken}";
+    }
+
+    // /releases/latest returns the single most-recently-published release
+    // for the WHOLE repo — unsafe for app-press, which also cuts embedded
+    // app-pack releases ({pack}-v{version} tags) from the same repo.
+    // List releases (already newest-first) and take the first match.
+    $url = "https://api.github.com/repos/{$githubRepo}/releases?per_page=30";
+    $body = httpGet($url, $headers);
+    if ($body === null) {
+        return null;
+    }
+
+    $releases = json_decode($body, true);
+    if (! is_array($releases)) {
+        return null;
+    }
+
+    foreach ($releases as $release) {
+        if (is_array($release) && matchesTagPrefix((string) ($release['tag_name'] ?? ''), $tagPrefix)) {
+            return $release;
+        }
+    }
+
+    return null;
+}
+
+/**
+ * Fetch a plain-text file (e.g. a VERSION file) at a specific tag ref.
+ */
+function fetchRawFileAtRef(string $githubRepo, string $tag, string $path, string $githubToken): ?string
+{
+    $headers = $githubToken !== '' ? ["Authorization: Bearer {$githubToken}"] : [];
+    $url = "https://raw.githubusercontent.com/{$githubRepo}/{$tag}/{$path}";
+
+    return httpGet($url, $headers);
 }
 
 /**

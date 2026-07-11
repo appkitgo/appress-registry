@@ -70,8 +70,8 @@ foreach ($packages as $slug => $package) {
         }
     }
 
-    if (isset($package['type']) && ! in_array($package['type'], ['plugin', 'theme', 'app-pack'], true)) {
-        $errors[] = "{$prefix}.type must be one of plugin/theme/app-pack, got: ".json_encode($package['type']);
+    if (isset($package['type']) && ! in_array($package['type'], ['plugin', 'theme', 'app-pack', 'core'], true)) {
+        $errors[] = "{$prefix}.type must be one of plugin/theme/app-pack/core, got: ".json_encode($package['type']);
     }
 
     if (isset($package['tier']) && ! in_array($package['tier'], ['first_party', 'certified', 'community'], true)) {

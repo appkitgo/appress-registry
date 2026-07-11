@@ -21,7 +21,7 @@
       "properties": {
         "slug": { "type": "string" },
         "name": { "type": "string" },
-        "type": { "enum": ["plugin", "theme", "app-pack"] },
+        "type": { "enum": ["plugin", "theme", "app-pack", "core"] },
         "github_repo": { "type": "string" },
         "tier": { "enum": ["first_party", "certified", "community"] },
         "description": { "type": "string" },
