@@ -1,0 +1,44 @@
+{
+    "slug": "apppress/blog",
+    "name": "AppPress Blog",
+    "version": "1.0.1",
+    "author": "AppPress",
+    "description": "Full blog and content publishing engine with post scheduling, revision history, RSS feed, category management, reading time, and cross-plugin integrations for SEO, tags, and comments.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T20:12:18Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-blog/releases/assets/473753082",
+    "checksum_sha256": "9f2308dfd35999ddb95ff78b8e32559f3dc7ae9985f4f99f611727baefeaab19",
+    "signature": "0bf73d41b20aa7f5712d6e21c6d8850df13cc912e451ab8843c3620c4254522628e90bcf57186af5d02774e174f59b9afbfbe78016c63198587f9bbedb1f4d09",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "blog"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-blog/releases/assets/473753082",
+            "checksum_sha256": "9f2308dfd35999ddb95ff78b8e32559f3dc7ae9985f4f99f611727baefeaab19",
+            "signature": "0bf73d41b20aa7f5712d6e21c6d8850df13cc912e451ab8843c3620c4254522628e90bcf57186af5d02774e174f59b9afbfbe78016c63198587f9bbedb1f4d09",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "blog"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T20:12:18Z"
+        }
+    ]
+}

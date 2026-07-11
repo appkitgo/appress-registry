@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T20:02:52+00:00",
+    "generated_at": "2026-07-11T20:13:44+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -282,6 +282,32 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T15:37:00Z"
+                }
+            ]
+        },
+        "apppress/blog": {
+            "slug": "apppress/blog",
+            "name": "AppPress Blog",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-blog",
+            "tier": "first_party",
+            "description": "Full blog and content publishing engine with post scheduling, revision history, RSS feed, category management, reading time, and cross-plugin integrations for SEO, tags, and comments.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-blog/releases/assets/473753082",
+                    "checksum_sha256": "9f2308dfd35999ddb95ff78b8e32559f3dc7ae9985f4f99f611727baefeaab19",
+                    "signature": "0bf73d41b20aa7f5712d6e21c6d8850df13cc912e451ab8843c3620c4254522628e90bcf57186af5d02774e174f59b9afbfbe78016c63198587f9bbedb1f4d09",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "blog"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T20:12:18Z"
                 }
             ]
         },
@@ -1379,5 +1405,5 @@
             ]
         }
     },
-    "signature": "dd76cde4f4994b520f7a9f29e6002902bb792e979d938d797db2c3434d9d92721606e7cd26c71d55080c50aefbb193b20cfdca5cec5f4802a3c016445ea95107"
+    "signature": "cdf53ff9b7ef774a33b73fc9c8512fe06b3f9fd493129621790236da6153f370f6ed2c66ade39a8f9ec230bcabb6cdc145145b27c0c3ea786cf30bd80c2a6300"
 }
