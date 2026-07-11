@@ -1,0 +1,46 @@
+{
+    "slug": "apppress/mixpanel-connector",
+    "name": "Mixpanel Connector",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Mixpanel connector for AppPress \u2014 fire-and-forget event tracking via the real-time Track API, plus read/search of user profiles via the Query/Engage API (Service Account auth). Mixpanel's ingestion side is write-only, like Segment: there is no read/update/delete on tracked events because Mixpanel's real API does not expose one.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T07:48:17Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-mixpanel-connector/releases/assets/473330821",
+    "checksum_sha256": "84e04704555454456b92155572fedfcbb9aa0c22037acff25d6a3b724a9462e1",
+    "signature": "ed995290a8f61c3b31308faed5e15e5545a0e555444e4201db80cc8d32eebda5f6ef98903c43e2e837f5cc71e97b264f0177896170bfd0c5c7a7ef061296cb01",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.mixpanel",
+        "data_source.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-mixpanel-connector/releases/assets/473330821",
+            "checksum_sha256": "84e04704555454456b92155572fedfcbb9aa0c22037acff25d6a3b724a9462e1",
+            "signature": "ed995290a8f61c3b31308faed5e15e5545a0e555444e4201db80cc8d32eebda5f6ef98903c43e2e837f5cc71e97b264f0177896170bfd0c5c7a7ef061296cb01",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.mixpanel",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T07:48:17Z"
+        }
+    ]
+}

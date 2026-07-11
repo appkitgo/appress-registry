@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T07:24:07+00:00",
+    "generated_at": "2026-07-11T07:49:45+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/airtable-connector": {
@@ -358,6 +358,33 @@
                 }
             ]
         },
+        "apppress/mixpanel-connector": {
+            "slug": "apppress/mixpanel-connector",
+            "name": "Mixpanel Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-mixpanel-connector",
+            "tier": "first_party",
+            "description": "Mixpanel connector for AppPress \u2014 fire-and-forget event tracking via the real-time Track API, plus read/search of user profiles via the Query/Engage API (Service Account auth). Mixpanel's ingestion side is write-only, like Segment: there is no read/update/delete on tracked events because Mixpanel's real API does not expose one.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-mixpanel-connector/releases/assets/473330821",
+                    "checksum_sha256": "84e04704555454456b92155572fedfcbb9aa0c22037acff25d6a3b724a9462e1",
+                    "signature": "ed995290a8f61c3b31308faed5e15e5545a0e555444e4201db80cc8d32eebda5f6ef98903c43e2e837f5cc71e97b264f0177896170bfd0c5c7a7ef061296cb01",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.mixpanel",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T07:48:17Z"
+                }
+            ]
+        },
         "apppress/notion-connector": {
             "slug": "apppress/notion-connector",
             "name": "Notion Connector",
@@ -659,5 +686,5 @@
             ]
         }
     },
-    "signature": "edd2b6dd0b8d138d545bd973f4054d8e2d17880f88132f686666916d952f75908b51a8792fb4eeba37b2b59a638f6d4c528178db2cfdf6788647eacf4e92fc03"
+    "signature": "e6ffb94e8b46ee947cae70d6b172b66df8e4feb7afaa751956910f3a477a2fcf7c54ec589e8d1d7ba406293220eb211c99fe7a70230e66fe295cf7217e75ee0e"
 }
