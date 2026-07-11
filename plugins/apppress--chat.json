@@ -1,0 +1,44 @@
+{
+    "slug": "apppress/chat",
+    "name": "AppPress Chat",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Real-time messaging with channels, DMs, threading, reactions, presence, and file attachments. Implements StandardContracts::CHAT.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-11T19:02:33Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-chat/releases/assets/473709994",
+    "checksum_sha256": "6684b672f4f7798771fa215d172747e73fec3548851d0ddb393c83fa29bc9abd",
+    "signature": "09a3bf2f926ab2ef2e71ac3c0b963642a20544da86a4bf7c2164c53cd71a1043ac22cc60c6abe79615c7b9daaab9336792a0ba50ed336614a09ab836637ba60f",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "chat"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-chat/releases/assets/473709994",
+            "checksum_sha256": "6684b672f4f7798771fa215d172747e73fec3548851d0ddb393c83fa29bc9abd",
+            "signature": "09a3bf2f926ab2ef2e71ac3c0b963642a20544da86a4bf7c2164c53cd71a1043ac22cc60c6abe79615c7b9daaab9336792a0ba50ed336614a09ab836637ba60f",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "chat"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-11T19:02:33Z"
+        }
+    ]
+}

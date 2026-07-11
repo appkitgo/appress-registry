@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T18:51:29+00:00",
+    "generated_at": "2026-07-11T19:03:27+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -314,6 +314,32 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T18:24:05Z"
+                }
+            ]
+        },
+        "apppress/chat": {
+            "slug": "apppress/chat",
+            "name": "AppPress Chat",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-chat",
+            "tier": "first_party",
+            "description": "Real-time messaging with channels, DMs, threading, reactions, presence, and file attachments. Implements StandardContracts::CHAT.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-chat/releases/assets/473709994",
+                    "checksum_sha256": "6684b672f4f7798771fa215d172747e73fec3548851d0ddb393c83fa29bc9abd",
+                    "signature": "09a3bf2f926ab2ef2e71ac3c0b963642a20544da86a4bf7c2164c53cd71a1043ac22cc60c6abe79615c7b9daaab9336792a0ba50ed336614a09ab836637ba60f",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "chat"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T19:02:33Z"
                 }
             ]
         },
@@ -1195,5 +1221,5 @@
             ]
         }
     },
-    "signature": "2fce42f7c60d4ad110b6e69ed8508e9ac87e99a4a04593225e00b49937196866e57a329f36be7b16cb46d1b87d33ea13d0aa9506be39e59222942f15aa70060e"
+    "signature": "0fe09ee211e2c31a6487fed925a3315d519d35879604f9dece59371b3126efb2ff7cebde950ea85b84e0ff835fc092e627098b8fb8f460cc7415c1f10b373207"
 }
