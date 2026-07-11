@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T00:26:45+00:00",
+    "generated_at": "2026-07-11T00:57:29+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/billing": {
@@ -217,7 +217,35 @@
                     "published_at": "2026-07-10T20:08:13Z"
                 }
             ]
+        },
+        "apppress/zendesk-connector": {
+            "slug": "apppress/zendesk-connector",
+            "name": "Zendesk Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-zendesk-connector",
+            "tier": "first_party",
+            "description": "Production Zendesk support-desk connector for CampusLaunch \u2014 create, update, and comment on tickets, list/search tickets and read users, and inbound webhook triggers for ticket-created and ticket-status-changed events.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-zendesk-connector/releases/assets/473066572",
+                    "checksum_sha256": "bdb9eea148da1c2c1b1f84304311e49a32b5d84d9ccbf0017173a2cfe7cb6761",
+                    "signature": "77c2ddd723e32fb29c913c83e2e3d061bea5cb98f88b036f1c9a068e6443e3b92ee1f5bcf3e3875694fb5e360998a49a0f9725f32f774aec94341c670493c602",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.zendesk",
+                        "support.external",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T00:56:54Z"
+                }
+            ]
         }
     },
-    "signature": "8b00191f5e40fea0e8aba421de389a584001b28e100b64f4831d3f90f0afc77fdbec34fcceaf8efdf289a018408ea72414800af156ca8e5f1b4fc3c56b9bb900"
+    "signature": "78db6b944e1cbed74cd844fecaba3b0b368ede682a1954259bf3453222df47f227ec6a1a27f44404064925ac20e603c8503bb213cf6420f0457a6a5e0578970b"
 }
