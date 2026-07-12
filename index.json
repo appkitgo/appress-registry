@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T12:42:22+00:00",
+    "generated_at": "2026-07-12T12:52:20+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1891,6 +1891,32 @@
                 }
             ]
         },
+        "apppress/ratings": {
+            "slug": "apppress/ratings",
+            "name": "AppPress Ratings & Reviews",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-ratings",
+            "tier": "first_party",
+            "description": "Universal ratings and reviews: 1-5 stars, text reviews, moderation queue, aggregate scores, helpful voting, and owner replies. Works on any model.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-ratings/releases/assets/474389821",
+                    "checksum_sha256": "bef827f4de64885189e37fc18ffec62d4f8497e2b3ba7785ecf1b047301e5598",
+                    "signature": "29273d288291a00f665a4f13994428b0f56d0141b454d5ec12191bd8f25ae158c52eba36f412001478683ad7ffa2255dd2b586760a2248278c765bd4ba428406",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "ratings"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T12:50:19Z"
+                }
+            ]
+        },
         "apppress/salesforce-connector": {
             "slug": "apppress/salesforce-connector",
             "name": "Salesforce Connector",
@@ -2296,5 +2322,5 @@
             ]
         }
     },
-    "signature": "0261fbc63db07f5c589f66fdd7a913990e83240673d56c5eb1419a80d7e511976b4972d983d32f8f59b68982ab8f5b74f3374da6d1df71a33a93b1db042b050e"
+    "signature": "512ff4d28512e054b611a55fa657cc7355c8c176b0c5f26050af29de9e2b06ec3d580aea508862a43e2997756d1a3ac141e401fbb52fb7a7269e7d435d1d5806"
 }
