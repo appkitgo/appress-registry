@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T12:52:20+00:00",
+    "generated_at": "2026-07-12T13:01:34+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1917,6 +1917,32 @@
                 }
             ]
         },
+        "apppress/referrals": {
+            "slug": "apppress/referrals",
+            "name": "AppPress Referrals",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-referrals",
+            "tier": "first_party",
+            "description": "Referral and affiliate tracking with unique codes, reward programs, multi-tier commissions, conversion tracking, and payout management.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-referrals/releases/assets/474396695",
+                    "checksum_sha256": "71fd3f6a5b01c6c7c80da729d855644160b4cfb8932cbfa80da86f521c11a712",
+                    "signature": "051d0693b61b8e45fb9b8cd8a4786021fe2b0afd984d2f34038a455a046f321d5482c57a605c998e6d6488c51f1a366b116f959de08141531d98f325385ac405",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "referrals"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T12:59:27Z"
+                }
+            ]
+        },
         "apppress/salesforce-connector": {
             "slug": "apppress/salesforce-connector",
             "name": "Salesforce Connector",
@@ -2322,5 +2348,5 @@
             ]
         }
     },
-    "signature": "512ff4d28512e054b611a55fa657cc7355c8c176b0c5f26050af29de9e2b06ec3d580aea508862a43e2997756d1a3ac141e401fbb52fb7a7269e7d435d1d5806"
+    "signature": "aacd37891f66dd8b45fe095b5572440a05c7045e57dad557931c85b53ff9f5b1950824405be7f7a810b886ab1d0480fad2b522403c3afd4c3e0aaded66b50a00"
 }

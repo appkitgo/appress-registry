@@ -1,0 +1,44 @@
+{
+    "slug": "apppress/referrals",
+    "name": "AppPress Referrals",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Referral and affiliate tracking with unique codes, reward programs, multi-tier commissions, conversion tracking, and payout management.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T12:59:27Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-referrals/releases/assets/474396695",
+    "checksum_sha256": "71fd3f6a5b01c6c7c80da729d855644160b4cfb8932cbfa80da86f521c11a712",
+    "signature": "051d0693b61b8e45fb9b8cd8a4786021fe2b0afd984d2f34038a455a046f321d5482c57a605c998e6d6488c51f1a366b116f959de08141531d98f325385ac405",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "referrals"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-referrals/releases/assets/474396695",
+            "checksum_sha256": "71fd3f6a5b01c6c7c80da729d855644160b4cfb8932cbfa80da86f521c11a712",
+            "signature": "051d0693b61b8e45fb9b8cd8a4786021fe2b0afd984d2f34038a455a046f321d5482c57a605c998e6d6488c51f1a366b116f959de08141531d98f325385ac405",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "referrals"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T12:59:27Z"
+        }
+    ]
+}
