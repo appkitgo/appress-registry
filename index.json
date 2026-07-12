@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T01:08:48+00:00",
+    "generated_at": "2026-07-12T01:20:09+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -434,6 +434,35 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T18:24:05Z"
+                }
+            ]
+        },
+        "apppress/certificates": {
+            "slug": "apppress/certificates",
+            "name": "AppPress Certificates",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-certificates",
+            "tier": "first_party",
+            "description": "Issue and verify PDF certificates for course completions, quiz passes, and custom achievements. Supports customizable HTML/CSS templates with dynamic variable substitution.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-certificates/releases/assets/473953099",
+                    "checksum_sha256": "8f1eef1ea57558f1cee4e081f50c9b91fafed82981917857b0a2eddea2ba17db",
+                    "signature": "bf10054b48962e5d9a87ea4466fb37461fb1292b37bb14b4afd383902adca06939cb2ead3271ca1a1fe9321468d3ff4408b69a349f75269e0b0de399b0247e0e",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "certificates",
+                        "pdf_generation",
+                        "certificate_verification",
+                        "achievement_credentials"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T01:18:28Z"
                 }
             ]
         },
@@ -1843,5 +1872,5 @@
             ]
         }
     },
-    "signature": "7d359b4ab7ddb237ce322231ac9e1c532271ce2d39a7cd4f445a1b2316ce52dfd8505169dffed4bd52d824a93c1d6546a340cc5f463d5f27717cdac6a4319b07"
+    "signature": "fa41edfdf7bfccf85042046fa3270d995594b9ff2f741923db2bdc6c8cd76c924fe0253ad08360ee8637d45e3addc1182f4607d3067a360140905a4a531d260f"
 }

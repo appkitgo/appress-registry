@@ -1,0 +1,50 @@
+{
+    "slug": "apppress/certificates",
+    "name": "AppPress Certificates",
+    "version": "1.0.1",
+    "author": "AppPress",
+    "description": "Issue and verify PDF certificates for course completions, quiz passes, and custom achievements. Supports customizable HTML/CSS templates with dynamic variable substitution.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T01:18:28Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-certificates/releases/assets/473953099",
+    "checksum_sha256": "8f1eef1ea57558f1cee4e081f50c9b91fafed82981917857b0a2eddea2ba17db",
+    "signature": "bf10054b48962e5d9a87ea4466fb37461fb1292b37bb14b4afd383902adca06939cb2ead3271ca1a1fe9321468d3ff4408b69a349f75269e0b0de399b0247e0e",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "certificates",
+        "pdf_generation",
+        "certificate_verification",
+        "achievement_credentials"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-certificates/releases/assets/473953099",
+            "checksum_sha256": "8f1eef1ea57558f1cee4e081f50c9b91fafed82981917857b0a2eddea2ba17db",
+            "signature": "bf10054b48962e5d9a87ea4466fb37461fb1292b37bb14b4afd383902adca06939cb2ead3271ca1a1fe9321468d3ff4408b69a349f75269e0b0de399b0247e0e",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "certificates",
+                "pdf_generation",
+                "certificate_verification",
+                "achievement_credentials"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T01:18:28Z"
+        }
+    ]
+}
