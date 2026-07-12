@@ -1,0 +1,62 @@
+{
+    "slug": "apppress/teams",
+    "name": "AppPress Teams",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Team and organisation management for AppPress \u2014 create teams, invite members by email, manage owner/admin/member roles, switch team context, and expose StandardContracts::TEAMS for App Packs (helpdesk departments, LMS cohorts, CRM sales teams, chat channels). Includes workflow triggers/actions, outbound webhooks, mobile ListScreen/DetailScreen surfaces, team-switcher block, and site-scoped multi-tenant data.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T14:17:16Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-teams/releases/assets/474450215",
+    "checksum_sha256": "88cb683cddf143bc62ee6c82dbfe569d37d65fd8397dbfa5acb960ef92e3c8e0",
+    "signature": "d346f6e45a7066d7a5be514269410f50f81058df2eb28ae0b6d2cf511fe8b5c2dcbb60443353777aec1966e2d2ceff36ee84e3752af300e4b385fd75cb4fa10c",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "teams",
+        "team_management",
+        "member_invitations",
+        "role_management",
+        "team_context_switching",
+        "workflow_triggers",
+        "workflow_actions",
+        "mobile_surfaces",
+        "admin_dashboard",
+        "standard_contract"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-teams/releases/assets/474450215",
+            "checksum_sha256": "88cb683cddf143bc62ee6c82dbfe569d37d65fd8397dbfa5acb960ef92e3c8e0",
+            "signature": "d346f6e45a7066d7a5be514269410f50f81058df2eb28ae0b6d2cf511fe8b5c2dcbb60443353777aec1966e2d2ceff36ee84e3752af300e4b385fd75cb4fa10c",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "teams",
+                "team_management",
+                "member_invitations",
+                "role_management",
+                "team_context_switching",
+                "workflow_triggers",
+                "workflow_actions",
+                "mobile_surfaces",
+                "admin_dashboard",
+                "standard_contract"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T14:17:16Z"
+        }
+    ]
+}
