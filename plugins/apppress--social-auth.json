@@ -1,0 +1,58 @@
+{
+    "slug": "apppress/social-auth",
+    "name": "AppPress Social Auth",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "OAuth 2.0 social login for AppPress \u2014 Google, GitHub, Facebook, Twitter/X, and Microsoft. Supports auto-registration, email-based account linking, encrypted token storage, connected-accounts API, workflow triggers, and StandardContracts::SOCIAL_AUTH for cross-plugin integration without tight coupling.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T13:51:22Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-social-auth/releases/assets/474431395",
+    "checksum_sha256": "7e8872e232effbd0478c6efd636efc4043f849ee9e57d84c90f292f2dfdf4472",
+    "signature": "e4ae3afb86d321a6d742f63690ec6bb154b0470f2eb9ce63b185134a39f03c70e8a827ee2f568bd3bcdd6ef8a216c391e97d4e43e6a62edab745643cc492e908",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "social-auth",
+        "oauth_login",
+        "account_linking",
+        "auto_registration",
+        "connected_accounts_api",
+        "workflow_triggers",
+        "workflow_actions",
+        "admin_dashboard"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-social-auth/releases/assets/474431395",
+            "checksum_sha256": "7e8872e232effbd0478c6efd636efc4043f849ee9e57d84c90f292f2dfdf4472",
+            "signature": "e4ae3afb86d321a6d742f63690ec6bb154b0470f2eb9ce63b185134a39f03c70e8a827ee2f568bd3bcdd6ef8a216c391e97d4e43e6a62edab745643cc492e908",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "social-auth",
+                "oauth_login",
+                "account_linking",
+                "auto_registration",
+                "connected_accounts_api",
+                "workflow_triggers",
+                "workflow_actions",
+                "admin_dashboard"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T13:51:22Z"
+        }
+    ]
+}
