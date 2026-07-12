@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T10:09:25+00:00",
+    "generated_at": "2026-07-12T10:23:06+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -634,6 +634,33 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T21:19:30Z"
+                }
+            ]
+        },
+        "apppress/custom-fields": {
+            "slug": "apppress/custom-fields",
+            "name": "AppPress Custom Fields",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-custom-fields",
+            "tier": "first_party",
+            "description": "Dynamic custom field groups and fields attachable to any model, with type validation, field groups, and a clean API for reading and writing values.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-custom-fields/releases/assets/474303444",
+                    "checksum_sha256": "cfd785062381c463afb848bd0d4792041981cdaf9c2e2bad890fbf426d7276e1",
+                    "signature": "8bb2e68c8c8a0de5e74a2b742a4e2216362c2d70e1b26f8ad07d5e07c9c34d46fc4781742ed3591ebdd766d04b75d8d88283e1b37da61d328565f84972ac450b",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "custom-fields",
+                        "metadata"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T10:22:02Z"
                 }
             ]
         },
@@ -1965,5 +1992,5 @@
             ]
         }
     },
-    "signature": "abd6dda1d4ddc66f146523bc222eecfc491cd24263fafda42cee8f62f8f14dbd5406b0fb579b0ed662c218b29713a37eab60d7494ce374692f8bc0d03d9f040c"
+    "signature": "fded80c5b62190e38376f357771e71e093a911db0673a5b989d459afd897229798fa98aacfdee9aea925377597010c1d11afe2f6fd3934a0e61cc6e0bf39fa0f"
 }

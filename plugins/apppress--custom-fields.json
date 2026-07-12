@@ -1,0 +1,46 @@
+{
+    "slug": "apppress/custom-fields",
+    "name": "AppPress Custom Fields",
+    "version": "1.0.1",
+    "author": "AppPress",
+    "description": "Dynamic custom field groups and fields attachable to any model, with type validation, field groups, and a clean API for reading and writing values.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T10:22:02Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-custom-fields/releases/assets/474303444",
+    "checksum_sha256": "cfd785062381c463afb848bd0d4792041981cdaf9c2e2bad890fbf426d7276e1",
+    "signature": "8bb2e68c8c8a0de5e74a2b742a4e2216362c2d70e1b26f8ad07d5e07c9c34d46fc4781742ed3591ebdd766d04b75d8d88283e1b37da61d328565f84972ac450b",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "custom-fields",
+        "metadata"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-custom-fields/releases/assets/474303444",
+            "checksum_sha256": "cfd785062381c463afb848bd0d4792041981cdaf9c2e2bad890fbf426d7276e1",
+            "signature": "8bb2e68c8c8a0de5e74a2b742a4e2216362c2d70e1b26f8ad07d5e07c9c34d46fc4781742ed3591ebdd766d04b75d8d88283e1b37da61d328565f84972ac450b",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "custom-fields",
+                "metadata"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T10:22:02Z"
+        }
+    ]
+}
