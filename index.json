@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T11:19:05+00:00",
+    "generated_at": "2026-07-12T11:28:07+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -973,6 +973,37 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T11:17:48Z"
+                }
+            ]
+        },
+        "apppress/geo": {
+            "slug": "apppress/geo",
+            "name": "AppPress Geo & Location",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-geo",
+            "tier": "first_party",
+            "description": "Shared geolocation primitive for AppPress \u2014 structured addresses, Nominatim geocoding, Haversine proximity search, public address autocomplete, and mobile MapScreen points. Consumed by contacts, events, appointments, and campus map app packs via StandardContracts::GEO.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-geo/releases/assets/474340020",
+                    "checksum_sha256": "63bd3a9705492ddcd8c6dfe65fac8f0b241fcd973b82dc49d518c01e028ecbf3",
+                    "signature": "3eeb76b850709698f20b69d4e9999073766872ee8856e49e7f82af7f4fce606a6197865a403a5afe0c57ef140c30c4f18d56fa7f5c6c6142ec44729c4f830f0f",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "geo",
+                        "maps",
+                        "locations",
+                        "geocoding",
+                        "proximity_search",
+                        "address_autocomplete"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T11:25:55Z"
                 }
             ]
         },
@@ -2107,5 +2138,5 @@
             ]
         }
     },
-    "signature": "b2edd8dbfbe84f6b96937995c3292279d77232194d54437e436da6521e13a78d5581b7bf28832e70a4344ee6cee613cedc11c997a399df4854e5f34cd15dff0f"
+    "signature": "e37c4129ad864c951477a92c6e87cb0ede752e81fd8a619634e0c96235297287984fbf5f70e94e497809839d2e512d88edb01cd6487b2a145fc823d836f35a0a"
 }
