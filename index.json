@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T13:22:05+00:00",
+    "generated_at": "2026-07-12T13:32:57+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2063,6 +2063,30 @@
                 }
             ]
         },
+        "apppress/search": {
+            "slug": "apppress/search",
+            "name": "AppPress Search",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-search",
+            "tier": "first_party",
+            "description": "Driver-based full-text search across all content types. Implements StandardContracts::SEARCH with SQLite FTS5 / MySQL FULLTEXT / PostgreSQL tsvector (default) and an optional Meilisearch adapter.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-search/releases/assets/474417763",
+                    "checksum_sha256": "d51960aa1711ce287dc4c440a3c5744bb327398cca22f4d752080043858d429d",
+                    "signature": "cf09bf2a47c648a197db9a0452b109b1a0512fc41491833b892d84e418dbcea72a84fe221f4c4974a83b7361664d933aefafebbcaadfbf5e45a24ad67a47e008",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-12T13:31:03Z"
+                }
+            ]
+        },
         "apppress/segment-connector": {
             "slug": "apppress/segment-connector",
             "name": "Segment Connector",
@@ -2412,5 +2436,5 @@
             ]
         }
     },
-    "signature": "1ff3e21881070d755450bfabd0868953f19742c5799f075d2d61741c137c4780e3e60daa13d1305235b5bc5fb93dd0bc7346cb1cf41efe6a1f6c4716987ce207"
+    "signature": "47b9ffcf788bd5416d23774e425a66c36e20cdf08815b66e6219faf1b8e8f3989a94f7ee7b5f1477f058ca3162e0c5b91696e96521206d590639efbed7565a05"
 }
