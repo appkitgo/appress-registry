@@ -1,0 +1,40 @@
+{
+    "slug": "apppress/content-drip",
+    "name": "AppPress Content Drip",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Scheduled, prerequisite-based, and time-gated content release for AppPress. Supports course dripping, onboarding sequences, and membership content.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T10:07:23Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-content-drip/releases/assets/474295090",
+    "checksum_sha256": "933140b6ada00db71e41c13c98527c28f9e8babfe1f47f4128817ec73ab46512",
+    "signature": "a3127b6adbf5541a883012a91e56651a90882ba371ce20eaa4a00849d1722f3274d65b6eb60f14d7809bab49c605d9b8299e588995b0ddfa24fdec3c841d7c0a",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-content-drip/releases/assets/474295090",
+            "checksum_sha256": "933140b6ada00db71e41c13c98527c28f9e8babfe1f47f4128817ec73ab46512",
+            "signature": "a3127b6adbf5541a883012a91e56651a90882ba371ce20eaa4a00849d1722f3274d65b6eb60f14d7809bab49c605d9b8299e588995b0ddfa24fdec3c841d7c0a",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-12T10:07:23Z"
+        }
+    ]
+}

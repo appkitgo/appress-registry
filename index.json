@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T02:20:31+00:00",
+    "generated_at": "2026-07-12T10:09:25+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -584,6 +584,30 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T21:51:03Z"
+                }
+            ]
+        },
+        "apppress/content-drip": {
+            "slug": "apppress/content-drip",
+            "name": "AppPress Content Drip",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-content-drip",
+            "tier": "first_party",
+            "description": "Scheduled, prerequisite-based, and time-gated content release for AppPress. Supports course dripping, onboarding sequences, and membership content.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-content-drip/releases/assets/474295090",
+                    "checksum_sha256": "933140b6ada00db71e41c13c98527c28f9e8babfe1f47f4128817ec73ab46512",
+                    "signature": "a3127b6adbf5541a883012a91e56651a90882ba371ce20eaa4a00849d1722f3274d65b6eb60f14d7809bab49c605d9b8299e588995b0ddfa24fdec3c841d7c0a",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-12T10:07:23Z"
                 }
             ]
         },
@@ -1941,5 +1965,5 @@
             ]
         }
     },
-    "signature": "36dca41afae1aed385b96e4c7e217b0997d50154d017c227628aed71381568d7da64f60aa6d96c8d8e05a9fcd56d3a620a2f7495b2a4b37fff0e3a9195ab7004"
+    "signature": "abd6dda1d4ddc66f146523bc222eecfc491cd24263fafda42cee8f62f8f14dbd5406b0fb579b0ed662c218b29713a37eab60d7494ce374692f8bc0d03d9f040c"
 }
