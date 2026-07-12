@@ -1,0 +1,44 @@
+{
+    "slug": "apppress/helpdesk",
+    "name": "HelpDesk Pro",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Complete customer support platform: ticketing, SLA management, agent dashboard, knowledge base, and customer portal.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T19:15:14Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/apppack-helpdesk/releases/assets/474653135",
+    "checksum_sha256": "97ecfc185cb6bbf0684050403a28228a3e870104dfb4ef16eb6ab5d620495ec3",
+    "signature": "d9f4322c695bf23790d3635b6695f350b745759a858fd8638c3a2dccc369e69c4f2cb6628ef0b84e6dbfa4c6fc73ea1f376f1492aca3097cdf8786dd42070903",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "helpdesk"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/apppack-helpdesk/releases/assets/474653135",
+            "checksum_sha256": "97ecfc185cb6bbf0684050403a28228a3e870104dfb4ef16eb6ab5d620495ec3",
+            "signature": "d9f4322c695bf23790d3635b6695f350b745759a858fd8638c3a2dccc369e69c4f2cb6628ef0b84e6dbfa4c6fc73ea1f376f1492aca3097cdf8786dd42070903",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "helpdesk"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T19:15:14Z"
+        }
+    ]
+}

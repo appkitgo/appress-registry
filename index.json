@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T15:54:28+00:00",
+    "generated_at": "2026-07-12T19:16:44+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1154,6 +1154,32 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T06:36:20Z"
+                }
+            ]
+        },
+        "apppress/helpdesk": {
+            "slug": "apppress/helpdesk",
+            "name": "HelpDesk Pro",
+            "type": "app-pack",
+            "github_repo": "appkitgo/apppack-helpdesk",
+            "tier": "first_party",
+            "description": "Complete customer support platform: ticketing, SLA management, agent dashboard, knowledge base, and customer portal.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/apppack-helpdesk/releases/assets/474653135",
+                    "checksum_sha256": "97ecfc185cb6bbf0684050403a28228a3e870104dfb4ef16eb6ab5d620495ec3",
+                    "signature": "d9f4322c695bf23790d3635b6695f350b745759a858fd8638c3a2dccc369e69c4f2cb6628ef0b84e6dbfa4c6fc73ea1f376f1492aca3097cdf8786dd42070903",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "helpdesk"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T19:15:14Z"
                 }
             ]
         },
@@ -2767,5 +2793,5 @@
             ]
         }
     },
-    "signature": "5d9da8872757f8ce13f6ecf3c507d6b6cca8ce731c2c87ac160089120b5d13fc1904336ebf487dd19fcfac4e703767494fa4d6d61b85666c2af1f78ca189b502"
+    "signature": "d5fa38d812066e6f81df7b0c2a567a0cc781df03e55ab68b266dcf3f82b2d97c555ee780844f0986ab7065ac20fa9283f644fe05e5a51e8698bbac314c09890a"
 }
