@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T12:11:48+00:00",
+    "generated_at": "2026-07-12T12:22:05+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1300,6 +1300,32 @@
                 }
             ]
         },
+        "apppress/loyalty": {
+            "slug": "apppress/loyalty",
+            "name": "AppPress Loyalty",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-loyalty",
+            "tier": "first_party",
+            "description": "Commerce-focused customer loyalty program with tiered points, earning rules, redeemable reward catalog, point expiry, and tier-based benefits.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-loyalty/releases/assets/474373615",
+                    "checksum_sha256": "0b61b7fe36d52fe7d6b9c28a790bbf28d6726b8a91717cd90eb57a426d3902bc",
+                    "signature": "f8d69e7d87ea24bc4f8c9bb2adec570eb8c6e5680f0b5a35acdc1d3d5ae270d70d1a78271f4340a2c28354981ab3aea985f4a8d458e7171f92d50a74ef1a7705",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "loyalty"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T12:20:44Z"
+                }
+            ]
+        },
         "apppress/mailchimp-connector": {
             "slug": "apppress/mailchimp-connector",
             "name": "Mailchimp Connector",
@@ -2203,5 +2229,5 @@
             ]
         }
     },
-    "signature": "2061a82e165233bb1a9e97a6940070d00171c940e2e56f037f7eaf348ac0d2c1eecc2b6eb6dcc43544fdb0be9fd47f7dd9aaa0e5681d7c5117abb9da11d0b807"
+    "signature": "9d602d5b965730e47714b3cc5f877f85471dc036af0b21da9bcde5bdc909aed99914e5ca2bec5695e14fba5caa11bcab5e8f77b0abf0aa040e2fc088d0322402"
 }
