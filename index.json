@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T13:01:34+00:00",
+    "generated_at": "2026-07-12T13:12:59+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1943,6 +1943,37 @@
                 }
             ]
         },
+        "apppress/reports": {
+            "slug": "apppress/reports",
+            "name": "AppPress Reports",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-reports",
+            "tier": "first_party",
+            "description": "Plugin-agnostic reporting framework for AppPress \u2014 pluggable data source registry, saved report definitions, operator dashboards with chart widgets, PDF/CSV export, and scheduled email delivery. Implements StandardContracts::REPORTS so App Packs register metrics without coupling to this plugin.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-reports/releases/assets/474403683",
+                    "checksum_sha256": "e5927556cd48c499880bcaa9ce278eb4a94a5009d3ae4429468bc68648100c51",
+                    "signature": "4b3813ac7366a2247f2487373797274a7893d9278906dfeef02fd4aef8f2bfc8e902caedbe0a999aa13f5be141bc60aeb2288aba394244789e211b22dea0210a",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "reports",
+                        "dashboards",
+                        "exports",
+                        "metrics",
+                        "scheduled_delivery",
+                        "data_source_registry"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T13:10:56Z"
+                }
+            ]
+        },
         "apppress/salesforce-connector": {
             "slug": "apppress/salesforce-connector",
             "name": "Salesforce Connector",
@@ -2348,5 +2379,5 @@
             ]
         }
     },
-    "signature": "aacd37891f66dd8b45fe095b5572440a05c7045e57dad557931c85b53ff9f5b1950824405be7f7a810b886ab1d0480fad2b522403c3afd4c3e0aaded66b50a00"
+    "signature": "974e272a0f1b90b5e549d2c94fbb2e11c09c7bb7a5edbda85bff297b7e35a1de3beb168e7acd544200be953d3a6b075b4b49dcb1909cb10e4edf9840fea19809"
 }

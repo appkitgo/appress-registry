@@ -1,0 +1,54 @@
+{
+    "slug": "apppress/reports",
+    "name": "AppPress Reports",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Plugin-agnostic reporting framework for AppPress \u2014 pluggable data source registry, saved report definitions, operator dashboards with chart widgets, PDF/CSV export, and scheduled email delivery. Implements StandardContracts::REPORTS so App Packs register metrics without coupling to this plugin.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T13:10:56Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-reports/releases/assets/474403683",
+    "checksum_sha256": "e5927556cd48c499880bcaa9ce278eb4a94a5009d3ae4429468bc68648100c51",
+    "signature": "4b3813ac7366a2247f2487373797274a7893d9278906dfeef02fd4aef8f2bfc8e902caedbe0a999aa13f5be141bc60aeb2288aba394244789e211b22dea0210a",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "reports",
+        "dashboards",
+        "exports",
+        "metrics",
+        "scheduled_delivery",
+        "data_source_registry"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-reports/releases/assets/474403683",
+            "checksum_sha256": "e5927556cd48c499880bcaa9ce278eb4a94a5009d3ae4429468bc68648100c51",
+            "signature": "4b3813ac7366a2247f2487373797274a7893d9278906dfeef02fd4aef8f2bfc8e902caedbe0a999aa13f5be141bc60aeb2288aba394244789e211b22dea0210a",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "reports",
+                "dashboards",
+                "exports",
+                "metrics",
+                "scheduled_delivery",
+                "data_source_registry"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T13:10:56Z"
+        }
+    ]
+}
