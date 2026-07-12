@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T11:08:00+00:00",
+    "generated_at": "2026-07-12T11:19:05+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -950,6 +950,32 @@
                 }
             ]
         },
+        "apppress/gamification": {
+            "slug": "apppress/gamification",
+            "name": "AppPress Gamification",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-gamification",
+            "tier": "first_party",
+            "description": "Gamification engine: points/XP, badges, achievements, leaderboards, streaks, and user levels. Hook-driven so any plugin can award points.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-gamification/releases/assets/474335270",
+                    "checksum_sha256": "6ab5e601fd5a5f925d316fe2612803401982ed768fbbe7013753c9046cc46e96",
+                    "signature": "21f68d00e98bc61a2a5fa86c3d13a7b90dca82303b1138563c935227c9633f26e3af6f19ecfd59dbe5bb789cfad8e5b95d2cc1c2927af30a433b35d2645bed0d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "gamification"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T11:17:48Z"
+                }
+            ]
+        },
         "apppress/github-connector": {
             "slug": "apppress/github-connector",
             "name": "GitHub Connector",
@@ -1467,6 +1493,34 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T20:35:23Z"
+                }
+            ]
+        },
+        "apppress/pipelines": {
+            "slug": "apppress/pipelines",
+            "name": "AppPress Pipelines",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-pipelines",
+            "tier": "first_party",
+            "description": "CRM sales pipeline management with configurable stages, deal tracking, activity logging, win/loss analytics, and kanban board view.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-pipelines/releases/assets/473828377",
+                    "checksum_sha256": "2e6dcf4f9dada63b96a374f882275880fe583976388bac198e07b82cc2f86d76",
+                    "signature": "e81497e3ca28690bdc67cca06c6938c08cb3a3ebe95003e663f86c86a4038c1c30d831d43b7ad2718f67328116152a09772714da79e1828b89e93a62601a450d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "pipelines",
+                        "crm",
+                        "deal_tracking"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T22:22:03Z"
                 }
             ]
         },
@@ -2051,35 +2105,7 @@
                     "published_at": "2026-07-11T00:56:54Z"
                 }
             ]
-        },
-        "apppress/pipelines": {
-            "slug": "apppress/pipelines",
-            "name": "AppPress Pipelines",
-            "type": "plugin",
-            "github_repo": "appkitgo/plugin-pipelines",
-            "tier": "first_party",
-            "description": "CRM sales pipeline management with configurable stages, deal tracking, activity logging, win/loss analytics, and kanban board view.",
-            "author": "AppPress",
-            "categories": [],
-            "versions": [
-                {
-                    "version": "1.0.0",
-                    "download_url": "https://api.github.com/repos/appkitgo/plugin-pipelines/releases/assets/473828377",
-                    "checksum_sha256": "2e6dcf4f9dada63b96a374f882275880fe583976388bac198e07b82cc2f86d76",
-                    "signature": "e81497e3ca28690bdc67cca06c6938c08cb3a3ebe95003e663f86c86a4038c1c30d831d43b7ad2718f67328116152a09772714da79e1828b89e93a62601a450d",
-                    "min_core_version": "1.0.0",
-                    "dependencies": [],
-                    "requires_plugins": [],
-                    "capabilities": [
-                        "pipelines",
-                        "crm",
-                        "deal_tracking"
-                    ],
-                    "yanked": false,
-                    "published_at": "2026-07-11T22:22:03Z"
-                }
-            ]
         }
     },
-    "signature": "e219e6f1e95f692ff46c76f4bb90c1bc1d92e8a37d43195253a170392a71cfc9beb17294f7204e429d43c98fea3aa7d789618384c4acca617e41f6c324aa5b08"
+    "signature": "b2edd8dbfbe84f6b96937995c3292279d77232194d54437e436da6521e13a78d5581b7bf28832e70a4344ee6cee613cedc11c997a399df4854e5f34cd15dff0f"
 }
