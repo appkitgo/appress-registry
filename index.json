@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T20:37:43+00:00",
+    "generated_at": "2026-07-12T21:29:04+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1039,7 +1039,7 @@
                     "checksum_sha256": "ea38f597f54cca5bd56fef78a09c4d9cd1fca7f9f7f263d7ce9ada113d514db6",
                     "signature": "dea700ba8d9a055556900abf2a2b68cce022571dcc9bdab4539e52764c0cfa5cb567319e663d647bbbfe1141683b2741c4ade623d5aca48c8b67f4d41bc05c04",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "forms",
@@ -1049,6 +1049,23 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T17:19:16Z"
+                },
+                {
+                    "version": "1.0.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-forms/releases/assets/474741812",
+                    "checksum_sha256": "493d9833fcdffd80f6e64c166370cb4b13e32a47740999ec74f63a283ad6672e",
+                    "signature": "1df16b7051d2bbaadac3decf2733a89e1d3c3993e208d3953ffd3e02d7856b9035e67f4c580f54ca8b0910c9d6a1ad2a7230f8e3e8a8093cbb8a2e8e5bdd7a0d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "forms",
+                        "intake",
+                        "submission_storage",
+                        "public_submission"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T21:27:14Z"
                 }
             ]
         },
@@ -3010,5 +3027,5 @@
             ]
         }
     },
-    "signature": "cfb0095c0cc70ea8fafae4abd7894ada7776019867618d1e59215291e688927e0ffd647409df5a6ac74e179d49b93035dacd12e5eff00da38339e600fdfc800b"
+    "signature": "c778273cc2af151878b92de39e35e52db6e5eaf55d80684835e7cdb1f2440abb81b3ac9f3e0e9e1b7a17770cfabacabd7e69fd1f0303712d2bc9bec992a5e10e"
 }
