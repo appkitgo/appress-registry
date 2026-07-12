@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T13:12:59+00:00",
+    "generated_at": "2026-07-12T13:22:05+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1974,6 +1974,39 @@
                 }
             ]
         },
+        "apppress/reviews": {
+            "slug": "apppress/reviews",
+            "name": "AppPress Reviews",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-reviews",
+            "tier": "first_party",
+            "description": "Polymorphic text-and-star reviews for any reviewable subject (products, pages, events). Features moderation queue, verified purchaser flag, helpful votes, pinned reviews, owner replies, cached rating summaries, member My Reviews panel, mobile FormScreen/ListScreen surfaces, workflow triggers/actions, and outbound webhooks. Implements StandardContracts::REVIEWS for cross-plugin submission without tight coupling.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-reviews/releases/assets/474410851",
+                    "checksum_sha256": "15d28aa1467949059e5943bc5be214e716207a72f60dae6f06fb583171dff185",
+                    "signature": "ebfed158b46042fce1750ef5f636c3d06dad26426b1bcb5427744acd61fab01c4485d6aad63317851aa592d81d42e771fd2511ead78b613a6cb53c166fb98101",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "reviews",
+                        "moderation_queue",
+                        "rating_summaries",
+                        "member_review_history",
+                        "mobile_review_surfaces",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "reviews_widget_block"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T13:20:31Z"
+                }
+            ]
+        },
         "apppress/salesforce-connector": {
             "slug": "apppress/salesforce-connector",
             "name": "Salesforce Connector",
@@ -2379,5 +2412,5 @@
             ]
         }
     },
-    "signature": "974e272a0f1b90b5e549d2c94fbb2e11c09c7bb7a5edbda85bff297b7e35a1de3beb168e7acd544200be953d3a6b075b4b49dcb1909cb10e4edf9840fea19809"
+    "signature": "1ff3e21881070d755450bfabd0868953f19742c5799f075d2d61741c137c4780e3e60daa13d1305235b5bc5fb93dd0bc7346cb1cf41efe6a1f6c4716987ce207"
 }
