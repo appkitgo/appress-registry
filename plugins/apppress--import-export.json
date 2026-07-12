@@ -1,0 +1,58 @@
+{
+    "slug": "apppress/import-export",
+    "name": "AppPress Import / Export",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Universal CSV/Excel/JSON import and export framework for AppPress \u2014 pluggable resource-type registries, column-mapping UI, background job processing for large files, per-row validation with error reporting, and operator dashboards. Implements StandardContracts::IMPORT_EXPORT so App Packs register importable/exportable types without coupling to this plugin.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T12:09:56Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-import-export/releases/assets/474367858",
+    "checksum_sha256": "7ccc0c0c8f7121c1c56a5110cb1eebf1954b976e097045bdb35fcbb5796572e5",
+    "signature": "5d703fb219336110dd13abc981031ee3ecdee9b8f63ee10d7ad1cd2d06326ca3a8f66838fc5674861592dfa7fc7ba1d573579fdd71da8c594702307130dd1709",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "import-export",
+        "csv_import",
+        "excel_import",
+        "json_import",
+        "data_export",
+        "bulk_data_transfer",
+        "column_mapping",
+        "background_jobs"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-import-export/releases/assets/474367858",
+            "checksum_sha256": "7ccc0c0c8f7121c1c56a5110cb1eebf1954b976e097045bdb35fcbb5796572e5",
+            "signature": "5d703fb219336110dd13abc981031ee3ecdee9b8f63ee10d7ad1cd2d06326ca3a8f66838fc5674861592dfa7fc7ba1d573579fdd71da8c594702307130dd1709",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "import-export",
+                "csv_import",
+                "excel_import",
+                "json_import",
+                "data_export",
+                "bulk_data_transfer",
+                "column_mapping",
+                "background_jobs"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T12:09:56Z"
+        }
+    ]
+}
