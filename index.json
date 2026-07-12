@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T00:39:22+00:00",
+    "generated_at": "2026-07-12T00:54:53+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -81,6 +81,40 @@
                     "capabilities": [],
                     "yanked": false,
                     "published_at": "2026-07-12T00:37:17Z"
+                }
+            ]
+        },
+        "apppress/anti-spam": {
+            "slug": "apppress/anti-spam",
+            "name": "AppPress Anti-Spam",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-antispam",
+            "tier": "first_party",
+            "description": "Multi-layer spam and abuse protection for public-facing forms, registration flows, and community content. Combines honeypot fields, content pattern analysis, CAPTCHA (reCAPTCHA v3 / hCaptcha), IP reputation scoring, automatic IP blocking, and a moderation quarantine queue \u2014 all configurable without code. Fires workflow triggers on every spam event and exposes workflow actions to block IPs, approve/reject quarantine items, and scan arbitrary content on demand.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-antispam/releases/assets/473937199",
+                    "checksum_sha256": "c1d84ad96091473f79ca81497dfad4fd7ff38b681790d13d409931c374375089",
+                    "signature": "04260ce95d58e15f397cbd2a2f8a7787705c574dc42e1d1521089dd57bf2c328189ebe837dacc36f8d9896159efb6c1904f0845f611fc89f98cbfc47f551380a",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "spam-protection",
+                        "honeypot",
+                        "captcha",
+                        "ip-blocking",
+                        "content-analysis",
+                        "quarantine",
+                        "moderation-queue",
+                        "spam-pattern-management",
+                        "threat-intel-import"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T00:53:03Z"
                 }
             ]
         },
@@ -1773,5 +1807,5 @@
             ]
         }
     },
-    "signature": "02e1facea9c0754445ebd197202558cd81bc2e8070c1ece20fe941c22e86b4fa248b5c45e00f88396c9c1ed10fd7d515f0b1444e247a038b0784bad409f4ba00"
+    "signature": "30e05f738b18d0c550a7525ff69d25160a14c97af5b8721c7ca9f250331f6913ec788f90fd93789175c2361d35f592115bec38df19f9704dadd9418256c9d20f"
 }
