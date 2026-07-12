@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T13:32:57+00:00",
+    "generated_at": "2026-07-12T13:42:58+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2114,6 +2114,32 @@
                 }
             ]
         },
+        "apppress/seo": {
+            "slug": "apppress/seo",
+            "name": "AppPress SEO",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-seo",
+            "tier": "first_party",
+            "description": "SEO for AppPress. Per-entry meta, Open Graph, Twitter Cards, JSON-LD, sitemap.xml, and robots.txt management.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-seo/releases/assets/474423560",
+                    "checksum_sha256": "df3dc88e8e60ecd4e324a0aa29002fe9d8c4ada0746f103573a2384d01d4f25d",
+                    "signature": "8d092a68d73643496a33bec7984ae4532d1093d00f06a90d177270007a7fbf5d7e0a7f0e314f57749060e347ea87f77b47edb820cee1a1c55bda019ca24f000c",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "seo"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T13:40:57Z"
+                }
+            ]
+        },
         "apppress/shopify-connector": {
             "slug": "apppress/shopify-connector",
             "name": "Shopify Connector",
@@ -2436,5 +2462,5 @@
             ]
         }
     },
-    "signature": "47b9ffcf788bd5416d23774e425a66c36e20cdf08815b66e6219faf1b8e8f3989a94f7ee7b5f1477f058ca3162e0c5b91696e96521206d590639efbed7565a05"
+    "signature": "39f74410a93d7c7149ada94eda8a75b7ea7f2adcebd09214e91ab21ebe24896fc02559aca9f28c49f6aaac9fceb004b07018abc7b2704e25bec7e8ed7a387e0c"
 }
