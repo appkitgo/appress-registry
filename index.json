@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T01:35:32+00:00",
+    "generated_at": "2026-07-12T02:20:31+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -522,6 +522,42 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T19:02:33Z"
+                }
+            ]
+        },
+        "apppress/cloud-vps": {
+            "slug": "apppress/cloud-vps",
+            "name": "AppPress Cloud VPS Provider",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-cloud-vps",
+            "tier": "first_party",
+            "description": "Platform-level cloud infrastructure provider for AppPress Cloud. Provisions DigitalOcean VPS instances, manages DNS records, bootstraps AppPress via cloud-init with Let's Encrypt SSL, and remotely installs App Packs/plugins via machine-token API. Listens to marketplace InstanceProvisioned/Terminated/Suspended/Resumed events. Not for campus or tenant-site blueprints \u2014 operator infrastructure only.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-cloud-vps/releases/assets/473992442",
+                    "checksum_sha256": "9c95cfca539a5cad2579271ffd5367dfe1e91d61fb0ed036b9b242f1ba0de03a",
+                    "signature": "9725e2e05b2a34528c5149a244d669b77b639e6d2c519198a655128833d547f7809f6257a618ba5cd9bdbe81764bcb15c03ac6f4178dabdf25465628bf9e7b01",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {
+                        "apppress/marketplace": "^1.0.0"
+                    },
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "cloud-provisioning",
+                        "cloud_provisioning",
+                        "vps",
+                        "digitalocean",
+                        "dns_management",
+                        "ssl_bootstrap",
+                        "remote_marketplace_install",
+                        "instance_lifecycle",
+                        "platform_infrastructure"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T02:18:06Z"
                 }
             ]
         },
@@ -1905,5 +1941,5 @@
             ]
         }
     },
-    "signature": "6c5731c9c1315759b3e7ec4bbaec2dab6d4a7181a8e713adf6e0b20bc3c61ad96697260fb4f8d5359be34372259453340bffd77c50ea647a81b7a751cf45bc0d"
+    "signature": "36dca41afae1aed385b96e4c7e217b0997d50154d017c227628aed71381568d7da64f60aa6d96c8d8e05a9fcd56d3a620a2f7495b2a4b37fff0e3a9195ab7004"
 }
