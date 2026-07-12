@@ -1,23 +1,23 @@
 {
     "slug": "apppress/payments",
     "name": "AppPress Payments",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "AppPress",
     "description": "One-time Stripe payments: checkout sessions, payment records, full/partial refunds, receipts, and webhook sync. Implements StandardContracts::PAYMENTS.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T20:35:23Z",
+    "last_updated": "2026-07-12T23:56:13Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-payments/releases/assets/473767327",
-    "checksum_sha256": "5b0c8bc5774ee2c9ddbbd88cb2bff9aeff88198483edaa50650936d50225936e",
-    "signature": "5f51c6fabb4c8b472b8a1a5f98a7881efb3f12fbd54f7b45a2006d370871638357f7c40f1e740cab97a5c675677532e86391410889ec6cc312252b90d94b370d",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-payments/releases/assets/474852473",
+    "checksum_sha256": "aad42a3ee1c07a0efa0c09f85105e09f9ea4ba15d0b9ca5928b52507345976e2",
+    "signature": "a25ce3165427aca49d878297a1c953dbcd34bdf263caeea4a37919026fe9462ff28a0b180cc947c16e6912744bd5cbab1595cbae12bcd6db3165907de6fb6802",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -32,13 +32,27 @@
             "checksum_sha256": "5b0c8bc5774ee2c9ddbbd88cb2bff9aeff88198483edaa50650936d50225936e",
             "signature": "5f51c6fabb4c8b472b8a1a5f98a7881efb3f12fbd54f7b45a2006d370871638357f7c40f1e740cab97a5c675677532e86391410889ec6cc312252b90d94b370d",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "payments"
             ],
             "yanked": false,
             "published_at": "2026-07-11T20:35:23Z"
+        },
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-payments/releases/assets/474852473",
+            "checksum_sha256": "aad42a3ee1c07a0efa0c09f85105e09f9ea4ba15d0b9ca5928b52507345976e2",
+            "signature": "a25ce3165427aca49d878297a1c953dbcd34bdf263caeea4a37919026fe9462ff28a0b180cc947c16e6912744bd5cbab1595cbae12bcd6db3165907de6fb6802",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "payments"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T23:56:13Z"
         }
     ]
 }
