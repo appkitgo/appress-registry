@@ -886,6 +886,13 @@
             "manifest_path": "../plugin-webhooks-api-connector/appress.json"
         },
         {
+            "slug": "apppress/wix-connector",
+            "github_repo": "appkitgo/plugin-wix-connector",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-wix-connector/appress.json"
+        },
+        {
             "slug": "apppress/workflows",
             "github_repo": "appkitgo/plugin-workflows",
             "tier": "first_party",
