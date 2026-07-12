@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T12:22:05+00:00",
+    "generated_at": "2026-07-12T12:31:51+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1524,6 +1524,39 @@
                 }
             ]
         },
+        "apppress/onboarding": {
+            "slug": "apppress/onboarding",
+            "name": "AppPress Onboarding",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-onboarding",
+            "tier": "first_party",
+            "description": "User onboarding checklists and guided flows for campus apps. Operators define step-by-step checklists with links, videos, and manual actions; users track progress via member API, embedded page blocks, theme widgets, and mobile surfaces. Integrates with workflows (assign on registration, completion notifications), optional gamification rewards, activity-log audit entries, and the StandardContracts::ONBOARDING service.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-onboarding/releases/assets/474378439",
+                    "checksum_sha256": "05bc808ed822dd8c8fbdcce31c4c5532fcaeba8e3d4525ffc5f0ea2fe319f16a",
+                    "signature": "9c53ba1f82afef5a80c36135e07256a343bf1fadc2624867e070821f7db66b746e7d36c08b79f17b262b0f9b696c95657ba2fa27d1e5092170f4c264e611ba0f",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "onboarding_checklists",
+                        "step_progress_tracking",
+                        "auto_assign_on_registration",
+                        "completion_analytics",
+                        "mobile_checklist_surfaces",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "embeddable_checklist_widget"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T12:29:43Z"
+                }
+            ]
+        },
         "apppress/orders": {
             "slug": "apppress/orders",
             "name": "AppPress Orders",
@@ -2229,5 +2262,5 @@
             ]
         }
     },
-    "signature": "9d602d5b965730e47714b3cc5f877f85471dc036af0b21da9bcde5bdc909aed99914e5ca2bec5695e14fba5caa11bcab5e8f77b0abf0aa040e2fc088d0322402"
+    "signature": "e06322adabbe474c6afd57a0642701390df78c6992920d9ef97586f7eff7bbad756c51c14b3b3227dfb900ac9922416f88a487cc27edd460b7614267dd9af704"
 }

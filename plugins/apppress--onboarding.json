@@ -1,0 +1,58 @@
+{
+    "slug": "apppress/onboarding",
+    "name": "AppPress Onboarding",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "User onboarding checklists and guided flows for campus apps. Operators define step-by-step checklists with links, videos, and manual actions; users track progress via member API, embedded page blocks, theme widgets, and mobile surfaces. Integrates with workflows (assign on registration, completion notifications), optional gamification rewards, activity-log audit entries, and the StandardContracts::ONBOARDING service.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T12:29:43Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-onboarding/releases/assets/474378439",
+    "checksum_sha256": "05bc808ed822dd8c8fbdcce31c4c5532fcaeba8e3d4525ffc5f0ea2fe319f16a",
+    "signature": "9c53ba1f82afef5a80c36135e07256a343bf1fadc2624867e070821f7db66b746e7d36c08b79f17b262b0f9b696c95657ba2fa27d1e5092170f4c264e611ba0f",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "onboarding_checklists",
+        "step_progress_tracking",
+        "auto_assign_on_registration",
+        "completion_analytics",
+        "mobile_checklist_surfaces",
+        "workflow_triggers",
+        "workflow_actions",
+        "embeddable_checklist_widget"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-onboarding/releases/assets/474378439",
+            "checksum_sha256": "05bc808ed822dd8c8fbdcce31c4c5532fcaeba8e3d4525ffc5f0ea2fe319f16a",
+            "signature": "9c53ba1f82afef5a80c36135e07256a343bf1fadc2624867e070821f7db66b746e7d36c08b79f17b262b0f9b696c95657ba2fa27d1e5092170f4c264e611ba0f",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "onboarding_checklists",
+                "step_progress_tracking",
+                "auto_assign_on_registration",
+                "completion_analytics",
+                "mobile_checklist_surfaces",
+                "workflow_triggers",
+                "workflow_actions",
+                "embeddable_checklist_widget"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T12:29:43Z"
+        }
+    ]
+}
