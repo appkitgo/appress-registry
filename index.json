@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-11T22:37:22+00:00",
+    "generated_at": "2026-07-12T00:39:22+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -57,6 +57,30 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T06:04:41Z"
+                }
+            ]
+        },
+        "apppress/analytics": {
+            "slug": "apppress/analytics",
+            "name": "AppPress Analytics",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-analytics",
+            "tier": "first_party",
+            "description": "Privacy-friendly, FERPA-aware analytics that tracks page views, visitor sessions, UTM campaigns, and custom events \u2014 with a built-in admin dashboard and configurable data retention. Works out of the box for public pages; requires FERPA review before enabling authenticated-user tracking in campus apps.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-analytics/releases/assets/473928804",
+                    "checksum_sha256": "b9a6ef487064fe8542fee23af0129f55598cf1e4afc577a5904e68fe9dd56ca4",
+                    "signature": "6a3a1da8c640632f1430e4858f5e2f7c7a67a4e1926a0841114ec6ca46008d2c9f063210e3a4a71a2a6590a6c0b8f31e403fe738b5df9a178f5cc41241ff8f0c",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-12T00:37:17Z"
                 }
             ]
         },
@@ -1749,5 +1773,5 @@
             ]
         }
     },
-    "signature": "b1058bed0a9fd4dc3df8569b4c874e52d7bc2c84de64856948ef98f4d60aa3e2029b63518a3a6c86d1e9e8a4fc774a9f146267e2d7f542ffd92b29fa6466b301"
+    "signature": "02e1facea9c0754445ebd197202558cd81bc2e8070c1ece20fe941c22e86b4fa248b5c45e00f88396c9c1ed10fd7d515f0b1444e247a038b0784bad409f4ba00"
 }
