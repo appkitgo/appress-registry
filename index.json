@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T12:31:51+00:00",
+    "generated_at": "2026-07-12T12:42:22+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1711,6 +1711,40 @@
                 }
             ]
         },
+        "apppress/progress": {
+            "slug": "apppress/progress",
+            "name": "AppPress Progress & Completion",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-progress",
+            "tier": "first_party",
+            "description": "Step-by-step progress tracking for any model: define steps, record completions per user, calculate percentage, fire completion events, issue certificates, and resume where left off.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-progress/releases/assets/474384166",
+                    "checksum_sha256": "1e946d51a9b1894dc799b5992fd7467f38cecae096a7f0e104f63f1342d6425f",
+                    "signature": "92e5f25d718b7233a18e102987597cdbd92d4b63f21e2810e29c44a7802e6ed20e2fc30916221aeb57136ddb2665d842b613c674b5786614905a4c83dbd42d06",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "progress_tracking",
+                        "step_completion",
+                        "completion_certificates",
+                        "gamification_integration",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "mobile_progress_surfaces",
+                        "embeddable_progress_block",
+                        "multi_site_scoped"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T12:39:43Z"
+                }
+            ]
+        },
         "apppress/projects": {
             "slug": "apppress/projects",
             "name": "AppPress Projects",
@@ -2262,5 +2296,5 @@
             ]
         }
     },
-    "signature": "e06322adabbe474c6afd57a0642701390df78c6992920d9ef97586f7eff7bbad756c51c14b3b3227dfb900ac9922416f88a487cc27edd460b7614267dd9af704"
+    "signature": "0261fbc63db07f5c589f66fdd7a913990e83240673d56c5eb1419a80d7e511976b4972d983d32f8f59b68982ab8f5b74f3374da6d1df71a33a93b1db042b050e"
 }

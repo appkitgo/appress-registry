@@ -1,0 +1,60 @@
+{
+    "slug": "apppress/progress",
+    "name": "AppPress Progress & Completion",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Step-by-step progress tracking for any model: define steps, record completions per user, calculate percentage, fire completion events, issue certificates, and resume where left off.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T12:39:43Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-progress/releases/assets/474384166",
+    "checksum_sha256": "1e946d51a9b1894dc799b5992fd7467f38cecae096a7f0e104f63f1342d6425f",
+    "signature": "92e5f25d718b7233a18e102987597cdbd92d4b63f21e2810e29c44a7802e6ed20e2fc30916221aeb57136ddb2665d842b613c674b5786614905a4c83dbd42d06",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "progress_tracking",
+        "step_completion",
+        "completion_certificates",
+        "gamification_integration",
+        "workflow_triggers",
+        "workflow_actions",
+        "mobile_progress_surfaces",
+        "embeddable_progress_block",
+        "multi_site_scoped"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-progress/releases/assets/474384166",
+            "checksum_sha256": "1e946d51a9b1894dc799b5992fd7467f38cecae096a7f0e104f63f1342d6425f",
+            "signature": "92e5f25d718b7233a18e102987597cdbd92d4b63f21e2810e29c44a7802e6ed20e2fc30916221aeb57136ddb2665d842b613c674b5786614905a4c83dbd42d06",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "progress_tracking",
+                "step_completion",
+                "completion_certificates",
+                "gamification_integration",
+                "workflow_triggers",
+                "workflow_actions",
+                "mobile_progress_surfaces",
+                "embeddable_progress_block",
+                "multi_site_scoped"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T12:39:43Z"
+        }
+    ]
+}
