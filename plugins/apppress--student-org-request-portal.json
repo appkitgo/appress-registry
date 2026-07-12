@@ -1,0 +1,52 @@
+{
+    "slug": "apppress/student-org-request-portal",
+    "name": "Student Organization Request Portal",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "A governed request portal for student organizations to submit requests, upload details, and route staff review.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T15:52:15Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/apppack-student-org-request-portal/releases/assets/474511808",
+    "checksum_sha256": "febf26a1abd2d71fcd048397114f40c88eee4a72e1098966f847b5cebab5ef2b",
+    "signature": "49b54bf26c52c608788abb1ea75294a493cbdf2825fb7aeffab4b86c058f6de381291e6f69cb9d51c76d835ebdb0dd62d28f17dcd495cd33f4fc59290fe3a60a",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "forms",
+        "workflow",
+        "mail",
+        "files",
+        "dashboards"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/apppack-student-org-request-portal/releases/assets/474511808",
+            "checksum_sha256": "febf26a1abd2d71fcd048397114f40c88eee4a72e1098966f847b5cebab5ef2b",
+            "signature": "49b54bf26c52c608788abb1ea75294a493cbdf2825fb7aeffab4b86c058f6de381291e6f69cb9d51c76d835ebdb0dd62d28f17dcd495cd33f4fc59290fe3a60a",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "forms",
+                "workflow",
+                "mail",
+                "files",
+                "dashboards"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T15:52:15Z"
+        }
+    ]
+}
