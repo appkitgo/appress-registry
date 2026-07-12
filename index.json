@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T11:28:07+00:00",
+    "generated_at": "2026-07-12T11:38:30+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1091,6 +1091,38 @@
                 }
             ]
         },
+        "apppress/i18n": {
+            "slug": "apppress/i18n",
+            "name": "AppPress Multi-Language",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-i18n",
+            "tier": "first_party",
+            "description": "Shared localization primitive for AppPress \u2014 locale management, translation strings, content translation linking, locale detection, RTL support, public locale switcher embeds, and import/export. Consumed by pages, blogs, forms, and app packs via StandardContracts::I18N.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-i18n/releases/assets/474346065",
+                    "checksum_sha256": "04fd55aa9613f191c784bc3e336bed56958728d530e638386b8ed7457e189201",
+                    "signature": "1cc401ded43aa17523d83ad821a829486b50eda694cc472486d1e0938be4774679368c843929cb7259adabc255a189ae41dcf9e48241aa079145d9a0fc8bd307",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "i18n",
+                        "locale_management",
+                        "translation_strings",
+                        "content_translation_linking",
+                        "locale_detection",
+                        "rtl",
+                        "import_export"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T11:35:56Z"
+                }
+            ]
+        },
         "apppress/intercom-connector": {
             "slug": "apppress/intercom-connector",
             "name": "Intercom Connector",
@@ -2138,5 +2170,5 @@
             ]
         }
     },
-    "signature": "e37c4129ad864c951477a92c6e87cb0ede752e81fd8a619634e0c96235297287984fbf5f70e94e497809839d2e512d88edb01cd6487b2a145fc823d836f35a0a"
+    "signature": "3fc63d7d009d723efaee5e1a223aaf2b6d77d9dab8b87bca50814a193679f9733fc36223a93bd5288aaad568665d3ce00e29cd750114f19f2dce6e92809be40d"
 }

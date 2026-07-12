@@ -1,0 +1,56 @@
+{
+    "slug": "apppress/i18n",
+    "name": "AppPress Multi-Language",
+    "version": "1.1.0",
+    "author": "AppPress",
+    "description": "Shared localization primitive for AppPress \u2014 locale management, translation strings, content translation linking, locale detection, RTL support, public locale switcher embeds, and import/export. Consumed by pages, blogs, forms, and app packs via StandardContracts::I18N.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T11:35:56Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-i18n/releases/assets/474346065",
+    "checksum_sha256": "04fd55aa9613f191c784bc3e336bed56958728d530e638386b8ed7457e189201",
+    "signature": "1cc401ded43aa17523d83ad821a829486b50eda694cc472486d1e0938be4774679368c843929cb7259adabc255a189ae41dcf9e48241aa079145d9a0fc8bd307",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "i18n",
+        "locale_management",
+        "translation_strings",
+        "content_translation_linking",
+        "locale_detection",
+        "rtl",
+        "import_export"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-i18n/releases/assets/474346065",
+            "checksum_sha256": "04fd55aa9613f191c784bc3e336bed56958728d530e638386b8ed7457e189201",
+            "signature": "1cc401ded43aa17523d83ad821a829486b50eda694cc472486d1e0938be4774679368c843929cb7259adabc255a189ae41dcf9e48241aa079145d9a0fc8bd307",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "i18n",
+                "locale_management",
+                "translation_strings",
+                "content_translation_linking",
+                "locale_detection",
+                "rtl",
+                "import_export"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T11:35:56Z"
+        }
+    ]
+}
