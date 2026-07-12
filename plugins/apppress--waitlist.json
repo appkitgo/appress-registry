@@ -1,0 +1,44 @@
+{
+    "slug": "apppress/waitlist",
+    "name": "AppPress Waitlist",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Launch waitlist and early-access management with position tracking, referral-based position boosts, email confirmation, batch invite sending, and conversion tracking.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T14:50:34Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-waitlist/releases/assets/474471278",
+    "checksum_sha256": "014bf18a20536cac364ceb45862a4f8b00274c00466b04591168ea5bdc1bb508",
+    "signature": "f5bb855404376e919b8fa85457058d127c46b85d4ef7cae55652809ed39b61df484adfc7b3eecd1220c614efda086228a0373d50cc2b95cc8411b1e65820af04",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "waitlist"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-waitlist/releases/assets/474471278",
+            "checksum_sha256": "014bf18a20536cac364ceb45862a4f8b00274c00466b04591168ea5bdc1bb508",
+            "signature": "f5bb855404376e919b8fa85457058d127c46b85d4ef7cae55652809ed39b61df484adfc7b3eecd1220c614efda086228a0373d50cc2b95cc8411b1e65820af04",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "waitlist"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T14:50:34Z"
+        }
+    ]
+}

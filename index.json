@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T14:41:53+00:00",
+    "generated_at": "2026-07-12T14:52:57+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2504,6 +2504,32 @@
                 }
             ]
         },
+        "apppress/waitlist": {
+            "slug": "apppress/waitlist",
+            "name": "AppPress Waitlist",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-waitlist",
+            "tier": "first_party",
+            "description": "Launch waitlist and early-access management with position tracking, referral-based position boosts, email confirmation, batch invite sending, and conversion tracking.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-waitlist/releases/assets/474471278",
+                    "checksum_sha256": "014bf18a20536cac364ceb45862a4f8b00274c00466b04591168ea5bdc1bb508",
+                    "signature": "f5bb855404376e919b8fa85457058d127c46b85d4ef7cae55652809ed39b61df484adfc7b3eecd1220c614efda086228a0373d50cc2b95cc8411b1e65820af04",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "waitlist"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T14:50:34Z"
+                }
+            ]
+        },
         "apppress/workflows": {
             "slug": "apppress/workflows",
             "name": "AppPress Workflows",
@@ -2590,5 +2616,5 @@
             ]
         }
     },
-    "signature": "44e1f09488edf07106f48bf88fc4fcf0f749e080b412590c703885d3cb02b9113df96f61df4fb7b6126fb7d99dd5676861e4710b83a0fe1c8391fff10fe5cc05"
+    "signature": "1dde84cdeb10fd203f7bf102e9392f7ad24f6c0931edce2daf20342073bc44ef504b7a6a24f49c0c8d58ed81a193b3a4619502780838d80bcfa9a8b69fe7020a"
 }
