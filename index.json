@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T22:32:33+00:00",
+    "generated_at": "2026-07-12T22:42:54+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1635,7 +1635,7 @@
                     "checksum_sha256": "61379b1b94f4a1afc90b470fd2346331f32850f77e969564cb3e41e853d26d89",
                     "signature": "59a14f4aadce2ea7fc4b173c818de280277813400087ecd41803467b83fb3062e160a745daed0eb14ece84264c4052dd8a79707fef2a884af510412f92ff5505",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "media-processing",
@@ -1647,6 +1647,25 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T17:24:36Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-media/releases/assets/474794042",
+                    "checksum_sha256": "a37327b11bc3ed2ad23f6b20d56952de8c4e0bb6841b82ab52d7eaf80e61501d",
+                    "signature": "5c1a87acd8856d6908f91952be78b57a4fd9a4a6fa18d55d5baccd5263595623fa61c766f78a0a1127d4193b63eca6d7350134ca72303daca74fe514312c3b0b",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "media-processing",
+                        "image-variants",
+                        "webp",
+                        "exif-stripping",
+                        "processing-queue",
+                        "storage-savings-reporting"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T22:40:25Z"
                 }
             ]
         },
@@ -3061,5 +3080,5 @@
             ]
         }
     },
-    "signature": "6bea352def00c01729f539ec778ffc9eee9b8de38ed73270e8ee172345fc8abc8a14538b7934ee41cb1e57184fb299b414016ec3f8bb7bc9ed9bf74083d37702"
+    "signature": "e1f52c0d8c3186bddeb2a4e877eddfafe94f5c274257698ae8341f820a576784a4389551f88170fedb95a497ccd2c3b8b552f6b0dadf6972122d147ecb1dcf06"
 }
