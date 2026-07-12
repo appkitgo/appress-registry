@@ -1,0 +1,60 @@
+{
+    "slug": "apppress/two-factor",
+    "name": "AppPress Two-Factor Authentication",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "TOTP-based two-factor authentication for AppPress \u2014 backup codes, trusted devices, enforcement policies, admin compliance dashboard, workflow triggers, and StandardContracts::TWO_FACTOR for auth-sensitive App Packs without tight coupling.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T14:40:30Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-two-factor/releases/assets/474465205",
+    "checksum_sha256": "5b606ef3acf64617ff122217cea54c7beb24b914c41f9c78fa35046f2077ac8d",
+    "signature": "94ef078f06b1e79e83df16dbe5f5b93f28eeaddc43638afc964b9c6200b86667d56710e63a6969d638edc976502ad80ee4d9bc5f47ab132cbdbc032cb6622c0a",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "two-factor",
+        "totp",
+        "backup_codes",
+        "trusted_devices",
+        "enforcement_policies",
+        "workflow_triggers",
+        "workflow_actions",
+        "admin_dashboard",
+        "standard_contract"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-two-factor/releases/assets/474465205",
+            "checksum_sha256": "5b606ef3acf64617ff122217cea54c7beb24b914c41f9c78fa35046f2077ac8d",
+            "signature": "94ef078f06b1e79e83df16dbe5f5b93f28eeaddc43638afc964b9c6200b86667d56710e63a6969d638edc976502ad80ee4d9bc5f47ab132cbdbc032cb6622c0a",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "two-factor",
+                "totp",
+                "backup_codes",
+                "trusted_devices",
+                "enforcement_policies",
+                "workflow_triggers",
+                "workflow_actions",
+                "admin_dashboard",
+                "standard_contract"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T14:40:30Z"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T14:18:45+00:00",
+    "generated_at": "2026-07-12T14:41:53+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2443,6 +2443,40 @@
                 }
             ]
         },
+        "apppress/two-factor": {
+            "slug": "apppress/two-factor",
+            "name": "AppPress Two-Factor Authentication",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-two-factor",
+            "tier": "first_party",
+            "description": "TOTP-based two-factor authentication for AppPress \u2014 backup codes, trusted devices, enforcement policies, admin compliance dashboard, workflow triggers, and StandardContracts::TWO_FACTOR for auth-sensitive App Packs without tight coupling.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-two-factor/releases/assets/474465205",
+                    "checksum_sha256": "5b606ef3acf64617ff122217cea54c7beb24b914c41f9c78fa35046f2077ac8d",
+                    "signature": "94ef078f06b1e79e83df16dbe5f5b93f28eeaddc43638afc964b9c6200b86667d56710e63a6969d638edc976502ad80ee4d9bc5f47ab132cbdbc032cb6622c0a",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "two-factor",
+                        "totp",
+                        "backup_codes",
+                        "trusted_devices",
+                        "enforcement_policies",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "admin_dashboard",
+                        "standard_contract"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T14:40:30Z"
+                }
+            ]
+        },
         "apppress/typeform-connector": {
             "slug": "apppress/typeform-connector",
             "name": "Typeform Connector",
@@ -2556,5 +2590,5 @@
             ]
         }
     },
-    "signature": "f5b8db9a6d4db0b84bb3fda5d6ff10035d473693fe5cf84002b71a6b52474a351e84dc5ebf33b2eafc16434fc5b137000507eb461b0824216058ecd27ca4b90b"
+    "signature": "44e1f09488edf07106f48bf88fc4fcf0f749e080b412590c703885d3cb02b9113df96f61df4fb7b6126fb7d99dd5676861e4710b83a0fe1c8391fff10fe5cc05"
 }
