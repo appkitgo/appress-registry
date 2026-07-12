@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T13:54:14+00:00",
+    "generated_at": "2026-07-12T14:06:56+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2287,6 +2287,32 @@
                 }
             ]
         },
+        "apppress/tags": {
+            "slug": "apppress/tags",
+            "name": "AppPress Tags & Categories",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-tags",
+            "tier": "first_party",
+            "description": "Universal tagging and hierarchical categorization: flat tags, nested categories, tag clouds, polymorphic attachment to any model.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-tags/releases/assets/474441514",
+                    "checksum_sha256": "ce494cec0a9216721fd9e103b7416fd040c653367ea9db41858d1b6810936da3",
+                    "signature": "02f301b8370dab5234fb610bdf0b3ba56ee1ffc31ccb407b95fcbc7a4fe02e68ab48d138ff23312d2f02c4ad2af48305bc5c9c14fcace89db85b8e87138a460a",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "tags"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T14:05:24Z"
+                }
+            ]
+        },
         "apppress/tickets": {
             "slug": "apppress/tickets",
             "name": "AppPress Tickets",
@@ -2495,5 +2521,5 @@
             ]
         }
     },
-    "signature": "d08e26dc29b23af443c7a11b9858c062b52f5275d18247ffcab24d223639b47bd11e823b16d83eab6e4406f9283c681c69686d5129ba55cc115d7f03a1378306"
+    "signature": "9405e5c9bbd1bb7bf0c415f9e18a58e217e1fa4bf3a2b0fd4c980440dd211c8df8a3471d34f7edbfae831fc68a7d035ef7fb6480c45fbecb4cc759b28b310202"
 }
