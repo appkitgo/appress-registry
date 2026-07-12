@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T15:12:57+00:00",
+    "generated_at": "2026-07-12T15:19:36+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -554,6 +554,40 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T19:02:33Z"
+                }
+            ]
+        },
+        "apppress/client-portal": {
+            "slug": "apppress/client-portal",
+            "name": "Client Portal",
+            "type": "app-pack",
+            "github_repo": "appkitgo/apppack-client-portal",
+            "tier": "first_party",
+            "description": "One private place for clients to access files, invoices, messages, and approvals.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/apppack-client-portal/releases/assets/474488400",
+                    "checksum_sha256": "3b7330fa84c08d985dd73b9d17238328611467148af6c9006dcd976979222065",
+                    "signature": "c66d6adbd67fae316f2c95d79c41f46f2fdfb7905b6867fdb8a26bd59cc4cbd229512cd71a23ec078fca9ca28ab4472ca66914338d8533746b8f51bf1290760c",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {
+                        "apppress/file-vault": "^1.0.0",
+                        "apppress/contacts": "^1.0.0",
+                        "apppress/invoices": "^1.0.0",
+                        "apppress/payments": "^1.0.0",
+                        "apppress/notifications": "^1.0.0",
+                        "apppress/activity-log": "^1.0.0",
+                        "apppress/forms": "^1.0.0",
+                        "apppress/pages": "^1.0.0",
+                        "apppress/approvals": "^1.0.0"
+                    },
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-12T15:17:14Z"
                 }
             ]
         },
@@ -1329,6 +1363,37 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T05:37:09Z"
+                }
+            ]
+        },
+        "apppress/lightweight-crm": {
+            "slug": "apppress/lightweight-crm",
+            "name": "Lightweight CRM",
+            "type": "app-pack",
+            "github_repo": "appkitgo/apppack-crm",
+            "tier": "first_party",
+            "description": "Track leads, build pipelines, assign tasks, and close deals without the bloat.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/apppack-crm/releases/assets/474489100",
+                    "checksum_sha256": "3b62d5407d169a455fddb321dcdb50f7759f51737e2221827b3ad8b41945c8bd",
+                    "signature": "1bfbb6629a19395852f02671ae7ae31f8dabfbdf5a4ced94d8211f5d3c921cbd92f9417e878cdac66672e3c4e6beffcf9eb844a046b85f00be0405a37e0c1703",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {
+                        "apppress/contacts": "^1.0.0",
+                        "apppress/pipelines": "^1.0.0",
+                        "apppress/projects": "^1.0.0",
+                        "apppress/activity-log": "^1.0.0",
+                        "apppress/quotes": "^1.0.0",
+                        "apppress/notes": "^1.0.0"
+                    },
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-12T15:18:27Z"
                 }
             ]
         },
@@ -2648,5 +2713,5 @@
             ]
         }
     },
-    "signature": "080abd9cc2e0ee38614d3f04f7a4f306ac5aead28bdba37413233a0603a319e417fe7899d9e8ef0d5c00581b3c7e745111236a24904715736f051c3f08731204"
+    "signature": "b81a5bcdf16ad05acdfbc8f44eaecf6b55d4d19d908ebcf62cc188475478d2d72d21cf20fafa668593f1281b4f850cedf928bda2271d95a0e0b03bbeda567b0d"
 }

@@ -1,0 +1,54 @@
+{
+    "slug": "apppress/lightweight-crm",
+    "name": "Lightweight CRM",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Track leads, build pipelines, assign tasks, and close deals without the bloat.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T15:18:27Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/apppack-crm/releases/assets/474489100",
+    "checksum_sha256": "3b62d5407d169a455fddb321dcdb50f7759f51737e2221827b3ad8b41945c8bd",
+    "signature": "1bfbb6629a19395852f02671ae7ae31f8dabfbdf5a4ced94d8211f5d3c921cbd92f9417e878cdac66672e3c4e6beffcf9eb844a046b85f00be0405a37e0c1703",
+    "min_core_version": "1.0.0",
+    "dependencies": {
+        "apppress/contacts": "^1.0.0",
+        "apppress/pipelines": "^1.0.0",
+        "apppress/projects": "^1.0.0",
+        "apppress/activity-log": "^1.0.0",
+        "apppress/quotes": "^1.0.0",
+        "apppress/notes": "^1.0.0"
+    },
+    "requires_plugins": [],
+    "capabilities": [],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/apppack-crm/releases/assets/474489100",
+            "checksum_sha256": "3b62d5407d169a455fddb321dcdb50f7759f51737e2221827b3ad8b41945c8bd",
+            "signature": "1bfbb6629a19395852f02671ae7ae31f8dabfbdf5a4ced94d8211f5d3c921cbd92f9417e878cdac66672e3c4e6beffcf9eb844a046b85f00be0405a37e0c1703",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/contacts": "^1.0.0",
+                "apppress/pipelines": "^1.0.0",
+                "apppress/projects": "^1.0.0",
+                "apppress/activity-log": "^1.0.0",
+                "apppress/quotes": "^1.0.0",
+                "apppress/notes": "^1.0.0"
+            },
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-12T15:18:27Z"
+        }
+    ]
+}
