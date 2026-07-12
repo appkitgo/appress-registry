@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T00:54:53+00:00",
+    "generated_at": "2026-07-12T01:08:48+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -271,6 +271,42 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T18:29:29Z"
+                }
+            ]
+        },
+        "apppress/backup": {
+            "slug": "apppress/backup",
+            "name": "AppPress Backup & Restore",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-backup",
+            "tier": "first_party",
+            "description": "Protect your AppPress site with automated database and file backups \u2014 scheduled or on-demand, stored locally or on S3-compatible storage, optionally AES-256 encrypted, with retention policies, integrity verification, and one-click restore. Implements StandardContracts::BACKUP so App Packs and workflows can trigger backups without direct coupling. Not a content JSON export \u2014 use core export for site migration; use this plugin for disaster recovery.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-backup/releases/assets/473946116",
+                    "checksum_sha256": "01789542f423a13ec560c9fab3e9c9b9d355950867ca1bd0990aa851d3a0bf01",
+                    "signature": "480e1fea713969e2bf41a4a380d025dfa05a9e2297825e9221cc7af360a031233dfe1d866a1a0a30486200fe02136ba094c25292852d0719cfaab1a52949e30d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "backup",
+                        "restore",
+                        "disaster_recovery",
+                        "scheduled_backups",
+                        "database_backup",
+                        "file_backup",
+                        "s3_storage",
+                        "encryption_at_rest",
+                        "retention_policy",
+                        "integrity_verification",
+                        "admin_dashboard"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T01:07:00Z"
                 }
             ]
         },
@@ -1807,5 +1843,5 @@
             ]
         }
     },
-    "signature": "30e05f738b18d0c550a7525ff69d25160a14c97af5b8721c7ca9f250331f6913ec788f90fd93789175c2361d35f592115bec38df19f9704dadd9418256c9d20f"
+    "signature": "7d359b4ab7ddb237ce322231ac9e1c532271ce2d39a7cd4f445a1b2316ce52dfd8505169dffed4bd52d824a93c1d6546a340cc5f463d5f27717cdac6a4319b07"
 }
