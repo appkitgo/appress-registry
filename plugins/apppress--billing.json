@@ -13,8 +13,8 @@
         "core": ">=1.0.0"
     },
     "is_verified": true,
-    "is_premium": false,
-    "license_type": "free",
+    "is_premium": true,
+    "license_type": "premium",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-billing/releases/assets/473593810",
     "checksum_sha256": "7877877db2146141e5a08725ba62edb9b4571d0f5fdc25b4ab3cbeaa2c73c32b",
     "signature": "9976250bc9e9d5e802a251cf1cf413a629964259ff49971d84e3fdd3aa69b264b51cbcacd98bbfa186b69ad552043e80728ad07fe09a93e0163ac916a9985609",

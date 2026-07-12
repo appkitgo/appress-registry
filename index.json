@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T19:16:44+00:00",
+    "generated_at": "2026-07-12T20:37:43+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -12,6 +12,8 @@
             "description": "Immutable audit trail for every action across your AppPress platform \u2014 tracks who did what, when, across all core and plugin events. Provides a filterable, exportable admin log, channel-specific workflow triggers, REST ingestion for external systems, and a before_record filter for FERPA/privacy suppression. Implements StandardContracts::AUDIT_LOG so any plugin or App Pack can write to the log without a direct dependency.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/activity-log",
             "versions": [
                 {
                     "version": "1.0.3",
@@ -42,6 +44,8 @@
             "description": "Connect Airtable bases for schema-flexible record read/search/create/update and workflow automation on record changes.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/airtable-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -69,6 +73,8 @@
             "description": "Privacy-friendly, FERPA-aware analytics that tracks page views, visitor sessions, UTM campaigns, and custom events \u2014 with a built-in admin dashboard and configurable data retention. Works out of the box for public pages; requires FERPA review before enabling authenticated-user tracking in campus apps.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/analytics",
             "versions": [
                 {
                     "version": "1.0.1",
@@ -93,6 +99,8 @@
             "description": "Multi-layer spam and abuse protection for public-facing forms, registration flows, and community content. Combines honeypot fields, content pattern analysis, CAPTCHA (reCAPTCHA v3 / hCaptcha), IP reputation scoring, automatic IP blocking, and a moderation quarantine queue \u2014 all configurable without code. Fires workflow triggers on every spam event and exposes workflow actions to block IPs, approve/reject quarantine items, and scan arbitrary content on demand.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/anti-spam",
             "versions": [
                 {
                     "version": "1.0.2",
@@ -127,6 +135,8 @@
             "description": "Named API keys with scoped permissions, per-key rate limiting, usage analytics, zero-downtime key rotation, and full connector/workflow integration. Implements StandardContracts::API_KEYS.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/api-keys",
             "versions": [
                 {
                     "version": "1.2.1",
@@ -162,6 +172,8 @@
             "description": "Let members, clients, or students book time slots with staff or service providers. Manages bookable services, weekly availability windows, automatic slot generation, conflict detection, capacity limits, cancellation policies, and pre-appointment reminders. Supports optional external scheduler ingress (Calendly, etc.) and calendar sync. Implements StandardContracts::APPOINTMENTS so App Packs and other plugins can book and query appointments without direct coupling.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/appointments",
             "versions": [
                 {
                     "version": "1.0.2",
@@ -186,6 +198,8 @@
             "description": "Approval workflow plugin that assigns sign-off requests to any record (quote, form, document, or custom entity), captures approve/reject decisions with a full audit trail, fires 8 workflow triggers for automation, and bridges to DocuSign for e-signatures. Use this plugin whenever an app needs a human to review and sign off on something before a process can continue.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/approvals",
             "versions": [
                 {
                     "version": "1.0.1",
@@ -218,6 +232,8 @@
             "description": "Production Asana connector for CampusLaunch \u2014 find/create/update tasks, read projects and sections, and inbound workflow triggers for task-created and task-completed events via Asana's signed webhook handshake.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/asana-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -246,6 +262,8 @@
             "description": "Assignment submission, rubric grading, and grade management for LMS and campus apps. Supports due dates, late penalties, pass/fail thresholds, file uploads, SIS/LMS grade import via signed webhook, and workflow automation covering the full submission lifecycle: created \u2192 published \u2192 submitted \u2192 graded \u2192 passed/failed \u2192 returned.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/assignments",
             "versions": [
                 {
                     "version": "1.0.1",
@@ -283,6 +301,8 @@
             "description": "Protect your AppPress site with automated database and file backups \u2014 scheduled or on-demand, stored locally or on S3-compatible storage, optionally AES-256 encrypted, with retention policies, integrity verification, and one-click restore. Implements StandardContracts::BACKUP so App Packs and workflows can trigger backups without direct coupling. Not a content JSON export \u2014 use core export for site migration; use this plugin for disaster recovery.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/backup",
             "versions": [
                 {
                     "version": "1.0.1",
@@ -319,6 +339,8 @@
             "description": "Stripe-powered subscription billing with plans, feature quotas, usage tracking, customer portal, and webhook sync. Implements StandardContracts::BILLING and emits eight outbound workflow triggers (subscription_created, subscription_cancelled, subscription_renewed, payment_failed, payment_succeeded, plan_changed, trial_started, trial_ended). Provides workflow actions for sending payment links, cancelling subscriptions, checking subscription status, assigning plans, and recording usage. Exposes connector query surfaces for subscriptions, invoices, and feature usage.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "premium",
+            "product_slug": "apppress/billing",
             "versions": [
                 {
                     "version": "1.0.4",
@@ -388,6 +410,8 @@
             "description": "Full blog and content publishing engine with post scheduling, revision history, RSS feed, category management, reading time, and cross-plugin integrations for SEO, tags, and comments.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/blog",
             "versions": [
                 {
                     "version": "1.0.1",
@@ -414,6 +438,8 @@
             "description": "Publish services, accept bookings, sync schedules, collect deposits, and manage appointments.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/booking-portal",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -446,6 +472,8 @@
             "description": "Shared calendar and scheduling primitive \u2014 events with RRULE recurrence, availability windows, iCal import/export, and certified connector sync with Google Calendar and Outlook. Powers apppack-booking, apppack-project-management, apppack-lms, and CRM.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/calendar",
             "versions": [
                 {
                     "version": "1.0.1",
@@ -478,6 +506,8 @@
             "description": "Issue and verify PDF certificates for course completions, quiz passes, and custom achievements. Supports customizable HTML/CSS templates with dynamic variable substitution.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/certificates",
             "versions": [
                 {
                     "version": "1.0.1",
@@ -507,6 +537,8 @@
             "description": "Product changelog and release notes system for campus apps and SaaS products. Teams publish versioned entries (new, improvement, fix, security, deprecation) with rich content, schedule releases, track reads and reactions, and email digest notifications to subscribers. Exposes mobile What's New surfaces, admin dashboard blocks, workflow triggers, and the StandardContracts::CHANGELOG service for App Packs.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/changelog",
             "versions": [
                 {
                     "version": "1.0.1",
@@ -540,6 +572,8 @@
             "description": "Real-time messaging with channels, DMs, threading, reactions, presence, and file attachments. Implements StandardContracts::CHAT.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/chat",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -566,6 +600,8 @@
             "description": "One private place for clients to access files, invoices, messages, and approvals.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/client-portal",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -600,6 +636,8 @@
             "description": "Platform-level cloud infrastructure provider for AppPress Cloud. Provisions DigitalOcean VPS instances, manages DNS records, bootstraps AppPress via cloud-init with Let's Encrypt SSL, and remotely installs App Packs/plugins via machine-token API. Listens to marketplace InstanceProvisioned/Terminated/Suspended/Resumed events. Not for campus or tenant-site blueprints \u2014 operator infrastructure only.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/cloud-vps",
             "versions": [
                 {
                     "version": "1.0.2",
@@ -636,6 +674,8 @@
             "description": "CRM-style contact and company management with lifecycle stages, notes, tasks, and activity tracking.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/contacts",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -662,6 +702,8 @@
             "description": "Scheduled, prerequisite-based, and time-gated content release for AppPress. Supports course dripping, onboarding sequences, and membership content.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/content-drip",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -686,6 +728,8 @@
             "description": "Discount codes and coupons with percentage and fixed-amount discounts, usage limits, expiration dates, plan restrictions, and redemption tracking.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/coupons",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -712,6 +756,8 @@
             "description": "Dynamic custom field groups and fields attachable to any model, with type validation, field groups, and a clean API for reading and writing values.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/custom-fields",
             "versions": [
                 {
                     "version": "1.0.1",
@@ -739,6 +785,8 @@
             "description": "Threaded discussion system: polymorphic threads, nested replies, emoji reactions, upvotes, @mentions, pin/lock/close, moderation queue, spam integration.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/discussions",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -765,6 +813,8 @@
             "description": "HTML templating and PDF generation for workflows and business records. Implements StandardContracts::DOCUMENTS and core.generate_pdf workflow action.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/documents",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -792,6 +842,8 @@
             "description": "Production DocuSign eSignature connector for CampusLaunch \u2014 send envelopes for signature from templates, track envelope and recipient status, list/search envelopes, void envelopes, and inbound Connect webhook triggers for envelope-completed and recipient-completed events.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/docusign-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -820,6 +872,8 @@
             "description": "Production Dropbox connector for AppPress \u2014 find/upload/move files and folders, short-lived download links instead of embedded file bytes, and an inbound workflow trigger for file changes driven by Dropbox's real notification-only webhook (list_folder/continue delta discovery), with the GET challenge-echo handshake required for subscription registration.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/dropbox-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -848,6 +902,8 @@
             "description": "Operator-managed email marketing: mailing lists with double opt-in, HTML campaigns, scheduled queue-based sends, open/click tracking, bounce webhooks, RFC 8058 unsubscribe, and site-scoped analytics. Implements StandardContracts::EMAIL_CAMPAIGNS.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/email-campaigns",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -874,6 +930,8 @@
             "description": "Campus event management with ticket types, capacity control, waitlist promotion, QR-based check-in, and guest or authenticated registration. Implements StandardContracts::EVENTS for cross-plugin registration flows.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/events",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -905,6 +963,8 @@
             "description": "Site-scoped boolean, percentage, segment, and plan-based feature flags with per-user and global overrides, expiring overrides, and evaluation caching. Implements StandardContracts::FEATURE_FLAGS so host plugins gate features without hard dependencies. Operator-only \u2014 flags are resolved server-side via contract or service injection, not member UI.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/feature-flags",
             "versions": [
                 {
                     "version": "1.1.1",
@@ -937,6 +997,8 @@
             "description": "User-scoped file storage with per-user quotas, disk-backed uploads, signed download URLs, and usage tracking. Implements StandardContracts::FILE_VAULT so App Packs, forms, and workflows can store private documents without coupling to this plugin. Ships admin dashboard blocks, member My Files panel, mobile ListScreen and interactive DetailScreen, workflow triggers, and outbound webhooks.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/file-vault",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -968,6 +1030,8 @@
             "description": "Drag-and-drop form builder for public intake and operator-managed capture \u2014 submissions, email notifications, honeypot and rate-limit spam protection, optional anti-spam middleware, CSV export, workflow triggers, and mobile FormScreen embeds. Implements StandardContracts::FORMS.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/forms",
             "versions": [
                 {
                     "version": "1.0.1",
@@ -997,6 +1061,8 @@
             "description": "Production Freshdesk support-desk connector for AppPress \u2014 create, update, and annotate tickets, list/search tickets, look up contacts and companies, and inbound webhook triggers for ticket-created and ticket-updated events.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/freshdesk-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1025,6 +1091,8 @@
             "description": "Gamification engine: points/XP, badges, achievements, leaderboards, streaks, and user levels. Hook-driven so any plugin can award points.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/gamification",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1051,6 +1119,8 @@
             "description": "Shared geolocation primitive for AppPress \u2014 structured addresses, Nominatim geocoding, Haversine proximity search, public address autocomplete, and mobile MapScreen points. Consumed by contacts, events, appointments, and campus map app packs via StandardContracts::GEO.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/geo",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1082,6 +1152,8 @@
             "description": "Production GitHub connector for AppPress \u2014 find/create issues, comment on issues, and read repositories via workflow automation, with real issue/comment webhooks.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/github-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1109,6 +1181,8 @@
             "description": "Production Google Calendar connector for CampusLaunch \u2014 event create/update/delete/get, calendar listing, free/busy availability lookups, search, and webhook triggers for event created/updated via Google's Calendar Watch push notifications.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/google-calendar-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1138,6 +1212,8 @@
             "description": "Production Gusto connector for CampusLaunch \u2014 read/search employees, read compensation rates, and read payroll runs, scoped to a Gusto company (company UUID) via OAuth2. Highly sensitive HR/payroll data: no SSN or bank/direct-deposit fields are ever requested or exposed.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/gusto-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1166,6 +1242,8 @@
             "description": "Complete customer support platform: ticketing, SLA management, agent dashboard, knowledge base, and customer portal.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/helpdesk",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1192,6 +1270,8 @@
             "description": "Shared localization primitive for AppPress \u2014 locale management, translation strings, content translation linking, locale detection, RTL support, public locale switcher embeds, and import/export. Consumed by pages, blogs, forms, and app packs via StandardContracts::I18N.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/i18n",
             "versions": [
                 {
                     "version": "1.1.0",
@@ -1224,6 +1304,8 @@
             "description": "Universal CSV/Excel/JSON import and export framework for AppPress \u2014 pluggable resource-type registries, column-mapping UI, background job processing for large files, per-row validation with error reporting, and operator dashboards. Implements StandardContracts::IMPORT_EXPORT so App Packs register importable/exportable types without coupling to this plugin.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/import-export",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1257,6 +1339,8 @@
             "description": "Production Intercom connector for AppPress \u2014 create, update, and look up contacts (leads/users), read and search conversations, post admin replies, and inbound webhook triggers for new conversations and new contacts.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/intercom-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1285,6 +1369,8 @@
             "description": "Standalone invoice management with line items, tax, PDF generation, payment recording, overdue detection, automated reminders, and public client view links.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/invoices",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1315,6 +1401,8 @@
             "description": "Production Jira Cloud connector for AppPress \u2014 find/create/update issues, read/search projects, and workflow automation on real Jira data.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/jira-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1342,6 +1430,8 @@
             "description": "Full-featured knowledge base and help center with articles, hierarchical categories, curated collections, revision history, public search, helpfulness voting, mobile help surfaces, and workflow automation for campus support content.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/knowledge-base",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1374,6 +1464,8 @@
             "description": "Connect Klaviyo for marketing profile/event management and workflow automation on list-subscribe and email-engagement events.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/klaviyo-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1401,6 +1493,8 @@
             "description": "Track leads, build pipelines, assign tasks, and close deals without the bloat.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/lightweight-crm",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1432,6 +1526,8 @@
             "description": "Commerce-focused customer loyalty program with tiered points, earning rules, redeemable reward catalog, point expiry, and tier-based benefits.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/loyalty",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1458,6 +1554,8 @@
             "description": "Connect Mailchimp for audience/subscriber management and workflow automation on member subscribe, unsubscribe, and profile-update events.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/mailchimp-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1485,6 +1583,8 @@
             "description": "Full-featured marketplace platform: package listings, developer accounts, reviews, cloud hosting, and analytics.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/marketplace",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1509,6 +1609,8 @@
             "description": "Image processing pipeline for the core media library: responsive variants, WebP conversion, EXIF stripping, metadata extraction, background queue processing, operator dashboard, and mobile gallery surfaces. Implements StandardContracts::MEDIA so App Packs and plugins can trigger processing without direct coupling.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/media",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1540,6 +1642,8 @@
             "description": "Mixpanel connector for AppPress \u2014 fire-and-forget event tracking via the real-time Track API, plus read/search of user profiles via the Query/Engage API (Service Account auth). Mixpanel's ingestion side is write-only, like Segment: there is no read/update/delete on tracked events because Mixpanel's real API does not expose one.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/mixpanel-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1567,6 +1671,8 @@
             "description": "Newsletter list management with subscriber opt-in (single or double), HTML issue composition, scheduled or immediate delivery, open and click tracking, public subscribe blocks, mobile FormScreen subscription, and subscriber import/export. Implements StandardContracts::NEWSLETTERS.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/newsletters",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1593,6 +1699,8 @@
             "description": "Staff-only internal notes and annotations attachable to any entity via polymorphic relations. Operators use the admin dashboard and REST API; field staff use mobile ListScreen, DetailScreen, and FormScreen surfaces. Integrates with workflows (create/delete actions, created/updated/deleted triggers), activity-log audit entries, and outbound webhooks. Not visible to students or public users.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/notes",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1624,6 +1732,8 @@
             "description": "Multi-channel notification center for AppPress \u2014 in-app bell, email, browser push (VAPID), SMS (Twilio), and Expo mobile push. Implements StandardContracts::NOTIFICATIONS so workflows and plugins deliver alerts without direct coupling.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/notifications",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1653,6 +1763,8 @@
             "description": "Production Notion connector for AppPress \u2014 query, create, update, and read pages in a connected Notion database via workflow automation.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/notion-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1680,6 +1792,8 @@
             "description": "User onboarding checklists and guided flows for campus apps. Operators define step-by-step checklists with links, videos, and manual actions; users track progress via member API, embedded page blocks, theme widgets, and mobile surfaces. Integrates with workflows (assign on registration, completion notifications), optional gamification rewards, activity-log audit entries, and the StandardContracts::ONBOARDING service.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/onboarding",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1713,6 +1827,8 @@
             "description": "Order management system covering the full lifecycle from placement through fulfilment, shipping, delivery, and refunds, with status history, member self-service, mobile surfaces, and StandardContracts::ORDERS for commerce App Packs.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/orders",
             "versions": [
                 {
                     "version": "1.0.1",
@@ -1744,6 +1860,8 @@
             "description": "Read-only CMS surfaces for AppPress Core's page system: shortcodes ([page], [page_menu]), a page-menu widget, block-editor embed blocks, a mobile RichTextScreen surface, an operator metrics dashboard, and workflow triggers/webhooks fired from core's real page lifecycle events. Does not own page storage or CRUD \u2014 page creation, editing, and revision history are core's canonical apppress/pages system (Admin -> Pages).",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/pages",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1781,6 +1899,8 @@
             "description": "One-time Stripe payments: checkout sessions, payment records, full/partial refunds, receipts, and webhook sync. Implements StandardContracts::PAYMENTS.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/payments",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1807,6 +1927,8 @@
             "description": "CRM sales pipeline management with configurable stages, deal tracking, activity logging, win/loss analytics, and kanban board view.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/pipelines",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1835,6 +1957,8 @@
             "description": "Product catalog supporting simple and variable products with variants, category hierarchy, image galleries, stock tracking, and pricing with compare-at prices.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/products",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1867,6 +1991,8 @@
             "description": "Step-by-step progress tracking for any model: define steps, record completions per user, calculate percentage, fire completion events, issue certificates, and resume where left off.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/progress",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1901,6 +2027,8 @@
             "description": "Project and task management with kanban board, milestones, member roles, priority levels, due dates, task comments, and completion tracking.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/projects",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1927,6 +2055,8 @@
             "description": "Production QuickBooks Online connector for CampusLaunch \u2014 create/update customers, create invoices, find/search customers, and an inbound webhook trigger for invoice-paid events, scoped to a QuickBooks company (realm) via OAuth2.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/quickbooks-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1955,6 +2085,8 @@
             "description": "Assessment engine with question banks, multiple question types, auto and manual grading, time limits, multiple attempts, pass/fail thresholds, and detailed result analytics.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/quizzes",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -1981,6 +2113,8 @@
             "description": "A complete business workflow for capturing leads, sending quotes, and getting paid. Replaces disjointed form and invoicing tools.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/quote-portal",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2014,6 +2148,8 @@
             "description": "Create, send, and track quotes and estimates for campus departments and commercial operators. Features a token-based customer approval portal, line-item pricing, optional invoice conversion, member and mobile client surfaces, workflow triggers, and sales pipeline admin blocks.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/quotes",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2047,6 +2183,8 @@
             "description": "Universal ratings and reviews: 1-5 stars, text reviews, moderation queue, aggregate scores, helpful voting, and owner replies. Works on any model.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/ratings",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2073,6 +2211,8 @@
             "description": "Referral and affiliate tracking with unique codes, reward programs, multi-tier commissions, conversion tracking, and payout management.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/referrals",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2099,6 +2239,8 @@
             "description": "Plugin-agnostic reporting framework for AppPress \u2014 pluggable data source registry, saved report definitions, operator dashboards with chart widgets, PDF/CSV export, and scheduled email delivery. Implements StandardContracts::REPORTS so App Packs register metrics without coupling to this plugin.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/reports",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2130,6 +2272,8 @@
             "description": "Polymorphic text-and-star reviews for any reviewable subject (products, pages, events). Features moderation queue, verified purchaser flag, helpful votes, pinned reviews, owner replies, cached rating summaries, member My Reviews panel, mobile FormScreen/ListScreen surfaces, workflow triggers/actions, and outbound webhooks. Implements StandardContracts::REVIEWS for cross-plugin submission without tight coupling.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/reviews",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2163,6 +2307,8 @@
             "description": "Connect Salesforce CRM for lead, contact, and opportunity sync plus workflow automation.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/salesforce-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2190,6 +2336,8 @@
             "description": "Schedule any Eloquent content to auto-publish or auto-unpublish at a future date and time. Polymorphic, timezone-aware, multi-site, with missed-schedule recovery, workflow triggers, and mobile operator visibility for schedule managers.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/scheduler",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2219,6 +2367,8 @@
             "description": "Driver-based full-text search across all content types. Implements StandardContracts::SEARCH with SQLite FTS5 / MySQL FULLTEXT / PostgreSQL tsvector (default) and an optional Meilisearch adapter.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/search",
             "versions": [
                 {
                     "version": "1.0.1",
@@ -2243,6 +2393,8 @@
             "description": "Write-only Segment Tracking API connector for AppPress \u2014 send track/identify events out to a Segment source from workflows. Segment is an event-ingestion endpoint, not a queryable data store: there is no read/search/update/delete operation because Segment's real API does not expose one.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/segment-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2270,6 +2422,8 @@
             "description": "SEO for AppPress. Per-entry meta, Open Graph, Twitter Cards, JSON-LD, sitemap.xml, and robots.txt management.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/seo",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2296,6 +2450,8 @@
             "description": "Production Shopify connector for AppPress \u2014 find/create/update customers and read orders via workflow automation, with real order webhooks.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/shopify-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2323,6 +2479,8 @@
             "description": "Connect Slack for channel lookup, message posting/editing, and workflow automation on inbound Slack events.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/slack-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2350,6 +2508,8 @@
             "description": "OAuth 2.0 social login for AppPress \u2014 Google, GitHub, Facebook, Twitter/X, and Microsoft. Supports auto-registration, email-based account linking, encrypted token storage, connected-accounts API, workflow triggers, and StandardContracts::SOCIAL_AUTH for cross-plugin integration without tight coupling.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/social-auth",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2383,6 +2543,8 @@
             "description": "Production Squarespace connector for AppPress \u2014 find/create/update customers via the real Contacts API, read/search Commerce orders, and real order webhooks.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/squarespace-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2410,6 +2572,8 @@
             "description": "A governed request portal for student organizations to submit requests, upload details, and route staff review.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/student-org-request-portal",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2440,6 +2604,8 @@
             "description": "Survey builder with multiple question types, NPS scoring, conditional logic, response analytics, shareable public links, mobile pulse forms, workflow triggers/actions, and StandardContracts::SURVEYS for cross-plugin integration.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/surveys",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2473,6 +2639,8 @@
             "description": "Universal tagging and hierarchical categorization: flat tags, nested categories, tag clouds, polymorphic attachment to any model.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/tags",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2499,6 +2667,8 @@
             "description": "Team and organisation management for AppPress \u2014 create teams, invite members by email, manage owner/admin/member roles, switch team context, and expose StandardContracts::TEAMS for App Packs (helpdesk departments, LMS cohorts, CRM sales teams, chat channels). Includes workflow triggers/actions, outbound webhooks, mobile ListScreen/DetailScreen surfaces, team-switcher block, and site-scoped multi-tenant data.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/teams",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2534,6 +2704,8 @@
             "description": "Full-featured help desk ticketing with priority levels, SLA tracking, internal notes, agent assignment, and category management. Students submit tickets; staff agents manage and resolve them; admins track volume, response time, and SLA health.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/tickets",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2575,6 +2747,8 @@
             "description": "Production Trello connector for AppPress \u2014 find/create/update cards, read boards and lists, and workflow automation on real card-activity webhooks.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/trello-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2602,6 +2776,8 @@
             "description": "Connect Twilio for SMS notifications, message lookup/redaction, and workflow automation on inbound SMS and delivery-status events.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/twilio-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2629,6 +2805,8 @@
             "description": "TOTP-based two-factor authentication for AppPress \u2014 backup codes, trusted devices, enforcement policies, admin compliance dashboard, workflow triggers, and StandardContracts::TWO_FACTOR for auth-sensitive App Packs without tight coupling.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/two-factor",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2663,6 +2841,8 @@
             "description": "Typeform connector for AppPress \u2014 inbound form-response webhook trigger plus read/search of forms and form responses via a Personal Access Token. Typeform's public API is response-ingestion-shaped: there is no create/update/delete operation for responses because form responses are end-user submissions, not something an API client writes.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/typeform-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2690,6 +2870,8 @@
             "description": "Launch waitlist and early-access management with position tracking, referral-based position boosts, email confirmation, batch invite sending, and conversion tracking.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/waitlist",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2707,6 +2889,35 @@
                 }
             ]
         },
+        "apppress/wix-connector": {
+            "slug": "apppress/wix-connector",
+            "name": "Wix Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-wix-connector",
+            "tier": "first_party",
+            "description": "Production Wix connector for AppPress \u2014 find/create/update Contacts via the real Contacts API v4, read/search eCommerce orders, and real JWT-signed order webhooks.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/wix-connector",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-wix-connector/releases/assets/474707807",
+                    "checksum_sha256": "cd0f43acd3eb515fc249847d69054e2870f7ae21ca4ccc3ee451d519ed137e05",
+                    "signature": "874218ec65c8ddeb63b042a9abc53d58b8b8e42f34202106fd414d03760a1caf98114566d90941e344a324d6dc00aac729aef7b01983b9f3f70e7148b503320a",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.wix",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T20:36:23Z"
+                }
+            ]
+        },
         "apppress/workflows": {
             "slug": "apppress/workflows",
             "name": "AppPress Workflows",
@@ -2716,6 +2927,8 @@
             "description": "Visual automation engine for AppPress \u2014 trigger \u2192 conditions \u2192 actions. When X happens, do Y. Supports 19 built-in triggers, 13 built-in actions, HMAC-signed webhook ingress, approval gates, delayed steps, conditional branching, formula evaluation, version snapshots with rollback, multi-site scoping, and rate-limiting circuit breakers. Implements StandardContracts::WORKFLOWS so any App Pack can resolve the workflow service without a direct dependency.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/workflows",
             "versions": [
                 {
                     "version": "1.0.2",
@@ -2745,6 +2958,8 @@
             "description": "Production Xero connector for CampusLaunch \u2014 create/update contacts, create invoices, find/search contacts, read payments, and inbound workflow triggers for invoice-created and invoice-paid events, scoped to a real Xero organisation (tenant) discovered via Xero's /connections API after OAuth2 connect.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/xero-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2773,6 +2988,8 @@
             "description": "Production Zendesk support-desk connector for CampusLaunch \u2014 create, update, and comment on tickets, list/search tickets and read users, and inbound webhook triggers for ticket-created and ticket-status-changed events.",
             "author": "AppPress",
             "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/zendesk-connector",
             "versions": [
                 {
                     "version": "1.0.0",
@@ -2793,5 +3010,5 @@
             ]
         }
     },
-    "signature": "d5fa38d812066e6f81df7b0c2a567a0cc781df03e55ab68b266dcf3f82b2d97c555ee780844f0986ab7065ac20fa9283f644fe05e5a51e8698bbac314c09890a"
+    "signature": "cfb0095c0cc70ea8fafae4abd7894ada7776019867618d1e59215291e688927e0ffd647409df5a6ac74e179d49b93035dacd12e5eff00da38339e600fdfc800b"
 }
