@@ -1,0 +1,58 @@
+{
+    "slug": "apppress/changelog",
+    "name": "AppPress Changelog",
+    "version": "1.0.1",
+    "author": "AppPress",
+    "description": "Product changelog and release notes system for campus apps and SaaS products. Teams publish versioned entries (new, improvement, fix, security, deprecation) with rich content, schedule releases, track reads and reactions, and email digest notifications to subscribers. Exposes mobile What's New surfaces, admin dashboard blocks, workflow triggers, and the StandardContracts::CHANGELOG service for App Packs.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T01:33:43Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-changelog/releases/assets/473962014",
+    "checksum_sha256": "8e05cbd661b1ee73fc0170805a860b94aad959048d45261860c2eead685508bc",
+    "signature": "449142c432ba9f0e962fdbe14a44d1967997495790f483364da71f3cd42209aa12963b25412fffe9a9cc86cf705a566fb4d40f24ac8f9b1b854a9fa2620efc08",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "changelog",
+        "release_notes",
+        "product_updates",
+        "subscriber_digest",
+        "scheduled_publishing",
+        "read_tracking",
+        "reactions",
+        "mobile_whats_new"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-changelog/releases/assets/473962014",
+            "checksum_sha256": "8e05cbd661b1ee73fc0170805a860b94aad959048d45261860c2eead685508bc",
+            "signature": "449142c432ba9f0e962fdbe14a44d1967997495790f483364da71f3cd42209aa12963b25412fffe9a9cc86cf705a566fb4d40f24ac8f9b1b854a9fa2620efc08",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "changelog",
+                "release_notes",
+                "product_updates",
+                "subscriber_digest",
+                "scheduled_publishing",
+                "read_tracking",
+                "reactions",
+                "mobile_whats_new"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T01:33:43Z"
+        }
+    ]
+}
