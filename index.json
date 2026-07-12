@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T14:52:57+00:00",
+    "generated_at": "2026-07-12T15:12:57+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -402,6 +402,38 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T20:12:18Z"
+                }
+            ]
+        },
+        "apppress/booking-portal": {
+            "slug": "apppress/booking-portal",
+            "name": "Booking & Appointments Portal",
+            "type": "app-pack",
+            "github_repo": "appkitgo/apppack-booking",
+            "tier": "first_party",
+            "description": "Publish services, accept bookings, sync schedules, collect deposits, and manage appointments.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/apppack-booking/releases/assets/474485019",
+                    "checksum_sha256": "f419cdb1fba09c1363303747e8df484ffdc40683a5cd36a488a418afa7eb1810",
+                    "signature": "47b45380448a8a1a5de870badc597bad9645a030e07d05145f933899d19ca7d58bf7b8953d2cb813282068a34d6090ff6e891747e846122433a56673f4101c00",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {
+                        "apppress/appointments": "^1.0.0",
+                        "apppress/calendar": "^1.0.0",
+                        "apppress/contacts": "^1.0.0",
+                        "apppress/forms": "^1.0.0",
+                        "apppress/payments": "^1.0.0",
+                        "apppress/notifications": "^1.0.0",
+                        "apppress/workflows": "^1.0.0"
+                    },
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-12T15:11:42Z"
                 }
             ]
         },
@@ -2616,5 +2648,5 @@
             ]
         }
     },
-    "signature": "1dde84cdeb10fd203f7bf102e9392f7ad24f6c0931edce2daf20342073bc44ef504b7a6a24f49c0c8d58ed81a193b3a4619502780838d80bcfa9a8b69fe7020a"
+    "signature": "080abd9cc2e0ee38614d3f04f7a4f306ac5aead28bdba37413233a0603a319e417fe7899d9e8ef0d5c00581b3c7e745111236a24904715736f051c3f08731204"
 }
