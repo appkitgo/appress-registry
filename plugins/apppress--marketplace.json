@@ -1,0 +1,40 @@
+{
+    "slug": "apppress/marketplace",
+    "name": "AppPress Marketplace",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Full-featured marketplace platform: package listings, developer accounts, reviews, cloud hosting, and analytics.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T15:46:34Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/apppack-marketplace/releases/assets/474507623",
+    "checksum_sha256": "41a796bb40719680b959b7158ddbf9033b683d74c690855093142daf399d2664",
+    "signature": "da19a4d34a1ba7e977a3d6bdaf90fff03ce4de248fd889ae042de479dbb3346b4c0e48798b5e17f6826bc5ee31ed35ca308e8f904d63d090152e403c770a6909",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/apppack-marketplace/releases/assets/474507623",
+            "checksum_sha256": "41a796bb40719680b959b7158ddbf9033b683d74c690855093142daf399d2664",
+            "signature": "da19a4d34a1ba7e977a3d6bdaf90fff03ce4de248fd889ae042de479dbb3346b4c0e48798b5e17f6826bc5ee31ed35ca308e8f904d63d090152e403c770a6909",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-12T15:46:34Z"
+        }
+    ]
+}
