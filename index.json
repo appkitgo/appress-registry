@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T10:53:08+00:00",
+    "generated_at": "2026-07-12T11:08:00+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -862,6 +862,37 @@
                 }
             ]
         },
+        "apppress/file-vault": {
+            "slug": "apppress/file-vault",
+            "name": "AppPress File Vault",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-file-vault",
+            "tier": "first_party",
+            "description": "User-scoped file storage with per-user quotas, disk-backed uploads, signed download URLs, and usage tracking. Implements StandardContracts::FILE_VAULT so App Packs, forms, and workflows can store private documents without coupling to this plugin. Ships admin dashboard blocks, member My Files panel, mobile ListScreen and interactive DetailScreen, workflow triggers, and outbound webhooks.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-file-vault/releases/assets/474329533",
+                    "checksum_sha256": "356aa809619c9d57746b07cab491539646775ca35c6d624e553a068fe081321b",
+                    "signature": "db310dfa2472730df7b524b476859aebabd71933c1eaecd9d53d8e991481bf97a04cb5ab0829ee4b380e76a172b33e1555f162ef24b01336ccb9f6afbd433a07",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "files",
+                        "file-vault",
+                        "private_file_storage",
+                        "per_user_quotas",
+                        "signed_download_urls",
+                        "mobile_my_files"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-12T11:06:52Z"
+                }
+            ]
+        },
         "apppress/forms": {
             "slug": "apppress/forms",
             "name": "AppPress Forms",
@@ -1436,34 +1467,6 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T20:35:23Z"
-                }
-            ]
-        },
-        "apppress/pipelines": {
-            "slug": "apppress/pipelines",
-            "name": "AppPress Pipelines",
-            "type": "plugin",
-            "github_repo": "appkitgo/plugin-pipelines",
-            "tier": "first_party",
-            "description": "CRM sales pipeline management with configurable stages, deal tracking, activity logging, win/loss analytics, and kanban board view.",
-            "author": "AppPress",
-            "categories": [],
-            "versions": [
-                {
-                    "version": "1.0.0",
-                    "download_url": "https://api.github.com/repos/appkitgo/plugin-pipelines/releases/assets/473828377",
-                    "checksum_sha256": "2e6dcf4f9dada63b96a374f882275880fe583976388bac198e07b82cc2f86d76",
-                    "signature": "e81497e3ca28690bdc67cca06c6938c08cb3a3ebe95003e663f86c86a4038c1c30d831d43b7ad2718f67328116152a09772714da79e1828b89e93a62601a450d",
-                    "min_core_version": "1.0.0",
-                    "dependencies": {},
-                    "requires_plugins": [],
-                    "capabilities": [
-                        "pipelines",
-                        "crm",
-                        "deal_tracking"
-                    ],
-                    "yanked": false,
-                    "published_at": "2026-07-11T22:22:03Z"
                 }
             ]
         },
@@ -2048,7 +2051,35 @@
                     "published_at": "2026-07-11T00:56:54Z"
                 }
             ]
+        },
+        "apppress/pipelines": {
+            "slug": "apppress/pipelines",
+            "name": "AppPress Pipelines",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-pipelines",
+            "tier": "first_party",
+            "description": "CRM sales pipeline management with configurable stages, deal tracking, activity logging, win/loss analytics, and kanban board view.",
+            "author": "AppPress",
+            "categories": [],
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-pipelines/releases/assets/473828377",
+                    "checksum_sha256": "2e6dcf4f9dada63b96a374f882275880fe583976388bac198e07b82cc2f86d76",
+                    "signature": "e81497e3ca28690bdc67cca06c6938c08cb3a3ebe95003e663f86c86a4038c1c30d831d43b7ad2718f67328116152a09772714da79e1828b89e93a62601a450d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": [],
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "pipelines",
+                        "crm",
+                        "deal_tracking"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T22:22:03Z"
+                }
+            ]
         }
     },
-    "signature": "9d9d43faf22ffeed5a4f766e95615fd39fcf270bfdd3b40f782ba0c0f4badc8723960af79bcaf99a734cf9b1595cebf3e0e1890d1206731e214b21dbb810a803"
+    "signature": "e219e6f1e95f692ff46c76f4bb90c1bc1d92e8a37d43195253a170392a71cfc9beb17294f7204e429d43c98fea3aa7d789618384c4acca617e41f6c324aa5b08"
 }

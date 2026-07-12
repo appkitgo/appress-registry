@@ -1,0 +1,54 @@
+{
+    "slug": "apppress/file-vault",
+    "name": "AppPress File Vault",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "User-scoped file storage with per-user quotas, disk-backed uploads, signed download URLs, and usage tracking. Implements StandardContracts::FILE_VAULT so App Packs, forms, and workflows can store private documents without coupling to this plugin. Ships admin dashboard blocks, member My Files panel, mobile ListScreen and interactive DetailScreen, workflow triggers, and outbound webhooks.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-12T11:06:52Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-file-vault/releases/assets/474329533",
+    "checksum_sha256": "356aa809619c9d57746b07cab491539646775ca35c6d624e553a068fe081321b",
+    "signature": "db310dfa2472730df7b524b476859aebabd71933c1eaecd9d53d8e991481bf97a04cb5ab0829ee4b380e76a172b33e1555f162ef24b01336ccb9f6afbd433a07",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "files",
+        "file-vault",
+        "private_file_storage",
+        "per_user_quotas",
+        "signed_download_urls",
+        "mobile_my_files"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-file-vault/releases/assets/474329533",
+            "checksum_sha256": "356aa809619c9d57746b07cab491539646775ca35c6d624e553a068fe081321b",
+            "signature": "db310dfa2472730df7b524b476859aebabd71933c1eaecd9d53d8e991481bf97a04cb5ab0829ee4b380e76a172b33e1555f162ef24b01336ccb9f6afbd433a07",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "files",
+                "file-vault",
+                "private_file_storage",
+                "per_user_quotas",
+                "signed_download_urls",
+                "mobile_my_files"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-12T11:06:52Z"
+        }
+    ]
+}
