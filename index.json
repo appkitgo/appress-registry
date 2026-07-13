@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-13T12:29:46+00:00",
+    "generated_at": "2026-07-13T13:29:18+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1631,7 +1631,7 @@
                     "checksum_sha256": "da6327512dbd143114cb23b803c1ab1789bf7474535793afcfdf04d130384f4c",
                     "signature": "a4868ddd63579d8a10e01c388f5a7722f5aa430566d674a9f7f6b6b6ae07ded9fd3cfe2d6056a397d4dfd73dd887303752ac0345a7c2e4957c4a39496726220a",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "knowledge-base",
@@ -1644,6 +1644,26 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T19:41:37Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-knowledge-base/releases/assets/475508310",
+                    "checksum_sha256": "ad42fbc67dab94f65871f55e21f9514ed49a369f2511d1b7bda43d353d91723f",
+                    "signature": "21016d91e3605beb4e6c65b8053ae5df44832e820f38ed27c4bdff04e5326d7b50575117b014ffdbc0192c3fa7f27b80f0458e7574a58f998fa64ed740cbe602",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "knowledge-base",
+                        "help_center",
+                        "articles",
+                        "categories",
+                        "collections",
+                        "public_search",
+                        "helpfulness_voting"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-13T13:25:37Z"
                 }
             ]
         },
@@ -3050,7 +3070,7 @@
                     "checksum_sha256": "6790155361c193c01c1fea4b5db77a0ff506c0de3e441682e4478fb634f19162",
                     "signature": "b016e7f1c9bf9f997672c92629b62c3e0c73f6da7cfaf4a18565b17337ee0aef65a0237224a3be6401b8959c17035fa99c9b7822b0aba0a55d1c726ffcc2a501",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "tickets",
@@ -3072,6 +3092,35 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T19:33:02Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-tickets/releases/assets/475483980",
+                    "checksum_sha256": "8ad10f2178337ee88d678ed63069daa53aa09db3cb2a504c81cfac1b1cc74e08",
+                    "signature": "a11ca58a792c924466dcd9b4eb1a7b0c1fffd4d675fe9c2b57662159692d785899a203064a31d89164fa98e9cddeb3f5e9249d1afed4c78cf6b2caed2470e009",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "tickets",
+                        "case_management",
+                        "support_desk",
+                        "help_desk",
+                        "incident_tracking",
+                        "sla_tracking",
+                        "agent_assignment",
+                        "internal_notes",
+                        "category_management",
+                        "mobile_ticket_submission",
+                        "mobile_ticket_tracking",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "webhook_events",
+                        "admin_block_resolvers",
+                        "member_dashboard_panel"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-13T12:54:41Z"
                 }
             ]
         },
@@ -3364,5 +3413,5 @@
             ]
         }
     },
-    "signature": "52f90faaf7119df1cfed063b0efb0af5dfbb0ef31a087db3195c12f12d33b03f3549a809ae78c6c5f763886c915483aa8312efc0d0d5408f0a72fbdaffa67f0d"
+    "signature": "6d6d41fa194a67e3e3115cc3bd373cf10ed22bbc19ba2f658d650d6b133c6d7fe1b509fef3c504fc5b39503e34130e1982b7e3057500cc1c936e1209e20eac0d"
 }
