@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-12T23:59:22+00:00",
+    "generated_at": "2026-07-13T01:37:52+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1428,7 +1428,7 @@
                     "checksum_sha256": "cbdce85f1418770f71f2492f9a07cab95b82f59ff899e2938735ecd1fd0d0fed",
                     "signature": "7e86f055573897756d241318c33a189a43aaf96a7017b3f64d54dfe27f8583f410eee33394f868b77e93b3b1c82a4cfe89de467f0a3cd011714103c61571520d",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "invoices",
@@ -1439,6 +1439,24 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T20:44:14Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-invoices/releases/assets/474926903",
+                    "checksum_sha256": "5c5f310083848b2c6dd7f4720fc175b6221e6267bf0abe227cc358782f5d68ea",
+                    "signature": "1e8bb3853a4962c1ffd2f1c543fe6ef97c64b782446280aeb894efc012220773f323681c36f00e296bf9eb7ee1d2f2c2e986af6c77d521a06af57e3815c96202",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "invoices",
+                        "receivables",
+                        "manual_payments",
+                        "overdue_reminders",
+                        "public_client_view"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-13T01:35:26Z"
                 }
             ]
         },
@@ -3127,5 +3145,5 @@
             ]
         }
     },
-    "signature": "8c86b181bdc80800903277fafbe55956e1b1913254f30e7ec0b204f088e3224f6b02beac4242fc1b9fc1d708bef972aa2d058973179bc8c966cb097a2c0b390d"
+    "signature": "957e030e7239418cab7fa3a84707877256f6e25d5343ea864a52ebd10837dcc32c2964ba5df39f6a28fbd0d5c8cc8e6a437f8ece3aaf79fb4d91babcc1872c0d"
 }
