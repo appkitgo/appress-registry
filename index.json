@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-13T04:13:57+00:00",
+    "generated_at": "2026-07-13T11:38:21+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -219,7 +219,7 @@
                     "checksum_sha256": "a53e3b5b9b1d9a6bae9a9f956f8ee9d2b1ba8983710d3b7cc0a14acbb6cc3134",
                     "signature": "6e7b4dbd219acde9844ddc8a1a92199379353d850571b3959a39d56241913b8c7b09010d6770882287fcf0861711218b5edb6d64f91cacdcc477d2243f649b0a",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "approval_workflow",
@@ -232,6 +232,26 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T18:37:01Z"
+                },
+                {
+                    "version": "1.0.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-approvals/releases/assets/475415600",
+                    "checksum_sha256": "6ae8b7ffe9ed271e75f3cd8e3e5888725ebf4a69d98de418fef283490ed3a93d",
+                    "signature": "bb96d983b99cb47957675298d92b7016bd783ce06333883e5a5d7d4ac8d6265d386d1b062d8f850d68ff5b059939d7394159594d04adaa2d9bd6ecb5e24f9509",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "approval_workflow",
+                        "review_queue",
+                        "decision_tracking",
+                        "esignature",
+                        "docusign_bridge",
+                        "webhook_ingress",
+                        "signer_assignment"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-13T11:35:50Z"
                 }
             ]
         },
@@ -3270,5 +3290,5 @@
             ]
         }
     },
-    "signature": "4fa48da58c2991293e65a506357cecbb5be2e192745fb3a6c25e9c8388695ca1a8029b63791492c4476a43d7d2ac517227d49c704cedaa536b8f56b5d321760a"
+    "signature": "c88774cfafd9f3c3137e25c3b6c99181f41f1d3d85792c75d40cd00e8ffae02777fed9d13658da555425a9529971829961ca89530e33807f7182bd80cdfd1606"
 }
