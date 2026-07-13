@@ -1,23 +1,23 @@
 {
     "slug": "apppress/appointments",
     "name": "AppPress Appointments",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "AppPress",
     "description": "Let members, clients, or students book time slots with staff or service providers. Manages bookable services, weekly availability windows, automatic slot generation, conflict detection, capacity limits, cancellation policies, and pre-appointment reminders. Supports optional external scheduler ingress (Calendly, etc.) and calendar sync. Implements StandardContracts::APPOINTMENTS so App Packs and other plugins can book and query appointments without direct coupling.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T18:50:33Z",
+    "last_updated": "2026-07-13T04:12:12Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-appointments/releases/assets/473702958",
-    "checksum_sha256": "4063d136ed5bc3b7a54142c2162a2b03bebf4a8c85f5671a0fbd240ef83f533b",
-    "signature": "20e2fe40cd616f7854a446f196c5e770caedb3a717e1532316cc2ad310fe7a691baa918fb1c19478d97955244c81d36619d65e65ac96742d0087bd3cc84c8c0a",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-appointments/releases/assets/475058576",
+    "checksum_sha256": "d86b1397f5edd59204fe90a4568714642ef71147952cfa137a65ac90ff6d5207",
+    "signature": "b1ac798f72bd25bd469e0c5c13f9f91d1da3e254c3df2f16f66f386250d7716ab674812dfa6828cfb074d7b46107afe7ccb959433472d7335ac97a5a0b230a09",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -30,11 +30,23 @@
             "checksum_sha256": "4063d136ed5bc3b7a54142c2162a2b03bebf4a8c85f5671a0fbd240ef83f533b",
             "signature": "20e2fe40cd616f7854a446f196c5e770caedb3a717e1532316cc2ad310fe7a691baa918fb1c19478d97955244c81d36619d65e65ac96742d0087bd3cc84c8c0a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [],
             "yanked": false,
             "published_at": "2026-07-11T18:50:33Z"
+        },
+        {
+            "version": "1.0.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-appointments/releases/assets/475058576",
+            "checksum_sha256": "d86b1397f5edd59204fe90a4568714642ef71147952cfa137a65ac90ff6d5207",
+            "signature": "b1ac798f72bd25bd469e0c5c13f9f91d1da3e254c3df2f16f66f386250d7716ab674812dfa6828cfb074d7b46107afe7ccb959433472d7335ac97a5a0b230a09",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-13T04:12:12Z"
         }
     ]
 }
