@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-13T11:50:07+00:00",
+    "generated_at": "2026-07-13T12:06:50+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -677,13 +677,27 @@
                     "checksum_sha256": "6684b672f4f7798771fa215d172747e73fec3548851d0ddb393c83fa29bc9abd",
                     "signature": "09a3bf2f926ab2ef2e71ac3c0b963642a20544da86a4bf7c2164c53cd71a1043ac22cc60c6abe79615c7b9daaab9336792a0ba50ed336614a09ab836637ba60f",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "chat"
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T19:02:33Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-chat/releases/assets/475437155",
+                    "checksum_sha256": "2e0f557ca28443f90ca7c8c019c2dd73dea9306ce1ab39b5a550d4c9976d8e3d",
+                    "signature": "3c2b35ca32118d0e7a3ca3d9ed128c79e3920085b353434d6697ed90023e496466ce6eac7a1a9f511189408a06505b98b668e7f3f569edc2ca18bfd17f086502",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "chat"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-13T12:03:36Z"
                 }
             ]
         },
@@ -3315,5 +3329,5 @@
             ]
         }
     },
-    "signature": "1485f8446247fdde87b43d98a9f448a74f721a533484d5a9964a698fc5f32133254e753ba1058dd1e765cfc4320f2412d77b8a7baf19b331cd55b172e8fb7b0b"
+    "signature": "5a29f7434b54a82e45d8895773b21e445118d690ddc9c1f84989898157c50cdbed89f9b514d722539fc383a23f76c4a404fe35e802b6203780124a24fa376102"
 }
