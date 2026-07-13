@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-13T22:04:56+00:00",
+    "generated_at": "2026-07-13T22:26:26+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -162,7 +162,7 @@
                     "checksum_sha256": "15e2bbd96165b1d78dbf4c8625eae0168563d713c6144577351ce46f4961a9aa",
                     "signature": "6f817ad1ec9f6d4e0b862bdf3ee2e3ec4516a9e9c145ce1c144c54ca13d4dcdfb090c2542e90408523b8ebefb2d824b7ead18f295bfff97adbbc6c8a8744060a",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "api-keys",
@@ -178,6 +178,29 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T17:54:34Z"
+                },
+                {
+                    "version": "1.2.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-api-keys/releases/assets/475965239",
+                    "checksum_sha256": "549409b3c2ca8f34aa6f6e73df2899fcf6af686d6717a3eccde6d8e05d5742e4",
+                    "signature": "df0e87fb133176c4e2140367e64912c6d1b6c598fbe6df277d739ce0eb5f20b57132b212e5ee9de40ec9c2146ea048b63972550384628179cb585c268d55040c",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "api-keys",
+                        "api_key_management",
+                        "developer_credentials",
+                        "scoped_permissions",
+                        "rate_limiting",
+                        "key_rotation",
+                        "usage_analytics",
+                        "webhook_ingress",
+                        "external_provision",
+                        "middleware_auth"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-13T22:23:52Z"
                 }
             ]
         },
@@ -3488,5 +3511,5 @@
             ]
         }
     },
-    "signature": "296e200908fe4edbee04b4b255d00356fa857846026c717f36e79bb7f38e9a78406d5a5a71882a7da1c6a817a7fea1a4e0b36c0d18cca449b9b2469adc64b301"
+    "signature": "a8b96c22a79d81f1083e34eecb412050eb32b00e63c94aea9e1bb740ab7521a1f14a73f59c51727656e57fb9412a4257e394f0b148e87bd9757a7e3117f5c60e"
 }

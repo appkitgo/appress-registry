@@ -1,23 +1,23 @@
 {
     "slug": "apppress/api-keys",
     "name": "AppPress API Keys",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "author": "AppPress",
     "description": "Named API keys with scoped permissions, per-key rate limiting, usage analytics, zero-downtime key rotation, and full connector/workflow integration. Implements StandardContracts::API_KEYS.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T17:54:34Z",
+    "last_updated": "2026-07-13T22:23:52Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-api-keys/releases/assets/473674378",
-    "checksum_sha256": "15e2bbd96165b1d78dbf4c8625eae0168563d713c6144577351ce46f4961a9aa",
-    "signature": "6f817ad1ec9f6d4e0b862bdf3ee2e3ec4516a9e9c145ce1c144c54ca13d4dcdfb090c2542e90408523b8ebefb2d824b7ead18f295bfff97adbbc6c8a8744060a",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-api-keys/releases/assets/475965239",
+    "checksum_sha256": "549409b3c2ca8f34aa6f6e73df2899fcf6af686d6717a3eccde6d8e05d5742e4",
+    "signature": "df0e87fb133176c4e2140367e64912c6d1b6c598fbe6df277d739ce0eb5f20b57132b212e5ee9de40ec9c2146ea048b63972550384628179cb585c268d55040c",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -41,7 +41,7 @@
             "checksum_sha256": "15e2bbd96165b1d78dbf4c8625eae0168563d713c6144577351ce46f4961a9aa",
             "signature": "6f817ad1ec9f6d4e0b862bdf3ee2e3ec4516a9e9c145ce1c144c54ca13d4dcdfb090c2542e90408523b8ebefb2d824b7ead18f295bfff97adbbc6c8a8744060a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "api-keys",
@@ -57,6 +57,29 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T17:54:34Z"
+        },
+        {
+            "version": "1.2.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-api-keys/releases/assets/475965239",
+            "checksum_sha256": "549409b3c2ca8f34aa6f6e73df2899fcf6af686d6717a3eccde6d8e05d5742e4",
+            "signature": "df0e87fb133176c4e2140367e64912c6d1b6c598fbe6df277d739ce0eb5f20b57132b212e5ee9de40ec9c2146ea048b63972550384628179cb585c268d55040c",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "api-keys",
+                "api_key_management",
+                "developer_credentials",
+                "scoped_permissions",
+                "rate_limiting",
+                "key_rotation",
+                "usage_analytics",
+                "webhook_ingress",
+                "external_provision",
+                "middleware_auth"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-13T22:23:52Z"
         }
     ]
 }
