@@ -1,23 +1,23 @@
 {
     "slug": "apppress/pipelines",
     "name": "AppPress Pipelines",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "AppPress",
     "description": "CRM sales pipeline management with configurable stages, deal tracking, activity logging, win/loss analytics, and kanban board view.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T22:22:03Z",
+    "last_updated": "2026-07-13T23:29:34Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-pipelines/releases/assets/473828377",
-    "checksum_sha256": "2e6dcf4f9dada63b96a374f882275880fe583976388bac198e07b82cc2f86d76",
-    "signature": "e81497e3ca28690bdc67cca06c6938c08cb3a3ebe95003e663f86c86a4038c1c30d831d43b7ad2718f67328116152a09772714da79e1828b89e93a62601a450d",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-pipelines/releases/assets/476029400",
+    "checksum_sha256": "9902dfae65740102a48a4397cdc79a3a58016168a79d7bbf12123e23409bb30e",
+    "signature": "490f466ac3d51f68647ae490b20a10beffd5c1ae3a19ced45b9009d8a9081bb90c3f512c654df38e343d5a134e13451a6c0a65172d90862d105697d29a3cb501",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -34,7 +34,7 @@
             "checksum_sha256": "2e6dcf4f9dada63b96a374f882275880fe583976388bac198e07b82cc2f86d76",
             "signature": "e81497e3ca28690bdc67cca06c6938c08cb3a3ebe95003e663f86c86a4038c1c30d831d43b7ad2718f67328116152a09772714da79e1828b89e93a62601a450d",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "pipelines",
@@ -43,6 +43,22 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T22:22:03Z"
+        },
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-pipelines/releases/assets/476029400",
+            "checksum_sha256": "9902dfae65740102a48a4397cdc79a3a58016168a79d7bbf12123e23409bb30e",
+            "signature": "490f466ac3d51f68647ae490b20a10beffd5c1ae3a19ced45b9009d8a9081bb90c3f512c654df38e343d5a134e13451a6c0a65172d90862d105697d29a3cb501",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "pipelines",
+                "crm",
+                "deal_tracking"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-13T23:29:34Z"
         }
     ]
 }
