@@ -1,23 +1,23 @@
 {
     "slug": "apppress/products",
     "name": "AppPress Products",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "AppPress",
     "description": "Product catalog supporting simple and variable products with variants, category hierarchy, image galleries, stock tracking, and pricing with compare-at prices.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T21:04:43Z",
+    "last_updated": "2026-07-13T02:41:38Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-products/releases/assets/473784270",
-    "checksum_sha256": "3bbfe7090e1c6604f9a8cd04f42815d68af3c9aef6190bad099963c22ff57c7f",
-    "signature": "e7c016f8b7db9650ac95dcdac1b7a382461fad8c2199b20c1ae0d7bd8676ff5f57243500537d2c2447546f1843f98f8c5498ee910b0895bde1b1a99450b8970c",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-products/releases/assets/474985851",
+    "checksum_sha256": "f76f4d1fb2cf2e99b170d2b4ff6607b95786c5b9007daf3bad413a8a26d95611",
+    "signature": "5e6ee241d879ad3d34c511b3a3987e86665c072f35e7b10c6872b0ead783954b018cf672840a00cbc130057aceeacdc9d842370407b1fb02f500381d2b3e970f",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -38,7 +38,7 @@
             "checksum_sha256": "3bbfe7090e1c6604f9a8cd04f42815d68af3c9aef6190bad099963c22ff57c7f",
             "signature": "e7c016f8b7db9650ac95dcdac1b7a382461fad8c2199b20c1ae0d7bd8676ff5f57243500537d2c2447546f1843f98f8c5498ee910b0895bde1b1a99450b8970c",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "products",
@@ -51,6 +51,26 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T21:04:43Z"
+        },
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-products/releases/assets/474985851",
+            "checksum_sha256": "f76f4d1fb2cf2e99b170d2b4ff6607b95786c5b9007daf3bad413a8a26d95611",
+            "signature": "5e6ee241d879ad3d34c511b3a3987e86665c072f35e7b10c6872b0ead783954b018cf672840a00cbc130057aceeacdc9d842370407b1fb02f500381d2b3e970f",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "products",
+                "catalog",
+                "inventory",
+                "variants",
+                "categories",
+                "stock_tracking",
+                "pricing"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-13T02:41:38Z"
         }
     ]
 }
