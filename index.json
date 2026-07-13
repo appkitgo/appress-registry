@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-13T03:20:17+00:00",
+    "generated_at": "2026-07-13T03:28:39+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2328,7 +2328,7 @@
                     "checksum_sha256": "e16af33948c710e789404090645e881b384e74de13e5db23834afbc12f2c5c54",
                     "signature": "fd2b2550de4403c71026e2ad211afaf924cab9a551c8a86cba3ce3e8253e12842838fe00f7ff118f60c94cc6af309c643b099eb1eac5b7d4b5d14e80ac11140d",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "quotes",
@@ -2342,6 +2342,27 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T21:31:31Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-quotes/releases/assets/475023464",
+                    "checksum_sha256": "672cdc6ec4e9b051bd21a37a7239e3aa8aeade452dba6d5d9010f26ce84477f8",
+                    "signature": "ff0b6a70328fa73174d6410c1606bfc456c936fb31bb357ce1db34d4b9f0ce51a59d8e2b8c70780517fa721be9c248254684a5d44a8174d41e81f9a956a9550e",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "quotes",
+                        "estimates",
+                        "quote_approval_portal",
+                        "invoice_conversion",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "mobile_client_quotes",
+                        "member_quote_portal"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-13T03:27:21Z"
                 }
             ]
         },
@@ -3198,5 +3219,5 @@
             ]
         }
     },
-    "signature": "950ef015fd777e0092c2c6d00377fb7683aaf3c94444c70e9b662461a4c0d5852d468fc538f6ee60ee477a77d9ccb3bcb59a6236f72c6537c6121fe722082002"
+    "signature": "3921263954694d0c2efad8ad393e29030adaee90b993338fdf2c985a03541fcb4d636309eb1db42bd2c5dd1e4ae241881f025bf1df58a467271aa7b0251d8607"
 }
