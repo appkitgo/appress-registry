@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-13T23:31:56+00:00",
+    "generated_at": "2026-07-13T23:43:16+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2828,7 +2828,7 @@
                     "checksum_sha256": "479630fc7546196d341debb4a4fa60cf6218e739a539593a2d2d3e24d8586369",
                     "signature": "12ef20e64abb14cb348ec77bcfcd7e7dff11559ba24c8457f9693c62c8fb2c1b0c94087bc6feda2b71386a5137a441c404e38601f6b4fae71d6e554a9438fb0f",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "scheduler",
@@ -2838,6 +2838,23 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T22:36:20Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-scheduler/releases/assets/476039054",
+                    "checksum_sha256": "2176fcd2c23af05811b64d83c3c12f74b4a3059a2fc4a25b6ba9a2c0061b1d9f",
+                    "signature": "3e068fd85d9241ed8ac968b176b4a25ae716b4cf63a5640d9ab54396d49ac4301646ad0f4cf6881394817f33275fe191796d0438d2077401c1fb35addebbc803",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "scheduler",
+                        "scheduled_publish",
+                        "scheduled_unpublish",
+                        "polymorphic_scheduling"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-13T23:41:01Z"
                 }
             ]
         },
@@ -3560,5 +3577,5 @@
             ]
         }
     },
-    "signature": "fb74227408333b55f74b711b65fc702ea0780f07041c03752c470165586e79889716cd0de94550ad8f536367430efe7873e7a14f37d8678b9d47415cdb6ae40a"
+    "signature": "9520ff6bfc3e4c723223c7cc2f6bcd6ce0b271328699cd64fdfdba8f087072935da38ed7452f3469d209837c9cff1a9b0f44ece3e497ad91bd0d2ecf16e16c0e"
 }

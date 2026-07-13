@@ -1,23 +1,23 @@
 {
     "slug": "apppress/scheduler",
     "name": "AppPress Content Scheduler",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "AppPress",
     "description": "Schedule any Eloquent content to auto-publish or auto-unpublish at a future date and time. Polymorphic, timezone-aware, multi-site, with missed-schedule recovery, workflow triggers, and mobile operator visibility for schedule managers.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T22:36:20Z",
+    "last_updated": "2026-07-13T23:41:01Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-scheduler/releases/assets/473840077",
-    "checksum_sha256": "479630fc7546196d341debb4a4fa60cf6218e739a539593a2d2d3e24d8586369",
-    "signature": "12ef20e64abb14cb348ec77bcfcd7e7dff11559ba24c8457f9693c62c8fb2c1b0c94087bc6feda2b71386a5137a441c404e38601f6b4fae71d6e554a9438fb0f",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-scheduler/releases/assets/476039054",
+    "checksum_sha256": "2176fcd2c23af05811b64d83c3c12f74b4a3059a2fc4a25b6ba9a2c0061b1d9f",
+    "signature": "3e068fd85d9241ed8ac968b176b4a25ae716b4cf63a5640d9ab54396d49ac4301646ad0f4cf6881394817f33275fe191796d0438d2077401c1fb35addebbc803",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -35,7 +35,7 @@
             "checksum_sha256": "479630fc7546196d341debb4a4fa60cf6218e739a539593a2d2d3e24d8586369",
             "signature": "12ef20e64abb14cb348ec77bcfcd7e7dff11559ba24c8457f9693c62c8fb2c1b0c94087bc6feda2b71386a5137a441c404e38601f6b4fae71d6e554a9438fb0f",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "scheduler",
@@ -45,6 +45,23 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T22:36:20Z"
+        },
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-scheduler/releases/assets/476039054",
+            "checksum_sha256": "2176fcd2c23af05811b64d83c3c12f74b4a3059a2fc4a25b6ba9a2c0061b1d9f",
+            "signature": "3e068fd85d9241ed8ac968b176b4a25ae716b4cf63a5640d9ab54396d49ac4301646ad0f4cf6881394817f33275fe191796d0438d2077401c1fb35addebbc803",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "scheduler",
+                "scheduled_publish",
+                "scheduled_unpublish",
+                "polymorphic_scheduling"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-13T23:41:01Z"
         }
     ]
 }
