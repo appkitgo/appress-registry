@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-13T12:06:50+00:00",
+    "generated_at": "2026-07-13T12:17:29+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2915,7 +2915,7 @@
                     "checksum_sha256": "7aa2c687150814b35c0ab6e23e4347d2ee9cca57761265d4ce30a48b5a438c09",
                     "signature": "0e7b6bf54d8ad076e76ee3e24d0ffe26e72671c05c0619d8ba01f983bab419dca4b667417a46bc3efb8d841e634949cd692cefc6a7020f74698822ac68226807",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "surveys",
@@ -2929,6 +2929,27 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T19:11:06Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-surveys/releases/assets/475449470",
+                    "checksum_sha256": "dbe76aea11d4cb9d3c2cca9597e8f87f0303d69fc946eae7558089565d264e59",
+                    "signature": "a2b742ab81ebb05a7858f92f9159d3c9abcc00b18f0feb11489271241653d269fe505e6745011dea7001be5fcbbe706ad32036edf8326cca972e8bd0d1c4cc0d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "surveys",
+                        "feedback_collection",
+                        "nps_scoring",
+                        "response_analytics",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "mobile_surfaces",
+                        "admin_dashboard"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-13T12:15:52Z"
                 }
             ]
         },
@@ -3329,5 +3350,5 @@
             ]
         }
     },
-    "signature": "5a29f7434b54a82e45d8895773b21e445118d690ddc9c1f84989898157c50cdbed89f9b514d722539fc383a23f76c4a404fe35e802b6203780124a24fa376102"
+    "signature": "5f1f2a68ff4c5af04d2292d1dabea44d84c7b26d73d2945ec04efa308b2f7a447f85e630f4a52408682c45b7fbaaaeebc61d12b63ead8108e3b8b3710be8fb09"
 }
