@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-13T11:38:21+00:00",
+    "generated_at": "2026-07-13T11:50:07+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -303,7 +303,7 @@
                     "checksum_sha256": "46c23b424c07542e523646bdb0e34420dd74835529d105d98cf8249f4866e850",
                     "signature": "30cbff13c4fdc326a3130c0d2377211df94f713503cb7a8024f50c741a9343daa1de32cd2fbcd5c2d06639b8dfbd5350e37bc9a5b8e3c8ff3da83cfb6143c80f",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "assignments",
@@ -321,6 +321,31 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T18:29:29Z"
+                },
+                {
+                    "version": "1.0.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-assignments/releases/assets/475425622",
+                    "checksum_sha256": "b2c7879e4e6598b4d31810662009e4034f4d63d2d8922df304303953295bdef5",
+                    "signature": "fb086a0677d747d9ffde2ed2ede06223f95097169b9d8586ffbaa6894f2988bfd6cde2ef990a84b62342ee17e030718e31220b05fb784cd05a67f1dacdc56803",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "assignments",
+                        "grading",
+                        "rubric_grading",
+                        "submission_management",
+                        "pass_fail_thresholds",
+                        "due_dates",
+                        "late_submission_policy",
+                        "grade_import",
+                        "grade_export",
+                        "sis_integration",
+                        "lms",
+                        "file_submissions"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-13T11:47:52Z"
                 }
             ]
         },
@@ -3290,5 +3315,5 @@
             ]
         }
     },
-    "signature": "c88774cfafd9f3c3137e25c3b6c99181f41f1d3d85792c75d40cd00e8ffae02777fed9d13658da555425a9529971829961ca89530e33807f7182bd80cdfd1606"
+    "signature": "1485f8446247fdde87b43d98a9f448a74f721a533484d5a9964a698fc5f32133254e753ba1058dd1e765cfc4320f2412d77b8a7baf19b331cd55b172e8fb7b0b"
 }
