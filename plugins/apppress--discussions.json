@@ -1,23 +1,23 @@
 {
     "slug": "apppress/discussions",
     "name": "AppPress Discussions",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "AppPress",
     "description": "Threaded discussion system: polymorphic threads, nested replies, emoji reactions, upvotes, @mentions, pin/lock/close, moderation queue, spam integration.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T20:00:47Z",
+    "last_updated": "2026-07-13T13:43:51Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-discussions/releases/assets/473745811",
-    "checksum_sha256": "987ffc6dc33c0361ce396a5f5ffab85d0f5c38780b41c72971edd45f66db5dd2",
-    "signature": "24378944493d8238fa8e31e24ac9829d719280b4e9d0560804e2ffad1f5bd19a55b52bbe410c981762a5115eaa51b9e0b17811d183abf1ca7edb85967dba360f",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-discussions/releases/assets/475523330",
+    "checksum_sha256": "0e74f2f2bd56925edda6f3426add77dbdf98ee5dba4f92c2f379901891bcb346",
+    "signature": "c0b68feba80ae8b623973aa1cccde6a10cc9f7d686cc0483b551688ac64924b8d3c5eea4a047b09cc0519d9479e6571e061da2bdb7220334e11f762db5169603",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -32,13 +32,27 @@
             "checksum_sha256": "987ffc6dc33c0361ce396a5f5ffab85d0f5c38780b41c72971edd45f66db5dd2",
             "signature": "24378944493d8238fa8e31e24ac9829d719280b4e9d0560804e2ffad1f5bd19a55b52bbe410c981762a5115eaa51b9e0b17811d183abf1ca7edb85967dba360f",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "discussions"
             ],
             "yanked": false,
             "published_at": "2026-07-11T20:00:47Z"
+        },
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-discussions/releases/assets/475523330",
+            "checksum_sha256": "0e74f2f2bd56925edda6f3426add77dbdf98ee5dba4f92c2f379901891bcb346",
+            "signature": "c0b68feba80ae8b623973aa1cccde6a10cc9f7d686cc0483b551688ac64924b8d3c5eea4a047b09cc0519d9479e6571e061da2bdb7220334e11f762db5169603",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "discussions"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-13T13:43:51Z"
         }
     ]
 }
