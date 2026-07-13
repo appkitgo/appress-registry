@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-13T03:44:17+00:00",
+    "generated_at": "2026-07-13T03:59:45+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -500,7 +500,7 @@
                     "checksum_sha256": "93e2c4746a259d911823bb5f4eb3c47dde35877bbc6c5491f2e032febedffe52",
                     "signature": "4e1971995f4b736738e4cf9537bddaa50948653738fbd9693a6b9764df780269ccce19f1c01c8fe01e92c4c64d44ed8be17b2194be54a1e7c5a3b6117c54fd0f",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "calendar_events",
@@ -513,6 +513,26 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T18:24:05Z"
+                },
+                {
+                    "version": "1.0.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-calendar/releases/assets/475047994",
+                    "checksum_sha256": "7ad97e8fc30276e0b9e75cfb1ef90538d0c29c19e101cd66039620040dcf1f37",
+                    "signature": "d6d4c14a56f78945b16e1f10297442b5ac77eec9e2ac8fb23e344b80d671e72e4fdb8404c977dc16261b5aadc6f7d9ba0a49eb57f41df1a39ab745909ebe660c",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "calendar_events",
+                        "rrule_recurrence",
+                        "availability_windows",
+                        "ical_import_export",
+                        "external_calendar_sync",
+                        "rsvp_management",
+                        "scheduling_primitive"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-13T03:58:19Z"
                 }
             ]
         },
@@ -3238,5 +3258,5 @@
             ]
         }
     },
-    "signature": "6b2caa87c1bf09ba38eed16d562b2513f60e750548c33ae31e58a16b7b3ed4d630417c89a39a988f7d657e5f814f939e21b093b247b1a60c3f80a81b953a5b0a"
+    "signature": "214add831e69ec9f21f01e9b58faaf66b3589ffd1fda353ac12be99d835d61ff3fcdbb70e23fad5f1adede93d82e1bdd337a1e756b526320c17d96bc373d5609"
 }
