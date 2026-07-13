@@ -1,23 +1,23 @@
 {
     "slug": "apppress/activity-log",
     "name": "AppPress Activity Log",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "author": "AppPress",
     "description": "Immutable audit trail for every action across your AppPress platform \u2014 tracks who did what, when, across all core and plugin events. Provides a filterable, exportable admin log, channel-specific workflow triggers, REST ingestion for external systems, and a before_record filter for FERPA/privacy suppression. Implements StandardContracts::AUDIT_LOG so any plugin or App Pack can write to the log without a direct dependency.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T17:37:28Z",
+    "last_updated": "2026-07-13T22:01:44Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-activity-log/releases/assets/473665259",
-    "checksum_sha256": "f30080d6974b917355419c38dbe12c8eaf846bfeac1969fb11d568f7bb20cae1",
-    "signature": "46ceb3a5c23c398628b26230cf3c5c6f429fc8facabd4d0c07b77231e326fe1bee6809f3d81f1314e1743ab21f1d2c81e175bc8a3ca9c8ede742e84666550908",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-activity-log/releases/assets/475946952",
+    "checksum_sha256": "1734c26d73cdb2c8d7e7c3aa2e17847c62b8b50f106145e8ca2f1a4d8c1a60bc",
+    "signature": "a32eb166ffb1addc0df9d888ce3d6cf8dbcc3fe85aa26c6b4d71389872bf28aec4fe3c3a00a24dc3ab521ff879af3bcb0b8cca819525f4688c711af010cae405",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -36,7 +36,7 @@
             "checksum_sha256": "f30080d6974b917355419c38dbe12c8eaf846bfeac1969fb11d568f7bb20cae1",
             "signature": "46ceb3a5c23c398628b26230cf3c5c6f429fc8facabd4d0c07b77231e326fe1bee6809f3d81f1314e1743ab21f1d2c81e175bc8a3ca9c8ede742e84666550908",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "audit_log",
@@ -47,6 +47,24 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T17:37:28Z"
+        },
+        {
+            "version": "1.0.4",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-activity-log/releases/assets/475946952",
+            "checksum_sha256": "1734c26d73cdb2c8d7e7c3aa2e17847c62b8b50f106145e8ca2f1a4d8c1a60bc",
+            "signature": "a32eb166ffb1addc0df9d888ce3d6cf8dbcc3fe85aa26c6b4d71389872bf28aec4fe3c3a00a24dc3ab521ff879af3bcb0b8cca819525f4688c711af010cae405",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "audit_log",
+                "activity_tracking",
+                "event_history",
+                "compliance_logging",
+                "webhook_audit"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-13T22:01:44Z"
         }
     ]
 }
