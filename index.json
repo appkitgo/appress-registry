@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T04:59:15+00:00",
+    "generated_at": "2026-07-14T05:06:54+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -3143,13 +3143,27 @@
                     "checksum_sha256": "df3dc88e8e60ecd4e324a0aa29002fe9d8c4ada0746f103573a2384d01d4f25d",
                     "signature": "8d092a68d73643496a33bec7984ae4532d1093d00f06a90d177270007a7fbf5d7e0a7f0e314f57749060e347ea87f77b47edb820cee1a1c55bda019ca24f000c",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "seo"
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T13:40:57Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-seo/releases/assets/476295659",
+                    "checksum_sha256": "962d33514f1d97c7f37644a23177ebf887cf692b7514e1ef119cc8b06ca57c05",
+                    "signature": "3644ee1ecfbac4916d9066811e59eca88fbfa6e18c2b3d7ea2a1d4fe450a3962060100b526975c7d20569fbdff247561be902dcdaecbb158f07ae1c35f28870e",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "seo"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T05:05:30Z"
                 }
             ]
         },
@@ -3803,5 +3817,5 @@
             ]
         }
     },
-    "signature": "959b0cfb5f30c84250faa1804f7a5b340253d98343837448ecbd654857cb92b17eb3473773e30c84937bf20b68afaa49357840bad0510f28923dc7fc15962207"
+    "signature": "9a0798c839fd747b1d29028aaa8a3c1724bf70fd63a21a00b422c7ce459a3acbbdbb78d3e319d11c846500fb66e146fb8a3456132776aa48b8e2a98103285700"
 }
