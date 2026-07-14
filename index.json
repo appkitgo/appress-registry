@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T15:00:12+00:00",
+    "generated_at": "2026-07-14T15:17:49+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -3650,7 +3650,7 @@
                     "checksum_sha256": "88cb683cddf143bc62ee6c82dbfe569d37d65fd8397dbfa5acb960ef92e3c8e0",
                     "signature": "d346f6e45a7066d7a5be514269410f50f81058df2eb28ae0b6d2cf511fe8b5c2dcbb60443353777aec1966e2d2ceff36ee84e3752af300e4b385fd75cb4fa10c",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "teams",
@@ -3666,6 +3666,29 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T14:17:16Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-teams/releases/assets/476837259",
+                    "checksum_sha256": "8b3b8e4588ee2086b9bf52d42d16456a9f0159b9c4f63ffe8cc009079b631358",
+                    "signature": "7b677e62bdfd0e164b844f9c76254b999117c94d527315801130f1e8ad230fc1f0be1a5f20a7d14d39305d842cdc161e12260fd5d2437be1a2d3b956c979460b",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "teams",
+                        "team_management",
+                        "member_invitations",
+                        "role_management",
+                        "team_context_switching",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "mobile_surfaces",
+                        "admin_dashboard",
+                        "standard_contract"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T15:15:26Z"
                 }
             ]
         },
@@ -4066,5 +4089,5 @@
             ]
         }
     },
-    "signature": "b69c1c1d2f16f50f86fe5143f4e0911cbd1bffe86b5ba80ffc69f27b264e80f3854ab6ade8a7a0a5ed477f29a19e35ded8e986785e4f2b6712774fdcc728310c"
+    "signature": "bb229b87d75b6d29ff7cdff8faa36f4eb77256b17f12945414273b75fa9c03583e98f7736f061a6edce757c4776da51d076d42f54b41a32f3248a35e0571e900"
 }
