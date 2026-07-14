@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T05:06:54+00:00",
+    "generated_at": "2026-07-14T05:16:42+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2964,7 +2964,7 @@
                     "checksum_sha256": "15d28aa1467949059e5943bc5be214e716207a72f60dae6f06fb583171dff185",
                     "signature": "ebfed158b46042fce1750ef5f636c3d06dad26426b1bcb5427744acd61fab01c4485d6aad63317851aa592d81d42e771fd2511ead78b613a6cb53c166fb98101",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "reviews",
@@ -2978,6 +2978,27 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T13:20:31Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-reviews/releases/assets/476301780",
+                    "checksum_sha256": "86b3158e9f7de110b7b1482131b356b8a9a0aeb34bb8bac1ee59baed28b8d494",
+                    "signature": "18f44fcbccdbc1870cc00e4fc288c8d84fa632a90dc7fc0f3598f1433b36bbbf3151de49dc17b0abcd10b9cee81fa4f0eefb08a0fd81c1424dbdd96b55908f0e",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "reviews",
+                        "moderation_queue",
+                        "rating_summaries",
+                        "member_review_history",
+                        "mobile_review_surfaces",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "reviews_widget_block"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T05:14:29Z"
                 }
             ]
         },
@@ -3817,5 +3838,5 @@
             ]
         }
     },
-    "signature": "9a0798c839fd747b1d29028aaa8a3c1724bf70fd63a21a00b422c7ce459a3acbbdbb78d3e319d11c846500fb66e146fb8a3456132776aa48b8e2a98103285700"
+    "signature": "bcd2a3a71b9fb965696a95f728d9638c74c44fdf9a6b53d3dde05d63dcf474b6eade3f06096ef0ce8d43bf4bbe874e12b8e17015ed440fb38d87576327b65508"
 }
