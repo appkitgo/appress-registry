@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T16:37:44+00:00",
+    "generated_at": "2026-07-14T16:41:51+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -922,6 +922,28 @@
                     "capabilities": [],
                     "yanked": false,
                     "published_at": "2026-07-12T15:17:14Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/apppack-client-portal/releases/assets/476916834",
+                    "checksum_sha256": "ad5dbf68beda7f0942f6950bb39cd333bd5be1751ee133ee54092b58bc5e8d76",
+                    "signature": "89dbd23f4cdefc2433788483da8b00c1fe3e0f34d31e4e44b5c894f53be5d572c50f3a461a817b55dc709bfb0a6ca6de2b35d7397002fb5c7337ae69db189407",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {
+                        "apppress/file-vault": "^1.0.0",
+                        "apppress/contacts": "^1.0.0",
+                        "apppress/invoices": "^1.0.0",
+                        "apppress/payments": "^1.0.0",
+                        "apppress/notifications": "^1.0.0",
+                        "apppress/activity-log": "^1.0.0",
+                        "apppress/forms": "^1.0.0",
+                        "apppress/pages": "^1.0.0",
+                        "apppress/approvals": "^1.0.0"
+                    },
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-14T16:39:19Z"
                 }
             ]
         },
@@ -4178,5 +4200,5 @@
             ]
         }
     },
-    "signature": "f333280b9c899302e0989877f2762741551cf03ffbb8d467d78e10fc9c8e409075cb74ed651e41c5b6521f052f640213db44821895f95e4a42cdd20f5405ea06"
+    "signature": "50321a66571f6a20930a76b07fde80fb56de660b5fdda456530f4bf6b346a14042f2636feb9954158527b0aa2beeffaecc59c1e26d982a43e7700a5bdde7ed03"
 }

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/client-portal",
     "name": "Client Portal",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "AppPress",
     "description": "One private place for clients to access files, invoices, messages, and approvals.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-12T15:17:14Z",
+    "last_updated": "2026-07-14T16:39:19Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/apppack-client-portal/releases/assets/474488400",
-    "checksum_sha256": "3b7330fa84c08d985dd73b9d17238328611467148af6c9006dcd976979222065",
-    "signature": "c66d6adbd67fae316f2c95d79c41f46f2fdfb7905b6867fdb8a26bd59cc4cbd229512cd71a23ec078fca9ca28ab4472ca66914338d8533746b8f51bf1290760c",
+    "download_url": "https://api.github.com/repos/appkitgo/apppack-client-portal/releases/assets/476916834",
+    "checksum_sha256": "ad5dbf68beda7f0942f6950bb39cd333bd5be1751ee133ee54092b58bc5e8d76",
+    "signature": "89dbd23f4cdefc2433788483da8b00c1fe3e0f34d31e4e44b5c894f53be5d572c50f3a461a817b55dc709bfb0a6ca6de2b35d7397002fb5c7337ae69db189407",
     "min_core_version": "1.0.0",
     "dependencies": {
         "apppress/file-vault": "^1.0.0",
@@ -55,6 +55,28 @@
             "capabilities": [],
             "yanked": false,
             "published_at": "2026-07-12T15:17:14Z"
+        },
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/apppack-client-portal/releases/assets/476916834",
+            "checksum_sha256": "ad5dbf68beda7f0942f6950bb39cd333bd5be1751ee133ee54092b58bc5e8d76",
+            "signature": "89dbd23f4cdefc2433788483da8b00c1fe3e0f34d31e4e44b5c894f53be5d572c50f3a461a817b55dc709bfb0a6ca6de2b35d7397002fb5c7337ae69db189407",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/file-vault": "^1.0.0",
+                "apppress/contacts": "^1.0.0",
+                "apppress/invoices": "^1.0.0",
+                "apppress/payments": "^1.0.0",
+                "apppress/notifications": "^1.0.0",
+                "apppress/activity-log": "^1.0.0",
+                "apppress/forms": "^1.0.0",
+                "apppress/pages": "^1.0.0",
+                "apppress/approvals": "^1.0.0"
+            },
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-14T16:39:19Z"
         }
     ]
 }
