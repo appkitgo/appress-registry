@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T13:16:01+00:00",
+    "generated_at": "2026-07-14T13:30:04+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -982,11 +982,23 @@
                     "checksum_sha256": "933140b6ada00db71e41c13c98527c28f9e8babfe1f47f4128817ec73ab46512",
                     "signature": "a3127b6adbf5541a883012a91e56651a90882ba371ce20eaa4a00849d1722f3274d65b6eb60f14d7809bab49c605d9b8299e588995b0ddfa24fdec3c841d7c0a",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [],
                     "yanked": false,
                     "published_at": "2026-07-12T10:07:23Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-content-drip/releases/assets/476732610",
+                    "checksum_sha256": "d2f698320acda5d61b7e300f70883689339b1a0ffb270c93cd02132a5cd76b69",
+                    "signature": "7fdaff9d8fb2598083ab374918d1bbc1720797092773a267898042ef19baebae50f678c52948f8d2cd9b289abaddd721cb7bbd25d924a5da569c8bd3085c4900",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-14T13:28:24Z"
                 }
             ]
         },
@@ -3951,5 +3963,5 @@
             ]
         }
     },
-    "signature": "1d7bb1470d383754292ae290938963a0574dc8692f7b9c495890662e32bdeab87c1dd9931e315d5b74e7854eada4aa2201d31e1e52e8dc9f3a2a40b834d6c20e"
+    "signature": "a44604a87b33be47f3e7361051d1771180aceabe39529b47f9c4c098c7ae2112b42b5f103100492340719670603ce8670f80860ea57318205755661106e05607"
 }
