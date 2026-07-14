@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T13:50:05+00:00",
+    "generated_at": "2026-07-14T14:01:08+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1763,7 +1763,7 @@
                     "checksum_sha256": "04fd55aa9613f191c784bc3e336bed56958728d530e638386b8ed7457e189201",
                     "signature": "1cc401ded43aa17523d83ad821a829486b50eda694cc472486d1e0938be4774679368c843929cb7259adabc255a189ae41dcf9e48241aa079145d9a0fc8bd307",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "i18n",
@@ -1776,6 +1776,26 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T11:35:56Z"
+                },
+                {
+                    "version": "1.1.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-i18n/releases/assets/476762486",
+                    "checksum_sha256": "951edd06fc1d165a8e7ff211c1c36158875f16616ec30cae05b0dcf76f9e4bf9",
+                    "signature": "d8051a6685e9f78071b98b23df20e3e170230a853bc8f7d17a33785d226df585a429b95d20c1fe6cff78776ee6769d83376060b4e43d438413ca48ad6f57490c",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "i18n",
+                        "locale_management",
+                        "translation_strings",
+                        "content_translation_linking",
+                        "locale_detection",
+                        "rtl",
+                        "import_export"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T13:59:39Z"
                 }
             ]
         },
@@ -4003,5 +4023,5 @@
             ]
         }
     },
-    "signature": "0d23b1bf07ef4849a30bfdf3f4269ec6abe5be0db9dba8826b0fd0bde006148b14c01031d1fdf8aa8a3d8e43e943f31dc83faf8221b735ef3fd48c9199d43808"
+    "signature": "505b4aa19549964646afe63bffb9000ffb14fd3d7fd389f171c737c281dcbd150d863760ede7353e72f1b474467df0e33474ac7f4912b9b1906a435b893b4901"
 }
