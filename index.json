@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T00:30:04+00:00",
+    "generated_at": "2026-07-14T01:29:17+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -741,7 +741,7 @@
                     "checksum_sha256": "4319b8c5771a013c3d53ce6a15342b4b88bd3786bd713069bf3cf3e9ceb084b1",
                     "signature": "533c3a1ffe6fa7a7d3a1cf3246ed04f0b4ea7624a6af6516859955b29a65f3cc7338d044734acde9c9fed3ab9141460d1eb1140a2c9e73a5a3c06e20fcbe3e0d",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "certificates",
@@ -751,6 +751,23 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-14T00:26:50Z"
+                },
+                {
+                    "version": "1.0.3",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-certificates/releases/assets/476117212",
+                    "checksum_sha256": "c022f676dba276ab79d9d39a56e3d342eb5a56f48d070b811fbd5507ef8d2d57",
+                    "signature": "e95f8cc211c27fd0938b8ef9860d23c2d98e5bb595bcaedb95b8b2a62b3fe38bee024c0dc0cf39ec660ae98dbce4f329a6ea561a7fcd4d4bf5ba3b4a860bea0e",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "certificates",
+                        "pdf_generation",
+                        "certificate_verification",
+                        "achievement_credentials"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T01:27:23Z"
                 }
             ]
         },
@@ -3652,5 +3669,5 @@
             ]
         }
     },
-    "signature": "391e575a1fb3e822bb59fc3f0e20291024ccd65f832bb4cb37ddd1511133097d7b945d0e80621e503e5d35c8f09e436d5e61aa29d99ce3c95c71ff68f3a8180f"
+    "signature": "e6df28d8ca1490d0cd83956eaf01e5d49e692b91ea2b5fa8f6f307c1cfc32bed18f0c4b726f9bc91568120433e294e471cb5c7842a73b599e195808f96b17d05"
 }
