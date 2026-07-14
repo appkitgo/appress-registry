@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T13:39:49+00:00",
+    "generated_at": "2026-07-14T13:50:05+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1593,7 +1593,7 @@
                     "checksum_sha256": "63bd3a9705492ddcd8c6dfe65fac8f0b241fcd973b82dc49d518c01e028ecbf3",
                     "signature": "3eeb76b850709698f20b69d4e9999073766872ee8856e49e7f82af7f4fce606a6197865a403a5afe0c57ef140c30c4f18d56fa7f5c6c6142ec44729c4f830f0f",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "geo",
@@ -1605,6 +1605,25 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T11:25:55Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-geo/releases/assets/476750527",
+                    "checksum_sha256": "e0f64c87a1b44b0397ca5cb8af41b876aed28d2f57aa8222b4cadfe7439a7f94",
+                    "signature": "dc45f67f027875d58fd812df1f796b998ade53aa2305fac02151b2fbfb359ea702857401936f1ae950519e316a73fc2159de1ca4d54837d059ac1260426bbd05",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "geo",
+                        "maps",
+                        "locations",
+                        "geocoding",
+                        "proximity_search",
+                        "address_autocomplete"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T13:47:23Z"
                 }
             ]
         },
@@ -3984,5 +4003,5 @@
             ]
         }
     },
-    "signature": "c23daf3b13cbbefb898a7a2b449bf24d27d6192befbfa55d55380b0a7c07ff00b15ef1ce1ff4dd86402ed0e0f2ab5de132a0bda78de150216c6e357cae994303"
+    "signature": "0d23b1bf07ef4849a30bfdf3f4269ec6abe5be0db9dba8826b0fd0bde006148b14c01031d1fdf8aa8a3d8e43e943f31dc83faf8221b735ef3fd48c9199d43808"
 }

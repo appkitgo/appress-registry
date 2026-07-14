@@ -1,23 +1,23 @@
 {
     "slug": "apppress/geo",
     "name": "AppPress Geo & Location",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "AppPress",
     "description": "Shared geolocation primitive for AppPress \u2014 structured addresses, Nominatim geocoding, Haversine proximity search, public address autocomplete, and mobile MapScreen points. Consumed by contacts, events, appointments, and campus map app packs via StandardContracts::GEO.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-12T11:25:55Z",
+    "last_updated": "2026-07-14T13:47:23Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-geo/releases/assets/474340020",
-    "checksum_sha256": "63bd3a9705492ddcd8c6dfe65fac8f0b241fcd973b82dc49d518c01e028ecbf3",
-    "signature": "3eeb76b850709698f20b69d4e9999073766872ee8856e49e7f82af7f4fce606a6197865a403a5afe0c57ef140c30c4f18d56fa7f5c6c6142ec44729c4f830f0f",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-geo/releases/assets/476750527",
+    "checksum_sha256": "e0f64c87a1b44b0397ca5cb8af41b876aed28d2f57aa8222b4cadfe7439a7f94",
+    "signature": "dc45f67f027875d58fd812df1f796b998ade53aa2305fac02151b2fbfb359ea702857401936f1ae950519e316a73fc2159de1ca4d54837d059ac1260426bbd05",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -37,7 +37,7 @@
             "checksum_sha256": "63bd3a9705492ddcd8c6dfe65fac8f0b241fcd973b82dc49d518c01e028ecbf3",
             "signature": "3eeb76b850709698f20b69d4e9999073766872ee8856e49e7f82af7f4fce606a6197865a403a5afe0c57ef140c30c4f18d56fa7f5c6c6142ec44729c4f830f0f",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "geo",
@@ -49,6 +49,25 @@
             ],
             "yanked": false,
             "published_at": "2026-07-12T11:25:55Z"
+        },
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-geo/releases/assets/476750527",
+            "checksum_sha256": "e0f64c87a1b44b0397ca5cb8af41b876aed28d2f57aa8222b4cadfe7439a7f94",
+            "signature": "dc45f67f027875d58fd812df1f796b998ade53aa2305fac02151b2fbfb359ea702857401936f1ae950519e316a73fc2159de1ca4d54837d059ac1260426bbd05",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "geo",
+                "maps",
+                "locations",
+                "geocoding",
+                "proximity_search",
+                "address_autocomplete"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-14T13:47:23Z"
         }
     ]
 }
