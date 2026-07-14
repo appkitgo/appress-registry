@@ -1,23 +1,23 @@
 {
     "slug": "apppress/anti-spam",
     "name": "AppPress Anti-Spam",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "AppPress",
     "description": "Multi-layer spam and abuse protection for public-facing forms, registration flows, and community content. Combines honeypot fields, content pattern analysis, CAPTCHA (reCAPTCHA v3 / hCaptcha), IP reputation scoring, automatic IP blocking, and a moderation quarantine queue \u2014 all configurable without code. Fires workflow triggers on every spam event and exposes workflow actions to block IPs, approve/reject quarantine items, and scan arbitrary content on demand.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-12T00:53:03Z",
+    "last_updated": "2026-07-14T00:02:01Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-antispam/releases/assets/473937199",
-    "checksum_sha256": "c1d84ad96091473f79ca81497dfad4fd7ff38b681790d13d409931c374375089",
-    "signature": "04260ce95d58e15f397cbd2a2f8a7787705c574dc42e1d1521089dd57bf2c328189ebe837dacc36f8d9896159efb6c1904f0845f611fc89f98cbfc47f551380a",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-antispam/releases/assets/476058234",
+    "checksum_sha256": "fa44f842997ac5edd0fca5beb156076d4dd228ad66dd9069285d7e404abaf80c",
+    "signature": "a4ea9b76db7c47d8caa3bfe074cf259bff0095d93a4b8a9ffe216c1556b2993306cf3f22c801b0d61556c6d6fd0c919842e77c74d842824ef36eb821e5cfe306",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -40,7 +40,7 @@
             "checksum_sha256": "c1d84ad96091473f79ca81497dfad4fd7ff38b681790d13d409931c374375089",
             "signature": "04260ce95d58e15f397cbd2a2f8a7787705c574dc42e1d1521089dd57bf2c328189ebe837dacc36f8d9896159efb6c1904f0845f611fc89f98cbfc47f551380a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "spam-protection",
@@ -55,6 +55,28 @@
             ],
             "yanked": false,
             "published_at": "2026-07-12T00:53:03Z"
+        },
+        {
+            "version": "1.0.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-antispam/releases/assets/476058234",
+            "checksum_sha256": "fa44f842997ac5edd0fca5beb156076d4dd228ad66dd9069285d7e404abaf80c",
+            "signature": "a4ea9b76db7c47d8caa3bfe074cf259bff0095d93a4b8a9ffe216c1556b2993306cf3f22c801b0d61556c6d6fd0c919842e77c74d842824ef36eb821e5cfe306",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "spam-protection",
+                "honeypot",
+                "captcha",
+                "ip-blocking",
+                "content-analysis",
+                "quarantine",
+                "moderation-queue",
+                "spam-pattern-management",
+                "threat-intel-import"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-14T00:02:01Z"
         }
     ]
 }
