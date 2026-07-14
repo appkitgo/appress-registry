@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T04:34:33+00:00",
+    "generated_at": "2026-07-14T04:59:15+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1240,13 +1240,27 @@
                     "checksum_sha256": "8620213400ba2c468e4b20efad000e5609cd5a63fde2b47b32dc10697692b834",
                     "signature": "936bb6f2492916c7a7e5b12dad9bfe3cf465ffa68e36715ad3788ba3fc805632f18f8091f4a60415d59122dac0aebf237de1e9223aec2eee5c5c4d5cfa302504",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "email-campaigns"
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T10:34:28Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-email-campaigns/releases/assets/476288679",
+                    "checksum_sha256": "5b786866562c848e1f23f40a5582a47894d8a99411eb3c3650470c7649e31e31",
+                    "signature": "74c4c66831faf8b9cf04b5684438b1f62a9f984cfd9008575d77188a8abad1a79074d21a612cfc6ee86557e9b6d6b386ba1a5f587faa95f315e52c976875c102",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "email-campaigns"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T04:56:55Z"
                 }
             ]
         },
@@ -3789,5 +3803,5 @@
             ]
         }
     },
-    "signature": "8726f9d26898b73c899edf0be82bd60e676afaa4e1ea995e3fd60bbeac46c77ece84e3531b28fdc8b2e2102bc46d5a4e1237ee82fee98a6aa554b2ca1699d605"
+    "signature": "959b0cfb5f30c84250faa1804f7a5b340253d98343837448ecbd654857cb92b17eb3473773e30c84937bf20b68afaa49357840bad0510f28923dc7fc15962207"
 }
