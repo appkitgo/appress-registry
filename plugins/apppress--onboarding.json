@@ -1,23 +1,23 @@
 {
     "slug": "apppress/onboarding",
     "name": "AppPress Onboarding",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "AppPress",
     "description": "User onboarding checklists and guided flows for campus apps. Operators define step-by-step checklists with links, videos, and manual actions; users track progress via member API, embedded page blocks, theme widgets, and mobile surfaces. Integrates with workflows (assign on registration, completion notifications), optional gamification rewards, activity-log audit entries, and the StandardContracts::ONBOARDING service.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-12T12:29:43Z",
+    "last_updated": "2026-07-14T13:04:23Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-onboarding/releases/assets/474378439",
-    "checksum_sha256": "05bc808ed822dd8c8fbdcce31c4c5532fcaeba8e3d4525ffc5f0ea2fe319f16a",
-    "signature": "9c53ba1f82afef5a80c36135e07256a343bf1fadc2624867e070821f7db66b746e7d36c08b79f17b262b0f9b696c95657ba2fa27d1e5092170f4c264e611ba0f",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-onboarding/releases/assets/476709416",
+    "checksum_sha256": "8f6d32bcf7ff9c88a78b9098f530c753d3a0d4cb15d0fea68ae09f4494bb4ad7",
+    "signature": "708df9ac2989f4372388424c831b7b733d7bc01d1688664d5d0bc1ec2f75dc9ddfd45517a7306d731a5683cc53ebaee4e9f405f7463868644ef4b1ef074aa70e",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -39,7 +39,7 @@
             "checksum_sha256": "05bc808ed822dd8c8fbdcce31c4c5532fcaeba8e3d4525ffc5f0ea2fe319f16a",
             "signature": "9c53ba1f82afef5a80c36135e07256a343bf1fadc2624867e070821f7db66b746e7d36c08b79f17b262b0f9b696c95657ba2fa27d1e5092170f4c264e611ba0f",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "onboarding_checklists",
@@ -53,6 +53,27 @@
             ],
             "yanked": false,
             "published_at": "2026-07-12T12:29:43Z"
+        },
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-onboarding/releases/assets/476709416",
+            "checksum_sha256": "8f6d32bcf7ff9c88a78b9098f530c753d3a0d4cb15d0fea68ae09f4494bb4ad7",
+            "signature": "708df9ac2989f4372388424c831b7b733d7bc01d1688664d5d0bc1ec2f75dc9ddfd45517a7306d731a5683cc53ebaee4e9f405f7463868644ef4b1ef074aa70e",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "onboarding_checklists",
+                "step_progress_tracking",
+                "auto_assign_on_registration",
+                "completion_analytics",
+                "mobile_checklist_surfaces",
+                "workflow_triggers",
+                "workflow_actions",
+                "embeddable_checklist_widget"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-14T13:04:23Z"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T12:58:13+00:00",
+    "generated_at": "2026-07-14T13:06:46+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2375,7 +2375,7 @@
                     "checksum_sha256": "05bc808ed822dd8c8fbdcce31c4c5532fcaeba8e3d4525ffc5f0ea2fe319f16a",
                     "signature": "9c53ba1f82afef5a80c36135e07256a343bf1fadc2624867e070821f7db66b746e7d36c08b79f17b262b0f9b696c95657ba2fa27d1e5092170f4c264e611ba0f",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "onboarding_checklists",
@@ -2389,6 +2389,27 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T12:29:43Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-onboarding/releases/assets/476709416",
+                    "checksum_sha256": "8f6d32bcf7ff9c88a78b9098f530c753d3a0d4cb15d0fea68ae09f4494bb4ad7",
+                    "signature": "708df9ac2989f4372388424c831b7b733d7bc01d1688664d5d0bc1ec2f75dc9ddfd45517a7306d731a5683cc53ebaee4e9f405f7463868644ef4b1ef074aa70e",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "onboarding_checklists",
+                        "step_progress_tracking",
+                        "auto_assign_on_registration",
+                        "completion_analytics",
+                        "mobile_checklist_surfaces",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "embeddable_checklist_widget"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T13:04:23Z"
                 }
             ]
         },
@@ -3908,5 +3929,5 @@
             ]
         }
     },
-    "signature": "73b3256a5d08e0c2e5478f4cd79d1bce3dc37e02641a5fe7a8d9d8375e1bfe0c0d914b3c7aef3068d7251d922925c365c435c1336d73d922bb955412b556b10a"
+    "signature": "129c80342274cb7c82ed91f0ede5f18de7a064652db8e1267b587c5cb795c6b91f32d546653e8e7e95f10c668c619b2b8645d329186344f817bc6916c7e09f06"
 }
