@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T14:01:08+00:00",
+    "generated_at": "2026-07-14T14:14:26+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -3435,7 +3435,7 @@
                     "checksum_sha256": "7e8872e232effbd0478c6efd636efc4043f849ee9e57d84c90f292f2dfdf4472",
                     "signature": "e4ae3afb86d321a6d742f63690ec6bb154b0470f2eb9ce63b185134a39f03c70e8a827ee2f568bd3bcdd6ef8a216c391e97d4e43e6a62edab745643cc492e908",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "social-auth",
@@ -3449,6 +3449,27 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T13:51:22Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-social-auth/releases/assets/476776607",
+                    "checksum_sha256": "9adb211dad4cb4de51268fec99d1c108919bdf39f90c759b586acabac756ee84",
+                    "signature": "b5618f4db732f94968f4b337d4cdfbbf1a89bc85c51e313c10a4403f1802355ce08ab09492ddf5d8c037fea33b223f67fa93f98dafc66cc8f39da94b0d57c904",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "social-auth",
+                        "oauth_login",
+                        "account_linking",
+                        "auto_registration",
+                        "connected_accounts_api",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "admin_dashboard"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T14:12:46Z"
                 }
             ]
         },
@@ -4023,5 +4044,5 @@
             ]
         }
     },
-    "signature": "505b4aa19549964646afe63bffb9000ffb14fd3d7fd389f171c737c281dcbd150d863760ede7353e72f1b474467df0e33474ac7f4912b9b1906a435b893b4901"
+    "signature": "ab0224e6c8668d34c34d114ba5d274c6b02d30dc15390695f3572615c0b84eb7a9742a5f1daef53bfbe4d1aa9d4542e982fe062072f882f34cb28661d9fdf60a"
 }
