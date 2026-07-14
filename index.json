@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T12:43:11+00:00",
+    "generated_at": "2026-07-14T12:58:13+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -3746,13 +3746,27 @@
                     "checksum_sha256": "014bf18a20536cac364ceb45862a4f8b00274c00466b04591168ea5bdc1bb508",
                     "signature": "f5bb855404376e919b8fa85457058d127c46b85d4ef7cae55652809ed39b61df484adfc7b3eecd1220c614efda086228a0373d50cc2b95cc8411b1e65820af04",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "waitlist"
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T14:50:34Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-waitlist/releases/assets/476700558",
+                    "checksum_sha256": "e72e6c6870f37c14acc63a1ed5608f27618a78bbe55f156da0a58869f55f5883",
+                    "signature": "58a967a04047564545e4ffb5db2aa3cd364690d0c26f4389793037157f24bb0977792743af619929a3e8ecf45a06945da9949954c51c68d381c7b28a99dd130f",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "waitlist"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T12:54:45Z"
                 }
             ]
         },
@@ -3894,5 +3908,5 @@
             ]
         }
     },
-    "signature": "9a3ffcbc92a9a386755545588b0486f4e52da5d0022e5961975b969b7e0756e9498643329c3fb047c9578027c6c715784c389594e207085aed152e8f56335e03"
+    "signature": "73b3256a5d08e0c2e5478f4cd79d1bce3dc37e02641a5fe7a8d9d8375e1bfe0c0d914b3c7aef3068d7251d922925c365c435c1336d73d922bb955412b556b10a"
 }
