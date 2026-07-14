@@ -1,23 +1,23 @@
 {
     "slug": "apppress/import-export",
     "name": "AppPress Import / Export",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "AppPress",
     "description": "Universal CSV/Excel/JSON import and export framework for AppPress \u2014 pluggable resource-type registries, column-mapping UI, background job processing for large files, per-row validation with error reporting, and operator dashboards. Implements StandardContracts::IMPORT_EXPORT so App Packs register importable/exportable types without coupling to this plugin.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-12T12:09:56Z",
+    "last_updated": "2026-07-14T04:32:08Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-import-export/releases/assets/474367858",
-    "checksum_sha256": "7ccc0c0c8f7121c1c56a5110cb1eebf1954b976e097045bdb35fcbb5796572e5",
-    "signature": "5d703fb219336110dd13abc981031ee3ecdee9b8f63ee10d7ad1cd2d06326ca3a8f66838fc5674861592dfa7fc7ba1d573579fdd71da8c594702307130dd1709",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-import-export/releases/assets/476271628",
+    "checksum_sha256": "67908938c003334da8117759c66601f1957b8a30455cf5518e5988bd6e029463",
+    "signature": "3286f535872fb2ab88b3e8bc741b50986f66309cc7c29c0c08db7c20d72e5aa9f5e29bc5f570dc6683752f96567dcb47771f2e89812c73eef8dba31761270301",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -39,7 +39,7 @@
             "checksum_sha256": "7ccc0c0c8f7121c1c56a5110cb1eebf1954b976e097045bdb35fcbb5796572e5",
             "signature": "5d703fb219336110dd13abc981031ee3ecdee9b8f63ee10d7ad1cd2d06326ca3a8f66838fc5674861592dfa7fc7ba1d573579fdd71da8c594702307130dd1709",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "import-export",
@@ -53,6 +53,27 @@
             ],
             "yanked": false,
             "published_at": "2026-07-12T12:09:56Z"
+        },
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-import-export/releases/assets/476271628",
+            "checksum_sha256": "67908938c003334da8117759c66601f1957b8a30455cf5518e5988bd6e029463",
+            "signature": "3286f535872fb2ab88b3e8bc741b50986f66309cc7c29c0c08db7c20d72e5aa9f5e29bc5f570dc6683752f96567dcb47771f2e89812c73eef8dba31761270301",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "import-export",
+                "csv_import",
+                "excel_import",
+                "json_import",
+                "data_export",
+                "bulk_data_transfer",
+                "column_mapping",
+                "background_jobs"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-14T04:32:08Z"
         }
     ]
 }

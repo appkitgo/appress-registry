@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T04:14:26+00:00",
+    "generated_at": "2026-07-14T04:34:33+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1717,7 +1717,7 @@
                     "checksum_sha256": "7ccc0c0c8f7121c1c56a5110cb1eebf1954b976e097045bdb35fcbb5796572e5",
                     "signature": "5d703fb219336110dd13abc981031ee3ecdee9b8f63ee10d7ad1cd2d06326ca3a8f66838fc5674861592dfa7fc7ba1d573579fdd71da8c594702307130dd1709",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "import-export",
@@ -1731,6 +1731,27 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T12:09:56Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-import-export/releases/assets/476271628",
+                    "checksum_sha256": "67908938c003334da8117759c66601f1957b8a30455cf5518e5988bd6e029463",
+                    "signature": "3286f535872fb2ab88b3e8bc741b50986f66309cc7c29c0c08db7c20d72e5aa9f5e29bc5f570dc6683752f96567dcb47771f2e89812c73eef8dba31761270301",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "import-export",
+                        "csv_import",
+                        "excel_import",
+                        "json_import",
+                        "data_export",
+                        "bulk_data_transfer",
+                        "column_mapping",
+                        "background_jobs"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T04:32:08Z"
                 }
             ]
         },
@@ -3768,5 +3789,5 @@
             ]
         }
     },
-    "signature": "bdd6f4d7b31cee58c13fd03884aae463347e9ee58accd93cddc2a9a4dc4b20da54d0a0b1e737b7d0b5925b4d146a147ae51b7a8ed2e3f4fd6410771f96858009"
+    "signature": "8726f9d26898b73c899edf0be82bd60e676afaa4e1ea995e3fd60bbeac46c77ece84e3531b28fdc8b2e2102bc46d5a4e1237ee82fee98a6aa554b2ca1699d605"
 }
