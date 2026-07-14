@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T16:41:51+00:00",
+    "generated_at": "2026-07-14T16:48:54+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -3033,6 +3033,27 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-11T16:46:28Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/apppack-quote-portal/releases/assets/476923813",
+                    "checksum_sha256": "6ecff50aa4be6245df27fefab35d3ac0e86e39495b75662a29b0d566547116dd",
+                    "signature": "7a6e1c0f1c8f6e89a6d7a26670a97492ebbae072a02d438667b00d4fcd7fec85cdefb6b06fa3c80e8f638338fdf074281df2a4603a7175d661ff4a59a8142003",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {
+                        "apppress/quotes": "^1.0.0",
+                        "apppress/invoices": "^1.0.0",
+                        "apppress/payments": "^1.0.0",
+                        "apppress/contacts": "^1.0.0",
+                        "apppress/forms": "^1.0.0",
+                        "apppress/workflows": "^1.0.0"
+                    },
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "quote_portal"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T16:46:38Z"
                 }
             ]
         },
@@ -4200,5 +4221,5 @@
             ]
         }
     },
-    "signature": "50321a66571f6a20930a76b07fde80fb56de660b5fdda456530f4bf6b346a14042f2636feb9954158527b0aa2beeffaecc59c1e26d982a43e7700a5bdde7ed03"
+    "signature": "eca18ccaaa27a2ce133b831b37de08248b0ce1867292e3d158b2510c0e0c626d8c00aebbc80edd29feb630b04a2d2b942b715f51e21c52401b0570d4cc25d20f"
 }
