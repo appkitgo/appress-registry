@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T13:06:46+00:00",
+    "generated_at": "2026-07-14T13:16:01+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2664,7 +2664,7 @@
                     "checksum_sha256": "1e946d51a9b1894dc799b5992fd7467f38cecae096a7f0e104f63f1342d6425f",
                     "signature": "92e5f25d718b7233a18e102987597cdbd92d4b63f21e2810e29c44a7802e6ed20e2fc30916221aeb57136ddb2665d842b613c674b5786614905a4c83dbd42d06",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "progress_tracking",
@@ -2679,6 +2679,28 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T12:39:43Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-progress/releases/assets/476719189",
+                    "checksum_sha256": "4fbe2ee599bbf6b0de9535c61a463ae0e5a4ffd054a9cdda81ada955b8bd67f3",
+                    "signature": "9250854ac5f67c4f91acc38f43683fd1097e82abe6cef8887efb549128157f8c2d6e6c094df400319d48892f8aa3224b89f14ef81315390c9be73dd701287d0f",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "progress_tracking",
+                        "step_completion",
+                        "completion_certificates",
+                        "gamification_integration",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "mobile_progress_surfaces",
+                        "embeddable_progress_block",
+                        "multi_site_scoped"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T13:14:13Z"
                 }
             ]
         },
@@ -3929,5 +3951,5 @@
             ]
         }
     },
-    "signature": "129c80342274cb7c82ed91f0ede5f18de7a064652db8e1267b587c5cb795c6b91f32d546653e8e7e95f10c668c619b2b8645d329186344f817bc6916c7e09f06"
+    "signature": "1d7bb1470d383754292ae290938963a0574dc8692f7b9c495890662e32bdeab87c1dd9931e315d5b74e7854eada4aa2201d31e1e52e8dc9f3a2a40b834d6c20e"
 }
