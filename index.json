@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T15:17:49+00:00",
+    "generated_at": "2026-07-14T15:28:25+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -940,6 +940,30 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T02:18:06Z"
+                },
+                {
+                    "version": "1.0.3",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-cloud-vps/releases/assets/476848423",
+                    "checksum_sha256": "d4116a5a51001d308889df23910e32f75e17dcecbaa37b2ccd6a3a01e73d6105",
+                    "signature": "6c7f32e1347a86acd3d6acf6806897e9395eab5302b186f44cbf5681cafaa492b1884a7177019585d87fb24109820d07e0182c79f3f66a7d55adc2befaf91f05",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {
+                        "apppress/marketplace": "^1.0.0"
+                    },
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "cloud-provisioning",
+                        "cloud_provisioning",
+                        "vps",
+                        "digitalocean",
+                        "dns_management",
+                        "ssl_bootstrap",
+                        "remote_marketplace_install",
+                        "instance_lifecycle",
+                        "platform_infrastructure"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T15:26:46Z"
                 }
             ]
         },
@@ -4089,5 +4113,5 @@
             ]
         }
     },
-    "signature": "bb229b87d75b6d29ff7cdff8faa36f4eb77256b17f12945414273b75fa9c03583e98f7736f061a6edce757c4776da51d076d42f54b41a32f3248a35e0571e900"
+    "signature": "34ab0da821c984d0fbd61323727b25d7a72f30eb2805127be4feedab2d988e92eaede73a0caeec23b5cf06d30bbca9751997a89dd09ba6baf4ae554a65b64a05"
 }

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/cloud-vps",
     "name": "AppPress Cloud VPS Provider",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "AppPress",
     "description": "Platform-level cloud infrastructure provider for AppPress Cloud. Provisions DigitalOcean VPS instances, manages DNS records, bootstraps AppPress via cloud-init with Let's Encrypt SSL, and remotely installs App Packs/plugins via machine-token API. Listens to marketplace InstanceProvisioned/Terminated/Suspended/Resumed events. Not for campus or tenant-site blueprints \u2014 operator infrastructure only.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-12T02:18:06Z",
+    "last_updated": "2026-07-14T15:26:46Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-cloud-vps/releases/assets/473992442",
-    "checksum_sha256": "9c95cfca539a5cad2579271ffd5367dfe1e91d61fb0ed036b9b242f1ba0de03a",
-    "signature": "9725e2e05b2a34528c5149a244d669b77b639e6d2c519198a655128833d547f7809f6257a618ba5cd9bdbe81764bcb15c03ac6f4178dabdf25465628bf9e7b01",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-cloud-vps/releases/assets/476848423",
+    "checksum_sha256": "d4116a5a51001d308889df23910e32f75e17dcecbaa37b2ccd6a3a01e73d6105",
+    "signature": "6c7f32e1347a86acd3d6acf6806897e9395eab5302b186f44cbf5681cafaa492b1884a7177019585d87fb24109820d07e0182c79f3f66a7d55adc2befaf91f05",
     "min_core_version": "1.0.0",
     "dependencies": {
         "apppress/marketplace": "^1.0.0"
@@ -59,6 +59,30 @@
             ],
             "yanked": false,
             "published_at": "2026-07-12T02:18:06Z"
+        },
+        {
+            "version": "1.0.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-cloud-vps/releases/assets/476848423",
+            "checksum_sha256": "d4116a5a51001d308889df23910e32f75e17dcecbaa37b2ccd6a3a01e73d6105",
+            "signature": "6c7f32e1347a86acd3d6acf6806897e9395eab5302b186f44cbf5681cafaa492b1884a7177019585d87fb24109820d07e0182c79f3f66a7d55adc2befaf91f05",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/marketplace": "^1.0.0"
+            },
+            "requires_plugins": [],
+            "capabilities": [
+                "cloud-provisioning",
+                "cloud_provisioning",
+                "vps",
+                "digitalocean",
+                "dns_management",
+                "ssl_bootstrap",
+                "remote_marketplace_install",
+                "instance_lifecycle",
+                "platform_infrastructure"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-14T15:26:46Z"
         }
     ]
 }
