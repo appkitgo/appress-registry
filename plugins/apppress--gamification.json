@@ -1,23 +1,23 @@
 {
     "slug": "apppress/gamification",
     "name": "AppPress Gamification",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "AppPress",
     "description": "Gamification engine: points/XP, badges, achievements, leaderboards, streaks, and user levels. Hook-driven so any plugin can award points.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-12T11:17:48Z",
+    "last_updated": "2026-07-14T12:41:42Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-gamification/releases/assets/474335270",
-    "checksum_sha256": "6ab5e601fd5a5f925d316fe2612803401982ed768fbbe7013753c9046cc46e96",
-    "signature": "21f68d00e98bc61a2a5fa86c3d13a7b90dca82303b1138563c935227c9633f26e3af6f19ecfd59dbe5bb789cfad8e5b95d2cc1c2927af30a433b35d2645bed0d",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-gamification/releases/assets/476689163",
+    "checksum_sha256": "dbc10a7e605a17eda41728116c1a2aed6545feb82c0628383797699756e2dcf0",
+    "signature": "98217d74a76bd3c560d44b818fee7901f28e789681822b334001d60d16f55c7fa51e3546766090f82abf16c8f9e5bbfe6a8cf06227b23bdd1794a4a477b8e808",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -32,13 +32,27 @@
             "checksum_sha256": "6ab5e601fd5a5f925d316fe2612803401982ed768fbbe7013753c9046cc46e96",
             "signature": "21f68d00e98bc61a2a5fa86c3d13a7b90dca82303b1138563c935227c9633f26e3af6f19ecfd59dbe5bb789cfad8e5b95d2cc1c2927af30a433b35d2645bed0d",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "gamification"
             ],
             "yanked": false,
             "published_at": "2026-07-12T11:17:48Z"
+        },
+        {
+            "version": "1.0.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-gamification/releases/assets/476689163",
+            "checksum_sha256": "dbc10a7e605a17eda41728116c1a2aed6545feb82c0628383797699756e2dcf0",
+            "signature": "98217d74a76bd3c560d44b818fee7901f28e789681822b334001d60d16f55c7fa51e3546766090f82abf16c8f9e5bbfe6a8cf06227b23bdd1794a4a477b8e808",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "gamification"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-14T12:41:42Z"
         }
     ]
 }
