@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T16:28:24+00:00",
+    "generated_at": "2026-07-14T16:33:46+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -649,6 +649,26 @@
                     "capabilities": [],
                     "yanked": false,
                     "published_at": "2026-07-12T15:11:42Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/apppack-booking/releases/assets/476909341",
+                    "checksum_sha256": "33bfdc84d4f2e28f6eb6126e96b5e72bf4a77f7cc89606b4e20f3f425a87cb6d",
+                    "signature": "95ba4c3b7fff2cbe8917544b628e12c6f3fae786673240a3f7bb25927bf27f029b42b18fda8ef60b4b8aa759e9b7b74d5caf1c42627385b3ef40c47540670c0c",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {
+                        "apppress/appointments": "^1.0.0",
+                        "apppress/calendar": "^1.0.0",
+                        "apppress/contacts": "^1.0.0",
+                        "apppress/forms": "^1.0.0",
+                        "apppress/payments": "^1.0.0",
+                        "apppress/notifications": "^1.0.0",
+                        "apppress/workflows": "^1.0.0"
+                    },
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-14T16:31:12Z"
                 }
             ]
         },
@@ -4139,5 +4159,5 @@
             ]
         }
     },
-    "signature": "c1d313921c2404163014054659a3334f6d133856d726f92851b8d340c5e4ce55a620a2489ab8f660805e9c594760acc935576c3415626383eebbdea21cae9d08"
+    "signature": "e05581eb1094aba4d6fbe55652c6ecf6760109ec297cef626822b8676ab78896d7f10c25b3595c2e0f2e4051a8e8bf0faa251fcfd014b27d84a62055e6bb7703"
 }
