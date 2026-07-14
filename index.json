@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T02:46:18+00:00",
+    "generated_at": "2026-07-14T03:03:50+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2842,7 +2842,7 @@
                     "checksum_sha256": "e5927556cd48c499880bcaa9ce278eb4a94a5009d3ae4429468bc68648100c51",
                     "signature": "4b3813ac7366a2247f2487373797274a7893d9278906dfeef02fd4aef8f2bfc8e902caedbe0a999aa13f5be141bc60aeb2288aba394244789e211b22dea0210a",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "reports",
@@ -2854,6 +2854,25 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T13:10:56Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-reports/releases/assets/476195754",
+                    "checksum_sha256": "1e0070c3a739aceea2d1389101f00ab8d635ebc9f201c99b15dd968a078b6ae3",
+                    "signature": "8482bf12978f15d15468e242cf8d25e897d2b44766637c2d9a615df6f8d4505fad5288a2d13ea43110e7434b97012e8a640ddd6a7e639bae56a77c5f3707ba0d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "reports",
+                        "dashboards",
+                        "exports",
+                        "metrics",
+                        "scheduled_delivery",
+                        "data_source_registry"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T03:02:34Z"
                 }
             ]
         },
@@ -3688,5 +3707,5 @@
             ]
         }
     },
-    "signature": "8f2163902249692477acbed456e44beeb5669efa0d4a552c05469373db226c33b2afb4bea1250ea282c85c0f9cdb589a050b6827b88d494105803fac5c3b9604"
+    "signature": "5f1ab66cd1dd66dfae53f90e2eede75b1f3d1e00ae978c8c38122e292bc4d01e0df647ede82c9f83fe40c3ae0d3f670f2ad1c5a644cd462555da92b6bac33306"
 }
