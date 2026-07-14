@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T12:19:30+00:00",
+    "generated_at": "2026-07-14T12:30:26+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2012,13 +2012,27 @@
                     "checksum_sha256": "0b61b7fe36d52fe7d6b9c28a790bbf28d6726b8a91717cd90eb57a426d3902bc",
                     "signature": "f8d69e7d87ea24bc4f8c9bb2adec570eb8c6e5680f0b5a35acdc1d3d5ae270d70d1a78271f4340a2c28354981ab3aea985f4a8d458e7171f92d50a74ef1a7705",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "loyalty"
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T12:20:44Z"
+                },
+                {
+                    "version": "1.0.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-loyalty/releases/assets/476678037",
+                    "checksum_sha256": "60b0abb0b2d78e793902feb9dbbe73ac2ee5b7fa23465589d62f321369641b04",
+                    "signature": "a29573a692e34119e9fcd5fb4c478e17ef22647a97e6ab94ef6d23f6f628dc21985ce80fb7719453fbc6f35353f7022df44333d7070feacc7e302b0e2610c20c",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "loyalty"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-14T12:29:07Z"
                 }
             ]
         },
@@ -3866,5 +3880,5 @@
             ]
         }
     },
-    "signature": "444370e425a4b9e6816a50688ff6a30a55e5891facf8e4e42a40b930bc6dff40c2b95edb635d8eb3609c2eb1b60d765cf462c4c5171db857678262355be2990e"
+    "signature": "beda91b84ca9904366f9d04f830902b99e79b3265e1a86ed55ac28e9d040d198e28dea8ceab14fc2b5b6e12feac5b3f764e885d11566285b6dd73b77bd867f04"
 }
