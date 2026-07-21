@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-14T16:53:01+00:00",
+    "generated_at": "2026-07-21T22:10:49+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -756,23 +756,6 @@
                     "published_at": "2026-07-12T01:18:28Z"
                 },
                 {
-                    "version": "1.0.2",
-                    "download_url": "https://api.github.com/repos/appkitgo/plugin-certificates/releases/assets/476075739",
-                    "checksum_sha256": "4319b8c5771a013c3d53ce6a15342b4b88bd3786bd713069bf3cf3e9ceb084b1",
-                    "signature": "533c3a1ffe6fa7a7d3a1cf3246ed04f0b4ea7624a6af6516859955b29a65f3cc7338d044734acde9c9fed3ab9141460d1eb1140a2c9e73a5a3c06e20fcbe3e0d",
-                    "min_core_version": "1.0.0",
-                    "dependencies": [],
-                    "requires_plugins": [],
-                    "capabilities": [
-                        "certificates",
-                        "pdf_generation",
-                        "certificate_verification",
-                        "achievement_credentials"
-                    ],
-                    "yanked": false,
-                    "published_at": "2026-07-14T00:26:50Z"
-                },
-                {
                     "version": "1.0.3",
                     "download_url": "https://api.github.com/repos/appkitgo/plugin-certificates/releases/assets/476117212",
                     "checksum_sha256": "c022f676dba276ab79d9d39a56e3d342eb5a56f48d070b811fbd5507ef8d2d57",
@@ -1395,10 +1378,10 @@
                     "published_at": "2026-07-11T18:05:10Z"
                 },
                 {
-                    "version": "1.0.1",
-                    "download_url": "https://api.github.com/repos/appkitgo/plugin-events/releases/assets/475036866",
-                    "checksum_sha256": "2f282760487e0a063e0f1bc875e0220d0373d76d9d71c92de58e71422808537e",
-                    "signature": "ae9c43bca138e8fa3ec66c53332064f0725107984d4e45e1906b0af473fdf06f3f75751dc595ef4d97ff94a2caf97bdf84d9bf976b674ec68388b6000e37cf02",
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-events/releases/assets/485203217",
+                    "checksum_sha256": "a54a12689fad6c99b6a96d287c25f7f66fbb11d2078578d391fc2166265379e5",
+                    "signature": "2210384793abec91e8abd84759d7da0a19993c73aed70700b4819f41dfdc3c223e5e47d3416d6102f5f862eb4b4ba9bb212cb555787f1b78290f7b9e1d1ed00a",
                     "min_core_version": "1.0.0",
                     "dependencies": {},
                     "requires_plugins": [],
@@ -1411,7 +1394,7 @@
                         "waitlist"
                     ],
                     "yanked": false,
-                    "published_at": "2026-07-13T03:42:48Z"
+                    "published_at": "2026-07-21T22:05:24Z"
                 }
             ]
         },
@@ -2044,6 +2027,35 @@
                 }
             ]
         },
+        "apppress/klaviyo-connector": {
+            "slug": "apppress/klaviyo-connector",
+            "name": "Klaviyo Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-klaviyo-connector",
+            "tier": "first_party",
+            "description": "Connect Klaviyo for marketing profile/event management and workflow automation on list-subscribe and email-engagement events.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/klaviyo-connector",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-klaviyo-connector/releases/assets/473243636",
+                    "checksum_sha256": "3890b611c444a3f9b6eda1c1f4dc6da6342a6c0f153a0ccde6c4cacbf9e9d24d",
+                    "signature": "65fd7a7d0dcd9bd2cdbdb1e4108c745541bfe6b777060551f6f759af09684b5309b35fda350b07f4ea81e24bfcbf186b07502e4ee018d3e7962ec9c847b3ac05",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.klaviyo",
+                        "marketing.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-11T05:37:09Z"
+                }
+            ]
+        },
         "apppress/knowledge-base": {
             "slug": "apppress/knowledge-base",
             "name": "AppPress Knowledge Base",
@@ -2095,35 +2107,6 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-13T13:25:37Z"
-                }
-            ]
-        },
-        "apppress/klaviyo-connector": {
-            "slug": "apppress/klaviyo-connector",
-            "name": "Klaviyo Connector",
-            "type": "plugin",
-            "github_repo": "appkitgo/plugin-klaviyo-connector",
-            "tier": "first_party",
-            "description": "Connect Klaviyo for marketing profile/event management and workflow automation on list-subscribe and email-engagement events.",
-            "author": "AppPress",
-            "categories": [],
-            "license_type": "free",
-            "product_slug": "apppress/klaviyo-connector",
-            "versions": [
-                {
-                    "version": "1.0.0",
-                    "download_url": "https://api.github.com/repos/appkitgo/plugin-klaviyo-connector/releases/assets/473243636",
-                    "checksum_sha256": "3890b611c444a3f9b6eda1c1f4dc6da6342a6c0f153a0ccde6c4cacbf9e9d24d",
-                    "signature": "65fd7a7d0dcd9bd2cdbdb1e4108c745541bfe6b777060551f6f759af09684b5309b35fda350b07f4ea81e24bfcbf186b07502e4ee018d3e7962ec9c847b3ac05",
-                    "min_core_version": "1.0.0",
-                    "dependencies": {},
-                    "requires_plugins": [],
-                    "capabilities": [
-                        "connector.klaviyo",
-                        "marketing.external"
-                    ],
-                    "yanked": false,
-                    "published_at": "2026-07-11T05:37:09Z"
                 }
             ]
         },
@@ -4239,5 +4222,5 @@
             ]
         }
     },
-    "signature": "06567bb917af68c72d75f9dbd5f5b4064aacfe21fef9af1cfcbf3828e8819863252695f27a4df003255e2f432f912a2ae62049fe93db4bc1df84369f9e74a207"
+    "signature": "c7a2a760a672b49c6f158b221a2beb7212b58f83763c28af1116ef0b5f57943d283a6c0c04e62a8421e55473f2f6d18c0d24f18125cc0a41ab623168f1511b0e"
 }

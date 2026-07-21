@@ -47,23 +47,6 @@
             "published_at": "2026-07-12T01:18:28Z"
         },
         {
-            "version": "1.0.2",
-            "download_url": "https://api.github.com/repos/appkitgo/plugin-certificates/releases/assets/476075739",
-            "checksum_sha256": "4319b8c5771a013c3d53ce6a15342b4b88bd3786bd713069bf3cf3e9ceb084b1",
-            "signature": "533c3a1ffe6fa7a7d3a1cf3246ed04f0b4ea7624a6af6516859955b29a65f3cc7338d044734acde9c9fed3ab9141460d1eb1140a2c9e73a5a3c06e20fcbe3e0d",
-            "min_core_version": "1.0.0",
-            "dependencies": [],
-            "requires_plugins": [],
-            "capabilities": [
-                "certificates",
-                "pdf_generation",
-                "certificate_verification",
-                "achievement_credentials"
-            ],
-            "yanked": false,
-            "published_at": "2026-07-14T00:26:50Z"
-        },
-        {
             "version": "1.0.3",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-certificates/releases/assets/476117212",
             "checksum_sha256": "c022f676dba276ab79d9d39a56e3d342eb5a56f48d070b811fbd5507ef8d2d57",

@@ -1,17 +1,6 @@
 {
     "packages": [
         {
-            "slug": "appress-core",
-            "github_repo": "appkitgo/app-press",
-            "tier": "first_party",
-            "type": "core",
-            "tag_prefix": "core-v",
-            "version_file": "apps/api/VERSION",
-            "artifact_prefix": "app-press-core",
-            "name": "AppPress Core",
-            "description": "The AppPress platform core."
-        },
-        {
             "slug": "apppress/activity-log",
             "github_repo": "appkitgo/plugin-activity-log",
             "tier": "first_party",
@@ -366,13 +355,6 @@
             "manifest_path": "../apppack-helpdesk/appress.json"
         },
         {
-            "slug": "apppress/helpdesk-portal",
-            "github_repo": "appkitgo/apppack-helpdesk",
-            "tier": "first_party",
-            "type": "app-pack",
-            "manifest_path": "../apppack-helpdesk/apppress.json"
-        },
-        {
             "slug": "apppress/hubspot-connector",
             "github_repo": "appkitgo/plugin-hubspot-connector",
             "tier": "first_party",
@@ -415,18 +397,18 @@
             "manifest_path": "../plugin-jira-connector/appress.json"
         },
         {
-            "slug": "apppress/knowledge-base",
-            "github_repo": "appkitgo/plugin-knowledge-base",
-            "tier": "first_party",
-            "type": "plugin",
-            "manifest_path": "../plugin-knowledge-base/appress.json"
-        },
-        {
             "slug": "apppress/klaviyo-connector",
             "github_repo": "appkitgo/plugin-klaviyo-connector",
             "tier": "first_party",
             "type": "plugin",
             "manifest_path": "../plugin-klaviyo-connector/appress.json"
+        },
+        {
+            "slug": "apppress/knowledge-base",
+            "github_repo": "appkitgo/plugin-knowledge-base",
+            "tier": "first_party",
+            "type": "plugin",
+            "manifest_path": "../plugin-knowledge-base/appress.json"
         },
         {
             "slug": "apppress/launch-pro",
