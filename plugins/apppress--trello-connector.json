@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-trello-connector/releases/assets/473197222",
     "checksum_sha256": "c4d126486acae9d93fe1d3c616fced8cca24d5abb6968d5e454f6ea327619d7b",
-    "signature": "eda2b9ba2f7556918957828f4823c41284ce95e4f5f700fb94f041b6e48145a50ec1b39f98ddef2c006379199387c56da280649b5fee8814df7dc8584a4c860b",
+    "signature": "ad2d22064317bcc1af13b8e158175ff7e4bb6c3b2907ec933e4c2a67694287d70ac559ba813d2e14e52d5e1b2b3776f5c83169e8c47c851102c5e98d799b300a",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.trello",
@@ -31,9 +31,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-trello-connector/releases/assets/473197222",
             "checksum_sha256": "c4d126486acae9d93fe1d3c616fced8cca24d5abb6968d5e454f6ea327619d7b",
-            "signature": "eda2b9ba2f7556918957828f4823c41284ce95e4f5f700fb94f041b6e48145a50ec1b39f98ddef2c006379199387c56da280649b5fee8814df7dc8584a4c860b",
+            "signature": "ad2d22064317bcc1af13b8e158175ff7e4bb6c3b2907ec933e4c2a67694287d70ac559ba813d2e14e52d5e1b2b3776f5c83169e8c47c851102c5e98d799b300a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.trello",

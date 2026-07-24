@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-asana-connector/releases/assets/473145970",
     "checksum_sha256": "b4b416d754612ee42c47d0bc9793e0df96a6e0f5fb2a65880b144ee530206ec9",
-    "signature": "ba2f023f86a39f8bfb5cec88a13e50b192f443fe36166071891f20b49b1101d5c4179b0fbcc18a508c2862d26bb3ed7f7e75f65c767706c3ce37695ddea2be06",
+    "signature": "5fe10b9fa3023f46c41bffcf91d5f4ef5dfbd3cbd5f04d97cdef30b152ec81e512d84573bfc485fa07907908c36866762032e5534ef3a0432a4bfe0eac593c08",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.asana",
@@ -32,9 +32,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-asana-connector/releases/assets/473145970",
             "checksum_sha256": "b4b416d754612ee42c47d0bc9793e0df96a6e0f5fb2a65880b144ee530206ec9",
-            "signature": "ba2f023f86a39f8bfb5cec88a13e50b192f443fe36166071891f20b49b1101d5c4179b0fbcc18a508c2862d26bb3ed7f7e75f65c767706c3ce37695ddea2be06",
+            "signature": "5fe10b9fa3023f46c41bffcf91d5f4ef5dfbd3cbd5f04d97cdef30b152ec81e512d84573bfc485fa07907908c36866762032e5534ef3a0432a4bfe0eac593c08",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.asana",

@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-jira-connector/releases/assets/473350200",
     "checksum_sha256": "b61793ee41207b322f8802d011bcac0230a569c35a38c531b1e5dc86bb34dc13",
-    "signature": "56b9a8188afd95570af6e330f9c7a75325adb7319748d53eaa2d90c21c2485eca7181325af55ddc04143187e1f5355812bcd6efd50cb3f85d93c18c7683b240e",
+    "signature": "7a88e49b2cdcbae78bbbc7a9547359b453e8ed698a10cbca78c08949689bb65247588c38116aa8631c4939db75d8eb9bf1462b5e85300cd4546bcc6ef2884f06",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.jira",
@@ -31,9 +31,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-jira-connector/releases/assets/473350200",
             "checksum_sha256": "b61793ee41207b322f8802d011bcac0230a569c35a38c531b1e5dc86bb34dc13",
-            "signature": "56b9a8188afd95570af6e330f9c7a75325adb7319748d53eaa2d90c21c2485eca7181325af55ddc04143187e1f5355812bcd6efd50cb3f85d93c18c7683b240e",
+            "signature": "7a88e49b2cdcbae78bbbc7a9547359b453e8ed698a10cbca78c08949689bb65247588c38116aa8631c4939db75d8eb9bf1462b5e85300cd4546bcc6ef2884f06",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.jira",

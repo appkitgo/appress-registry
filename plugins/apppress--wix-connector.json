@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-wix-connector/releases/assets/474707807",
     "checksum_sha256": "cd0f43acd3eb515fc249847d69054e2870f7ae21ca4ccc3ee451d519ed137e05",
-    "signature": "874218ec65c8ddeb63b042a9abc53d58b8b8e42f34202106fd414d03760a1caf98114566d90941e344a324d6dc00aac729aef7b01983b9f3f70e7148b503320a",
+    "signature": "377a9c8af341e9316d36f908591c7248b04f69d9c9c4ce118850babfc4d4e43ee1b315bab74cac977c32ddee3f83cffc1c0b0d21398df6a424e0e8e16204f40b",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.wix",
@@ -31,9 +31,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-wix-connector/releases/assets/474707807",
             "checksum_sha256": "cd0f43acd3eb515fc249847d69054e2870f7ae21ca4ccc3ee451d519ed137e05",
-            "signature": "874218ec65c8ddeb63b042a9abc53d58b8b8e42f34202106fd414d03760a1caf98114566d90941e344a324d6dc00aac729aef7b01983b9f3f70e7148b503320a",
+            "signature": "377a9c8af341e9316d36f908591c7248b04f69d9c9c4ce118850babfc4d4e43ee1b315bab74cac977c32ddee3f83cffc1c0b0d21398df6a424e0e8e16204f40b",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.wix",

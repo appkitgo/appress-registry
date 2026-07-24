@@ -17,7 +17,7 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/apppack-crm/releases/assets/476913617",
     "checksum_sha256": "4399b114af95f57fdd84cc3c221404806888013fe86fcaa7565510df0b52a789",
-    "signature": "7e8d0e5b5302d66b4a22c600623dba8a205d7ceeadf42df93e2f55883ba212bfd1d3a58d167fd365cfebab579160075fd9a2724fee6bb41a512b5f7d6dc62b04",
+    "signature": "c4aa2513a4c0d3727c5ada4a44b70c8c365f2775e6502bbf6bfb651584cd535e8102ff26c76647b3dbc44bfd315cba439cc4b495de399d7b11f6cc1c623c2c01",
     "min_core_version": "1.0.0",
     "dependencies": {
         "apppress/contacts": "^1.0.0",
@@ -35,7 +35,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/apppack-crm/releases/assets/474489100",
             "checksum_sha256": "3b62d5407d169a455fddb321dcdb50f7759f51737e2221827b3ad8b41945c8bd",
-            "signature": "1bfbb6629a19395852f02671ae7ae31f8dabfbdf5a4ced94d8211f5d3c921cbd92f9417e878cdac66672e3c4e6beffcf9eb844a046b85f00be0405a37e0c1703",
+            "signature": "f83c53343cf3fa70167396a104baf3cc3e9477fda34b042144389054384c4fb1a4eec091cc89e5a2281c64d8208c83a36e86c71b84bdbd34a9b486003b401f09",
             "min_core_version": "1.0.0",
             "dependencies": {
                 "apppress/contacts": "^1.0.0",
@@ -54,7 +54,7 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/apppack-crm/releases/assets/476913617",
             "checksum_sha256": "4399b114af95f57fdd84cc3c221404806888013fe86fcaa7565510df0b52a789",
-            "signature": "7e8d0e5b5302d66b4a22c600623dba8a205d7ceeadf42df93e2f55883ba212bfd1d3a58d167fd365cfebab579160075fd9a2724fee6bb41a512b5f7d6dc62b04",
+            "signature": "c4aa2513a4c0d3727c5ada4a44b70c8c365f2775e6502bbf6bfb651584cd535e8102ff26c76647b3dbc44bfd315cba439cc4b495de399d7b11f6cc1c623c2c01",
             "min_core_version": "1.0.0",
             "dependencies": {
                 "apppress/contacts": "^1.0.0",

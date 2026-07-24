@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-gusto-connector/releases/assets/473283133",
     "checksum_sha256": "7b0e34493170182acb0867e4a3a38cc8d9a311d3d5a69feb4c21d5b3b4aa0af9",
-    "signature": "56e7dc471b0ac2aeb96577eff665eb6c0a47abc0ca730f280c9eb97213cab254593f99aec2fd03b3ea294b9a92e9da7399b60051d69c1258bb065d1d2278730c",
+    "signature": "ded9c23aeed57a6872148c6761f813c9bcd2d3a2016c0a0f63d465e2dbbddeb8ee9ee47ba16903d7a361dbb3160d19354669afbe6dab12861ce92f581d1a6d0a",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.gusto",
@@ -32,9 +32,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-gusto-connector/releases/assets/473283133",
             "checksum_sha256": "7b0e34493170182acb0867e4a3a38cc8d9a311d3d5a69feb4c21d5b3b4aa0af9",
-            "signature": "56e7dc471b0ac2aeb96577eff665eb6c0a47abc0ca730f280c9eb97213cab254593f99aec2fd03b3ea294b9a92e9da7399b60051d69c1258bb065d1d2278730c",
+            "signature": "ded9c23aeed57a6872148c6761f813c9bcd2d3a2016c0a0f63d465e2dbbddeb8ee9ee47ba16903d7a361dbb3160d19354669afbe6dab12861ce92f581d1a6d0a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.gusto",

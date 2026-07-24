@@ -17,7 +17,7 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/apppack-client-portal/releases/assets/476916834",
     "checksum_sha256": "ad5dbf68beda7f0942f6950bb39cd333bd5be1751ee133ee54092b58bc5e8d76",
-    "signature": "89dbd23f4cdefc2433788483da8b00c1fe3e0f34d31e4e44b5c894f53be5d572c50f3a461a817b55dc709bfb0a6ca6de2b35d7397002fb5c7337ae69db189407",
+    "signature": "66a200a54e6ce098a5c1f42fd756c567401a1000c757fb1731d3c0bf869cd84f6dc835f1f48bd8eec3bdb3b0061c5fb0bafa4b83b4b879fa224adfa94d2d5f0d",
     "min_core_version": "1.0.0",
     "dependencies": {
         "apppress/file-vault": "^1.0.0",
@@ -38,7 +38,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/apppack-client-portal/releases/assets/474488400",
             "checksum_sha256": "3b7330fa84c08d985dd73b9d17238328611467148af6c9006dcd976979222065",
-            "signature": "c66d6adbd67fae316f2c95d79c41f46f2fdfb7905b6867fdb8a26bd59cc4cbd229512cd71a23ec078fca9ca28ab4472ca66914338d8533746b8f51bf1290760c",
+            "signature": "502bdc2a410cf784465dc7786a04662022a3a79e3227826bb2969984b3ab9013ba809f2c61849cffc4e18cfce46098f6e9cb82d75f6ce95f1ce61cc94cec5e05",
             "min_core_version": "1.0.0",
             "dependencies": {
                 "apppress/file-vault": "^1.0.0",
@@ -60,7 +60,7 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/apppack-client-portal/releases/assets/476916834",
             "checksum_sha256": "ad5dbf68beda7f0942f6950bb39cd333bd5be1751ee133ee54092b58bc5e8d76",
-            "signature": "89dbd23f4cdefc2433788483da8b00c1fe3e0f34d31e4e44b5c894f53be5d572c50f3a461a817b55dc709bfb0a6ca6de2b35d7397002fb5c7337ae69db189407",
+            "signature": "66a200a54e6ce098a5c1f42fd756c567401a1000c757fb1731d3c0bf869cd84f6dc835f1f48bd8eec3bdb3b0061c5fb0bafa4b83b4b879fa224adfa94d2d5f0d",
             "min_core_version": "1.0.0",
             "dependencies": {
                 "apppress/file-vault": "^1.0.0",

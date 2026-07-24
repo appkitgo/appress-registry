@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-dropbox-connector/releases/assets/473159856",
     "checksum_sha256": "cff63bfbbfaff7910951e81192406135f6f365971276fbfd86bc178e263aa67e",
-    "signature": "b664e98c3193ed32174575e5976cf7e9a3b88c30231e11d2b5b87962f8f581ae865865697a2cf16f6de182066a109c72e1e9d37a6b2a2bb58939b3c108856a02",
+    "signature": "acb2f621de94ee985adda97975c422fc2c8d2dab2b63fb509f341d82639c3ec72001308c0567537224521238a35f5f7ca067496057ecbe52096762978e4b9800",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.dropbox",
@@ -32,9 +32,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-dropbox-connector/releases/assets/473159856",
             "checksum_sha256": "cff63bfbbfaff7910951e81192406135f6f365971276fbfd86bc178e263aa67e",
-            "signature": "b664e98c3193ed32174575e5976cf7e9a3b88c30231e11d2b5b87962f8f581ae865865697a2cf16f6de182066a109c72e1e9d37a6b2a2bb58939b3c108856a02",
+            "signature": "acb2f621de94ee985adda97975c422fc2c8d2dab2b63fb509f341d82639c3ec72001308c0567537224521238a35f5f7ca067496057ecbe52096762978e4b9800",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.dropbox",

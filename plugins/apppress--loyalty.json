@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-loyalty/releases/assets/476678037",
     "checksum_sha256": "60b0abb0b2d78e793902feb9dbbe73ac2ee5b7fa23465589d62f321369641b04",
-    "signature": "a29573a692e34119e9fcd5fb4c478e17ef22647a97e6ab94ef6d23f6f628dc21985ce80fb7719453fbc6f35353f7022df44333d7070feacc7e302b0e2610c20c",
+    "signature": "dc9796998a9a69ea43f4220dc09cf9f2e30257da4ec0328bcee29d5a0fbf4b51acc6224d184dd31ca228cde0c75e155eb75c95fc19700bc66d30090630a3f301",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "loyalty"
@@ -30,7 +30,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-loyalty/releases/assets/474373615",
             "checksum_sha256": "0b61b7fe36d52fe7d6b9c28a790bbf28d6726b8a91717cd90eb57a426d3902bc",
-            "signature": "f8d69e7d87ea24bc4f8c9bb2adec570eb8c6e5680f0b5a35acdc1d3d5ae270d70d1a78271f4340a2c28354981ab3aea985f4a8d458e7171f92d50a74ef1a7705",
+            "signature": "7e5f4034179f6f14932b32dc1fe5d83dcc1278fa35f12adf86af64c8db56486aad7bb856075ec49b87bb1f4069d1d65edada84e02d36fd95275f4a7a11f9fc0a",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -44,9 +44,9 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-loyalty/releases/assets/476678037",
             "checksum_sha256": "60b0abb0b2d78e793902feb9dbbe73ac2ee5b7fa23465589d62f321369641b04",
-            "signature": "a29573a692e34119e9fcd5fb4c478e17ef22647a97e6ab94ef6d23f6f628dc21985ce80fb7719453fbc6f35353f7022df44333d7070feacc7e302b0e2610c20c",
+            "signature": "dc9796998a9a69ea43f4220dc09cf9f2e30257da4ec0328bcee29d5a0fbf4b51acc6224d184dd31ca228cde0c75e155eb75c95fc19700bc66d30090630a3f301",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "loyalty"

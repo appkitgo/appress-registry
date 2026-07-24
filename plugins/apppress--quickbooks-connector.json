@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-quickbooks-connector/releases/assets/473077595",
     "checksum_sha256": "ea82434a0bb38fb1f4fb500c782f1436de1df3bce6be4e9e3704ac4926bdca12",
-    "signature": "242ef1781e1631af90f213179f0cd1ed8f5b0a4ed8bfa1dd136eb1ca24ec614942c4e5cf0ce5f97396554a38bce5abc2203c93fb5afa02cbed31501955b1e200",
+    "signature": "5361d923b2ef1dcb85b6d21208b6420816ccdceb6024cdca2c687222e256b5d0365e3b20fec90170586bbfe011080017c048e3b04e8bc9d6c2255c63c9ca780e",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.quickbooks",
@@ -32,9 +32,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-quickbooks-connector/releases/assets/473077595",
             "checksum_sha256": "ea82434a0bb38fb1f4fb500c782f1436de1df3bce6be4e9e3704ac4926bdca12",
-            "signature": "242ef1781e1631af90f213179f0cd1ed8f5b0a4ed8bfa1dd136eb1ca24ec614942c4e5cf0ce5f97396554a38bce5abc2203c93fb5afa02cbed31501955b1e200",
+            "signature": "5361d923b2ef1dcb85b6d21208b6420816ccdceb6024cdca2c687222e256b5d0365e3b20fec90170586bbfe011080017c048e3b04e8bc9d6c2255c63c9ca780e",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.quickbooks",

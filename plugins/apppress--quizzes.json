@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-quizzes/releases/assets/475459969",
     "checksum_sha256": "229307bd49258132fcf4e35acfb1fd16a8b6b0d04012694bff6a02673db58201",
-    "signature": "40ff8262c8a572fc50ea7086d0872dfbff90d29aff52f8208ead01166f7398dc629f13212ac9741e0c9f155e21deb70051d5345c00dee7ca5a65c11f50111503",
+    "signature": "ad0586ced4c5b5434c05ab9e87d336355b7019770236634a866fd890d0eaa6d0ae4d9b8d3fc3c99d0a6cca708b11539a998b0c044e4bbeccebf51570be22f801",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "quizzes"
@@ -30,7 +30,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-quizzes/releases/assets/473720412",
             "checksum_sha256": "dfc3d0fd3f1d8941cbf9e31466828a45a09d88ea5032c28aea3a0bcb85a76e3b",
-            "signature": "7c78744d4a011393de348ce4173c699aab33c391156600a83b9ef04ded83d36b55fc8b5458d5f4d30b4a849e49b294920610d02626aed74ffbb3600990523200",
+            "signature": "f1c2189e1a5f6bbb2321a56fe8db1042ea974bc4ffc979a0dda89d3f6b848976892d8c641ad0ce57339c11e350fa6d141ba54297e86f43fd6357ef4a21a81f00",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -44,9 +44,9 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-quizzes/releases/assets/475459969",
             "checksum_sha256": "229307bd49258132fcf4e35acfb1fd16a8b6b0d04012694bff6a02673db58201",
-            "signature": "40ff8262c8a572fc50ea7086d0872dfbff90d29aff52f8208ead01166f7398dc629f13212ac9741e0c9f155e21deb70051d5345c00dee7ca5a65c11f50111503",
+            "signature": "ad0586ced4c5b5434c05ab9e87d336355b7019770236634a866fd890d0eaa6d0ae4d9b8d3fc3c99d0a6cca708b11539a998b0c044e4bbeccebf51570be22f801",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "quizzes"

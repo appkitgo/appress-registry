@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-gamification/releases/assets/476689163",
     "checksum_sha256": "dbc10a7e605a17eda41728116c1a2aed6545feb82c0628383797699756e2dcf0",
-    "signature": "98217d74a76bd3c560d44b818fee7901f28e789681822b334001d60d16f55c7fa51e3546766090f82abf16c8f9e5bbfe6a8cf06227b23bdd1794a4a477b8e808",
+    "signature": "0057350bbbdce3dcf4745b1b4fe0adf0654949a4ee8ab97c09ba386a6982087744fd696b1c8890d872f3a5277bcdfb28d9322fe864a834897e1f0d950c086c01",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "gamification"
@@ -30,7 +30,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-gamification/releases/assets/474335270",
             "checksum_sha256": "6ab5e601fd5a5f925d316fe2612803401982ed768fbbe7013753c9046cc46e96",
-            "signature": "21f68d00e98bc61a2a5fa86c3d13a7b90dca82303b1138563c935227c9633f26e3af6f19ecfd59dbe5bb789cfad8e5b95d2cc1c2927af30a433b35d2645bed0d",
+            "signature": "36d41bbd140f5c7ddf54e5c5057d826b2a0cce274867263fba8473c5ca063d8eed49e4d606da4dc0b6da665a35c3dad81f60865fa0708595c7cb0f6040113c0f",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -44,9 +44,9 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-gamification/releases/assets/476689163",
             "checksum_sha256": "dbc10a7e605a17eda41728116c1a2aed6545feb82c0628383797699756e2dcf0",
-            "signature": "98217d74a76bd3c560d44b818fee7901f28e789681822b334001d60d16f55c7fa51e3546766090f82abf16c8f9e5bbfe6a8cf06227b23bdd1794a4a477b8e808",
+            "signature": "0057350bbbdce3dcf4745b1b4fe0adf0654949a4ee8ab97c09ba386a6982087744fd696b1c8890d872f3a5277bcdfb28d9322fe864a834897e1f0d950c086c01",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "gamification"

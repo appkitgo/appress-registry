@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-referrals/releases/assets/476669377",
     "checksum_sha256": "1007ff236baac1702a72b96564ccafa316c31884323ff408c089e0b8ebaf62f6",
-    "signature": "8238af3d5fdf945f2c517c87d8cb031c6ec797a02f224c47406fb952777845fa6eedb2ebaa16b4689c681e67399e5ab75a32bbbb0e986a391232442cca7eb202",
+    "signature": "8278f29ec703c967f8df01d5dd56ffd07af36194d8b0d9c9d61d1326b06ed56a7c8d9bcb77bde6a43750cf7a737a5ad19fd3b13a5d52c228495085fb4c736709",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "referrals"
@@ -30,7 +30,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-referrals/releases/assets/474396695",
             "checksum_sha256": "71fd3f6a5b01c6c7c80da729d855644160b4cfb8932cbfa80da86f521c11a712",
-            "signature": "051d0693b61b8e45fb9b8cd8a4786021fe2b0afd984d2f34038a455a046f321d5482c57a605c998e6d6488c51f1a366b116f959de08141531d98f325385ac405",
+            "signature": "50bb250bad32e4aea726c5bd7df8c765c4f53186e5ff82c3727b0f26fa60e313fa36c6241c16a2c4010634d60ac65c2f954d446a8d9952a5a9d725528cf1c401",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -44,9 +44,9 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-referrals/releases/assets/476669377",
             "checksum_sha256": "1007ff236baac1702a72b96564ccafa316c31884323ff408c089e0b8ebaf62f6",
-            "signature": "8238af3d5fdf945f2c517c87d8cb031c6ec797a02f224c47406fb952777845fa6eedb2ebaa16b4689c681e67399e5ab75a32bbbb0e986a391232442cca7eb202",
+            "signature": "8278f29ec703c967f8df01d5dd56ffd07af36194d8b0d9c9d61d1326b06ed56a7c8d9bcb77bde6a43750cf7a737a5ad19fd3b13a5d52c228495085fb4c736709",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "referrals"

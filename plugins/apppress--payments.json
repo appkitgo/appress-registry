@@ -19,7 +19,7 @@
     "checksum_sha256": "ea4c52feac43686ad32256f478e8cb53e11feb3a50a075fad99beae6019b8811",
     "signature": "45cfdc03e365ec84ea3c465d9a7c51666f7760735a8243ab30280be83ad7706b539cc7de2b736cb05f500b973d22e66ed0bedc5495fb748793cb58e52db3760e",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "payments"
@@ -30,7 +30,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-payments/releases/assets/473767327",
             "checksum_sha256": "5b0c8bc5774ee2c9ddbbd88cb2bff9aeff88198483edaa50650936d50225936e",
-            "signature": "5f51c6fabb4c8b472b8a1a5f98a7881efb3f12fbd54f7b45a2006d370871638357f7c40f1e740cab97a5c675677532e86391410889ec6cc312252b90d94b370d",
+            "signature": "c2bb71df5eff7a21539d3a741d935fddffdd4c0ed2d78a289cff91d0a942a10b9971b24dfb36b99e60d241aa21e788849fedbfd42bb66773927b13168db9a603",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -44,7 +44,7 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-payments/releases/assets/474852473",
             "checksum_sha256": "aad42a3ee1c07a0efa0c09f85105e09f9ea4ba15d0b9ca5928b52507345976e2",
-            "signature": "a25ce3165427aca49d878297a1c953dbcd34bdf263caeea4a37919026fe9462ff28a0b180cc947c16e6912744bd5cbab1595cbae12bcd6db3165907de6fb6802",
+            "signature": "bfba0bb848846051b0ec99d35b84aa546acdbed95aa4548ad9a3d23f222df7ddc798bcea4f718e525f5da5f6b46b2e79917d31eb0b10dd303f5ea1855bf61701",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -60,7 +60,7 @@
             "checksum_sha256": "ea4c52feac43686ad32256f478e8cb53e11feb3a50a075fad99beae6019b8811",
             "signature": "45cfdc03e365ec84ea3c465d9a7c51666f7760735a8243ab30280be83ad7706b539cc7de2b736cb05f500b973d22e66ed0bedc5495fb748793cb58e52db3760e",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "payments"

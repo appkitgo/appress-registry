@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-slack-connector/releases/assets/472827759",
     "checksum_sha256": "6b299da8f0cb7de153f1409d875d0403e98f4a8b6ee94176ade2e467adf05872",
-    "signature": "076cc80e3f5011e1f842628babdf3d9c39a41fe5b03476ac22a71504c768aa22c2056592fc39fec10162ff3cefad93ec41a44751e87ac9d7b59a0d1688dced0b",
+    "signature": "3250b0b6803a56c60c0bd9ca22ef6c4203b3498546d9976dbf9f71441adf199b2a5a05db2bf08434eb6a18858a9ca6a77e3a6f3753ae6ebe15de628961a4d50b",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.slack",
@@ -31,9 +31,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-slack-connector/releases/assets/472827759",
             "checksum_sha256": "6b299da8f0cb7de153f1409d875d0403e98f4a8b6ee94176ade2e467adf05872",
-            "signature": "076cc80e3f5011e1f842628babdf3d9c39a41fe5b03476ac22a71504c768aa22c2056592fc39fec10162ff3cefad93ec41a44751e87ac9d7b59a0d1688dced0b",
+            "signature": "3250b0b6803a56c60c0bd9ca22ef6c4203b3498546d9976dbf9f71441adf199b2a5a05db2bf08434eb6a18858a9ca6a77e3a6f3753ae6ebe15de628961a4d50b",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.slack",

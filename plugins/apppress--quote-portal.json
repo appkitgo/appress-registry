@@ -17,7 +17,7 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/apppack-quote-portal/releases/assets/476923813",
     "checksum_sha256": "6ecff50aa4be6245df27fefab35d3ac0e86e39495b75662a29b0d566547116dd",
-    "signature": "7a6e1c0f1c8f6e89a6d7a26670a97492ebbae072a02d438667b00d4fcd7fec85cdefb6b06fa3c80e8f638338fdf074281df2a4603a7175d661ff4a59a8142003",
+    "signature": "7b47f0aa1783683694266e896ba0c7154c91eae4d8d7463c4aee0b965dc167db7e8e0f940d79da94744db17d4dbeef7befb1570b76e8f729a1d0439b24b1a203",
     "min_core_version": "1.0.0",
     "dependencies": {
         "apppress/quotes": "^1.0.0",
@@ -37,7 +37,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/apppack-quote-portal/releases/assets/473634553",
             "checksum_sha256": "2033a1fd191a4536b6c884c03adec73420505ee0b33620226b4693824219b650",
-            "signature": "80287b02da27aafbd63734955ae062df849aecacb9356aa3e532d63863ed4d5dd5a2f5860e2fff4541fe536b31f859fcb8be74ffa6fd8fdfbfa65e45efc20d05",
+            "signature": "6a9c9446b87ffd265dd7cad9486ec718630aba06d9ac9f3c016b9446dca31599af031c9feb0a2c3835fb242ad9b9af8b612fb8d585a726e6ef91e60db0d0d70f",
             "min_core_version": "1.0.0",
             "dependencies": {
                 "apppress/quotes": "^1.0.0",
@@ -58,7 +58,7 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/apppack-quote-portal/releases/assets/476923813",
             "checksum_sha256": "6ecff50aa4be6245df27fefab35d3ac0e86e39495b75662a29b0d566547116dd",
-            "signature": "7a6e1c0f1c8f6e89a6d7a26670a97492ebbae072a02d438667b00d4fcd7fec85cdefb6b06fa3c80e8f638338fdf074281df2a4603a7175d661ff4a59a8142003",
+            "signature": "7b47f0aa1783683694266e896ba0c7154c91eae4d8d7463c4aee0b965dc167db7e8e0f940d79da94744db17d4dbeef7befb1570b76e8f729a1d0439b24b1a203",
             "min_core_version": "1.0.0",
             "dependencies": {
                 "apppress/quotes": "^1.0.0",

@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-klaviyo-connector/releases/assets/473243636",
     "checksum_sha256": "3890b611c444a3f9b6eda1c1f4dc6da6342a6c0f153a0ccde6c4cacbf9e9d24d",
-    "signature": "65fd7a7d0dcd9bd2cdbdb1e4108c745541bfe6b777060551f6f759af09684b5309b35fda350b07f4ea81e24bfcbf186b07502e4ee018d3e7962ec9c847b3ac05",
+    "signature": "3b5e04b4233dfb2eafff6813cf9fbd289be9eed9bf7d403022ef66ab0a3445b9e403fd73f23b6e9d8af3f78c1636e00bb000b6095088d314bde29d5489420209",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.klaviyo",
@@ -31,9 +31,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-klaviyo-connector/releases/assets/473243636",
             "checksum_sha256": "3890b611c444a3f9b6eda1c1f4dc6da6342a6c0f153a0ccde6c4cacbf9e9d24d",
-            "signature": "65fd7a7d0dcd9bd2cdbdb1e4108c745541bfe6b777060551f6f759af09684b5309b35fda350b07f4ea81e24bfcbf186b07502e4ee018d3e7962ec9c847b3ac05",
+            "signature": "3b5e04b4233dfb2eafff6813cf9fbd289be9eed9bf7d403022ef66ab0a3445b9e403fd73f23b6e9d8af3f78c1636e00bb000b6095088d314bde29d5489420209",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.klaviyo",

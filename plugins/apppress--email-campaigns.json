@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-email-campaigns/releases/assets/476288679",
     "checksum_sha256": "5b786866562c848e1f23f40a5582a47894d8a99411eb3c3650470c7649e31e31",
-    "signature": "74c4c66831faf8b9cf04b5684438b1f62a9f984cfd9008575d77188a8abad1a79074d21a612cfc6ee86557e9b6d6b386ba1a5f587faa95f315e52c976875c102",
+    "signature": "ac1c70a5ceca597fd0a5cbb23e8df6e1c373da169b28bd8f5c2585e06870f517727e4a8f249caf25cc579a5b65875ffedff776012d30b605fd83f91b5e869f04",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "email-campaigns"
@@ -30,7 +30,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-email-campaigns/releases/assets/474312080",
             "checksum_sha256": "8620213400ba2c468e4b20efad000e5609cd5a63fde2b47b32dc10697692b834",
-            "signature": "936bb6f2492916c7a7e5b12dad9bfe3cf465ffa68e36715ad3788ba3fc805632f18f8091f4a60415d59122dac0aebf237de1e9223aec2eee5c5c4d5cfa302504",
+            "signature": "e8a0fddeb2c8d43e102f874a02c2d1318c6ff6ea64840597b2cebf33524814cbf5f57270ba178f871072e467df565b7b2193794e5cb006c642a25c59fcaf1804",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -44,9 +44,9 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-email-campaigns/releases/assets/476288679",
             "checksum_sha256": "5b786866562c848e1f23f40a5582a47894d8a99411eb3c3650470c7649e31e31",
-            "signature": "74c4c66831faf8b9cf04b5684438b1f62a9f984cfd9008575d77188a8abad1a79074d21a612cfc6ee86557e9b6d6b386ba1a5f587faa95f315e52c976875c102",
+            "signature": "ac1c70a5ceca597fd0a5cbb23e8df6e1c373da169b28bd8f5c2585e06870f517727e4a8f249caf25cc579a5b65875ffedff776012d30b605fd83f91b5e869f04",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "email-campaigns"

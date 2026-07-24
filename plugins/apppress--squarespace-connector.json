@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-squarespace-connector/releases/assets/473365664",
     "checksum_sha256": "f1e06d37ea8b51074be64bfe0fb7978dbdc936a4622f3b76a95d01aab086480c",
-    "signature": "7a6e03b97d5586f6214a5c18b7b82b9313e899cc164a13b492e484baa06d7913504bf614c8c1ef0ece3c6bfd430310bf95f272b5d106b527d8b178347b512d08",
+    "signature": "a4e729931f8c2de8c5af335acd55cff6ae0cd27f3d27188672aab7fbac93c203f984f78136a3e0f711f0cf2d123e1651fe1514e7d721798854ecc5fb091b3400",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.squarespace",
@@ -31,9 +31,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-squarespace-connector/releases/assets/473365664",
             "checksum_sha256": "f1e06d37ea8b51074be64bfe0fb7978dbdc936a4622f3b76a95d01aab086480c",
-            "signature": "7a6e03b97d5586f6214a5c18b7b82b9313e899cc164a13b492e484baa06d7913504bf614c8c1ef0ece3c6bfd430310bf95f272b5d106b527d8b178347b512d08",
+            "signature": "a4e729931f8c2de8c5af335acd55cff6ae0cd27f3d27188672aab7fbac93c203f984f78136a3e0f711f0cf2d123e1651fe1514e7d721798854ecc5fb091b3400",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.squarespace",

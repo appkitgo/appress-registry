@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-seo/releases/assets/476295659",
     "checksum_sha256": "962d33514f1d97c7f37644a23177ebf887cf692b7514e1ef119cc8b06ca57c05",
-    "signature": "3644ee1ecfbac4916d9066811e59eca88fbfa6e18c2b3d7ea2a1d4fe450a3962060100b526975c7d20569fbdff247561be902dcdaecbb158f07ae1c35f28870e",
+    "signature": "4dceb8ec0b72a0f0b02d370cdcc18478c4f29778c0e41d49aecf595287a9b6e412723ee364ba1c4d14da9090f88a9dccc6b5d7719d5af7f5afdce1e01f16810b",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "seo"
@@ -30,7 +30,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-seo/releases/assets/474423560",
             "checksum_sha256": "df3dc88e8e60ecd4e324a0aa29002fe9d8c4ada0746f103573a2384d01d4f25d",
-            "signature": "8d092a68d73643496a33bec7984ae4532d1093d00f06a90d177270007a7fbf5d7e0a7f0e314f57749060e347ea87f77b47edb820cee1a1c55bda019ca24f000c",
+            "signature": "5573a0464b32aa73ef087ae8fc3606cddefe39a8b55cc2a6db04b7ee14b9a8a80d6ca7af9bec14a323878889b011bfb15c999fec45f888d43311aa2ab2030d0d",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -44,9 +44,9 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-seo/releases/assets/476295659",
             "checksum_sha256": "962d33514f1d97c7f37644a23177ebf887cf692b7514e1ef119cc8b06ca57c05",
-            "signature": "3644ee1ecfbac4916d9066811e59eca88fbfa6e18c2b3d7ea2a1d4fe450a3962060100b526975c7d20569fbdff247561be902dcdaecbb158f07ae1c35f28870e",
+            "signature": "4dceb8ec0b72a0f0b02d370cdcc18478c4f29778c0e41d49aecf595287a9b6e412723ee364ba1c4d14da9090f88a9dccc6b5d7719d5af7f5afdce1e01f16810b",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "seo"

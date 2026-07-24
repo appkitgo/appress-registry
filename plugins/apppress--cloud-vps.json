@@ -1,23 +1,23 @@
 {
     "slug": "apppress/cloud-vps",
     "name": "AppPress Cloud VPS Provider",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "author": "AppPress",
     "description": "Platform-level cloud infrastructure provider for AppPress Cloud. Provisions DigitalOcean VPS instances, manages DNS records, bootstraps AppPress via cloud-init with Let's Encrypt SSL, and remotely installs App Packs/plugins via machine-token API. Listens to marketplace InstanceProvisioned/Terminated/Suspended/Resumed events. Not for campus or tenant-site blueprints \u2014 operator infrastructure only.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T15:26:46Z",
+    "last_updated": "2026-07-24T19:48:31Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-cloud-vps/releases/assets/476848423",
-    "checksum_sha256": "d4116a5a51001d308889df23910e32f75e17dcecbaa37b2ccd6a3a01e73d6105",
-    "signature": "6c7f32e1347a86acd3d6acf6806897e9395eab5302b186f44cbf5681cafaa492b1884a7177019585d87fb24109820d07e0182c79f3f66a7d55adc2befaf91f05",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-cloud-vps/releases/assets/488761114",
+    "checksum_sha256": "1ea218f1432ba8ba49e80224f0e64da361beba5dadcaa80ad42aeeb1bc4fd50a",
+    "signature": "1c83071c7d1dfc21495740ae754fc514fb14eca8425aac03d873b904973435d829f002f5d7fd80917dc2881b773a528f5fb1c0344fd3cefb99a57d711f1f4209",
     "min_core_version": "1.0.0",
     "dependencies": {
         "apppress/marketplace": "^1.0.0"
@@ -40,7 +40,7 @@
             "version": "1.0.2",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-cloud-vps/releases/assets/473992442",
             "checksum_sha256": "9c95cfca539a5cad2579271ffd5367dfe1e91d61fb0ed036b9b242f1ba0de03a",
-            "signature": "9725e2e05b2a34528c5149a244d669b77b639e6d2c519198a655128833d547f7809f6257a618ba5cd9bdbe81764bcb15c03ac6f4178dabdf25465628bf9e7b01",
+            "signature": "f0b603e44b5eb564e3b42369878234a4e88d6056858aa11554529b274baaa48d7b3220343ea79a570daec882ba9ef7fcdae34e6ef629772f43741e3f9eaf3700",
             "min_core_version": "1.0.0",
             "dependencies": {
                 "apppress/marketplace": "^1.0.0"
@@ -64,7 +64,7 @@
             "version": "1.0.3",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-cloud-vps/releases/assets/476848423",
             "checksum_sha256": "d4116a5a51001d308889df23910e32f75e17dcecbaa37b2ccd6a3a01e73d6105",
-            "signature": "6c7f32e1347a86acd3d6acf6806897e9395eab5302b186f44cbf5681cafaa492b1884a7177019585d87fb24109820d07e0182c79f3f66a7d55adc2befaf91f05",
+            "signature": "f77099842967271992e6e0c7247715170e9eaa5e4cccd0a1a23ba8d5e8a6a495474a35e82475474ba71a47b579300f8aada75340c7d88b97c563caf45614f600",
             "min_core_version": "1.0.0",
             "dependencies": {
                 "apppress/marketplace": "^1.0.0"
@@ -83,6 +83,30 @@
             ],
             "yanked": false,
             "published_at": "2026-07-14T15:26:46Z"
+        },
+        {
+            "version": "1.0.5",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-cloud-vps/releases/assets/488761114",
+            "checksum_sha256": "1ea218f1432ba8ba49e80224f0e64da361beba5dadcaa80ad42aeeb1bc4fd50a",
+            "signature": "1c83071c7d1dfc21495740ae754fc514fb14eca8425aac03d873b904973435d829f002f5d7fd80917dc2881b773a528f5fb1c0344fd3cefb99a57d711f1f4209",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/marketplace": "^1.0.0"
+            },
+            "requires_plugins": [],
+            "capabilities": [
+                "cloud-provisioning",
+                "cloud_provisioning",
+                "vps",
+                "digitalocean",
+                "dns_management",
+                "ssl_bootstrap",
+                "remote_marketplace_install",
+                "instance_lifecycle",
+                "platform_infrastructure"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-24T19:48:31Z"
         }
     ]
 }

@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-intercom-connector/releases/assets/473228366",
     "checksum_sha256": "3c7a323a3724505ff88e6b8bf8aa5f77fc18c5b09ae10fb86936538bd7351af4",
-    "signature": "ce45e0d3be1048983b8ee10d15edeabb8cfb22dc1faf897051f0d4ac01f1338f8276bf752e9615583757cd2022827159ad8a6b42955f5155f8ee8bfb95306d00",
+    "signature": "4f90c55d419970bc670272feb7fdeed7bf6fb85117e426dd57d271d9800ebf658d44f0b0f4adae61feb2f2a803a5f12aeaeb49c0fc5d84b0790aaf5b89d02908",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.intercom",
@@ -32,9 +32,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-intercom-connector/releases/assets/473228366",
             "checksum_sha256": "3c7a323a3724505ff88e6b8bf8aa5f77fc18c5b09ae10fb86936538bd7351af4",
-            "signature": "ce45e0d3be1048983b8ee10d15edeabb8cfb22dc1faf897051f0d4ac01f1338f8276bf752e9615583757cd2022827159ad8a6b42955f5155f8ee8bfb95306d00",
+            "signature": "4f90c55d419970bc670272feb7fdeed7bf6fb85117e426dd57d271d9800ebf658d44f0b0f4adae61feb2f2a803a5f12aeaeb49c0fc5d84b0790aaf5b89d02908",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.intercom",

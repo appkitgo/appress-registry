@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-freshdesk-connector/releases/assets/473215043",
     "checksum_sha256": "eadf3b6766aa5b11b1270fe0f3f0b4d4dcc5f0be7a86968c55d3f0ae141e36e3",
-    "signature": "dafe6a040734233d1731d87af31df57969b685bc151242406b5b71902319c794af7dbf7799d5015bb41f18b3db7da147d0ab2339b1868d5d950291dbd6df4409",
+    "signature": "312e0afbb6c9e2d4cde6de99b376edbfdc618798037eab81a017d66e923d3544ac1553d69858a0f08cab13684aa5a5ebeeb236bf6ace64761d3c87f6f2b17e07",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.freshdesk",
@@ -32,9 +32,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-freshdesk-connector/releases/assets/473215043",
             "checksum_sha256": "eadf3b6766aa5b11b1270fe0f3f0b4d4dcc5f0be7a86968c55d3f0ae141e36e3",
-            "signature": "dafe6a040734233d1731d87af31df57969b685bc151242406b5b71902319c794af7dbf7799d5015bb41f18b3db7da147d0ab2339b1868d5d950291dbd6df4409",
+            "signature": "312e0afbb6c9e2d4cde6de99b376edbfdc618798037eab81a017d66e923d3544ac1553d69858a0f08cab13684aa5a5ebeeb236bf6ace64761d3c87f6f2b17e07",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.freshdesk",

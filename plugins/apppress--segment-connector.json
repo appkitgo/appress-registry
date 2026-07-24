@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-segment-connector/releases/assets/473294382",
     "checksum_sha256": "87d3af97defecece7fee8fc46e3bd488f447c50b081b00a73d2356adc3a296be",
-    "signature": "366211e0cbdab79f492b723dd5b55badb383c1c1c786ae9b2baa730e1f2050583bb2684d4dcaf099c14a601ec0af13da84453f3c3bc23d98840e61d06f29910e",
+    "signature": "8fb98123541d3ecd6093b70408c9cf4578bdeb0c1c98ccfaf55e0e631e2d612cc284562d6458e68f0976449c5118eed8da21efc114ada79fc0d8d485f0024503",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.segment",
@@ -31,9 +31,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-segment-connector/releases/assets/473294382",
             "checksum_sha256": "87d3af97defecece7fee8fc46e3bd488f447c50b081b00a73d2356adc3a296be",
-            "signature": "366211e0cbdab79f492b723dd5b55badb383c1c1c786ae9b2baa730e1f2050583bb2684d4dcaf099c14a601ec0af13da84453f3c3bc23d98840e61d06f29910e",
+            "signature": "8fb98123541d3ecd6093b70408c9cf4578bdeb0c1c98ccfaf55e0e631e2d612cc284562d6458e68f0976449c5118eed8da21efc114ada79fc0d8d485f0024503",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.segment",

@@ -1,25 +1,25 @@
 {
     "slug": "apppress/coupons",
     "name": "AppPress Coupons",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "author": "AppPress",
     "description": "Discount codes and coupons with percentage and fixed-amount discounts, usage limits, expiration dates, plan restrictions, and redemption tracking.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-13T03:17:13Z",
+    "last_updated": "2026-07-24T19:48:40Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-coupons/releases/assets/475015117",
-    "checksum_sha256": "4a994ce5c4b1115380132185176829eff0c718e411bcde7fab056a1061c83018",
-    "signature": "8b57b0e461d539d03378324a9ade53c0ebc2d9ba7cff60dcfd192afc8bec61e899b8df07d31047a4e6a666edb782bd641f9c304790dd3abb8fc1a30970508506",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-coupons/releases/assets/488761200",
+    "checksum_sha256": "087e46958c040fafd99ec95ee5a9b7b2ef604b81a2cb069a0461c3f1a5fc5f1f",
+    "signature": "1f1f3395c11fbf211ed3db1a1fe1c4a7f0d9500b95303fd7a00c49a874d0d0040887bf89bbc028e59239d1419e6ee2aede44616a553d4064a50237d47219c102",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "coupons"
@@ -30,7 +30,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-coupons/releases/assets/473793751",
             "checksum_sha256": "23ccf8cd3792af34f540e6294707dd5e8910d20a7b2d47a8c899d114a261f3c4",
-            "signature": "1e38c6b00be60cddd68cebe5dd7ae53aa8c6f609ffd1cd2e74ac07db0240aa7653b8ede1391541c6480d04ab4bb43008995dd5ad68eb95c0b4c8f16d44957a09",
+            "signature": "354f3f717bf6a0fa5d59de311331b23d8cc3a3e91f9132e9028e502a04ff6c9a8447a1a0a54a3477f9d7ac31b88bedeb881f1a941dc339d6cc8401bef9841e00",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -44,15 +44,29 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-coupons/releases/assets/475015117",
             "checksum_sha256": "4a994ce5c4b1115380132185176829eff0c718e411bcde7fab056a1061c83018",
-            "signature": "8b57b0e461d539d03378324a9ade53c0ebc2d9ba7cff60dcfd192afc8bec61e899b8df07d31047a4e6a666edb782bd641f9c304790dd3abb8fc1a30970508506",
+            "signature": "03160da9a07e8217fed0375148f4f79f712c4258a803d85f393f6a6fd5bfba798223b52d61873670db9c78b75a8870abd1f9880407d7102f057219f3b440b80c",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "coupons"
             ],
             "yanked": false,
             "published_at": "2026-07-13T03:17:13Z"
+        },
+        {
+            "version": "1.0.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-coupons/releases/assets/488761200",
+            "checksum_sha256": "087e46958c040fafd99ec95ee5a9b7b2ef604b81a2cb069a0461c3f1a5fc5f1f",
+            "signature": "1f1f3395c11fbf211ed3db1a1fe1c4a7f0d9500b95303fd7a00c49a874d0d0040887bf89bbc028e59239d1419e6ee2aede44616a553d4064a50237d47219c102",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "coupons"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-24T19:48:40Z"
         }
     ]
 }

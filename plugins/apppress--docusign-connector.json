@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-docusign-connector/releases/assets/473047705",
     "checksum_sha256": "15643d70260990a7844d268efafd85eba37cad3544dab27b6c261d8222d71364",
-    "signature": "499ade2fb209dfdb5dd45de35374816425bf1ec6a23c33976209dc69342ab00f33bd6daa768b18a4686603ed302b808404be7d52d99d5e1b64da37ad5e5be105",
+    "signature": "f5faec2d950042d802a16cd622701ebffed9889a7bde71b0cc9470d631f89c6a476049e61aa8c578d8b2524fc652e93e13049c5821308c7fe5f6a726cb808c09",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.docusign",
@@ -32,9 +32,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-docusign-connector/releases/assets/473047705",
             "checksum_sha256": "15643d70260990a7844d268efafd85eba37cad3544dab27b6c261d8222d71364",
-            "signature": "499ade2fb209dfdb5dd45de35374816425bf1ec6a23c33976209dc69342ab00f33bd6daa768b18a4686603ed302b808404be7d52d99d5e1b64da37ad5e5be105",
+            "signature": "f5faec2d950042d802a16cd622701ebffed9889a7bde71b0cc9470d631f89c6a476049e61aa8c578d8b2524fc652e93e13049c5821308c7fe5f6a726cb808c09",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.docusign",

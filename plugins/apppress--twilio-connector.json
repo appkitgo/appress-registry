@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-twilio-connector/releases/assets/472849798",
     "checksum_sha256": "1dd9244d29ef67c7300821e7debf6a698081fc66bd74113a0652f22be5939464",
-    "signature": "10040c5f17d0be9913c7b71d09fbfefa7c977efb020bc045e401605634e458584a1e0d2425226accf9f476e737a49980c3968570294bc251c106e7feb26fa10d",
+    "signature": "3aef6b69fdcb36c2699ad37c74ba59cc74b47f6ff835452e78fb86343b2b8f51521939306f36d3f3f7d40a41ab25f50e576b603949038dbf6b413f904265e60c",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.twilio",
@@ -31,9 +31,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-twilio-connector/releases/assets/472849798",
             "checksum_sha256": "1dd9244d29ef67c7300821e7debf6a698081fc66bd74113a0652f22be5939464",
-            "signature": "10040c5f17d0be9913c7b71d09fbfefa7c977efb020bc045e401605634e458584a1e0d2425226accf9f476e737a49980c3968570294bc251c106e7feb26fa10d",
+            "signature": "3aef6b69fdcb36c2699ad37c74ba59cc74b47f6ff835452e78fb86343b2b8f51521939306f36d3f3f7d40a41ab25f50e576b603949038dbf6b413f904265e60c",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.twilio",

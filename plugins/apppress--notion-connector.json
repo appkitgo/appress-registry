@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-notion-connector/releases/assets/473091401",
     "checksum_sha256": "373e0754eabafd3678c742b5641e82a5dac1c16b6d8f67acb77902712d4d4dc7",
-    "signature": "f7a7e7f16b8bfe0b683b7aba60a2d40da0bd4266b3c72adabee555a3bee4ac9160b7794ae2e9e7af62ad0d814f4a83f7d2964585d3fda6f92f0301d934aeda0c",
+    "signature": "566039b24f16b95761cc0cf7a613f4c7e95566060e7cdf8209cfd90e36c8233f13784a65167f91103fe8ee31a5578a04f415d644e7eb796737c44a7bd5e06305",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.notion",
@@ -31,9 +31,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-notion-connector/releases/assets/473091401",
             "checksum_sha256": "373e0754eabafd3678c742b5641e82a5dac1c16b6d8f67acb77902712d4d4dc7",
-            "signature": "f7a7e7f16b8bfe0b683b7aba60a2d40da0bd4266b3c72adabee555a3bee4ac9160b7794ae2e9e7af62ad0d814f4a83f7d2964585d3fda6f92f0301d934aeda0c",
+            "signature": "566039b24f16b95761cc0cf7a613f4c7e95566060e7cdf8209cfd90e36c8233f13784a65167f91103fe8ee31a5578a04f415d644e7eb796737c44a7bd5e06305",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.notion",

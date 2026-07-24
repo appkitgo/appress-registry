@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-airtable-connector/releases/assets/473260199",
     "checksum_sha256": "c4b24444b163d396aff9e78e472c58e66ae1b2f46fbe01e6ccf30689edb3f312",
-    "signature": "f699c4b7ab4b525d46a34cfd0015636e5b6fd4f2a801bb7bdd17db1766107e9391e26322093227e56571f456d0eb03d58e798071f12bc57e3368dfe03cdf9006",
+    "signature": "c72f6578a7a5033761dc788c7197c486893acc59874b060cf9703cc105ed420fcd029cd328f26430fdfeea1695bb018ade73c13623e6f587e0c24fbd215f0d0e",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.airtable",
@@ -31,9 +31,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-airtable-connector/releases/assets/473260199",
             "checksum_sha256": "c4b24444b163d396aff9e78e472c58e66ae1b2f46fbe01e6ccf30689edb3f312",
-            "signature": "f699c4b7ab4b525d46a34cfd0015636e5b6fd4f2a801bb7bdd17db1766107e9391e26322093227e56571f456d0eb03d58e798071f12bc57e3368dfe03cdf9006",
+            "signature": "c72f6578a7a5033761dc788c7197c486893acc59874b060cf9703cc105ed420fcd029cd328f26430fdfeea1695bb018ade73c13623e6f587e0c24fbd215f0d0e",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.airtable",

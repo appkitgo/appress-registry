@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/apppack-helpdesk/releases/assets/476867024",
     "checksum_sha256": "6d3d7803bae4bdf4e25c7f5b09f6010a094b2a47e63f77224bc2a750771ada6e",
-    "signature": "f1d0d50e2ca1db94c31b1bc4a78d970ff411efab662f8493d0ad91b68374d184df8e473d7bd159484302c50ea059f3873a554c9cfbedc8365a361c6517f53a05",
+    "signature": "4f24bba912d2cbdaffbb59422e63207ee9c8df00841407ed0a2cdcc05ff0641f33882f822c6f4e9ec9863be9cca8be27f86b26ae4d78606bb56b25e87fb8590f",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "helpdesk"
@@ -30,7 +30,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/apppack-helpdesk/releases/assets/474653135",
             "checksum_sha256": "97ecfc185cb6bbf0684050403a28228a3e870104dfb4ef16eb6ab5d620495ec3",
-            "signature": "d9f4322c695bf23790d3635b6695f350b745759a858fd8638c3a2dccc369e69c4f2cb6628ef0b84e6dbfa4c6fc73ea1f376f1492aca3097cdf8786dd42070903",
+            "signature": "ec39f7e999ba1aedf9b0254de0040d6971b2fb47c9da58af838d22edb58fb1cc49263d7ad43d0dee6a9a026f560cfc4336cee5a6ad590cc9662eb762a0ee0105",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -44,9 +44,9 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/apppack-helpdesk/releases/assets/476867024",
             "checksum_sha256": "6d3d7803bae4bdf4e25c7f5b09f6010a094b2a47e63f77224bc2a750771ada6e",
-            "signature": "f1d0d50e2ca1db94c31b1bc4a78d970ff411efab662f8493d0ad91b68374d184df8e473d7bd159484302c50ea059f3873a554c9cfbedc8365a361c6517f53a05",
+            "signature": "4f24bba912d2cbdaffbb59422e63207ee9c8df00841407ed0a2cdcc05ff0641f33882f822c6f4e9ec9863be9cca8be27f86b26ae4d78606bb56b25e87fb8590f",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "helpdesk"

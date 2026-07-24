@@ -1,25 +1,25 @@
 {
     "slug": "apppress/custom-fields",
     "name": "AppPress Custom Fields",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "author": "AppPress",
     "description": "Dynamic custom field groups and fields attachable to any model, with type validation, field groups, and a clean API for reading and writing values.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T03:58:54Z",
+    "last_updated": "2026-07-24T19:48:44Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-custom-fields/releases/assets/476244143",
-    "checksum_sha256": "5f769d2897179bb94ea7d170bc049cca340db7106ae55a182d6b2cba0b6a8519",
-    "signature": "df28efe4b7ddd8e5b5fdd16ef2ce085b44640f29ce7e75cefffe32559b30e511c7f52e64d30701986cbf295915966f8bd8b3d7be51ccf65883e22e5418e9a10a",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-custom-fields/releases/assets/488761248",
+    "checksum_sha256": "2b3cc6c567e553aa97b0a6c8ea02ea09a3f10e379699b405f5d2109e0b785ddd",
+    "signature": "b1e6dc10d3d51848a8a7f2dfe1327e82f31b8ac08eb687b59456193accfa23555c4996cf7fe4f2dc9cd5703068fe024f887f21f7fa1b247cb9debf473da0aa0b",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "custom-fields",
@@ -31,7 +31,7 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-custom-fields/releases/assets/474303444",
             "checksum_sha256": "cfd785062381c463afb848bd0d4792041981cdaf9c2e2bad890fbf426d7276e1",
-            "signature": "8bb2e68c8c8a0de5e74a2b742a4e2216362c2d70e1b26f8ad07d5e07c9c34d46fc4781742ed3591ebdd766d04b75d8d88283e1b37da61d328565f84972ac450b",
+            "signature": "cd49c55e887af3a0053983e37f4569f9e1b2fa0ff86b9dfd0cd3014a80fdacf601186e5eac33cb1538bb2fb38207b38a544200e13336e73c1bd05615f3a5c509",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -46,9 +46,9 @@
             "version": "1.0.2",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-custom-fields/releases/assets/476244143",
             "checksum_sha256": "5f769d2897179bb94ea7d170bc049cca340db7106ae55a182d6b2cba0b6a8519",
-            "signature": "df28efe4b7ddd8e5b5fdd16ef2ce085b44640f29ce7e75cefffe32559b30e511c7f52e64d30701986cbf295915966f8bd8b3d7be51ccf65883e22e5418e9a10a",
+            "signature": "c4d43069876112bdc1a983311cff11cc994fcc9f1827100b69bc3db346ef9ff8cebbcb5e0ede9814ed5ccae0913d0d38babd574c129abd08a8c8769df2796105",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "custom-fields",
@@ -56,6 +56,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-14T03:58:54Z"
+        },
+        {
+            "version": "1.0.4",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-custom-fields/releases/assets/488761248",
+            "checksum_sha256": "2b3cc6c567e553aa97b0a6c8ea02ea09a3f10e379699b405f5d2109e0b785ddd",
+            "signature": "b1e6dc10d3d51848a8a7f2dfe1327e82f31b8ac08eb687b59456193accfa23555c4996cf7fe4f2dc9cd5703068fe024f887f21f7fa1b247cb9debf473da0aa0b",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "custom-fields",
+                "metadata"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-24T19:48:44Z"
         }
     ]
 }

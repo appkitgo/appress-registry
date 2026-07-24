@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-xero-connector/releases/assets/473125259",
     "checksum_sha256": "b8be129e2b5ca34bf96834e85a682c379f1dc55e91613d5b2e9c0681ed261209",
-    "signature": "1cfdb259b4ca0aa247a38a14639a2c1b3323108533e4965dc604096e55a22f6e80003e74c03c3b52383414162ed379a8b21fb05f9754197f306f5b3d20e1e40e",
+    "signature": "674c4f2ac4abbacdcc17ec879334d4a8028235c364bdcb21df9e00752f69133f205982f4312b32b43e36c3826a29fde22f4d96da34245316b0573b9f11862e0f",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.xero",
@@ -32,9 +32,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-xero-connector/releases/assets/473125259",
             "checksum_sha256": "b8be129e2b5ca34bf96834e85a682c379f1dc55e91613d5b2e9c0681ed261209",
-            "signature": "1cfdb259b4ca0aa247a38a14639a2c1b3323108533e4965dc604096e55a22f6e80003e74c03c3b52383414162ed379a8b21fb05f9754197f306f5b3d20e1e40e",
+            "signature": "674c4f2ac4abbacdcc17ec879334d4a8028235c364bdcb21df9e00752f69133f205982f4312b32b43e36c3826a29fde22f4d96da34245316b0573b9f11862e0f",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.xero",

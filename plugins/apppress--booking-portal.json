@@ -17,7 +17,7 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/apppack-booking/releases/assets/476909341",
     "checksum_sha256": "33bfdc84d4f2e28f6eb6126e96b5e72bf4a77f7cc89606b4e20f3f425a87cb6d",
-    "signature": "95ba4c3b7fff2cbe8917544b628e12c6f3fae786673240a3f7bb25927bf27f029b42b18fda8ef60b4b8aa759e9b7b74d5caf1c42627385b3ef40c47540670c0c",
+    "signature": "8821f300a27775b18f06f0e61d0f4d5f1d6e0db0a3742c387785b4b3c7d782cfca1e9a3e042e46f3e330dddbc8bf830eda94b91a243e27d007b5257b0547120c",
     "min_core_version": "1.0.0",
     "dependencies": {
         "apppress/appointments": "^1.0.0",
@@ -36,7 +36,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/apppack-booking/releases/assets/474485019",
             "checksum_sha256": "f419cdb1fba09c1363303747e8df484ffdc40683a5cd36a488a418afa7eb1810",
-            "signature": "47b45380448a8a1a5de870badc597bad9645a030e07d05145f933899d19ca7d58bf7b8953d2cb813282068a34d6090ff6e891747e846122433a56673f4101c00",
+            "signature": "9f1f7661e758f2a44348575fff09ca0e7b9d6ed6682381ad90474c3247f7cccca6624d6a330a8439ed0ead6c321efa678dbbf336417ffa54e9bccbd42415fe00",
             "min_core_version": "1.0.0",
             "dependencies": {
                 "apppress/appointments": "^1.0.0",
@@ -56,7 +56,7 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/apppack-booking/releases/assets/476909341",
             "checksum_sha256": "33bfdc84d4f2e28f6eb6126e96b5e72bf4a77f7cc89606b4e20f3f425a87cb6d",
-            "signature": "95ba4c3b7fff2cbe8917544b628e12c6f3fae786673240a3f7bb25927bf27f029b42b18fda8ef60b4b8aa759e9b7b74d5caf1c42627385b3ef40c47540670c0c",
+            "signature": "8821f300a27775b18f06f0e61d0f4d5f1d6e0db0a3742c387785b4b3c7d782cfca1e9a3e042e46f3e330dddbc8bf830eda94b91a243e27d007b5257b0547120c",
             "min_core_version": "1.0.0",
             "dependencies": {
                 "apppress/appointments": "^1.0.0",

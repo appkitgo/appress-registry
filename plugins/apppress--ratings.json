@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-ratings/releases/assets/476655528",
     "checksum_sha256": "e6a3bb76e2d2ea4cf55ca3662d0589a6ea4094e3863662e39f3959ed030f4b19",
-    "signature": "5f63f255c8dd2f9f45baa54a35cd4f1984b6128c4bc34ffea57c946b1ab4947271efe6a6987dce03917423fce6bd4cc3564df283bf34d047f05284f2a66c4906",
+    "signature": "7ca2027a5f48a47ff77e15c8145c54f5b9a3c287b5c330c28194c7a01d710f6c2b974d45a33ffa5c931471449bc560f58444c5bf34eca8c45c34a60469c65a09",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "ratings"
@@ -30,7 +30,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-ratings/releases/assets/474389821",
             "checksum_sha256": "bef827f4de64885189e37fc18ffec62d4f8497e2b3ba7785ecf1b047301e5598",
-            "signature": "29273d288291a00f665a4f13994428b0f56d0141b454d5ec12191bd8f25ae158c52eba36f412001478683ad7ffa2255dd2b586760a2248278c765bd4ba428406",
+            "signature": "f53c8141b9c17ba44cc3d9cae1cc15f4c7c4f71f825f07dd8de5fcf5a09f25b3ac6af1b4078857d9f92a9b5c58c022ad3f5cae948b7dc0a0de99da4b5297fa05",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -44,9 +44,9 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-ratings/releases/assets/476655528",
             "checksum_sha256": "e6a3bb76e2d2ea4cf55ca3662d0589a6ea4094e3863662e39f3959ed030f4b19",
-            "signature": "5f63f255c8dd2f9f45baa54a35cd4f1984b6128c4bc34ffea57c946b1ab4947271efe6a6987dce03917423fce6bd4cc3564df283bf34d047f05284f2a66c4906",
+            "signature": "7ca2027a5f48a47ff77e15c8145c54f5b9a3c287b5c330c28194c7a01d710f6c2b974d45a33ffa5c931471449bc560f58444c5bf34eca8c45c34a60469c65a09",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "ratings"

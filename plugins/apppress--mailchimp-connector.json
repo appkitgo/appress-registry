@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-mailchimp-connector/releases/assets/472876313",
     "checksum_sha256": "1997eef9edd4e9cb703f52ab657ec0e07f0cda72dd2398f30a40657e678c5a2e",
-    "signature": "751c56f2e9bbe4ddfa73a0573ed34a1e697d6da800dabc8d887903bdc8b83e85a752a6d8b54b9b12ef3c2296a35fab2e7d9bd52f9dfe8b998135fecd7955390c",
+    "signature": "bcf630b1e1c3972766a8f383e58e23a4a8a8e38148d23af69f543b3a08e09c746862776f87eb5b7e54c310f3d0e279de5de23fe5d734d09c53001402ac54cd0e",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.mailchimp",
@@ -31,9 +31,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-mailchimp-connector/releases/assets/472876313",
             "checksum_sha256": "1997eef9edd4e9cb703f52ab657ec0e07f0cda72dd2398f30a40657e678c5a2e",
-            "signature": "751c56f2e9bbe4ddfa73a0573ed34a1e697d6da800dabc8d887903bdc8b83e85a752a6d8b54b9b12ef3c2296a35fab2e7d9bd52f9dfe8b998135fecd7955390c",
+            "signature": "bcf630b1e1c3972766a8f383e58e23a4a8a8e38148d23af69f543b3a08e09c746862776f87eb5b7e54c310f3d0e279de5de23fe5d734d09c53001402ac54cd0e",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.mailchimp",

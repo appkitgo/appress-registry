@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-pages/releases/assets/473653212",
     "checksum_sha256": "319e597f4ab4ed398ffe8c32f8bbe063329612ec7fec22c797625c40022a65c4",
-    "signature": "cdb6ce959e870f389a398afced5ff3cfd6ef25df82b762ce3ec989e8f1029869585d8ebf5612e51cdad5acef284a51cc9bb4ba06278ab69f02069babfac1d90d",
+    "signature": "d5fa1280ac02c4a6c509d9fe9572beb84ce16921b9ff297f717b4e207baf58ea73f38cff3f5f2e55566d996e83ef7f65ea6942876bb7a0d1be21992612bddb01",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "pages",
@@ -41,9 +41,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-pages/releases/assets/473653212",
             "checksum_sha256": "319e597f4ab4ed398ffe8c32f8bbe063329612ec7fec22c797625c40022a65c4",
-            "signature": "cdb6ce959e870f389a398afced5ff3cfd6ef25df82b762ce3ec989e8f1029869585d8ebf5612e51cdad5acef284a51cc9bb4ba06278ab69f02069babfac1d90d",
+            "signature": "d5fa1280ac02c4a6c509d9fe9572beb84ce16921b9ff297f717b4e207baf58ea73f38cff3f5f2e55566d996e83ef7f65ea6942876bb7a0d1be21992612bddb01",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "pages",

@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-tags/releases/assets/476255663",
     "checksum_sha256": "a709a21b82b3266f9c1181e83b4965159335de61324289348aedc3412dee736f",
-    "signature": "d2e1feca9ba83afe4efe0654d45ef7b05c6c0a6bf61f8082d650e63563b4de24bf1ba519ba382029125313144b29ab2d4fe6c599fefbdc714a7fe6613ca12a06",
+    "signature": "05337c51f5f2f271237b224c9b7a1bd43c7b5e02a4049c49383e197d537a03ae7ac8f31e5c19ab1fe2916bb9a3bd1750b523126f006fc4aeaee3fb5e8935480a",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "tags"
@@ -30,7 +30,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-tags/releases/assets/474441514",
             "checksum_sha256": "ce494cec0a9216721fd9e103b7416fd040c653367ea9db41858d1b6810936da3",
-            "signature": "02f301b8370dab5234fb610bdf0b3ba56ee1ffc31ccb407b95fcbc7a4fe02e68ab48d138ff23312d2f02c4ad2af48305bc5c9c14fcace89db85b8e87138a460a",
+            "signature": "dba9d3c7b8d0878bc5c71e4e0511a061892512701a572407c7473b8898261822a3ba2bff121009e5b3cb5eaf361f43ef8b7a017ba3a0568fcf6229f0d122690f",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -44,9 +44,9 @@
             "version": "1.0.2",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-tags/releases/assets/476255663",
             "checksum_sha256": "a709a21b82b3266f9c1181e83b4965159335de61324289348aedc3412dee736f",
-            "signature": "d2e1feca9ba83afe4efe0654d45ef7b05c6c0a6bf61f8082d650e63563b4de24bf1ba519ba382029125313144b29ab2d4fe6c599fefbdc714a7fe6613ca12a06",
+            "signature": "05337c51f5f2f271237b224c9b7a1bd43c7b5e02a4049c49383e197d537a03ae7ac8f31e5c19ab1fe2916bb9a3bd1750b523126f006fc4aeaee3fb5e8935480a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "tags"

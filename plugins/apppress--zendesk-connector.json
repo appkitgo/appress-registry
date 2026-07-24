@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-zendesk-connector/releases/assets/473066572",
     "checksum_sha256": "bdb9eea148da1c2c1b1f84304311e49a32b5d84d9ccbf0017173a2cfe7cb6761",
-    "signature": "77c2ddd723e32fb29c913c83e2e3d061bea5cb98f88b036f1c9a068e6443e3b92ee1f5bcf3e3875694fb5e360998a49a0f9725f32f774aec94341c670493c602",
+    "signature": "b48af794095e2b26f64a1da9fc84c096eec4a66e1e7589e37d0bdc2b853a758f2c8197bd5b863d4c8259d76fdeb3d87713eccee6237cf531ce618ae4e88cd60a",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.zendesk",
@@ -32,9 +32,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-zendesk-connector/releases/assets/473066572",
             "checksum_sha256": "bdb9eea148da1c2c1b1f84304311e49a32b5d84d9ccbf0017173a2cfe7cb6761",
-            "signature": "77c2ddd723e32fb29c913c83e2e3d061bea5cb98f88b036f1c9a068e6443e3b92ee1f5bcf3e3875694fb5e360998a49a0f9725f32f774aec94341c670493c602",
+            "signature": "b48af794095e2b26f64a1da9fc84c096eec4a66e1e7589e37d0bdc2b853a758f2c8197bd5b863d4c8259d76fdeb3d87713eccee6237cf531ce618ae4e88cd60a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.zendesk",

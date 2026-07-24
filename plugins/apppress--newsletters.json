@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-newsletters/releases/assets/475559251",
     "checksum_sha256": "708aea181273c7ba6185692154500580ebe98bd31db4fb32e9209be63588dd89",
-    "signature": "a4ec6b1346341fcdb5f8eb307e0fe8329d18d3808cd27a46ff62e228a55b9213a79cfe11c6603aba2e2eeb8f8926c886dae97e7cbfb802ab7018fe751cf3770a",
+    "signature": "c55fd62e9f8920090e3a38d901c335c95270351f970e40a1751dc9d821cdf426859f543eee8a9c5a027b4d7e8911e966248d162ca137f913a2b79ce7431c720a",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "newsletters"
@@ -30,7 +30,7 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-newsletters/releases/assets/473759776",
             "checksum_sha256": "eb1d3bc7da8c6c240644993f039519880e4ad532dd3dbcdbd8f2ce72949f22b1",
-            "signature": "adb42bdf909f07f7d5cca027e6aae751f3283b900fe83e8fb03095ee76b2a3c6dc66be445bb89ae9fa4e28d63da851768923ae2d54401e1479ebbcdcca446d00",
+            "signature": "69998f0a30e9c1300ad56dcf78e6ae0f316e172ed01e6d87ffce601c3e7ed6168a7a4c2ebd50740624a6191ad7b29080effe4e2f7cb127e9b68ee8b1673a1a00",
             "min_core_version": "1.0.0",
             "dependencies": [],
             "requires_plugins": [],
@@ -44,9 +44,9 @@
             "version": "1.0.1",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-newsletters/releases/assets/475559251",
             "checksum_sha256": "708aea181273c7ba6185692154500580ebe98bd31db4fb32e9209be63588dd89",
-            "signature": "a4ec6b1346341fcdb5f8eb307e0fe8329d18d3808cd27a46ff62e228a55b9213a79cfe11c6603aba2e2eeb8f8926c886dae97e7cbfb802ab7018fe751cf3770a",
+            "signature": "c55fd62e9f8920090e3a38d901c335c95270351f970e40a1751dc9d821cdf426859f543eee8a9c5a027b4d7e8911e966248d162ca137f913a2b79ce7431c720a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "newsletters"

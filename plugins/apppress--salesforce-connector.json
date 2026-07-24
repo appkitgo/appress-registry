@@ -17,9 +17,9 @@
     "license_type": "free",
     "download_url": "https://api.github.com/repos/appkitgo/plugin-salesforce-connector/releases/assets/472805511",
     "checksum_sha256": "5a5a981578e89e90ad3b9e098e7b870fedcbf2dcd4415a847e4af02cc158f37b",
-    "signature": "78d7a93a48f34e1fe1b681b8e7a878112fbd80d114ba053ac3cb919525887e87fca337233c669f3fa8bb0c4e6e1427642dac70a18c45c43a6e2814b42ad17202",
+    "signature": "3018549346c3262190fbef64affe831d3bf410e1beee2950ff95722c8d1b627221909e429255233e9879f6578bfb6933e36a6a20bfeb32873641124fca63e307",
     "min_core_version": "1.0.0",
-    "dependencies": {},
+    "dependencies": [],
     "requires_plugins": [],
     "capabilities": [
         "connector.salesforce",
@@ -31,9 +31,9 @@
             "version": "1.0.0",
             "download_url": "https://api.github.com/repos/appkitgo/plugin-salesforce-connector/releases/assets/472805511",
             "checksum_sha256": "5a5a981578e89e90ad3b9e098e7b870fedcbf2dcd4415a847e4af02cc158f37b",
-            "signature": "78d7a93a48f34e1fe1b681b8e7a878112fbd80d114ba053ac3cb919525887e87fca337233c669f3fa8bb0c4e6e1427642dac70a18c45c43a6e2814b42ad17202",
+            "signature": "3018549346c3262190fbef64affe831d3bf410e1beee2950ff95722c8d1b627221909e429255233e9879f6578bfb6933e36a6a20bfeb32873641124fca63e307",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.salesforce",
