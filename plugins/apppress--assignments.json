@@ -1,23 +1,23 @@
 {
     "slug": "apppress/assignments",
     "name": "AppPress Assignments",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "AppPress",
     "description": "Assignment submission, rubric grading, and grade management for LMS and campus apps. Supports due dates, late penalties, pass/fail thresholds, file uploads, SIS/LMS grade import via signed webhook, and workflow automation covering the full submission lifecycle: created \u2192 published \u2192 submitted \u2192 graded \u2192 passed/failed \u2192 returned.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-13T11:47:52Z",
+    "last_updated": "2026-07-25T00:26:11Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-assignments/releases/assets/475425622",
-    "checksum_sha256": "b2c7879e4e6598b4d31810662009e4034f4d63d2d8922df304303953295bdef5",
-    "signature": "8fbcd10347b5c1c32af1c2291ab75850eb8d8477d951f512042d47276605da4c3f29a38c3ec753d91cbb22f3f4bd164ec953085f26b64ec77c47b87f9a229102",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-assignments/releases/assets/488977984",
+    "checksum_sha256": "2d506356b1cc654318389098fe34c75c3c7e0f55fda413f4cdd82f9cc07c1459",
+    "signature": "6bfc1fa69c1c38273c903276aa97fd748b1b6e981c783403abda888721173a1ebcd0420ed6a54a782a32ea624451344b50a8820447caf0500f0945fab05c3705",
     "min_core_version": "1.0.0",
     "dependencies": [],
     "requires_plugins": [],
@@ -86,6 +86,31 @@
             ],
             "yanked": false,
             "published_at": "2026-07-13T11:47:52Z"
+        },
+        {
+            "version": "1.0.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-assignments/releases/assets/488977984",
+            "checksum_sha256": "2d506356b1cc654318389098fe34c75c3c7e0f55fda413f4cdd82f9cc07c1459",
+            "signature": "6bfc1fa69c1c38273c903276aa97fd748b1b6e981c783403abda888721173a1ebcd0420ed6a54a782a32ea624451344b50a8820447caf0500f0945fab05c3705",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "assignments",
+                "grading",
+                "rubric_grading",
+                "submission_management",
+                "pass_fail_thresholds",
+                "due_dates",
+                "late_submission_policy",
+                "grade_import",
+                "grade_export",
+                "sis_integration",
+                "lms",
+                "file_submissions"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-25T00:26:11Z"
         }
     ]
 }

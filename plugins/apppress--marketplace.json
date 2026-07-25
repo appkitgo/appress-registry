@@ -1,23 +1,23 @@
 {
     "slug": "apppress/marketplace",
     "name": "AppPress Marketplace",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "AppPress",
     "description": "Full-featured marketplace platform: package listings, developer accounts, reviews, cloud hosting, and analytics.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T16:25:43Z",
+    "last_updated": "2026-07-25T00:26:22Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/apppack-marketplace/releases/assets/476904402",
-    "checksum_sha256": "d7b397275aa6f7f4368b7342c65244bc08657556b7636eb8d2c80abded747d07",
-    "signature": "78cb00dcffc03dfe32e37faf6708462605c6eab0cbbbafae1b94595f26df4ecda1165acc07d3538576a6741b41b87ca5e18aabbb3b9bd4f56d50e5a28c620b0c",
+    "download_url": "https://api.github.com/repos/appkitgo/apppack-marketplace/releases/assets/488978193",
+    "checksum_sha256": "6c7f0d5ec5af451a163acccd7c3cb87dd626a760a2c3a04c63fcf857830acfd3",
+    "signature": "81b63aead237e2d1acae293917d6717cb1cafcff27b99910ec82663a8b80b3d470fd0e79577249b08cde0252f7d0705514d513fef6eda0fd2f133e3002fee007",
     "min_core_version": "1.0.0",
     "dependencies": [],
     "requires_plugins": [],
@@ -47,6 +47,18 @@
             "capabilities": [],
             "yanked": false,
             "published_at": "2026-07-14T16:25:43Z"
+        },
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/apppack-marketplace/releases/assets/488978193",
+            "checksum_sha256": "6c7f0d5ec5af451a163acccd7c3cb87dd626a760a2c3a04c63fcf857830acfd3",
+            "signature": "81b63aead237e2d1acae293917d6717cb1cafcff27b99910ec82663a8b80b3d470fd0e79577249b08cde0252f7d0705514d513fef6eda0fd2f133e3002fee007",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-25T00:26:22Z"
         }
     ]
 }

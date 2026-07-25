@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-24T20:12:53+00:00",
+    "generated_at": "2026-07-25T00:30:02+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -420,6 +420,31 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-13T11:47:52Z"
+                },
+                {
+                    "version": "1.0.3",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-assignments/releases/assets/488977984",
+                    "checksum_sha256": "2d506356b1cc654318389098fe34c75c3c7e0f55fda413f4cdd82f9cc07c1459",
+                    "signature": "6bfc1fa69c1c38273c903276aa97fd748b1b6e981c783403abda888721173a1ebcd0420ed6a54a782a32ea624451344b50a8820447caf0500f0945fab05c3705",
+                    "min_core_version": "1.0.0",
+                    "dependencies": [],
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "assignments",
+                        "grading",
+                        "rubric_grading",
+                        "submission_management",
+                        "pass_fail_thresholds",
+                        "due_dates",
+                        "late_submission_policy",
+                        "grade_import",
+                        "grade_export",
+                        "sis_integration",
+                        "lms",
+                        "file_submissions"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-25T00:26:11Z"
                 }
             ]
         },
@@ -1319,7 +1344,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-documents",
             "tier": "first_party",
-            "description": "HTML templating and PDF generation for workflows and business records. Implements StandardContracts::DOCUMENTS and core.generate_pdf workflow action.",
+            "description": "HTML templating and PDF generation for workflows and business records: admin/app document library with templates, member documents panel/page, expiring share links, PDF uploads, generated-document retention, and workflow triggers/actions (core.generate_pdf, documents.pdf_generated, send_document). Implements StandardContracts::DOCUMENTS.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -1354,6 +1379,29 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-13T14:46:44Z"
+                },
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-documents/releases/assets/488977886",
+                    "checksum_sha256": "fec29b5b57323235977553d723113c91279ae9e06b0167f072f32eeab8481dfc",
+                    "signature": "244109a18cb8d5b425980e10d72bb307b1d22cc6987071ddd86b443b77d0e1e69a9af514fc8b695d2c4a84d990eed45d1fc378053ffd2f3151914f1b7d715808",
+                    "min_core_version": "1.0.0",
+                    "dependencies": [],
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "documents",
+                        "pdf",
+                        "templates",
+                        "sharing",
+                        "uploads",
+                        "retention",
+                        "member_panel",
+                        "admin_dashboard",
+                        "workflow_triggers",
+                        "workflow_actions"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-25T00:26:01Z"
                 }
             ]
         },
@@ -1565,6 +1613,25 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-24T19:41:21Z"
+                },
+                {
+                    "version": "1.4.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-events/releases/assets/488978095",
+                    "checksum_sha256": "1f9768c84d31c6ffd1a1be10bda7d744c7db1b689c084fb4c7796959d0b9d741",
+                    "signature": "5ff67a474345b07c4124bbe2e67f03df076147d796cbcae35e0f656d58c45c294acbe946b783e723e019940864e160cb319fb3b61922f9a1726bfb377571380f",
+                    "min_core_version": "1.0.0",
+                    "dependencies": [],
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "events",
+                        "event_registration",
+                        "qr_checkin",
+                        "attendance_tracking",
+                        "capacity_management",
+                        "waitlist"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-25T00:26:15Z"
                 }
             ]
         },
@@ -1802,7 +1869,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-gamification",
             "tier": "first_party",
-            "description": "Gamification engine: points/XP, badges, achievements, leaderboards, streaks, and user levels. Hook-driven so any plugin can award points.",
+            "description": "Gamification product: points/XP, badges, achievements, leaderboards, streaks, and named user levels with per-tier rewards. Dual-mounted (Studio + app) admin builders for badges/achievements/leaderboard/settings; a themed member profile panel (level ring, streak, rank, badges, achievements, earn/level-up celebration); a public/member themed leaderboard page; placeable points/badge/leaderboard blocks and shortcodes; and workflow actions so any plugin can award points or badges without coupling.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -1835,6 +1902,27 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-14T12:41:42Z"
+                },
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-gamification/releases/assets/488977804",
+                    "checksum_sha256": "77c40932458613b64fe2d869572ab272fef70d292b067c80d2fda8a5a99c561d",
+                    "signature": "57e5cef38721f66d4e13be704b7489933fbb3c55a5b2be1f9f7428d54e68ffd7fee56d0487e4552bac45defb94a3e5890c5864fde9d9193309064c6b41397a0c",
+                    "min_core_version": "1.0.0",
+                    "dependencies": [],
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "gamification",
+                        "admin_builders",
+                        "member_profile",
+                        "public_leaderboard_page",
+                        "placeable_blocks",
+                        "workflow_actions",
+                        "tier_rewards",
+                        "earn_celebrations"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-25T00:25:56Z"
                 }
             ]
         },
@@ -2482,6 +2570,18 @@
                     "capabilities": [],
                     "yanked": false,
                     "published_at": "2026-07-14T16:25:43Z"
+                },
+                {
+                    "version": "1.0.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/apppack-marketplace/releases/assets/488978193",
+                    "checksum_sha256": "6c7f0d5ec5af451a163acccd7c3cb87dd626a760a2c3a04c63fcf857830acfd3",
+                    "signature": "81b63aead237e2d1acae293917d6717cb1cafcff27b99910ec82663a8b80b3d470fd0e79577249b08cde0252f7d0705514d513fef6eda0fd2f133e3002fee007",
+                    "min_core_version": "1.0.0",
+                    "dependencies": [],
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-25T00:26:22Z"
                 }
             ]
         },
@@ -3285,7 +3385,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-quizzes",
             "tier": "first_party",
-            "description": "Assessment engine with question banks, multiple question types, auto and manual grading, time limits, multiple attempts, pass/fail thresholds, and detailed result analytics.",
+            "description": "Assessment engine with question banks, multiple question types (incl. multiple_select partial credit), auto and manual grading, time limits, multiple attempts, random draw pools, pass/fail thresholds, shareable public quiz links, an assign_quiz workflow action, and detailed result analytics.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -3318,6 +3418,24 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-13T12:28:12Z"
+                },
+                {
+                    "version": "1.1.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-quizzes/releases/assets/488977740",
+                    "checksum_sha256": "1a9fe60400443fde2a8fc90c3c4ac7687fe76237cb03a19b387e0fe021a02470",
+                    "signature": "032450fa26c955c3cd9ecf7919d46775ef0ce78068461017de0ddd4fd10409fb6705d804f03f78e809474ecc12e71914695905db8f82fe0e65a593fcbf601f09",
+                    "min_core_version": "1.0.0",
+                    "dependencies": [],
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "quizzes",
+                        "public_links",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "random_draw_pools"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-25T00:25:52Z"
                 }
             ]
         },
@@ -4038,7 +4156,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-surveys",
             "tier": "first_party",
-            "description": "Survey builder with multiple question types, NPS scoring, conditional logic, response analytics, shareable public links, mobile pulse forms, workflow triggers/actions, and StandardContracts::SURVEYS for cross-plugin integration.",
+            "description": "Survey builder with 12 question types (including date and ranking), NPS scoring, quiz scoring, poll results, conditional logic, response analytics, shareable public links, mobile pulse forms, workflow triggers/actions including send_survey, and StandardContracts::SURVEYS for cross-plugin integration.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -4085,6 +4203,30 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-13T12:15:52Z"
+                },
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-surveys/releases/assets/488977931",
+                    "checksum_sha256": "a87d5f013534290f32464694072e8220d160c328f9a4fe94f8f9560bada5c597",
+                    "signature": "2b4130a4c773b5dc40765f4d2b1038d6c3380df33ebb47a9ef990334b05b65f0ec626a7ebe92d53b69a09d476184caceb9e28a6f6c79d6166f730224b1c09803",
+                    "min_core_version": "1.0.0",
+                    "dependencies": [],
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "surveys",
+                        "feedback_collection",
+                        "nps_scoring",
+                        "quiz_scoring",
+                        "poll_results",
+                        "public_links",
+                        "response_analytics",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "mobile_surfaces",
+                        "admin_dashboard"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-25T00:26:06Z"
                 }
             ]
         },
@@ -4588,5 +4730,5 @@
         }
     },
     "schema_version": "1.0.0",
-    "signature": "39088817f5bd450b1573858389ad5c3329eb1fa5aa9271d3b25d5f9de30bee6dbf32ede794dad7ccc661d574eafa9ea88766e1620b1c0302c6249e73a226ad04"
+    "signature": "73d5a6f9a9b149473b9c283ab2bb88377332a029e35f3cf24af74b8913e19c1f0d135985397de9d6a9837c39e0fcdbe3af9fe5c5df766aa73624d2b7c244ac0c"
 }

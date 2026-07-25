@@ -1,23 +1,23 @@
 {
     "slug": "apppress/events",
     "name": "AppPress Events",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "author": "AppPress",
     "description": "Campus event management with ticket types, capacity control, waitlist promotion, QR-based check-in, and guest or authenticated registration. Implements StandardContracts::EVENTS for cross-plugin registration flows.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-24T19:41:21Z",
+    "last_updated": "2026-07-25T00:26:15Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-events/releases/assets/488755746",
-    "checksum_sha256": "53936c492f43e7f0958409cddcf9114917ee315ec7d336d680a5dd66734a2bc5",
-    "signature": "0db629539fb7b3816a7f21a5ca9a0f987b30fc18e7ebfb955392d3d87fadee9acc3dcbc36732e45e78df9eb168dff3edc0837cf1d6aa9f0daf02dc6f9cbc030a",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-events/releases/assets/488978095",
+    "checksum_sha256": "1f9768c84d31c6ffd1a1be10bda7d744c7db1b689c084fb4c7796959d0b9d741",
+    "signature": "5ff67a474345b07c4124bbe2e67f03df076147d796cbcae35e0f656d58c45c294acbe946b783e723e019940864e160cb319fb3b61922f9a1726bfb377571380f",
     "min_core_version": "1.0.0",
     "dependencies": [],
     "requires_plugins": [],
@@ -125,6 +125,25 @@
             ],
             "yanked": false,
             "published_at": "2026-07-24T19:41:21Z"
+        },
+        {
+            "version": "1.4.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-events/releases/assets/488978095",
+            "checksum_sha256": "1f9768c84d31c6ffd1a1be10bda7d744c7db1b689c084fb4c7796959d0b9d741",
+            "signature": "5ff67a474345b07c4124bbe2e67f03df076147d796cbcae35e0f656d58c45c294acbe946b783e723e019940864e160cb319fb3b61922f9a1726bfb377571380f",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "events",
+                "event_registration",
+                "qr_checkin",
+                "attendance_tracking",
+                "capacity_management",
+                "waitlist"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-25T00:26:15Z"
         }
     ]
 }
