@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-25T00:30:02+00:00",
+    "generated_at": "2026-07-25T04:59:18+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -3028,7 +3028,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-payments",
             "tier": "first_party",
-            "description": "One-time Stripe payments: checkout sessions, payment records, full/partial refunds, receipts, and webhook sync. Implements StandardContracts::PAYMENTS.",
+            "description": "One-time payments through any installed payment connector (Stripe, Square, or a future gateway implementing the PaymentGateway contract): checkout sessions, payment records, full/partial refunds, receipts, and webhook sync. Implements StandardContracts::PAYMENTS.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -3075,6 +3075,20 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-23T00:02:37Z"
+                },
+                {
+                    "version": "1.2.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-payments/releases/assets/489156319",
+                    "checksum_sha256": "4b7507eb97ae437d5a989afd909af9582d9c13deee02c86dbce42877199c7a77",
+                    "signature": "7555849e7a5160322e10ac31899e9d041699fb4d2ae5d6eaa560a3e7a9e2ee1658de6d63fb4bde1ece71a8ea50248231b32e35ccd0e0d937961dd65d69f74d04",
+                    "min_core_version": "1.0.0",
+                    "dependencies": [],
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "payments"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-25T04:55:45Z"
                 }
             ]
         },
@@ -4626,7 +4640,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-workflows",
             "tier": "first_party",
-            "description": "Visual automation engine for AppPress — trigger → conditions → actions. When X happens, do Y. Supports 19 built-in triggers, 13 built-in actions, HMAC-signed webhook ingress, approval gates, delayed steps, conditional branching, formula evaluation, version snapshots with rollback, multi-site scoping, and rate-limiting circuit breakers. Implements StandardContracts::WORKFLOWS so any App Pack can resolve the workflow service without a direct dependency.",
+            "description": "Visual automation engine for AppPress — trigger → conditions → actions. When X happens, do Y. Supports 19 built-in triggers, 17 built-in actions (including AI prompt/response, round-robin assignment, field transforms, and generic outbound HTTP requests), HMAC-signed webhook ingress, approval gates, delayed steps, conditional branching, formula evaluation, version snapshots with rollback, multi-site scoping, and rate-limiting circuit breakers. Implements StandardContracts::WORKFLOWS so any App Pack can resolve the workflow service without a direct dependency.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -4665,6 +4679,23 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-12T22:18:34Z"
+                },
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-workflows/releases/assets/489090013",
+                    "checksum_sha256": "964c3c3907a7af42f4ea8c1ea1413544c92a1779ff01765e752d5c750638ec65",
+                    "signature": "b5bbcdde84c173273970994ba7b74cc65decc6f47fbf5bc819cc72b79a6b3bf7acb12caf48cf61a8ef248c52f0be6ca9cdcd967c1e42c2c654c94e397fdee00a",
+                    "min_core_version": "1.0.0",
+                    "dependencies": [],
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "workflow",
+                        "workflow.trigger",
+                        "workflow.action",
+                        "workflow.condition"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-25T03:20:06Z"
                 }
             ]
         },
@@ -4730,5 +4761,5 @@
         }
     },
     "schema_version": "1.0.0",
-    "signature": "73d5a6f9a9b149473b9c283ab2bb88377332a029e35f3cf24af74b8913e19c1f0d135985397de9d6a9837c39e0fcdbe3af9fe5c5df766aa73624d2b7c244ac0c"
+    "signature": "e1533af28c74773c31a3ff194d2d2933e1036d1895a1f7b996281d44c3abb6c50695f9095e4bada6978721360ab0cb678184040ce40be72638934cbad2d33609"
 }

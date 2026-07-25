@@ -1,23 +1,23 @@
 {
     "slug": "apppress/payments",
     "name": "AppPress Payments",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "author": "AppPress",
-    "description": "One-time Stripe payments: checkout sessions, payment records, full/partial refunds, receipts, and webhook sync. Implements StandardContracts::PAYMENTS.",
+    "description": "One-time payments through any installed payment connector (Stripe, Square, or a future gateway implementing the PaymentGateway contract): checkout sessions, payment records, full/partial refunds, receipts, and webhook sync. Implements StandardContracts::PAYMENTS.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-23T00:02:37Z",
+    "last_updated": "2026-07-25T04:55:45Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-payments/releases/assets/486562160",
-    "checksum_sha256": "ea4c52feac43686ad32256f478e8cb53e11feb3a50a075fad99beae6019b8811",
-    "signature": "45cfdc03e365ec84ea3c465d9a7c51666f7760735a8243ab30280be83ad7706b539cc7de2b736cb05f500b973d22e66ed0bedc5495fb748793cb58e52db3760e",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-payments/releases/assets/489156319",
+    "checksum_sha256": "4b7507eb97ae437d5a989afd909af9582d9c13deee02c86dbce42877199c7a77",
+    "signature": "7555849e7a5160322e10ac31899e9d041699fb4d2ae5d6eaa560a3e7a9e2ee1658de6d63fb4bde1ece71a8ea50248231b32e35ccd0e0d937961dd65d69f74d04",
     "min_core_version": "1.0.0",
     "dependencies": [],
     "requires_plugins": [],
@@ -67,6 +67,20 @@
             ],
             "yanked": false,
             "published_at": "2026-07-23T00:02:37Z"
+        },
+        {
+            "version": "1.2.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-payments/releases/assets/489156319",
+            "checksum_sha256": "4b7507eb97ae437d5a989afd909af9582d9c13deee02c86dbce42877199c7a77",
+            "signature": "7555849e7a5160322e10ac31899e9d041699fb4d2ae5d6eaa560a3e7a9e2ee1658de6d63fb4bde1ece71a8ea50248231b32e35ccd0e0d937961dd65d69f74d04",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "payments"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-25T04:55:45Z"
         }
     ]
 }
