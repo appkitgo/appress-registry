@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-26T20:49:48+00:00",
+    "generated_at": "2026-07-26T21:04:49+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -937,6 +937,36 @@
                 }
             ]
         },
+        "apppress/brightspace-d2l-connector": {
+            "slug": "apppress/brightspace-d2l-connector",
+            "name": "Brightspace D2L LMS Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-brightspace-d2l-connector",
+            "tier": "first_party",
+            "description": "D2L Brightspace LMS connector for CampusLaunch \u2014 course listing, section lookup, enrollment read (FERPA-gated), announcement creation, assignment due-date triggers, grade summary (permission-gated), and deep links back to Brightspace. Banner/SIS writeback is excluded by design.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/brightspace-d2l-connector",
+            "versions": [
+                {
+                    "version": "1.0.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-brightspace-d2l-connector/releases/assets/490691692",
+                    "checksum_sha256": "bcc3b2923c17c01ce19d7f079a542e86dbfc750ca2c5339698a72c3cc7dc0d58",
+                    "signature": "db932033084a1fadb6cb48b61c08dd6cb01ec8578bd8bd6bb5da9ae8dc99eb791674060ebffcf9e1ea9a139a0028e298396336f83f4b0869ad54e92a24484003",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.brightspace_d2l",
+                        "lms.brightspace",
+                        "data_source.external"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T20:59:45Z"
+                }
+            ]
+        },
         "apppress/calendar": {
             "slug": "apppress/calendar",
             "name": "AppPress Calendar",
@@ -1008,6 +1038,36 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:38:09Z"
+                }
+            ]
+        },
+        "apppress/cas-sso-connector": {
+            "slug": "apppress/cas-sso-connector",
+            "name": "CAS SSO Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-cas-sso-connector",
+            "tier": "first_party",
+            "description": "Central Authentication Service (CAS) SSO connector for CampusLaunch \u2014 CAS 2.0/3.0 ticket validation, login URL generation, attribute extraction, role mapping, JIT user provisioning, multi-tenant campus isolation, and logout support.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/cas-sso-connector",
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-cas-sso-connector/releases/assets/490691752",
+                    "checksum_sha256": "dd6673260c9417cde247a36262c9a74e8c82ee2440b71d8426ac272b0d1f87b0",
+                    "signature": "bc261e1b0d888bce77964b3bbeec082f81b21c3d3561edaa67ac43a5b64c6c5f63ecee7f3be3caa9a39d5aedf8b9f8fcd7713229241950c5b5e849a24bfb7007",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.cas_sso",
+                        "sso.cas",
+                        "identity.federated"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T20:59:51Z"
                 }
             ]
         },
@@ -2129,6 +2189,36 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T14:18:28Z"
+                }
+            ]
+        },
+        "apppress/excel-connector": {
+            "slug": "apppress/excel-connector",
+            "name": "Microsoft Excel Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-excel-connector",
+            "tier": "first_party",
+            "description": "Microsoft Excel connector via Graph API \u2014 read/write workbook tables, append rows, export records to Excel, import rosters and course data, and map CampusLaunch form fields to Excel columns. ETag concurrency protection prevents data loss.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/excel-connector",
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-excel-connector/releases/assets/490691808",
+                    "checksum_sha256": "a407bb7f41ed36b74d325c72914ae3bae973efc6b20df1617804f4b6adc8b823",
+                    "signature": "925923ae70a2b2385a115b675a25121be5234598a07a2ebfcfabc045e61d5dd116aab4ca6afa4baee17b5de084ad0d36cd4d6f86454b4a8477963ae88bf62600",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.excel",
+                        "data_source.external",
+                        "microsoft365.excel"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T20:59:57Z"
                 }
             ]
         },
@@ -3568,6 +3658,66 @@
                 }
             ]
         },
+        "apppress/microsoft-graph-connector": {
+            "slug": "apppress/microsoft-graph-connector",
+            "name": "Microsoft Graph Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-microsoft-graph-connector",
+            "tier": "first_party",
+            "description": "Microsoft Graph API foundation for AppPress \u2014 provides the shared OAuth2/OIDC token manager, throttling-aware Graph client, delta-query helpers, and change-notification framework used by all Microsoft 365 connectors (Teams, Outlook, SharePoint, Excel, Identity).",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/microsoft-graph-connector",
+            "versions": [
+                {
+                    "version": "1.1.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-microsoft-graph-connector/releases/assets/490691876",
+                    "checksum_sha256": "0f9346eb29b250e739f5487ea323b9d83d5346a01abef7bc6e52f11a8cb5805d",
+                    "signature": "81f5952f731b9459a87d45bbee11f52d2102d56ce63384fc458ce3385dae76c2cdeeb0d278a251c6c3fd7cefb20af7c7a74c7a406c4b8c584ee7fb6b942e8103",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.microsoft_graph",
+                        "data_source.external",
+                        "microsoft365.foundation"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T21:00:03Z"
+                }
+            ]
+        },
+        "apppress/microsoft-identity-connector": {
+            "slug": "apppress/microsoft-identity-connector",
+            "name": "Microsoft Identity Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-microsoft-identity-connector",
+            "tier": "first_party",
+            "description": "Microsoft Entra ID / Azure AD identity and directory connector for CampusLaunch \u2014 OIDC login, user/group sync, role mapping from Microsoft groups, delta sync, and JIT user provisioning. The primary SSO and directory foundation for Microsoft 365 universities.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/microsoft-identity-connector",
+            "versions": [
+                {
+                    "version": "1.1.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-microsoft-identity-connector/releases/assets/490691936",
+                    "checksum_sha256": "cb45a84dc7a2565367d76229104b51b79a9deabba7b9e2f8566ec7e74625710c",
+                    "signature": "6deeb8756a06c419215aa2e1403688843e44239d0e1f9954c428394b006834167d3c32e23413e88efd6da3a132da1b0021d6c0099e49bb3aaee6548c331d1006",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.microsoft_identity",
+                        "sso.oidc",
+                        "identity.microsoft365"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T21:00:09Z"
+                }
+            ]
+        },
         "apppress/minimal": {
             "slug": "apppress/minimal",
             "name": "Minimal",
@@ -4038,6 +4188,39 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:42:11Z"
+                }
+            ]
+        },
+        "apppress/outlook-connector": {
+            "slug": "apppress/outlook-connector",
+            "name": "Microsoft Outlook Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-outlook-connector",
+            "tier": "first_party",
+            "description": "Production Outlook connector for CampusLaunch \u2014 email sending/search/drafts, calendar event creation/updates, free-busy availability checks, and webhook triggers for both mail and calendar. Merges outlook_mail and outlook_calendar into one package sharing a single Microsoft Graph OAuth2 connection.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/outlook-connector",
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-outlook-connector/releases/assets/490691986",
+                    "checksum_sha256": "a55f96a6f1be4e522f7ed4b3b9cfa045bdec1fc1f433649d6e67fbbd59dc4d84",
+                    "signature": "2bfead37c8bafc6d85ccdf47e5b60ea6efa886e9f36b1d887776f2bea748ec73aea530e86d92ba18368ee7edb1e78bdb33581e7e29438cb42c329372a119f40a",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.outlook_mail",
+                        "connector.outlook_calendar",
+                        "email.send",
+                        "calendar.create",
+                        "microsoft365.mail",
+                        "microsoft365.calendar"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T21:00:15Z"
                 }
             ]
         },
@@ -4540,6 +4723,36 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:42:54Z"
+                }
+            ]
+        },
+        "apppress/public-campus-web-connector": {
+            "slug": "apppress/public-campus-web-connector",
+            "name": "Public Campus Web Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-public-campus-web-connector",
+            "tier": "first_party",
+            "description": "Public campus web/calendar/directory connector for CampusLaunch \u2014 safely ingests public RSS/Atom feeds, iCal/ICS calendars, JSON endpoints, and HTML pages via configured CSS selectors. Full SSRF protection: private IP blocking, URL allowlisting, HTTPS enforcement, size/timeout limits, and robots.txt politeness. Never authenticates \u2014 public data only.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/public-campus-web-connector",
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-public-campus-web-connector/releases/assets/490692035",
+                    "checksum_sha256": "a0b5a982ab6163b869915d72bfa48fcf9105ea1498141d5c8b983a8302b962c7",
+                    "signature": "c01d22faa9bfe689e62e3e44f8811e3c049b9312889dd831205948bd3e62074721b9490f76efa06c5c0f6ab2d84355efb393e50e40b21b92bb8a789efa1b8708",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.public_campus_web",
+                        "data_source.public_web",
+                        "calendar.ical"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T21:00:21Z"
                 }
             ]
         },
@@ -5160,6 +5373,36 @@
                 }
             ]
         },
+        "apppress/saml-sso-connector": {
+            "slug": "apppress/saml-sso-connector",
+            "name": "SAML SSO Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-saml-sso-connector",
+            "tier": "first_party",
+            "description": "SAML 2.0 Service Provider for CampusLaunch \u2014 IdP metadata upload/manual config, ACS URL generation, signed assertion validation, clock-skew handling, attribute/role mapping, JIT user provisioning, certificate rollover, and multi-tenant campus isolation.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/saml-sso-connector",
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-saml-sso-connector/releases/assets/490692097",
+                    "checksum_sha256": "ddcd1ff4fbffa51a11aa63143dc89594a905b4524b36cdfe94a7e5e7a16e7463",
+                    "signature": "659d8a5a7ef5ae18d34f3ad7ea5d80c3fc97697b2d0d18dd9484e3a8ced4494f380145b6d4bf7c2345543978e124a91ab50fa98b3e074250d193fede7559e209",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.saml_sso",
+                        "sso.saml2",
+                        "identity.federated"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T21:00:27Z"
+                }
+            ]
+        },
         "apppress/scheduler": {
             "slug": "apppress/scheduler",
             "name": "AppPress Content Scheduler",
@@ -5372,6 +5615,66 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:44:04Z"
+                }
+            ]
+        },
+        "apppress/sftp-csv-import-connector": {
+            "slug": "apppress/sftp-csv-import-connector",
+            "name": "SFTP / CSV Import Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-sftp-csv-import-connector",
+            "tier": "first_party",
+            "description": "Safe institutional data import connector for CampusLaunch \u2014 SFTP pull (password + private key + host-pinning), manual file upload fallback, CSV/TSV parsing, field mapping with versioned templates, upsert, duplicate detection, import audit logs, FERPA classification, and Banner-style export support. Explicitly excludes Banner live API/DB access.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/sftp-csv-import-connector",
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-sftp-csv-import-connector/releases/assets/490692170",
+                    "checksum_sha256": "3e705c58d998da93b48e9ce9970a528c8e826588f5d9dd845f110f5cb7f39c0c",
+                    "signature": "15880bd29a3cd464f7ca6ae8e33fc8827115eb424c56f75ccca7046a35fd3785193a21b86cefae94781315804c773263062aa6b99392a6df593fc4fdc55a7401",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.sftp_csv_import",
+                        "data_import.institutional",
+                        "data_source.sftp"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T21:00:33Z"
+                }
+            ]
+        },
+        "apppress/sharepoint-files-connector": {
+            "slug": "apppress/sharepoint-files-connector",
+            "name": "SharePoint Files Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-sharepoint-files-connector",
+            "tier": "first_party",
+            "description": "Microsoft SharePoint / OneDrive file connector for CampusLaunch \u2014 site browsing, file upload/download, folder management, sharing links, form attachment storage, and change triggers. FERPA-aware: classifies uploaded files and enforces permission checks before sharing.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/sharepoint-files-connector",
+            "versions": [
+                {
+                    "version": "1.1.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-sharepoint-files-connector/releases/assets/490692226",
+                    "checksum_sha256": "89aca50eae3b1c2f46d1a2ae94fdeafea40acbafbd0a7ab9ea455b2269865ede",
+                    "signature": "d94f002d18901cde1a0aa131602a700702f76b71efc783a12ad5a4d885826a2c75c37e5af67690cf818a2d6fccd0ff687eaf3b9849945b20d2f0873355b36a03",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.sharepoint_files",
+                        "file_storage.external",
+                        "microsoft365.sharepoint"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T21:00:39Z"
                 }
             ]
         },
@@ -5895,6 +6198,36 @@
                 }
             ]
         },
+        "apppress/teams-connector": {
+            "slug": "apppress/teams-connector",
+            "name": "Microsoft Teams Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-teams-connector",
+            "tier": "first_party",
+            "description": "Production Microsoft Teams connector for CampusLaunch \u2014 channel messaging, adaptive cards, team/channel discovery, workflow notifications, and incoming message triggers. Requires apppress/microsoft-graph-connector for OAuth2 token management.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/teams-connector",
+            "versions": [
+                {
+                    "version": "1.1.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-teams-connector/releases/assets/490692271",
+                    "checksum_sha256": "ed641098712705aadd6f7c51b540cdff781ff595590ae5e10f72344a252a90ae",
+                    "signature": "220c8443d2466ef13ae9e2390afbb57cf7c49142a1931d5b8740736410553979af240d4d5a2479526f1463f5cd0d7627dad3b1e40de705932440f40f06e01703",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.microsoft_teams",
+                        "notifications.external",
+                        "microsoft365.teams"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T21:00:45Z"
+                }
+            ]
+        },
         "apppress/tickets": {
             "slug": "apppress/tickets",
             "name": "AppPress Tickets",
@@ -6210,6 +6543,36 @@
                 }
             ]
         },
+        "apppress/university-directory-connector": {
+            "slug": "apppress/university-directory-connector",
+            "name": "University Directory Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-university-directory-connector",
+            "tier": "first_party",
+            "description": "University directory connector for CampusLaunch \u2014 people search, department listing, faculty/staff profiles, and advisor lookup. Wraps Microsoft Graph for Microsoft 365 institutions and provides a normalized CampusLaunch directory model (Person, Department, AdvisorProfile). FERPA: student directory records are gated; only directory-exempt fields are surfaced without explicit permission.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/university-directory-connector",
+            "versions": [
+                {
+                    "version": "1.0.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-university-directory-connector/releases/assets/490692322",
+                    "checksum_sha256": "7a197c4d9798ed1f135b060ca6bf2669356fe0e4027f783025b9b2cefe267713",
+                    "signature": "7d4f75680ef200e5fb05e34ee3c0c054a6b5ad705710496c53252c05581d05bf57d4fe9db089cc0a92ccb869424ecfa88c78d63927561b4d3f10bceb443dbf01",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.university_directory",
+                        "directory.people",
+                        "directory.departments"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T21:00:51Z"
+                }
+            ]
+        },
         "apppress/waitlist": {
             "slug": "apppress/waitlist",
             "name": "AppPress Waitlist",
@@ -6263,6 +6626,36 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:45:36Z"
+                }
+            ]
+        },
+        "apppress/webhooks-api-connector": {
+            "slug": "apppress/webhooks-api-connector",
+            "name": "Webhooks & API Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-webhooks-api-connector",
+            "tier": "first_party",
+            "description": "Generic outbound REST API + inbound webhook connector for CampusLaunch \u2014 configurable HTTP actions (GET/POST/PUT/PATCH/DELETE), multiple auth methods (API key, bearer, basic, OAuth client credentials), HMAC/secret-token webhook receiver with replay protection, IP allowlist, schema validation, SSRF guard, and AI-safe action approval model.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/webhooks-api-connector",
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-webhooks-api-connector/releases/assets/490692537",
+                    "checksum_sha256": "7a011f4e47427e5c6fdbc840e2c8f69f9da223c4bdada566ec2216a493461609",
+                    "signature": "fc3e974273c2d924df9a62f328eebab864b50b8728e0360162e6d3f68e0f073554bc39a8b0b82f00a2c4c9c5869eee421fd4206735397750cbd1610fabdc0101",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.webhooks_api",
+                        "http.outbound",
+                        "webhook.inbound"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T21:00:57Z"
                 }
             ]
         },
@@ -6466,7 +6859,37 @@
                     "published_at": "2026-07-26T20:45:56Z"
                 }
             ]
+        },
+        "apppress/zoom-connector": {
+            "slug": "apppress/zoom-connector",
+            "name": "Zoom Connector",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-zoom-connector",
+            "tier": "first_party",
+            "description": "Full Zoom connector for CampusLaunch \u2014 meeting creation, management, registrant tracking, attendance export, webhook triggers, and workflow integration. Designed for virtual orientation, advising appointments, and campus event sessions.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/zoom-connector",
+            "versions": [
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-zoom-connector/releases/assets/490692590",
+                    "checksum_sha256": "2d3b8585c7da0dbc268a7d79e41d272410ec917536555f8ff4c04fcfe3d6111e",
+                    "signature": "1fcaa515c0008601515cd57e35c31da0efaef639203d77b2cabec01181a7a965ffe9b634902ec0c40bbafc582e3ae80b53255ae13d0156b0c0d26a392248f906",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "connector.zoom",
+                        "data_source.external",
+                        "video_conferencing"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T21:01:03Z"
+                }
+            ]
         }
     },
-    "signature": "63f66672e004085ca4b3df8a1d6bdefc1c696151e047312042c2b8ece9d59535a67538f2ab33b58a12c7cd7c9062fcda8929c8e146b54a7ecb5c9a66b9b49a0f"
+    "signature": "44283e3af838b12789e5d32a4c1358c0d012057222dddeb356dc409865e7cebc6cb3a2fc8b908c2ecb0592adf4b20bb7499b1c5070f4a74c437be00b13a3f807"
 }
