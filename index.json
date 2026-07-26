@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-26T21:04:49+00:00",
+    "generated_at": "2026-07-26T23:24:00+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1283,6 +1283,32 @@
                 }
             ]
         },
+        "apppress/client-desk": {
+            "slug": "apppress/client-desk",
+            "name": "Client Desk",
+            "type": "theme",
+            "github_repo": "appkitgo/theme-client-desk",
+            "tier": "first_party",
+            "description": "A premium, understated theme for agencies and professional-services firms running client portals. Deep slate + muted gold palette, refined Space Grotesk headings, generous whitespace, and calm, professional client-desk styling layered over the Default theme.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/client-desk",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/theme-client-desk/releases/assets/490776244",
+                    "checksum_sha256": "0b8ba16ab5d44bb977d0620ad35de27be4d823187e1bc8d57aee4667eaa1eb25",
+                    "signature": "f63c230fc6eea3e082b449d83a8e0ab1ebe0e9732b805cc82dae194c7eb31e2eda8b103806f818d8234013653c7032751f3e80fde40a9b585e648329b63cfb06",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-26T23:19:30Z"
+                }
+            ]
+        },
         "apppress/client-portal": {
             "slug": "apppress/client-portal",
             "name": "Client Portal",
@@ -1360,6 +1386,32 @@
                     "capabilities": [],
                     "yanked": false,
                     "published_at": "2026-07-26T20:36:10Z"
+                }
+            ]
+        },
+        "apppress/clinic-pro": {
+            "slug": "apppress/clinic-pro",
+            "name": "Clinic Pro",
+            "type": "theme",
+            "github_repo": "appkitgo/theme-clinic-pro",
+            "tier": "first_party",
+            "description": "A calm, reassuring theme for health clinics and wellness practices \u2014 online booking, patient portals, and appointment reminders. Teal-and-sky palette, Mulish display type, gentle gradient hero, and trust-focused styling layered over the Default theme.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/clinic-pro",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/theme-clinic-pro/releases/assets/490775753",
+                    "checksum_sha256": "ca50f9f8609ba148b5fe7fb3e55aa784922def869027d0f14279a24665aee9e3",
+                    "signature": "31d034be5d1636f92a83f40077342f034f294198964548a9c507d81d5581940aba477edbf5fe8e995d5408f9d9e898ecd1380932f023f33831499dfc1f9e450e",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-26T23:19:01Z"
                 }
             ]
         },
@@ -1470,6 +1522,58 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:38:39Z"
+                }
+            ]
+        },
+        "apppress/commerce-pro": {
+            "slug": "apppress/commerce-pro",
+            "name": "Commerce Pro",
+            "type": "theme",
+            "github_repo": "appkitgo/theme-commerce-pro",
+            "tier": "first_party",
+            "description": "A confident, product-forward theme for online stores. Rose-and-amber palette, Poppins display type, a bold gradient hero, and Sale/New badge styling layered over the Default theme.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/commerce-pro",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/theme-commerce-pro/releases/assets/490775846",
+                    "checksum_sha256": "f0a555843db5ea0bc4ee39828d7da6cff4d0a6605b2aaf297c2a542dd5bdadad",
+                    "signature": "b9268cafbc67a20b48401e9873a4420825e7528db211828d33da463e7abcdbc5dbf21c24b5d3bb4b481bbce4c9fe988288b7edfa4838b9159991ada88a5fb502",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-26T23:19:07Z"
+                }
+            ]
+        },
+        "apppress/community-pro": {
+            "slug": "apppress/community-pro",
+            "name": "Community Pro",
+            "type": "theme",
+            "github_repo": "appkitgo/theme-community-pro",
+            "tier": "first_party",
+            "description": "A warm, welcoming theme for membership communities, forums, and social spaces. Burnt-orange-and-teal palette, friendly Nunito type, rounded avatar-driven layouts, and member-first styling layered over the Default theme.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/community-pro",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/theme-community-pro/releases/assets/490776077",
+                    "checksum_sha256": "4a128b8623baffe0edc7fc7af59cd948d15a0db8cc154b5813bbec7acd5a9c42",
+                    "signature": "785b36311037c2d8b0b0ad270777cee961ea86994dece72a1399a01055125a4a4bef92bc2ea8be973450a75360cc5e64d94ca09fc19a839f40da7fd633546003",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-26T23:19:13Z"
                 }
             ]
         },
@@ -3332,6 +3436,58 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:41:14Z"
+                }
+            ]
+        },
+        "apppress/launch-pro": {
+            "slug": "apppress/launch-pro",
+            "name": "Launch Pro",
+            "type": "theme",
+            "github_repo": "appkitgo/theme-launch-pro",
+            "tier": "first_party",
+            "description": "A high-energy launch theme for waitlists, beta access, newsletters, and referral programs. Violet-and-amber palette, Space Grotesk display type, gradient hero, and conversion-focused email-capture styling layered over the Default theme.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/launch-pro",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/theme-launch-pro/releases/assets/490775690",
+                    "checksum_sha256": "37220f6998993cb259634e9576ff2439c188beb8347ed463635ab40489e8aeaa",
+                    "signature": "52c55dc370129bb4f0e33e64f01a487f7e6804dd21095063c056f74db68494e8564c9f8f6e07306c7acd7efea09418e8048b36028af0b85a270a597e7eb2dc00",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-26T23:18:55Z"
+                }
+            ]
+        },
+        "apppress/learn-pro": {
+            "slug": "apppress/learn-pro",
+            "name": "Learn Pro",
+            "type": "theme",
+            "github_repo": "appkitgo/theme-learn-pro",
+            "tier": "first_party",
+            "description": "A focused, academic theme for courses, cohorts, and self-paced learning. Indigo-and-gold palette, Fraunces serif headings, a calm scholarly hero, and lesson/progress-cue styling layered over the Default theme.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/learn-pro",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/theme-learn-pro/releases/assets/490776111",
+                    "checksum_sha256": "f64357f1c115972bed4fd292eae7d5c207754e6352cc1baf3634a2c63cb37e50",
+                    "signature": "37f2a7eb16b14429e3884e3d363d0ab1f41e9b04a7cc29a4e2accbaaa56db3b04c584dbc052c5ad9a0456fb10d3003d8545477caf313ca913b9784ca47ec9f01",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-26T23:19:19Z"
                 }
             ]
         },
@@ -5618,6 +5774,32 @@
                 }
             ]
         },
+        "apppress/service-pro": {
+            "slug": "apppress/service-pro",
+            "name": "Service Pro",
+            "type": "theme",
+            "github_repo": "appkitgo/theme-service-pro",
+            "tier": "first_party",
+            "description": "A sturdy, dependable theme for local trades and service businesses \u2014 plumbing, HVAC, cleaning, and more. Deep blue-and-orange palette, Rubik display type, bold trust-badge styling, and action-oriented \"Book now\" / \"Call now\" CTAs layered over the Default theme.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/service-pro",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/theme-service-pro/releases/assets/490776196",
+                    "checksum_sha256": "a36eec6541d95fa1c4c0f07132b2f890aaa5566946ad794aaf940030be1f48e2",
+                    "signature": "6815a4426334437c63c65fec326050310a8f8c1ce841b06661420153dacb14a769e405b99db2ef09e49ab3eb76fba19dab887d77f87df3e83a5d55a8b71bb407",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-26T23:19:24Z"
+                }
+            ]
+        },
         "apppress/sftp-csv-import-connector": {
             "slug": "apppress/sftp-csv-import-connector",
             "name": "SFTP / CSV Import Connector",
@@ -5884,6 +6066,32 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:44:32Z"
+                }
+            ]
+        },
+        "apppress/storefront": {
+            "slug": "apppress/storefront",
+            "name": "Storefront",
+            "type": "theme",
+            "github_repo": "appkitgo/theme-storefront",
+            "tier": "first_party",
+            "description": "A minimal, high-contrast product storefront theme. Near-black plus a single vivid lime accent, crisp edges, big imagery, and bold minimal calls-to-action layered over the Default theme.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/storefront",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/theme-storefront/releases/assets/490776301",
+                    "checksum_sha256": "e1a06656eeeebebad03ab7c60e77f47c30c1aaea77360d7ddb0df5be45d7aab2",
+                    "signature": "4243e1b2449a42231dcfe8c313d36a54706303b83cf8c1a82b981b16b7e9c3aa8d2bc85f24838fd2b220ffca4fc297a61ed1eff3062544af9b7cb56e8f2b4a04",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [],
+                    "yanked": false,
+                    "published_at": "2026-07-26T23:19:36Z"
                 }
             ]
         },
@@ -6891,5 +7099,5 @@
             ]
         }
     },
-    "signature": "44283e3af838b12789e5d32a4c1358c0d012057222dddeb356dc409865e7cebc6cb3a2fc8b908c2ecb0592adf4b20bb7499b1c5070f4a74c437be00b13a3f807"
+    "signature": "3e4d3ed0203b5083e543df7a8e7d3c890a304116eb4758109e9f1db3bc02d391cc2be071fe6a379b3df4aee45adaccd7a01328331168c3750e1544cd356a050c"
 }
