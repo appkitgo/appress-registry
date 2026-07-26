@@ -19,7 +19,7 @@
     "checksum_sha256": "3ae00770e6008c3312d86ee4bba79fb8b61eec46ebf75b8973a74dc1c1974c98",
     "signature": "df6cc343c564f4511fcc76127e5eb286802256ad7ac1ad495f060efe85f2b603d565a482a6273e851748f4f840088c868741fab74d58b50bef4ad7662ef9b20a",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.shopify",
@@ -33,7 +33,7 @@
             "checksum_sha256": "3ae00770e6008c3312d86ee4bba79fb8b61eec46ebf75b8973a74dc1c1974c98",
             "signature": "df6cc343c564f4511fcc76127e5eb286802256ad7ac1ad495f060efe85f2b603d565a482a6273e851748f4f840088c868741fab74d58b50bef4ad7662ef9b20a",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.shopify",

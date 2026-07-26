@@ -19,7 +19,7 @@
     "checksum_sha256": "964c3c3907a7af42f4ea8c1ea1413544c92a1779ff01765e752d5c750638ec65",
     "signature": "b5bbcdde84c173273970994ba7b74cc65decc6f47fbf5bc819cc72b79a6b3bf7acb12caf48cf61a8ef248c52f0be6ca9cdcd967c1e42c2c654c94e397fdee00a",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "workflow",
@@ -69,7 +69,7 @@
             "checksum_sha256": "964c3c3907a7af42f4ea8c1ea1413544c92a1779ff01765e752d5c750638ec65",
             "signature": "b5bbcdde84c173273970994ba7b74cc65decc6f47fbf5bc819cc72b79a6b3bf7acb12caf48cf61a8ef248c52f0be6ca9cdcd967c1e42c2c654c94e397fdee00a",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "workflow",

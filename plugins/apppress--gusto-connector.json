@@ -19,7 +19,7 @@
     "checksum_sha256": "7b0e34493170182acb0867e4a3a38cc8d9a311d3d5a69feb4c21d5b3b4aa0af9",
     "signature": "ded9c23aeed57a6872148c6761f813c9bcd2d3a2016c0a0f63d465e2dbbddeb8ee9ee47ba16903d7a361dbb3160d19354669afbe6dab12861ce92f581d1a6d0a",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.gusto",
@@ -34,7 +34,7 @@
             "checksum_sha256": "7b0e34493170182acb0867e4a3a38cc8d9a311d3d5a69feb4c21d5b3b4aa0af9",
             "signature": "ded9c23aeed57a6872148c6761f813c9bcd2d3a2016c0a0f63d465e2dbbddeb8ee9ee47ba16903d7a361dbb3160d19354669afbe6dab12861ce92f581d1a6d0a",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.gusto",

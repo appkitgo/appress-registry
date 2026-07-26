@@ -19,7 +19,7 @@
     "checksum_sha256": "84e04704555454456b92155572fedfcbb9aa0c22037acff25d6a3b724a9462e1",
     "signature": "0e62cb4fd412804abf1395714d8547f6e62a99f9152c47be0fb38f3739eab24087cd59c034f284842f1b02e94b09f2c2a5b135c1bd96669585b5d96873d5c703",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.mixpanel",
@@ -33,7 +33,7 @@
             "checksum_sha256": "84e04704555454456b92155572fedfcbb9aa0c22037acff25d6a3b724a9462e1",
             "signature": "0e62cb4fd412804abf1395714d8547f6e62a99f9152c47be0fb38f3739eab24087cd59c034f284842f1b02e94b09f2c2a5b135c1bd96669585b5d96873d5c703",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.mixpanel",

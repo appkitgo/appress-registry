@@ -19,7 +19,7 @@
     "checksum_sha256": "1a9fe60400443fde2a8fc90c3c4ac7687fe76237cb03a19b387e0fe021a02470",
     "signature": "032450fa26c955c3cd9ecf7919d46775ef0ce78068461017de0ddd4fd10409fb6705d804f03f78e809474ecc12e71914695905db8f82fe0e65a593fcbf601f09",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "quizzes",
@@ -64,7 +64,7 @@
             "checksum_sha256": "1a9fe60400443fde2a8fc90c3c4ac7687fe76237cb03a19b387e0fe021a02470",
             "signature": "032450fa26c955c3cd9ecf7919d46775ef0ce78068461017de0ddd4fd10409fb6705d804f03f78e809474ecc12e71914695905db8f82fe0e65a593fcbf601f09",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "quizzes",

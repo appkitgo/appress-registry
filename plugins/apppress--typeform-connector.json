@@ -19,7 +19,7 @@
     "checksum_sha256": "64dff5bd79f05dc8ece85356d078e8072629801582ed2f81295bb08a8ff9a6c3",
     "signature": "d30feb19c25f16a1b0483ec1d0f0542b3876c073e9ffbea1745576568ba1c1bfe57363350cdd2eaaf0b8d15dd24ae2220c5d56628d5b274910118bf2b7cab70a",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.typeform",
@@ -33,7 +33,7 @@
             "checksum_sha256": "64dff5bd79f05dc8ece85356d078e8072629801582ed2f81295bb08a8ff9a6c3",
             "signature": "d30feb19c25f16a1b0483ec1d0f0542b3876c073e9ffbea1745576568ba1c1bfe57363350cdd2eaaf0b8d15dd24ae2220c5d56628d5b274910118bf2b7cab70a",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.typeform",

@@ -19,7 +19,7 @@
     "checksum_sha256": "c4b24444b163d396aff9e78e472c58e66ae1b2f46fbe01e6ccf30689edb3f312",
     "signature": "c72f6578a7a5033761dc788c7197c486893acc59874b060cf9703cc105ed420fcd029cd328f26430fdfeea1695bb018ade73c13623e6f587e0c24fbd215f0d0e",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.airtable",
@@ -33,7 +33,7 @@
             "checksum_sha256": "c4b24444b163d396aff9e78e472c58e66ae1b2f46fbe01e6ccf30689edb3f312",
             "signature": "c72f6578a7a5033761dc788c7197c486893acc59874b060cf9703cc105ed420fcd029cd328f26430fdfeea1695bb018ade73c13623e6f587e0c24fbd215f0d0e",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.airtable",

@@ -19,7 +19,7 @@
     "checksum_sha256": "3c7a323a3724505ff88e6b8bf8aa5f77fc18c5b09ae10fb86936538bd7351af4",
     "signature": "4f90c55d419970bc670272feb7fdeed7bf6fb85117e426dd57d271d9800ebf658d44f0b0f4adae61feb2f2a803a5f12aeaeb49c0fc5d84b0790aaf5b89d02908",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.intercom",
@@ -34,7 +34,7 @@
             "checksum_sha256": "3c7a323a3724505ff88e6b8bf8aa5f77fc18c5b09ae10fb86936538bd7351af4",
             "signature": "4f90c55d419970bc670272feb7fdeed7bf6fb85117e426dd57d271d9800ebf658d44f0b0f4adae61feb2f2a803a5f12aeaeb49c0fc5d84b0790aaf5b89d02908",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.intercom",

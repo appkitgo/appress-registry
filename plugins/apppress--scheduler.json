@@ -19,7 +19,7 @@
     "checksum_sha256": "2176fcd2c23af05811b64d83c3c12f74b4a3059a2fc4a25b6ba9a2c0061b1d9f",
     "signature": "db44fdf4ef67710cff03f5466d0cdebc1f6f4fb3ae49a9e62bca44edf4f896c68513447d197e03501528d12bb5e84dd557d18810ea33fb76769b3bcdffc35a0b",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "scheduler",
@@ -52,7 +52,7 @@
             "checksum_sha256": "2176fcd2c23af05811b64d83c3c12f74b4a3059a2fc4a25b6ba9a2c0061b1d9f",
             "signature": "db44fdf4ef67710cff03f5466d0cdebc1f6f4fb3ae49a9e62bca44edf4f896c68513447d197e03501528d12bb5e84dd557d18810ea33fb76769b3bcdffc35a0b",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "scheduler",

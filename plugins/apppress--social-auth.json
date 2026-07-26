@@ -19,7 +19,7 @@
     "checksum_sha256": "9adb211dad4cb4de51268fec99d1c108919bdf39f90c759b586acabac756ee84",
     "signature": "366d25c87b06ba16b83d88b9e68c4c294de0bdc5262c253d978ebe9131f4e25bf61e82025d6fc0da5a09fc5b53cf1b524d306f714de96294cd67de09e8db5600",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "social-auth",
@@ -60,7 +60,7 @@
             "checksum_sha256": "9adb211dad4cb4de51268fec99d1c108919bdf39f90c759b586acabac756ee84",
             "signature": "366d25c87b06ba16b83d88b9e68c4c294de0bdc5262c253d978ebe9131f4e25bf61e82025d6fc0da5a09fc5b53cf1b524d306f714de96294cd67de09e8db5600",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "social-auth",

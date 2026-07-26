@@ -19,7 +19,7 @@
     "checksum_sha256": "1dd9244d29ef67c7300821e7debf6a698081fc66bd74113a0652f22be5939464",
     "signature": "3aef6b69fdcb36c2699ad37c74ba59cc74b47f6ff835452e78fb86343b2b8f51521939306f36d3f3f7d40a41ab25f50e576b603949038dbf6b413f904265e60c",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.twilio",
@@ -33,7 +33,7 @@
             "checksum_sha256": "1dd9244d29ef67c7300821e7debf6a698081fc66bd74113a0652f22be5939464",
             "signature": "3aef6b69fdcb36c2699ad37c74ba59cc74b47f6ff835452e78fb86343b2b8f51521939306f36d3f3f7d40a41ab25f50e576b603949038dbf6b413f904265e60c",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.twilio",

@@ -19,7 +19,7 @@
     "checksum_sha256": "6d940923144e96ccd18e61eda34016bdb14c90346879a49a17f626654962acc7",
     "signature": "cc638876dce4d6ffad1ac08773fd06d7479ab21bec789c8653bf39ae93d6f280d72843444a51961ae0ddda6c2bbcc95cdcc929f1ce2633dda43105b78d205106",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "chat"
@@ -60,7 +60,7 @@
             "checksum_sha256": "6d940923144e96ccd18e61eda34016bdb14c90346879a49a17f626654962acc7",
             "signature": "cc638876dce4d6ffad1ac08773fd06d7479ab21bec789c8653bf39ae93d6f280d72843444a51961ae0ddda6c2bbcc95cdcc929f1ce2633dda43105b78d205106",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "chat"

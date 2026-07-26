@@ -19,7 +19,7 @@
     "checksum_sha256": "7ad97e8fc30276e0b9e75cfb1ef90538d0c29c19e101cd66039620040dcf1f37",
     "signature": "8021f47c537ecb1ca8e4645c3accf5343bf59e95a1a408955c90f171ec29c4868fc55d2b265afe6bd3d4bbf243b47b39779c4753f5d03c1e4a994b999901a209",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "calendar_events",
@@ -58,7 +58,7 @@
             "checksum_sha256": "7ad97e8fc30276e0b9e75cfb1ef90538d0c29c19e101cd66039620040dcf1f37",
             "signature": "8021f47c537ecb1ca8e4645c3accf5343bf59e95a1a408955c90f171ec29c4868fc55d2b265afe6bd3d4bbf243b47b39779c4753f5d03c1e4a994b999901a209",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "calendar_events",

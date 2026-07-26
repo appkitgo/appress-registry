@@ -19,7 +19,7 @@
     "checksum_sha256": "6f686ce34082e30ade821ec72372ae8069fd572696edfdf9e563d47eba97faf6",
     "signature": "34ff5b02026d40e864c00b49f3b2c0012c4bb7f40dc17d3e8763553794a7dd7c36c9b6c29341fe02acff2cebb920bd9e6e9eabfb44e940de1b46c40fe12cf901",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.github",
@@ -33,7 +33,7 @@
             "checksum_sha256": "6f686ce34082e30ade821ec72372ae8069fd572696edfdf9e563d47eba97faf6",
             "signature": "34ff5b02026d40e864c00b49f3b2c0012c4bb7f40dc17d3e8763553794a7dd7c36c9b6c29341fe02acff2cebb920bd9e6e9eabfb44e940de1b46c40fe12cf901",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.github",

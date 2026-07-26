@@ -19,7 +19,7 @@
     "checksum_sha256": "b61793ee41207b322f8802d011bcac0230a569c35a38c531b1e5dc86bb34dc13",
     "signature": "7a88e49b2cdcbae78bbbc7a9547359b453e8ed698a10cbca78c08949689bb65247588c38116aa8631c4939db75d8eb9bf1462b5e85300cd4546bcc6ef2884f06",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.jira",
@@ -33,7 +33,7 @@
             "checksum_sha256": "b61793ee41207b322f8802d011bcac0230a569c35a38c531b1e5dc86bb34dc13",
             "signature": "7a88e49b2cdcbae78bbbc7a9547359b453e8ed698a10cbca78c08949689bb65247588c38116aa8631c4939db75d8eb9bf1462b5e85300cd4546bcc6ef2884f06",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.jira",

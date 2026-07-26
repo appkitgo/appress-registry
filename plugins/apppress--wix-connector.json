@@ -19,7 +19,7 @@
     "checksum_sha256": "cd0f43acd3eb515fc249847d69054e2870f7ae21ca4ccc3ee451d519ed137e05",
     "signature": "377a9c8af341e9316d36f908591c7248b04f69d9c9c4ce118850babfc4d4e43ee1b315bab74cac977c32ddee3f83cffc1c0b0d21398df6a424e0e8e16204f40b",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.wix",
@@ -33,7 +33,7 @@
             "checksum_sha256": "cd0f43acd3eb515fc249847d69054e2870f7ae21ca4ccc3ee451d519ed137e05",
             "signature": "377a9c8af341e9316d36f908591c7248b04f69d9c9c4ce118850babfc4d4e43ee1b315bab74cac977c32ddee3f83cffc1c0b0d21398df6a424e0e8e16204f40b",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.wix",

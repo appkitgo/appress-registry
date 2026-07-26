@@ -19,7 +19,7 @@
     "checksum_sha256": "5b786866562c848e1f23f40a5582a47894d8a99411eb3c3650470c7649e31e31",
     "signature": "ac1c70a5ceca597fd0a5cbb23e8df6e1c373da169b28bd8f5c2585e06870f517727e4a8f249caf25cc579a5b65875ffedff776012d30b605fd83f91b5e869f04",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "email-campaigns"
@@ -46,7 +46,7 @@
             "checksum_sha256": "5b786866562c848e1f23f40a5582a47894d8a99411eb3c3650470c7649e31e31",
             "signature": "ac1c70a5ceca597fd0a5cbb23e8df6e1c373da169b28bd8f5c2585e06870f517727e4a8f249caf25cc579a5b65875ffedff776012d30b605fd83f91b5e869f04",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "email-campaigns"

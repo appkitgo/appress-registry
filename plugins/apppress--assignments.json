@@ -19,7 +19,7 @@
     "checksum_sha256": "2d506356b1cc654318389098fe34c75c3c7e0f55fda413f4cdd82f9cc07c1459",
     "signature": "6bfc1fa69c1c38273c903276aa97fd748b1b6e981c783403abda888721173a1ebcd0420ed6a54a782a32ea624451344b50a8820447caf0500f0945fab05c3705",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "assignments",
@@ -93,7 +93,7 @@
             "checksum_sha256": "2d506356b1cc654318389098fe34c75c3c7e0f55fda413f4cdd82f9cc07c1459",
             "signature": "6bfc1fa69c1c38273c903276aa97fd748b1b6e981c783403abda888721173a1ebcd0420ed6a54a782a32ea624451344b50a8820447caf0500f0945fab05c3705",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "assignments",

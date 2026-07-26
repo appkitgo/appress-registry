@@ -19,7 +19,7 @@
     "checksum_sha256": "087e46958c040fafd99ec95ee5a9b7b2ef604b81a2cb069a0461c3f1a5fc5f1f",
     "signature": "1f1f3395c11fbf211ed3db1a1fe1c4a7f0d9500b95303fd7a00c49a874d0d0040887bf89bbc028e59239d1419e6ee2aede44616a553d4064a50237d47219c102",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "coupons"
@@ -60,7 +60,7 @@
             "checksum_sha256": "087e46958c040fafd99ec95ee5a9b7b2ef604b81a2cb069a0461c3f1a5fc5f1f",
             "signature": "1f1f3395c11fbf211ed3db1a1fe1c4a7f0d9500b95303fd7a00c49a874d0d0040887bf89bbc028e59239d1419e6ee2aede44616a553d4064a50237d47219c102",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "coupons"

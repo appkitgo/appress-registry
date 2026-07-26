@@ -1,5 +1,6 @@
 {
-    "generated_at": "2026-07-25T04:59:18+00:00",
+    "schema_version": "1.0.0",
+    "generated_at": "2026-07-26T14:20:40+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -8,7 +9,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-activity-log",
             "tier": "first_party",
-            "description": "Immutable audit trail for every action across your AppPress platform — tracks who did what, when, across all core and plugin events. Provides a filterable, exportable admin log, channel-specific workflow triggers, REST ingestion for external systems, and a before_record filter for FERPA/privacy suppression. Implements StandardContracts::AUDIT_LOG so any plugin or App Pack can write to the log without a direct dependency.",
+            "description": "Immutable audit trail for every action across your AppPress platform \u2014 tracks who did what, when, across all core and plugin events. Provides a filterable, exportable admin log, channel-specific workflow triggers, REST ingestion for external systems, and a before_record filter for FERPA/privacy suppression. Implements StandardContracts::AUDIT_LOG so any plugin or App Pack can write to the log without a direct dependency.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -38,7 +39,7 @@
                     "checksum_sha256": "1734c26d73cdb2c8d7e7c3aa2e17847c62b8b50f106145e8ca2f1a4d8c1a60bc",
                     "signature": "b650f3f083cb8cdcc5ded78ab9b01e6d0b8706d8e86e235363372980ca35aa83a6a77680c1095b89d495ff839279a08ad5908ef5ee592464db883fc68120f705",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "audit_log",
@@ -70,7 +71,7 @@
                     "checksum_sha256": "c4b24444b163d396aff9e78e472c58e66ae1b2f46fbe01e6ccf30689edb3f312",
                     "signature": "c72f6578a7a5033761dc788c7197c486893acc59874b060cf9703cc105ed420fcd029cd328f26430fdfeea1695bb018ade73c13623e6f587e0c24fbd215f0d0e",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.airtable",
@@ -87,7 +88,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-analytics",
             "tier": "first_party",
-            "description": "Privacy-friendly, FERPA-aware analytics that tracks page views, visitor sessions, UTM campaigns, and custom events — with a built-in admin dashboard and configurable data retention. Works out of the box for public pages; requires FERPA review before enabling authenticated-user tracking in campus apps.",
+            "description": "Privacy-friendly, FERPA-aware analytics that tracks page views, visitor sessions, UTM campaigns, and custom events \u2014 with a built-in admin dashboard and configurable data retention. Works out of the box for public pages; requires FERPA review before enabling authenticated-user tracking in campus apps.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -111,7 +112,7 @@
                     "checksum_sha256": "3e6f04b8dc52232ad7a0264a24a50688caaca6c73bb43dc88d5b3bbd6e468330",
                     "signature": "5a01cfdd67d7f6b73b109efd5bfa71e42a9f0caa94195069ce8dcd85a03b40798195b7e0df40ab5ee0366e36b303b1a830ae6aa240f3819d81c86ea43bb24007",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [],
                     "yanked": false,
@@ -125,7 +126,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-antispam",
             "tier": "first_party",
-            "description": "Multi-layer spam and abuse protection for public-facing forms, registration flows, and community content. Combines honeypot fields, content pattern analysis, CAPTCHA (reCAPTCHA v3 / hCaptcha), IP reputation scoring, automatic IP blocking, and a moderation quarantine queue — all configurable without code. Fires workflow triggers on every spam event and exposes workflow actions to block IPs, approve/reject quarantine items, and scan arbitrary content on demand.",
+            "description": "Multi-layer spam and abuse protection for public-facing forms, registration flows, and community content. Combines honeypot fields, content pattern analysis, CAPTCHA (reCAPTCHA v3 / hCaptcha), IP reputation scoring, automatic IP blocking, and a moderation quarantine queue \u2014 all configurable without code. Fires workflow triggers on every spam event and exposes workflow actions to block IPs, approve/reject quarantine items, and scan arbitrary content on demand.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -159,7 +160,7 @@
                     "checksum_sha256": "fa44f842997ac5edd0fca5beb156076d4dd228ad66dd9069285d7e404abaf80c",
                     "signature": "0099deeb6b774d49eca8bc89fe044dab53d715be6547bfbf542093ff65d54ecaf2aaf6967310bdf0ebc603bfaa9fe9e85bd532ab644239fd3c513fac7a6ef209",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "spam-protection",
@@ -218,7 +219,7 @@
                     "checksum_sha256": "549409b3c2ca8f34aa6f6e73df2899fcf6af686d6717a3eccde6d8e05d5742e4",
                     "signature": "f1906d54e2b883880484dd9ce70a6001ab6fa9483048d7e3c7fbb54ed07007e33e300a67df541be28872f8c1336d281bb7e322062048804e6c092d7241fd1105",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "api-keys",
@@ -267,7 +268,7 @@
                     "checksum_sha256": "d86b1397f5edd59204fe90a4568714642ef71147952cfa137a65ac90ff6d5207",
                     "signature": "19f368079e13e8f42c80a73b981d7ffed5ece1e9719544cda3f3f0c5e395f2fbf8e1dcc5989f7211bd796df435de7ca5fd174b6b4db4b004ebe6f8e34fc0e803",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [],
                     "yanked": false,
@@ -313,7 +314,7 @@
                     "checksum_sha256": "6ae8b7ffe9ed271e75f3cd8e3e5888725ebf4a69d98de418fef283490ed3a93d",
                     "signature": "79fe764cb56c447347346307e1b6a7c1b8b20a3eb7b5103371039f821a8d450a0ecdb6651144f92fe1464ff0c5dbe2ec920c4417be27326406eb04955c9fe507",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "approval_workflow",
@@ -335,7 +336,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-asana-connector",
             "tier": "first_party",
-            "description": "Production Asana connector for CampusLaunch — find/create/update tasks, read projects and sections, and inbound workflow triggers for task-created and task-completed events via Asana's signed webhook handshake.",
+            "description": "Production Asana connector for CampusLaunch \u2014 find/create/update tasks, read projects and sections, and inbound workflow triggers for task-created and task-completed events via Asana's signed webhook handshake.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -347,7 +348,7 @@
                     "checksum_sha256": "b4b416d754612ee42c47d0bc9793e0df96a6e0f5fb2a65880b144ee530206ec9",
                     "signature": "5fe10b9fa3023f46c41bffcf91d5f4ef5dfbd3cbd5f04d97cdef30b152ec81e512d84573bfc485fa07907908c36866762032e5534ef3a0432a4bfe0eac593c08",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.asana",
@@ -365,7 +366,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-assignments",
             "tier": "first_party",
-            "description": "Assignment submission, rubric grading, and grade management for LMS and campus apps. Supports due dates, late penalties, pass/fail thresholds, file uploads, SIS/LMS grade import via signed webhook, and workflow automation covering the full submission lifecycle: created → published → submitted → graded → passed/failed → returned.",
+            "description": "Assignment submission, rubric grading, and grade management for LMS and campus apps. Supports due dates, late penalties, pass/fail thresholds, file uploads, SIS/LMS grade import via signed webhook, and workflow automation covering the full submission lifecycle: created \u2192 published \u2192 submitted \u2192 graded \u2192 passed/failed \u2192 returned.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -427,7 +428,7 @@
                     "checksum_sha256": "2d506356b1cc654318389098fe34c75c3c7e0f55fda413f4cdd82f9cc07c1459",
                     "signature": "6bfc1fa69c1c38273c903276aa97fd748b1b6e981c783403abda888721173a1ebcd0420ed6a54a782a32ea624451344b50a8820447caf0500f0945fab05c3705",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "assignments",
@@ -454,7 +455,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-backup",
             "tier": "first_party",
-            "description": "Protect your AppPress site with automated database and file backups — scheduled or on-demand, stored locally or on S3-compatible storage, optionally AES-256 encrypted, with retention policies, integrity verification, and one-click restore. Implements StandardContracts::BACKUP so App Packs and workflows can trigger backups without direct coupling. Not a content JSON export — use core export for site migration; use this plugin for disaster recovery.",
+            "description": "Protect your AppPress site with automated database and file backups \u2014 scheduled or on-demand, stored locally or on S3-compatible storage, optionally AES-256 encrypted, with retention policies, integrity verification, and one-click restore. Implements StandardContracts::BACKUP so App Packs and workflows can trigger backups without direct coupling. Not a content JSON export \u2014 use core export for site migration; use this plugin for disaster recovery.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -490,7 +491,7 @@
                     "checksum_sha256": "941d370752fa23d58ba8fd9dc38331583b39d1969571dcb9ba3f63bdd298a71d",
                     "signature": "4d41decdcbd514acb820aa4910316252330ae65c02aab349ae3896f4cd156b1010e30e51ca3c40d0ff92c9cbc196b416cce30417c8735dc20c58920df9f9e908",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "backup",
@@ -604,7 +605,7 @@
                     "checksum_sha256": "234e411588cba995c2fa18977eba4171055f8f1ce92068be972e8040e3e2ed03",
                     "signature": "da6b67e425f9576edf85954a6cbbe4d73e415de443646861981e40d5256db02311595e1e7ad05f4e0698b95f016c9861f9b5884fe31ed5547c88252b6fb21000",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "billing",
@@ -651,7 +652,7 @@
                     "checksum_sha256": "e9a0f9d8d940ce647f46def524f3cd55021234eb0c6d5f0063de12c1326a8b67",
                     "signature": "4c62204ddea36d8a05786a42ca20e890f4fe21f58906edda5adb94f558d04a68cc18c7d142504984765ca07ce27889827a18122e55051f91bf66cb205e7d2103",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "blog"
@@ -721,7 +722,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-calendar",
             "tier": "first_party",
-            "description": "Shared calendar and scheduling primitive — events with RRULE recurrence, availability windows, iCal import/export, and certified connector sync with Google Calendar and Outlook. Powers apppack-booking, apppack-project-management, apppack-lms, and CRM.",
+            "description": "Shared calendar and scheduling primitive \u2014 events with RRULE recurrence, availability windows, iCal import/export, and certified connector sync with Google Calendar and Outlook. Powers apppack-booking, apppack-project-management, apppack-lms, and CRM.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -753,7 +754,7 @@
                     "checksum_sha256": "7ad97e8fc30276e0b9e75cfb1ef90538d0c29c19e101cd66039620040dcf1f37",
                     "signature": "8021f47c537ecb1ca8e4645c3accf5343bf59e95a1a408955c90f171ec29c4868fc55d2b265afe6bd3d4bbf243b47b39779c4753f5d03c1e4a994b999901a209",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "calendar_events",
@@ -804,7 +805,7 @@
                     "checksum_sha256": "c022f676dba276ab79d9d39a56e3d342eb5a56f48d070b811fbd5507ef8d2d57",
                     "signature": "43d1fd9ae803bda3375a4cada3557e54f64ace0a6b2bcfcb4d74afc6f1f0d03724a3fa0199c7a7c9f9de1a08858563bdfe68628e3985eac47095ebe037549d0b",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "certificates",
@@ -856,7 +857,7 @@
                     "checksum_sha256": "6c1c62f80124348369bcae8f7056f6e2f928bd003b06a79c20c0ca1822efe10f",
                     "signature": "3ef6b3e663633f5daa3246ef64a49478bbc1e6e14220f2577228786ccdd911007ca65910c78930be185e8d8be309a36652f9e4767a62e23bc618bf9252719008",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "changelog",
@@ -919,7 +920,7 @@
                     "checksum_sha256": "6d940923144e96ccd18e61eda34016bdb14c90346879a49a17f626654962acc7",
                     "signature": "cc638876dce4d6ffad1ac08773fd06d7479ab21bec789c8653bf39ae93d6f280d72843444a51961ae0ddda6c2bbcc95cdcc929f1ce2633dda43105b78d205106",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "chat"
@@ -993,7 +994,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-cloud-vps",
             "tier": "first_party",
-            "description": "Platform-level cloud infrastructure provider for AppPress Cloud. Provisions DigitalOcean VPS instances, manages DNS records, bootstraps AppPress via cloud-init with Let's Encrypt SSL, and remotely installs App Packs/plugins via machine-token API. Listens to marketplace InstanceProvisioned/Terminated/Suspended/Resumed events. Not for campus or tenant-site blueprints — operator infrastructure only.",
+            "description": "Platform-level cloud infrastructure provider for AppPress Cloud. Provisions DigitalOcean VPS instances, manages DNS records, bootstraps AppPress via cloud-init with Let's Encrypt SSL, and remotely installs App Packs/plugins via machine-token API. Listens to marketplace InstanceProvisioned/Terminated/Suspended/Resumed events. Not for campus or tenant-site blueprints \u2014 operator infrastructure only.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -1119,7 +1120,7 @@
                     "checksum_sha256": "08c50fbc488585d2fbeae0d01fa9929ba0c62bed2086d669aec5e5cf6e4f14e8",
                     "signature": "0615152f0f6d14057be45d05b08ee2ff78ad587fd72de8ba11d1a5fe51e2ebcbc49663423c80f1b1af50a2693b3d8ad54790b9af53e65e07badd91ab316e5509",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "contacts"
@@ -1159,7 +1160,7 @@
                     "checksum_sha256": "d2f698320acda5d61b7e300f70883689339b1a0ffb270c93cd02132a5cd76b69",
                     "signature": "f1b47c1aa639298a9bf61ad24987deccf7d5ae1dfe8f55ac644f37f1a6c3729a2440c8477de8a1511b7de640b3b19d0c0ba3eaf8305116b7e31558c3ff2dd708",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [],
                     "yanked": false,
@@ -1213,7 +1214,7 @@
                     "checksum_sha256": "087e46958c040fafd99ec95ee5a9b7b2ef604b81a2cb069a0461c3f1a5fc5f1f",
                     "signature": "1f1f3395c11fbf211ed3db1a1fe1c4a7f0d9500b95303fd7a00c49a874d0d0040887bf89bbc028e59239d1419e6ee2aede44616a553d4064a50237d47219c102",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "coupons"
@@ -1271,7 +1272,7 @@
                     "checksum_sha256": "2b3cc6c567e553aa97b0a6c8ea02ea09a3f10e379699b405f5d2109e0b785ddd",
                     "signature": "b1e6dc10d3d51848a8a7f2dfe1327e82f31b8ac08eb687b59456193accfa23555c4996cf7fe4f2dc9cd5703068fe024f887f21f7fa1b247cb9debf473da0aa0b",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "custom-fields",
@@ -1328,7 +1329,7 @@
                     "checksum_sha256": "1eaff488d407422be8e50503f372ea5823e07fa5f67470ca023d13432ee7b382",
                     "signature": "da9d9a6237be359b1f5d685bdcf68ecdbe139fbe6a69bc619bbd372bcb8c98780cc06890bc59f2a0e6b49d17f2139774968adbdcdb27b327eec0507e418a8903",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "discussions"
@@ -1386,7 +1387,7 @@
                     "checksum_sha256": "fec29b5b57323235977553d723113c91279ae9e06b0167f072f32eeab8481dfc",
                     "signature": "244109a18cb8d5b425980e10d72bb307b1d22cc6987071ddd86b443b77d0e1e69a9af514fc8b695d2c4a84d990eed45d1fc378053ffd2f3151914f1b7d715808",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "documents",
@@ -1411,7 +1412,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-docusign-connector",
             "tier": "first_party",
-            "description": "Production DocuSign eSignature connector for CampusLaunch — send envelopes for signature from templates, track envelope and recipient status, list/search envelopes, void envelopes, and inbound Connect webhook triggers for envelope-completed and recipient-completed events.",
+            "description": "Production DocuSign eSignature connector for CampusLaunch \u2014 send envelopes for signature from templates, track envelope and recipient status, list/search envelopes, void envelopes, and inbound Connect webhook triggers for envelope-completed and recipient-completed events.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -1423,7 +1424,7 @@
                     "checksum_sha256": "15643d70260990a7844d268efafd85eba37cad3544dab27b6c261d8222d71364",
                     "signature": "f5faec2d950042d802a16cd622701ebffed9889a7bde71b0cc9470d631f89c6a476049e61aa8c578d8b2524fc652e93e13049c5821308c7fe5f6a726cb808c09",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.docusign",
@@ -1441,7 +1442,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-dropbox-connector",
             "tier": "first_party",
-            "description": "Production Dropbox connector for AppPress — find/upload/move files and folders, short-lived download links instead of embedded file bytes, and an inbound workflow trigger for file changes driven by Dropbox's real notification-only webhook (list_folder/continue delta discovery), with the GET challenge-echo handshake required for subscription registration.",
+            "description": "Production Dropbox connector for AppPress \u2014 find/upload/move files and folders, short-lived download links instead of embedded file bytes, and an inbound workflow trigger for file changes driven by Dropbox's real notification-only webhook (list_folder/continue delta discovery), with the GET challenge-echo handshake required for subscription registration.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -1453,7 +1454,7 @@
                     "checksum_sha256": "cff63bfbbfaff7910951e81192406135f6f365971276fbfd86bc178e263aa67e",
                     "signature": "acb2f621de94ee985adda97975c422fc2c8d2dab2b63fb509f341d82639c3ec72001308c0567537224521238a35f5f7ca067496057ecbe52096762978e4b9800",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.dropbox",
@@ -1497,7 +1498,7 @@
                     "checksum_sha256": "5b786866562c848e1f23f40a5582a47894d8a99411eb3c3650470c7649e31e31",
                     "signature": "ac1c70a5ceca597fd0a5cbb23e8df6e1c373da169b28bd8f5c2585e06870f517727e4a8f249caf25cc579a5b65875ffedff776012d30b605fd83f91b5e869f04",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "email-campaigns"
@@ -1632,6 +1633,25 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-25T00:26:15Z"
+                },
+                {
+                    "version": "1.5.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-events/releases/assets/490412937",
+                    "checksum_sha256": "644b92e4c325cf8f102ccbbe6f9d929d8638c7936d176a6eda7449b1e27ac0de",
+                    "signature": "a606fae40d1456474bdee9fda53810144bef5b3ecdd6481416788d2a63dcc9fe40e014dbedc361c79fefa6a978d3f11b0784bfbcd9eca43271b9532c305ae60e",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "events",
+                        "event_registration",
+                        "qr_checkin",
+                        "attendance_tracking",
+                        "capacity_management",
+                        "waitlist"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-26T14:18:28Z"
                 }
             ]
         },
@@ -1641,7 +1661,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-feature-flags",
             "tier": "first_party",
-            "description": "Site-scoped boolean, percentage, segment, and plan-based feature flags with per-user and global overrides, expiring overrides, and evaluation caching. Implements StandardContracts::FEATURE_FLAGS so host plugins gate features without hard dependencies. Operator-only — flags are resolved server-side via contract or service injection, not member UI.",
+            "description": "Site-scoped boolean, percentage, segment, and plan-based feature flags with per-user and global overrides, expiring overrides, and evaluation caching. Implements StandardContracts::FEATURE_FLAGS so host plugins gate features without hard dependencies. Operator-only \u2014 flags are resolved server-side via contract or service injection, not member UI.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -1673,7 +1693,7 @@
                     "checksum_sha256": "9ff88313ab46e9a5767b7270b96b3c06965d902de7a66ad440bb2407e0394807",
                     "signature": "678cb384b818562234b6f16ce6586fc280b395f8b08b90a265eb4e65156cc5536e508b0593b618f01b9b69062e2928359243853b296f2fd9addaa14be3f07a0f",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "feature-flags",
@@ -1745,7 +1765,7 @@
                     "checksum_sha256": "ca6ff512ced3f4b654ce3e83ae9981344f5a1c542d1a2f9860b969128f4234cb",
                     "signature": "e1bb0629220f712bf0943399a06ce4af8316fe5ddb122be368fc07a36d5d513e738132fb1ee43a2f5e885fe464852e856df7f0894e4a7ce25bdaf09ed4f67e0c",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "files",
@@ -1774,7 +1794,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-forms",
             "tier": "first_party",
-            "description": "Drag-and-drop form builder for public intake and operator-managed capture — submissions, email notifications, honeypot and rate-limit spam protection, optional anti-spam middleware, CSV export, workflow triggers, and mobile FormScreen embeds. Implements StandardContracts::FORMS.",
+            "description": "Drag-and-drop form builder for public intake and operator-managed capture \u2014 submissions, email notifications, honeypot and rate-limit spam protection, optional anti-spam middleware, CSV export, workflow triggers, and mobile FormScreen embeds. Implements StandardContracts::FORMS.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -1820,7 +1840,7 @@
                     "checksum_sha256": "f68205541098acaee7d2d22fcad801ab440ac133a84fa528dd9b6705f23f4a61",
                     "signature": "bc00963d3e569ab0c7bd5594c81c22a5c016b84f556ba3608df7c51e8e268c793512aca675f4e6b86375428107bcb1988e158656a46a42d50f6b3ffb06548706",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "forms",
@@ -1839,7 +1859,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-freshdesk-connector",
             "tier": "first_party",
-            "description": "Production Freshdesk support-desk connector for AppPress — create, update, and annotate tickets, list/search tickets, look up contacts and companies, and inbound webhook triggers for ticket-created and ticket-updated events.",
+            "description": "Production Freshdesk support-desk connector for AppPress \u2014 create, update, and annotate tickets, list/search tickets, look up contacts and companies, and inbound webhook triggers for ticket-created and ticket-updated events.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -1851,7 +1871,7 @@
                     "checksum_sha256": "eadf3b6766aa5b11b1270fe0f3f0b4d4dcc5f0be7a86968c55d3f0ae141e36e3",
                     "signature": "312e0afbb6c9e2d4cde6de99b376edbfdc618798037eab81a017d66e923d3544ac1553d69858a0f08cab13684aa5a5ebeeb236bf6ace64761d3c87f6f2b17e07",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.freshdesk",
@@ -1909,7 +1929,7 @@
                     "checksum_sha256": "77c40932458613b64fe2d869572ab272fef70d292b067c80d2fda8a5a99c561d",
                     "signature": "57e5cef38721f66d4e13be704b7489933fbb3c55a5b2be1f9f7428d54e68ffd7fee56d0487e4552bac45defb94a3e5890c5864fde9d9193309064c6b41397a0c",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "gamification",
@@ -1932,7 +1952,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-geo",
             "tier": "first_party",
-            "description": "Shared geolocation primitive for AppPress — structured addresses, Nominatim geocoding, Haversine proximity search, public address autocomplete, and mobile MapScreen points. Consumed by contacts, events, appointments, and campus map app packs via StandardContracts::GEO.",
+            "description": "Shared geolocation primitive for AppPress \u2014 structured addresses, Nominatim geocoding, Haversine proximity search, public address autocomplete, and mobile MapScreen points. Consumed by contacts, events, appointments, and campus map app packs via StandardContracts::GEO.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -1963,7 +1983,7 @@
                     "checksum_sha256": "e0f64c87a1b44b0397ca5cb8af41b876aed28d2f57aa8222b4cadfe7439a7f94",
                     "signature": "3114dc4baf17d15825abaac858aa2054c048016e39052287e15fc2a2505b85929b86746ae06b1dbb662c75499d54544dbf13a3d4b4e733a38d6f6b4db857be09",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "geo",
@@ -1984,7 +2004,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-github-connector",
             "tier": "first_party",
-            "description": "Production GitHub connector for AppPress — find/create issues, comment on issues, and read repositories via workflow automation, with real issue/comment webhooks.",
+            "description": "Production GitHub connector for AppPress \u2014 find/create issues, comment on issues, and read repositories via workflow automation, with real issue/comment webhooks.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -1996,7 +2016,7 @@
                     "checksum_sha256": "6f686ce34082e30ade821ec72372ae8069fd572696edfdf9e563d47eba97faf6",
                     "signature": "34ff5b02026d40e864c00b49f3b2c0012c4bb7f40dc17d3e8763553794a7dd7c36c9b6c29341fe02acff2cebb920bd9e6e9eabfb44e940de1b46c40fe12cf901",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.github",
@@ -2013,7 +2033,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-google-calendar-connector",
             "tier": "first_party",
-            "description": "Production Google Calendar connector for CampusLaunch — event create/update/delete/get, calendar listing, free/busy availability lookups, search, and webhook triggers for event created/updated via Google's Calendar Watch push notifications.",
+            "description": "Production Google Calendar connector for CampusLaunch \u2014 event create/update/delete/get, calendar listing, free/busy availability lookups, search, and webhook triggers for event created/updated via Google's Calendar Watch push notifications.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -2025,7 +2045,7 @@
                     "checksum_sha256": "7969a0c44a8bc0a5531f401facf7d522aaf09738821a6d7657a92f7fe7219cf7",
                     "signature": "f7764c591529491776cda40e9e8ad14f8df73955812e642e57e49d38c7944572a06d4eb4c61f396a48af2952e7d3ab8188a9bf0e322bb5e9e818a7c4102d9607",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.google_calendar",
@@ -2044,7 +2064,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-gusto-connector",
             "tier": "first_party",
-            "description": "Production Gusto connector for CampusLaunch — read/search employees, read compensation rates, and read payroll runs, scoped to a Gusto company (company UUID) via OAuth2. Highly sensitive HR/payroll data: no SSN or bank/direct-deposit fields are ever requested or exposed.",
+            "description": "Production Gusto connector for CampusLaunch \u2014 read/search employees, read compensation rates, and read payroll runs, scoped to a Gusto company (company UUID) via OAuth2. Highly sensitive HR/payroll data: no SSN or bank/direct-deposit fields are ever requested or exposed.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -2056,7 +2076,7 @@
                     "checksum_sha256": "7b0e34493170182acb0867e4a3a38cc8d9a311d3d5a69feb4c21d5b3b4aa0af9",
                     "signature": "ded9c23aeed57a6872148c6761f813c9bcd2d3a2016c0a0f63d465e2dbbddeb8ee9ee47ba16903d7a361dbb3160d19354669afbe6dab12861ce92f581d1a6d0a",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.gusto",
@@ -2100,7 +2120,7 @@
                     "checksum_sha256": "6d3d7803bae4bdf4e25c7f5b09f6010a094b2a47e63f77224bc2a750771ada6e",
                     "signature": "4f24bba912d2cbdaffbb59422e63207ee9c8df00841407ed0a2cdcc05ff0641f33882f822c6f4e9ec9863be9cca8be27f86b26ae4d78606bb56b25e87fb8590f",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "helpdesk"
@@ -2116,7 +2136,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-i18n",
             "tier": "first_party",
-            "description": "Shared localization primitive for AppPress — locale management, translation strings, content translation linking, locale detection, RTL support, public locale switcher embeds, and import/export. Consumed by pages, blogs, forms, and app packs via StandardContracts::I18N.",
+            "description": "Shared localization primitive for AppPress \u2014 locale management, translation strings, content translation linking, locale detection, RTL support, public locale switcher embeds, and import/export. Consumed by pages, blogs, forms, and app packs via StandardContracts::I18N.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -2148,7 +2168,7 @@
                     "checksum_sha256": "951edd06fc1d165a8e7ff211c1c36158875f16616ec30cae05b0dcf76f9e4bf9",
                     "signature": "03b5cf3ebfee04e6da4117d8048c7c5db540476d672879aa3cdc6079909713b5353de99004ca9a83a5c4df17b63efdcff574f4dba6a84a00f1da8532d09d260a",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "i18n",
@@ -2170,7 +2190,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-import-export",
             "tier": "first_party",
-            "description": "Universal CSV/Excel/JSON import and export framework for AppPress — pluggable resource-type registries, column-mapping UI, background job processing for large files, per-row validation with error reporting, and operator dashboards. Implements StandardContracts::IMPORT_EXPORT so App Packs register importable/exportable types without coupling to this plugin.",
+            "description": "Universal CSV/Excel/JSON import and export framework for AppPress \u2014 pluggable resource-type registries, column-mapping UI, background job processing for large files, per-row validation with error reporting, and operator dashboards. Implements StandardContracts::IMPORT_EXPORT so App Packs register importable/exportable types without coupling to this plugin.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -2203,7 +2223,7 @@
                     "checksum_sha256": "67908938c003334da8117759c66601f1957b8a30455cf5518e5988bd6e029463",
                     "signature": "3247bdc5548a2bac4f73c8cfff80e141a93fff43b99c18ed8b2c09273b9b57784abd36e427db5b85091aac398bffde0f21d5757455fdcdd847522736cae04401",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "import-export",
@@ -2226,7 +2246,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-intercom-connector",
             "tier": "first_party",
-            "description": "Production Intercom connector for AppPress — create, update, and look up contacts (leads/users), read and search conversations, post admin replies, and inbound webhook triggers for new conversations and new contacts.",
+            "description": "Production Intercom connector for AppPress \u2014 create, update, and look up contacts (leads/users), read and search conversations, post admin replies, and inbound webhook triggers for new conversations and new contacts.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -2238,7 +2258,7 @@
                     "checksum_sha256": "3c7a323a3724505ff88e6b8bf8aa5f77fc18c5b09ae10fb86936538bd7351af4",
                     "signature": "4f90c55d419970bc670272feb7fdeed7bf6fb85117e426dd57d271d9800ebf658d44f0b0f4adae61feb2f2a803a5f12aeaeb49c0fc5d84b0790aaf5b89d02908",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.intercom",
@@ -2286,7 +2306,7 @@
                     "checksum_sha256": "5c5f310083848b2c6dd7f4720fc175b6221e6267bf0abe227cc358782f5d68ea",
                     "signature": "231b3ad03d886161e6415dbe0b582d6382a4e0c3e07215e973d4497449c96a4cec6d46a9644d8cc1340278d26950e91fd0383ee307e0a73828fcc7af77a5d304",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "invoices",
@@ -2306,7 +2326,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-jira-connector",
             "tier": "first_party",
-            "description": "Production Jira Cloud connector for AppPress — find/create/update issues, read/search projects, and workflow automation on real Jira data.",
+            "description": "Production Jira Cloud connector for AppPress \u2014 find/create/update issues, read/search projects, and workflow automation on real Jira data.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -2318,7 +2338,7 @@
                     "checksum_sha256": "b61793ee41207b322f8802d011bcac0230a569c35a38c531b1e5dc86bb34dc13",
                     "signature": "7a88e49b2cdcbae78bbbc7a9547359b453e8ed698a10cbca78c08949689bb65247588c38116aa8631c4939db75d8eb9bf1462b5e85300cd4546bcc6ef2884f06",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.jira",
@@ -2347,7 +2367,7 @@
                     "checksum_sha256": "3890b611c444a3f9b6eda1c1f4dc6da6342a6c0f153a0ccde6c4cacbf9e9d24d",
                     "signature": "3b5e04b4233dfb2eafff6813cf9fbd289be9eed9bf7d403022ef66ab0a3445b9e403fd73f23b6e9d8af3f78c1636e00bb000b6095088d314bde29d5489420209",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.klaviyo",
@@ -2396,7 +2416,7 @@
                     "checksum_sha256": "ad42fbc67dab94f65871f55e21f9514ed49a369f2511d1b7bda43d353d91723f",
                     "signature": "9d6e64eb10dd70909b7bc834c16dd7782fa435e6392fa128ceaf313bdc41390529494c7554a426ce0f6ac473f9ac7232933b9ad1d5878a1cbfedbb417f6af40e",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "knowledge-base",
@@ -2496,7 +2516,7 @@
                     "checksum_sha256": "60b0abb0b2d78e793902feb9dbbe73ac2ee5b7fa23465589d62f321369641b04",
                     "signature": "dc9796998a9a69ea43f4220dc09cf9f2e30257da4ec0328bcee29d5a0fbf4b51acc6224d184dd31ca228cde0c75e155eb75c95fc19700bc66d30090630a3f301",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "loyalty"
@@ -2524,7 +2544,7 @@
                     "checksum_sha256": "1997eef9edd4e9cb703f52ab657ec0e07f0cda72dd2398f30a40657e678c5a2e",
                     "signature": "bcf630b1e1c3972766a8f383e58e23a4a8a8e38148d23af69f543b3a08e09c746862776f87eb5b7e54c310f3d0e279de5de23fe5d734d09c53001402ac54cd0e",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.mailchimp",
@@ -2577,7 +2597,7 @@
                     "checksum_sha256": "6c7f0d5ec5af451a163acccd7c3cb87dd626a760a2c3a04c63fcf857830acfd3",
                     "signature": "81b63aead237e2d1acae293917d6717cb1cafcff27b99910ec82663a8b80b3d470fd0e79577249b08cde0252f7d0705514d513fef6eda0fd2f133e3002fee007",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [],
                     "yanked": false,
@@ -2641,7 +2661,7 @@
                     "checksum_sha256": "9adf3be56614fc721b27f7b59f283850664aebb551bec923f58e272f7f58c327",
                     "signature": "90547682bdb14aac50b46db62e2e268d413d24e4791cec494d742b322d34ac277e5ad17b3cd9fc42e3a6792186e4a82b97179e8ff76c78f21a02750f7302a402",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "media-processing",
@@ -2662,7 +2682,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-mixpanel-connector",
             "tier": "first_party",
-            "description": "Mixpanel connector for AppPress — fire-and-forget event tracking via the real-time Track API, plus read/search of user profiles via the Query/Engage API (Service Account auth). Mixpanel's ingestion side is write-only, like Segment: there is no read/update/delete on tracked events because Mixpanel's real API does not expose one.",
+            "description": "Mixpanel connector for AppPress \u2014 fire-and-forget event tracking via the real-time Track API, plus read/search of user profiles via the Query/Engage API (Service Account auth). Mixpanel's ingestion side is write-only, like Segment: there is no read/update/delete on tracked events because Mixpanel's real API does not expose one.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -2674,7 +2694,7 @@
                     "checksum_sha256": "84e04704555454456b92155572fedfcbb9aa0c22037acff25d6a3b724a9462e1",
                     "signature": "0e62cb4fd412804abf1395714d8547f6e62a99f9152c47be0fb38f3739eab24087cd59c034f284842f1b02e94b09f2c2a5b135c1bd96669585b5d96873d5c703",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.mixpanel",
@@ -2717,7 +2737,7 @@
                     "checksum_sha256": "708aea181273c7ba6185692154500580ebe98bd31db4fb32e9209be63588dd89",
                     "signature": "c55fd62e9f8920090e3a38d901c335c95270351f970e40a1751dc9d821cdf426859f543eee8a9c5a027b4d7e8911e966248d162ca137f913a2b79ce7431c720a",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "newsletters"
@@ -2783,7 +2803,7 @@
                     "checksum_sha256": "fa9dcd54eba85b44354e2217f7956a34fae40a56846a14cbd75db6014f0b8085",
                     "signature": "f141d7a86905cc03a39f13279a93fbfa51f22dd8d5fd4735f1e5ee48f53a70946755dda789a1f9bdeda005d4bc75fcb339b28d6f29cd0e8105623724ada6bf0c",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "private_notes",
@@ -2804,7 +2824,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-notifications",
             "tier": "first_party",
-            "description": "Multi-channel notification center for AppPress — in-app bell, email, browser push (VAPID), SMS (Twilio), and Expo mobile push. Implements StandardContracts::NOTIFICATIONS so workflows and plugins deliver alerts without direct coupling.",
+            "description": "Multi-channel notification center for AppPress \u2014 in-app bell, email, browser push (VAPID), SMS (Twilio), and Expo mobile push. Implements StandardContracts::NOTIFICATIONS so workflows and plugins deliver alerts without direct coupling.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -2833,7 +2853,7 @@
                     "checksum_sha256": "00aa1f9b91cd798df0c4fad8ccc3074d40b9e344096c7c091a691d53b8bac8b1",
                     "signature": "c5b11e554e1438e3c38f7302171332f71cfa1e451a4edab407c37f7d4d9094748f4969531d60739fc093b965abebd4a34e795d16deb72f6fb638b4dd23a7f30a",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "notifications",
@@ -2852,7 +2872,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-notion-connector",
             "tier": "first_party",
-            "description": "Production Notion connector for AppPress — query, create, update, and read pages in a connected Notion database via workflow automation.",
+            "description": "Production Notion connector for AppPress \u2014 query, create, update, and read pages in a connected Notion database via workflow automation.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -2864,7 +2884,7 @@
                     "checksum_sha256": "373e0754eabafd3678c742b5641e82a5dac1c16b6d8f67acb77902712d4d4dc7",
                     "signature": "566039b24f16b95761cc0cf7a613f4c7e95566060e7cdf8209cfd90e36c8233f13784a65167f91103fe8ee31a5578a04f415d644e7eb796737c44a7bd5e06305",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.notion",
@@ -2914,7 +2934,7 @@
                     "checksum_sha256": "8f6d32bcf7ff9c88a78b9098f530c753d3a0d4cb15d0fea68ae09f4494bb4ad7",
                     "signature": "04b2ace9610352c20b82b45ea1228f43b648aa493e747699cada8acb4dc620878af745ed5e9cd257d213427a3c1936d663d871a06d1559ee742ebf70107a6802",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "onboarding_checklists",
@@ -2968,7 +2988,7 @@
                     "checksum_sha256": "3af2cbd859051ae6bae81e08dfeb631bead583d22d529e44023c928d65388752",
                     "signature": "84faae1643d59c4154bf5c9fcbd5c15360e0e307535309d180dd95bed1c1155b920a2bd73e8e2a1ef584f0ed9acdf6a13e5a4b93565cbeba48edfcdaf411790b",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "orders",
@@ -2989,7 +3009,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-pages",
             "tier": "first_party",
-            "description": "Read-only CMS surfaces for AppPress Core's page system: shortcodes ([page], [page_menu]), a page-menu widget, block-editor embed blocks, a mobile RichTextScreen surface, an operator metrics dashboard, and workflow triggers/webhooks fired from core's real page lifecycle events. Does not own page storage or CRUD — page creation, editing, and revision history are core's canonical apppress/pages system (Admin -> Pages).",
+            "description": "Read-only CMS surfaces for AppPress Core's page system: shortcodes ([page], [page_menu]), a page-menu widget, block-editor embed blocks, a mobile RichTextScreen surface, an operator metrics dashboard, and workflow triggers/webhooks fired from core's real page lifecycle events. Does not own page storage or CRUD \u2014 page creation, editing, and revision history are core's canonical apppress/pages system (Admin -> Pages).",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -3001,7 +3021,7 @@
                     "checksum_sha256": "319e597f4ab4ed398ffe8c32f8bbe063329612ec7fec22c797625c40022a65c4",
                     "signature": "d5fa1280ac02c4a6c509d9fe9572beb84ce16921b9ff297f717b4e207baf58ea73f38cff3f5f2e55566d996e83ef7f65ea6942876bb7a0d1be21992612bddb01",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "pages",
@@ -3082,7 +3102,7 @@
                     "checksum_sha256": "4b7507eb97ae437d5a989afd909af9582d9c13deee02c86dbce42877199c7a77",
                     "signature": "7555849e7a5160322e10ac31899e9d041699fb4d2ae5d6eaa560a3e7a9e2ee1658de6d63fb4bde1ece71a8ea50248231b32e35ccd0e0d937961dd65d69f74d04",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "payments"
@@ -3142,7 +3162,7 @@
                     "checksum_sha256": "ed57ca72480b59d148157ad44b860c93be3d3d8e927d5973b22eec91849e1ca1",
                     "signature": "160af03c6b5013ab941bbc7363d734064555ede729e539ce9fc607a40ec477b6864c690ece43f672463e6d3c1dfd39de448987e2833f0bf62698bf1f0649440a",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "pipelines",
@@ -3222,7 +3242,7 @@
                     "checksum_sha256": "ce45bf883b89049ba17cf8cc60199f9f3f6d6ed1726421788476fbdf9cc4685d",
                     "signature": "5145282d0a140c0cac6c92c5cc3801c4529da1a650b1bd0c43f7197262a083356661ed5bcb0b421eee227c93fa4749860eb5af21a9028ae4bd27e3ab86cb770e",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "products",
@@ -3300,7 +3320,7 @@
                     "checksum_sha256": "c0e6a51c85f19e5c1bb324a80a1f3507f2eec9415798931b254a369eecd543d6",
                     "signature": "13d0f1119d03223a3ca354c1beb0257fa816b978dbee318633982cd7dc2066de28cc3916754eb6f88e872dc0d3ec11e32420084ab7ff6891a9056daf54782903",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "progress_tracking",
@@ -3353,7 +3373,7 @@
                     "checksum_sha256": "49dd8e154c7f54fa50b3d92add115c4df43e8dc1296d48a1279209ccbaff4314",
                     "signature": "0e42d2cb37c1007c9a1f2af03247f7f68755fe61b64ce830f726bad9195509ef5a384d4c0b5b74ab5c0e6bf75c0809c22d8578333020708eb6c0efd06371d502",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "projects"
@@ -3369,7 +3389,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-quickbooks-connector",
             "tier": "first_party",
-            "description": "Production QuickBooks Online connector for CampusLaunch — create/update customers, create invoices, find/search customers, and an inbound webhook trigger for invoice-paid events, scoped to a QuickBooks company (realm) via OAuth2.",
+            "description": "Production QuickBooks Online connector for CampusLaunch \u2014 create/update customers, create invoices, find/search customers, and an inbound webhook trigger for invoice-paid events, scoped to a QuickBooks company (realm) via OAuth2.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -3381,7 +3401,7 @@
                     "checksum_sha256": "ea82434a0bb38fb1f4fb500c782f1436de1df3bce6be4e9e3704ac4926bdca12",
                     "signature": "5361d923b2ef1dcb85b6d21208b6420816ccdceb6024cdca2c687222e256b5d0365e3b20fec90170586bbfe011080017c048e3b04e8bc9d6c2255c63c9ca780e",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.quickbooks",
@@ -3439,7 +3459,7 @@
                     "checksum_sha256": "1a9fe60400443fde2a8fc90c3c4ac7687fe76237cb03a19b387e0fe021a02470",
                     "signature": "032450fa26c955c3cd9ecf7919d46775ef0ce78068461017de0ddd4fd10409fb6705d804f03f78e809474ecc12e71914695905db8f82fe0e65a593fcbf601f09",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "quizzes",
@@ -3548,7 +3568,7 @@
                     "checksum_sha256": "672cdc6ec4e9b051bd21a37a7239e3aa8aeade452dba6d5d9010f26ce84477f8",
                     "signature": "4be14cecc998344370ca649535bebb4974c4b7ab2e5f2e9782bb94d206b698bb7d154493606b5aaa2ca9a2d7f8ec3e812222f3e5d4ec64350ff20a9b0987bd01",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "quotes",
@@ -3597,7 +3617,7 @@
                     "checksum_sha256": "e6a3bb76e2d2ea4cf55ca3662d0589a6ea4094e3863662e39f3959ed030f4b19",
                     "signature": "7ca2027a5f48a47ff77e15c8145c54f5b9a3c287b5c330c28194c7a01d710f6c2b974d45a33ffa5c931471449bc560f58444c5bf34eca8c45c34a60469c65a09",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "ratings"
@@ -3639,7 +3659,7 @@
                     "checksum_sha256": "1007ff236baac1702a72b96564ccafa316c31884323ff408c089e0b8ebaf62f6",
                     "signature": "8278f29ec703c967f8df01d5dd56ffd07af36194d8b0d9c9d61d1326b06ed56a7c8d9bcb77bde6a43750cf7a737a5ad19fd3b13a5d52c228495085fb4c736709",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "referrals"
@@ -3655,7 +3675,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-reports",
             "tier": "first_party",
-            "description": "Plugin-agnostic reporting framework for AppPress — pluggable data source registry, saved report definitions, operator dashboards with chart widgets, PDF/CSV export, and scheduled email delivery. Implements StandardContracts::REPORTS so App Packs register metrics without coupling to this plugin.",
+            "description": "Plugin-agnostic reporting framework for AppPress \u2014 pluggable data source registry, saved report definitions, operator dashboards with chart widgets, PDF/CSV export, and scheduled email delivery. Implements StandardContracts::REPORTS so App Packs register metrics without coupling to this plugin.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -3686,7 +3706,7 @@
                     "checksum_sha256": "1e0070c3a739aceea2d1389101f00ab8d635ebc9f201c99b15dd968a078b6ae3",
                     "signature": "0964a2c0b65f2cef8515b19e3e89e27f780ebbff800b60706319ab4fa11067c642405455d68e99d389c72a7198a1d097a2bb0f6b105d8b403f92b5cc0fa4970f",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "reports",
@@ -3761,7 +3781,7 @@
                     "checksum_sha256": "1c98f503333d4384a5371b8ce16d9024d2896f28b840d4b97e3d96c3c166c55f",
                     "signature": "051c16abea4d14362b92e6fb8c6c84229eed2bc45491251e043a353c53d0c9519132a27cb74094c7c21476cbf7498daa5b5e284067635acf887181bc34e0410d",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "reviews",
@@ -3803,7 +3823,7 @@
                     "checksum_sha256": "5a5a981578e89e90ad3b9e098e7b870fedcbf2dcd4415a847e4af02cc158f37b",
                     "signature": "3018549346c3262190fbef64affe831d3bf410e1beee2950ff95722c8d1b627221909e429255233e9879f6578bfb6933e36a6a20bfeb32873641124fca63e307",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.salesforce",
@@ -3849,7 +3869,7 @@
                     "checksum_sha256": "2176fcd2c23af05811b64d83c3c12f74b4a3059a2fc4a25b6ba9a2c0061b1d9f",
                     "signature": "db44fdf4ef67710cff03f5466d0cdebc1f6f4fb3ae49a9e62bca44edf4f896c68513447d197e03501528d12bb5e84dd557d18810ea33fb76769b3bcdffc35a0b",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "scheduler",
@@ -3892,7 +3912,7 @@
                     "checksum_sha256": "b6c80ed6f6ea57a8c906395bb38d7dcdb5c2ef331b24913c7f81b40315a427e8",
                     "signature": "4ace45d8b10f0e0823e67554fa5fe314329280a9a1d9ba33845a86dd056cc518585655fa1638dbc58820718edc589f13b2aae4dc5ca697c53dd33ddc2f8baa00",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [],
                     "yanked": false,
@@ -3906,7 +3926,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-segment-connector",
             "tier": "first_party",
-            "description": "Write-only Segment Tracking API connector for AppPress — send track/identify events out to a Segment source from workflows. Segment is an event-ingestion endpoint, not a queryable data store: there is no read/search/update/delete operation because Segment's real API does not expose one.",
+            "description": "Write-only Segment Tracking API connector for AppPress \u2014 send track/identify events out to a Segment source from workflows. Segment is an event-ingestion endpoint, not a queryable data store: there is no read/search/update/delete operation because Segment's real API does not expose one.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -3918,7 +3938,7 @@
                     "checksum_sha256": "87d3af97defecece7fee8fc46e3bd488f447c50b081b00a73d2356adc3a296be",
                     "signature": "8fb98123541d3ecd6093b70408c9cf4578bdeb0c1c98ccfaf55e0e631e2d612cc284562d6458e68f0976449c5118eed8da21efc114ada79fc0d8d485f0024503",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.segment",
@@ -3961,7 +3981,7 @@
                     "checksum_sha256": "962d33514f1d97c7f37644a23177ebf887cf692b7514e1ef119cc8b06ca57c05",
                     "signature": "4dceb8ec0b72a0f0b02d370cdcc18478c4f29778c0e41d49aecf595287a9b6e412723ee364ba1c4d14da9090f88a9dccc6b5d7719d5af7f5afdce1e01f16810b",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "seo"
@@ -3977,7 +3997,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-shopify-connector",
             "tier": "first_party",
-            "description": "Production Shopify connector for AppPress — find/create/update customers and read orders via workflow automation, with real order webhooks.",
+            "description": "Production Shopify connector for AppPress \u2014 find/create/update customers and read orders via workflow automation, with real order webhooks.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -3989,7 +4009,7 @@
                     "checksum_sha256": "3ae00770e6008c3312d86ee4bba79fb8b61eec46ebf75b8973a74dc1c1974c98",
                     "signature": "df6cc343c564f4511fcc76127e5eb286802256ad7ac1ad495f060efe85f2b603d565a482a6273e851748f4f840088c868741fab74d58b50bef4ad7662ef9b20a",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.shopify",
@@ -4018,7 +4038,7 @@
                     "checksum_sha256": "6b299da8f0cb7de153f1409d875d0403e98f4a8b6ee94176ade2e467adf05872",
                     "signature": "3250b0b6803a56c60c0bd9ca22ef6c4203b3498546d9976dbf9f71441adf199b2a5a05db2bf08434eb6a18858a9ca6a77e3a6f3753ae6ebe15de628961a4d50b",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.slack",
@@ -4035,7 +4055,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-social-auth",
             "tier": "first_party",
-            "description": "OAuth 2.0 social login for AppPress — Google, GitHub, Facebook, Twitter/X, and Microsoft. Supports auto-registration, email-based account linking, encrypted token storage, connected-accounts API, workflow triggers, and StandardContracts::SOCIAL_AUTH for cross-plugin integration without tight coupling.",
+            "description": "OAuth 2.0 social login for AppPress \u2014 Google, GitHub, Facebook, Twitter/X, and Microsoft. Supports auto-registration, email-based account linking, encrypted token storage, connected-accounts API, workflow triggers, and StandardContracts::SOCIAL_AUTH for cross-plugin integration without tight coupling.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -4068,7 +4088,7 @@
                     "checksum_sha256": "9adb211dad4cb4de51268fec99d1c108919bdf39f90c759b586acabac756ee84",
                     "signature": "366d25c87b06ba16b83d88b9e68c4c294de0bdc5262c253d978ebe9131f4e25bf61e82025d6fc0da5a09fc5b53cf1b524d306f714de96294cd67de09e8db5600",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "social-auth",
@@ -4091,7 +4111,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-squarespace-connector",
             "tier": "first_party",
-            "description": "Production Squarespace connector for AppPress — find/create/update customers via the real Contacts API, read/search Commerce orders, and real order webhooks.",
+            "description": "Production Squarespace connector for AppPress \u2014 find/create/update customers via the real Contacts API, read/search Commerce orders, and real order webhooks.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -4103,7 +4123,7 @@
                     "checksum_sha256": "f1e06d37ea8b51074be64bfe0fb7978dbdc936a4622f3b76a95d01aab086480c",
                     "signature": "a4e729931f8c2de8c5af335acd55cff6ae0cd27f3d27188672aab7fbac93c203f984f78136a3e0f711f0cf2d123e1651fe1514e7d721798854ecc5fb091b3400",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.squarespace",
@@ -4150,7 +4170,7 @@
                     "checksum_sha256": "9bbb1aa3f6465163cecc802bfc2662f30dedd1e49fe7d5624b80d4bcf3c763dd",
                     "signature": "7dcf5ac91388d6a50fe8e341ea7bfd4335d573642723fd42810e0e54e5626df7951269e0c956ea25855921d2ed445db0a3fc4b9de75b4d4cf4d2bdf5ea53130a",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "forms",
@@ -4224,7 +4244,7 @@
                     "checksum_sha256": "a87d5f013534290f32464694072e8220d160c328f9a4fe94f8f9560bada5c597",
                     "signature": "2b4130a4c773b5dc40765f4d2b1038d6c3380df33ebb47a9ef990334b05b65f0ec626a7ebe92d53b69a09d476184caceb9e28a6f6c79d6166f730224b1c09803",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "surveys",
@@ -4276,7 +4296,7 @@
                     "checksum_sha256": "a709a21b82b3266f9c1181e83b4965159335de61324289348aedc3412dee736f",
                     "signature": "05337c51f5f2f271237b224c9b7a1bd43c7b5e02a4049c49383e197d537a03ae7ac8f31e5c19ab1fe2916bb9a3bd1750b523126f006fc4aeaee3fb5e8935480a",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "tags"
@@ -4292,7 +4312,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-teams",
             "tier": "first_party",
-            "description": "Team and organisation management for AppPress — create teams, invite members by email, manage owner/admin/member roles, switch team context, and expose StandardContracts::TEAMS for App Packs (helpdesk departments, LMS cohorts, CRM sales teams, chat channels). Includes workflow triggers/actions, outbound webhooks, mobile ListScreen/DetailScreen surfaces, team-switcher block, and site-scoped multi-tenant data.",
+            "description": "Team and organisation management for AppPress \u2014 create teams, invite members by email, manage owner/admin/member roles, switch team context, and expose StandardContracts::TEAMS for App Packs (helpdesk departments, LMS cohorts, CRM sales teams, chat channels). Includes workflow triggers/actions, outbound webhooks, mobile ListScreen/DetailScreen surfaces, team-switcher block, and site-scoped multi-tenant data.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -4327,7 +4347,7 @@
                     "checksum_sha256": "8b3b8e4588ee2086b9bf52d42d16456a9f0159b9c4f63ffe8cc009079b631358",
                     "signature": "a820bb3c9ed61892d4ae703aac1c5393c9ae072170468e41d1dbb55c5ae1309993dac45ee48e80da759772cfd02d32a9e237fe601969dff7b07eaf9b3fec7a0b",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "teams",
@@ -4393,7 +4413,7 @@
                     "checksum_sha256": "8ad10f2178337ee88d678ed63069daa53aa09db3cb2a504c81cfac1b1cc74e08",
                     "signature": "c9aeac09a8e175f30ce87811a448263929a4be4c5049bdfdf242ec3fb9608bb8c2709daef6f1b42363dc6c3c61886941a5a50c6268be22797a8be03cb6324a02",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "tickets",
@@ -4424,7 +4444,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-trello-connector",
             "tier": "first_party",
-            "description": "Production Trello connector for AppPress — find/create/update cards, read boards and lists, and workflow automation on real card-activity webhooks.",
+            "description": "Production Trello connector for AppPress \u2014 find/create/update cards, read boards and lists, and workflow automation on real card-activity webhooks.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -4436,7 +4456,7 @@
                     "checksum_sha256": "c4d126486acae9d93fe1d3c616fced8cca24d5abb6968d5e454f6ea327619d7b",
                     "signature": "ad2d22064317bcc1af13b8e158175ff7e4bb6c3b2907ec933e4c2a67694287d70ac559ba813d2e14e52d5e1b2b3776f5c83169e8c47c851102c5e98d799b300a",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.trello",
@@ -4465,7 +4485,7 @@
                     "checksum_sha256": "1dd9244d29ef67c7300821e7debf6a698081fc66bd74113a0652f22be5939464",
                     "signature": "3aef6b69fdcb36c2699ad37c74ba59cc74b47f6ff835452e78fb86343b2b8f51521939306f36d3f3f7d40a41ab25f50e576b603949038dbf6b413f904265e60c",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.twilio",
@@ -4482,7 +4502,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-two-factor",
             "tier": "first_party",
-            "description": "TOTP-based two-factor authentication for AppPress — backup codes, trusted devices, enforcement policies, admin compliance dashboard, workflow triggers, and StandardContracts::TWO_FACTOR for auth-sensitive App Packs without tight coupling.",
+            "description": "TOTP-based two-factor authentication for AppPress \u2014 backup codes, trusted devices, enforcement policies, admin compliance dashboard, workflow triggers, and StandardContracts::TWO_FACTOR for auth-sensitive App Packs without tight coupling.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -4516,7 +4536,7 @@
                     "checksum_sha256": "9904fe377a38a3f8bb65450906249b990406793aa42a3f52a2bb993b0e83ba98",
                     "signature": "1c93250b8f1f08859bbacdb9c4687f34d1c9a21c831bc306af98bfd1fd4377af39b5eb61d57bb35ca23f2beca47b76d239d1046d5a239f3bb78203fdfd5f7c09",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "two-factor",
@@ -4540,7 +4560,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-typeform-connector",
             "tier": "first_party",
-            "description": "Typeform connector for AppPress — inbound form-response webhook trigger plus read/search of forms and form responses via a Personal Access Token. Typeform's public API is response-ingestion-shaped: there is no create/update/delete operation for responses because form responses are end-user submissions, not something an API client writes.",
+            "description": "Typeform connector for AppPress \u2014 inbound form-response webhook trigger plus read/search of forms and form responses via a Personal Access Token. Typeform's public API is response-ingestion-shaped: there is no create/update/delete operation for responses because form responses are end-user submissions, not something an API client writes.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -4552,7 +4572,7 @@
                     "checksum_sha256": "64dff5bd79f05dc8ece85356d078e8072629801582ed2f81295bb08a8ff9a6c3",
                     "signature": "d30feb19c25f16a1b0483ec1d0f0542b3876c073e9ffbea1745576568ba1c1bfe57363350cdd2eaaf0b8d15dd24ae2220c5d56628d5b274910118bf2b7cab70a",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.typeform",
@@ -4595,7 +4615,7 @@
                     "checksum_sha256": "e72e6c6870f37c14acc63a1ed5608f27618a78bbe55f156da0a58869f55f5883",
                     "signature": "d00dc327dd63108a701eab2ef16b7b4d37f9b461910d7f992fe9c1136c599645a66762960eee54b089a745b53c534bbd3f9736da46196477fb27abec05f3fd03",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "waitlist"
@@ -4611,7 +4631,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-wix-connector",
             "tier": "first_party",
-            "description": "Production Wix connector for AppPress — find/create/update Contacts via the real Contacts API v4, read/search eCommerce orders, and real JWT-signed order webhooks.",
+            "description": "Production Wix connector for AppPress \u2014 find/create/update Contacts via the real Contacts API v4, read/search eCommerce orders, and real JWT-signed order webhooks.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -4623,7 +4643,7 @@
                     "checksum_sha256": "cd0f43acd3eb515fc249847d69054e2870f7ae21ca4ccc3ee451d519ed137e05",
                     "signature": "377a9c8af341e9316d36f908591c7248b04f69d9c9c4ce118850babfc4d4e43ee1b315bab74cac977c32ddee3f83cffc1c0b0d21398df6a424e0e8e16204f40b",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.wix",
@@ -4640,7 +4660,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-workflows",
             "tier": "first_party",
-            "description": "Visual automation engine for AppPress — trigger → conditions → actions. When X happens, do Y. Supports 19 built-in triggers, 17 built-in actions (including AI prompt/response, round-robin assignment, field transforms, and generic outbound HTTP requests), HMAC-signed webhook ingress, approval gates, delayed steps, conditional branching, formula evaluation, version snapshots with rollback, multi-site scoping, and rate-limiting circuit breakers. Implements StandardContracts::WORKFLOWS so any App Pack can resolve the workflow service without a direct dependency.",
+            "description": "Visual automation engine for AppPress \u2014 trigger \u2192 conditions \u2192 actions. When X happens, do Y. Supports 19 built-in triggers, 17 built-in actions (including AI prompt/response, round-robin assignment, field transforms, and generic outbound HTTP requests), HMAC-signed webhook ingress, approval gates, delayed steps, conditional branching, formula evaluation, version snapshots with rollback, multi-site scoping, and rate-limiting circuit breakers. Implements StandardContracts::WORKFLOWS so any App Pack can resolve the workflow service without a direct dependency.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -4686,7 +4706,7 @@
                     "checksum_sha256": "964c3c3907a7af42f4ea8c1ea1413544c92a1779ff01765e752d5c750638ec65",
                     "signature": "b5bbcdde84c173273970994ba7b74cc65decc6f47fbf5bc819cc72b79a6b3bf7acb12caf48cf61a8ef248c52f0be6ca9cdcd967c1e42c2c654c94e397fdee00a",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "workflow",
@@ -4705,7 +4725,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-xero-connector",
             "tier": "first_party",
-            "description": "Production Xero connector for CampusLaunch — create/update contacts, create invoices, find/search contacts, read payments, and inbound workflow triggers for invoice-created and invoice-paid events, scoped to a real Xero organisation (tenant) discovered via Xero's /connections API after OAuth2 connect.",
+            "description": "Production Xero connector for CampusLaunch \u2014 create/update contacts, create invoices, find/search contacts, read payments, and inbound workflow triggers for invoice-created and invoice-paid events, scoped to a real Xero organisation (tenant) discovered via Xero's /connections API after OAuth2 connect.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -4717,7 +4737,7 @@
                     "checksum_sha256": "b8be129e2b5ca34bf96834e85a682c379f1dc55e91613d5b2e9c0681ed261209",
                     "signature": "674c4f2ac4abbacdcc17ec879334d4a8028235c364bdcb21df9e00752f69133f205982f4312b32b43e36c3826a29fde22f4d96da34245316b0573b9f11862e0f",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.xero",
@@ -4735,7 +4755,7 @@
             "type": "plugin",
             "github_repo": "appkitgo/plugin-zendesk-connector",
             "tier": "first_party",
-            "description": "Production Zendesk support-desk connector for CampusLaunch — create, update, and comment on tickets, list/search tickets and read users, and inbound webhook triggers for ticket-created and ticket-status-changed events.",
+            "description": "Production Zendesk support-desk connector for CampusLaunch \u2014 create, update, and comment on tickets, list/search tickets and read users, and inbound webhook triggers for ticket-created and ticket-status-changed events.",
             "author": "AppPress",
             "categories": [],
             "license_type": "free",
@@ -4747,7 +4767,7 @@
                     "checksum_sha256": "bdb9eea148da1c2c1b1f84304311e49a32b5d84d9ccbf0017173a2cfe7cb6761",
                     "signature": "b48af794095e2b26f64a1da9fc84c096eec4a66e1e7589e37d0bdc2b853a758f2c8197bd5b863d4c8259d76fdeb3d87713eccee6237cf531ce618ae4e88cd60a",
                     "min_core_version": "1.0.0",
-                    "dependencies": [],
+                    "dependencies": {},
                     "requires_plugins": [],
                     "capabilities": [
                         "connector.zendesk",
@@ -4760,6 +4780,5 @@
             ]
         }
     },
-    "schema_version": "1.0.0",
-    "signature": "e1533af28c74773c31a3ff194d2d2933e1036d1895a1f7b996281d44c3abb6c50695f9095e4bada6978721360ab0cb678184040ce40be72638934cbad2d33609"
+    "signature": "b21137b63648924057b2cc581369b4b5e88cfd8e77587e9831460dfc519161dc5de738159985054e34f5d54b112b980f3d4256b43feec41e4917271a35a49209"
 }

@@ -19,7 +19,7 @@
     "checksum_sha256": "373e0754eabafd3678c742b5641e82a5dac1c16b6d8f67acb77902712d4d4dc7",
     "signature": "566039b24f16b95761cc0cf7a613f4c7e95566060e7cdf8209cfd90e36c8233f13784a65167f91103fe8ee31a5578a04f415d644e7eb796737c44a7bd5e06305",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.notion",
@@ -33,7 +33,7 @@
             "checksum_sha256": "373e0754eabafd3678c742b5641e82a5dac1c16b6d8f67acb77902712d4d4dc7",
             "signature": "566039b24f16b95761cc0cf7a613f4c7e95566060e7cdf8209cfd90e36c8233f13784a65167f91103fe8ee31a5578a04f415d644e7eb796737c44a7bd5e06305",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.notion",

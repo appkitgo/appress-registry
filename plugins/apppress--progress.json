@@ -19,7 +19,7 @@
     "checksum_sha256": "c0e6a51c85f19e5c1bb324a80a1f3507f2eec9415798931b254a369eecd543d6",
     "signature": "13d0f1119d03223a3ca354c1beb0257fa816b978dbee318633982cd7dc2066de28cc3916754eb6f88e872dc0d3ec11e32420084ab7ff6891a9056daf54782903",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "progress_tracking",
@@ -87,7 +87,7 @@
             "checksum_sha256": "c0e6a51c85f19e5c1bb324a80a1f3507f2eec9415798931b254a369eecd543d6",
             "signature": "13d0f1119d03223a3ca354c1beb0257fa816b978dbee318633982cd7dc2066de28cc3916754eb6f88e872dc0d3ec11e32420084ab7ff6891a9056daf54782903",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "progress_tracking",

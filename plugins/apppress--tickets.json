@@ -19,7 +19,7 @@
     "checksum_sha256": "8ad10f2178337ee88d678ed63069daa53aa09db3cb2a504c81cfac1b1cc74e08",
     "signature": "c9aeac09a8e175f30ce87811a448263929a4be4c5049bdfdf242ec3fb9608bb8c2709daef6f1b42363dc6c3c61886941a5a50c6268be22797a8be03cb6324a02",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "tickets",
@@ -76,7 +76,7 @@
             "checksum_sha256": "8ad10f2178337ee88d678ed63069daa53aa09db3cb2a504c81cfac1b1cc74e08",
             "signature": "c9aeac09a8e175f30ce87811a448263929a4be4c5049bdfdf242ec3fb9608bb8c2709daef6f1b42363dc6c3c61886941a5a50c6268be22797a8be03cb6324a02",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "tickets",

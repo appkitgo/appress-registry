@@ -19,7 +19,7 @@
     "checksum_sha256": "6d3d7803bae4bdf4e25c7f5b09f6010a094b2a47e63f77224bc2a750771ada6e",
     "signature": "4f24bba912d2cbdaffbb59422e63207ee9c8df00841407ed0a2cdcc05ff0641f33882f822c6f4e9ec9863be9cca8be27f86b26ae4d78606bb56b25e87fb8590f",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "helpdesk"
@@ -46,7 +46,7 @@
             "checksum_sha256": "6d3d7803bae4bdf4e25c7f5b09f6010a094b2a47e63f77224bc2a750771ada6e",
             "signature": "4f24bba912d2cbdaffbb59422e63207ee9c8df00841407ed0a2cdcc05ff0641f33882f822c6f4e9ec9863be9cca8be27f86b26ae4d78606bb56b25e87fb8590f",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "helpdesk"

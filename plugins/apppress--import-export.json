@@ -19,7 +19,7 @@
     "checksum_sha256": "67908938c003334da8117759c66601f1957b8a30455cf5518e5988bd6e029463",
     "signature": "3247bdc5548a2bac4f73c8cfff80e141a93fff43b99c18ed8b2c09273b9b57784abd36e427db5b85091aac398bffde0f21d5757455fdcdd847522736cae04401",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "import-export",
@@ -60,7 +60,7 @@
             "checksum_sha256": "67908938c003334da8117759c66601f1957b8a30455cf5518e5988bd6e029463",
             "signature": "3247bdc5548a2bac4f73c8cfff80e141a93fff43b99c18ed8b2c09273b9b57784abd36e427db5b85091aac398bffde0f21d5757455fdcdd847522736cae04401",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "import-export",

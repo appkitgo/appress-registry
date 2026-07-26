@@ -19,7 +19,7 @@
     "checksum_sha256": "15643d70260990a7844d268efafd85eba37cad3544dab27b6c261d8222d71364",
     "signature": "f5faec2d950042d802a16cd622701ebffed9889a7bde71b0cc9470d631f89c6a476049e61aa8c578d8b2524fc652e93e13049c5821308c7fe5f6a726cb808c09",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.docusign",
@@ -34,7 +34,7 @@
             "checksum_sha256": "15643d70260990a7844d268efafd85eba37cad3544dab27b6c261d8222d71364",
             "signature": "f5faec2d950042d802a16cd622701ebffed9889a7bde71b0cc9470d631f89c6a476049e61aa8c578d8b2524fc652e93e13049c5821308c7fe5f6a726cb808c09",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.docusign",

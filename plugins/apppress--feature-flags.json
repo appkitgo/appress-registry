@@ -19,7 +19,7 @@
     "checksum_sha256": "9ff88313ab46e9a5767b7270b96b3c06965d902de7a66ad440bb2407e0394807",
     "signature": "678cb384b818562234b6f16ce6586fc280b395f8b08b90a265eb4e65156cc5536e508b0593b618f01b9b69062e2928359243853b296f2fd9addaa14be3f07a0f",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "feature-flags",
@@ -58,7 +58,7 @@
             "checksum_sha256": "9ff88313ab46e9a5767b7270b96b3c06965d902de7a66ad440bb2407e0394807",
             "signature": "678cb384b818562234b6f16ce6586fc280b395f8b08b90a265eb4e65156cc5536e508b0593b618f01b9b69062e2928359243853b296f2fd9addaa14be3f07a0f",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "feature-flags",

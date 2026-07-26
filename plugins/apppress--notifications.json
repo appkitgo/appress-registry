@@ -19,7 +19,7 @@
     "checksum_sha256": "00aa1f9b91cd798df0c4fad8ccc3074d40b9e344096c7c091a691d53b8bac8b1",
     "signature": "c5b11e554e1438e3c38f7302171332f71cfa1e451a4edab407c37f7d4d9094748f4969531d60739fc093b965abebd4a34e795d16deb72f6fb638b4dd23a7f30a",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "notifications",
@@ -52,7 +52,7 @@
             "checksum_sha256": "00aa1f9b91cd798df0c4fad8ccc3074d40b9e344096c7c091a691d53b8bac8b1",
             "signature": "c5b11e554e1438e3c38f7302171332f71cfa1e451a4edab407c37f7d4d9094748f4969531d60739fc093b965abebd4a34e795d16deb72f6fb638b4dd23a7f30a",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "notifications",

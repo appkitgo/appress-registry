@@ -19,7 +19,7 @@
     "checksum_sha256": "bdb9eea148da1c2c1b1f84304311e49a32b5d84d9ccbf0017173a2cfe7cb6761",
     "signature": "b48af794095e2b26f64a1da9fc84c096eec4a66e1e7589e37d0bdc2b853a758f2c8197bd5b863d4c8259d76fdeb3d87713eccee6237cf531ce618ae4e88cd60a",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.zendesk",
@@ -34,7 +34,7 @@
             "checksum_sha256": "bdb9eea148da1c2c1b1f84304311e49a32b5d84d9ccbf0017173a2cfe7cb6761",
             "signature": "b48af794095e2b26f64a1da9fc84c096eec4a66e1e7589e37d0bdc2b853a758f2c8197bd5b863d4c8259d76fdeb3d87713eccee6237cf531ce618ae4e88cd60a",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.zendesk",

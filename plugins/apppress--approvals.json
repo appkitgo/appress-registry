@@ -19,7 +19,7 @@
     "checksum_sha256": "6ae8b7ffe9ed271e75f3cd8e3e5888725ebf4a69d98de418fef283490ed3a93d",
     "signature": "79fe764cb56c447347346307e1b6a7c1b8b20a3eb7b5103371039f821a8d450a0ecdb6651144f92fe1464ff0c5dbe2ec920c4417be27326406eb04955c9fe507",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "approval_workflow",
@@ -58,7 +58,7 @@
             "checksum_sha256": "6ae8b7ffe9ed271e75f3cd8e3e5888725ebf4a69d98de418fef283490ed3a93d",
             "signature": "79fe764cb56c447347346307e1b6a7c1b8b20a3eb7b5103371039f821a8d450a0ecdb6651144f92fe1464ff0c5dbe2ec920c4417be27326406eb04955c9fe507",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "approval_workflow",

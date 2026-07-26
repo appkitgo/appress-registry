@@ -19,7 +19,7 @@
     "checksum_sha256": "1007ff236baac1702a72b96564ccafa316c31884323ff408c089e0b8ebaf62f6",
     "signature": "8278f29ec703c967f8df01d5dd56ffd07af36194d8b0d9c9d61d1326b06ed56a7c8d9bcb77bde6a43750cf7a737a5ad19fd3b13a5d52c228495085fb4c736709",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "referrals"
@@ -46,7 +46,7 @@
             "checksum_sha256": "1007ff236baac1702a72b96564ccafa316c31884323ff408c089e0b8ebaf62f6",
             "signature": "8278f29ec703c967f8df01d5dd56ffd07af36194d8b0d9c9d61d1326b06ed56a7c8d9bcb77bde6a43750cf7a737a5ad19fd3b13a5d52c228495085fb4c736709",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "referrals"

@@ -19,7 +19,7 @@
     "checksum_sha256": "5c5f310083848b2c6dd7f4720fc175b6221e6267bf0abe227cc358782f5d68ea",
     "signature": "231b3ad03d886161e6415dbe0b582d6382a4e0c3e07215e973d4497449c96a4cec6d46a9644d8cc1340278d26950e91fd0383ee307e0a73828fcc7af77a5d304",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "invoices",
@@ -54,7 +54,7 @@
             "checksum_sha256": "5c5f310083848b2c6dd7f4720fc175b6221e6267bf0abe227cc358782f5d68ea",
             "signature": "231b3ad03d886161e6415dbe0b582d6382a4e0c3e07215e973d4497449c96a4cec6d46a9644d8cc1340278d26950e91fd0383ee307e0a73828fcc7af77a5d304",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "invoices",

@@ -19,7 +19,7 @@
     "checksum_sha256": "9adf3be56614fc721b27f7b59f283850664aebb551bec923f58e272f7f58c327",
     "signature": "90547682bdb14aac50b46db62e2e268d413d24e4791cec494d742b322d34ac277e5ad17b3cd9fc42e3a6792186e4a82b97179e8ff76c78f21a02750f7302a402",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "media-processing",
@@ -75,7 +75,7 @@
             "checksum_sha256": "9adf3be56614fc721b27f7b59f283850664aebb551bec923f58e272f7f58c327",
             "signature": "90547682bdb14aac50b46db62e2e268d413d24e4791cec494d742b322d34ac277e5ad17b3cd9fc42e3a6792186e4a82b97179e8ff76c78f21a02750f7302a402",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "media-processing",

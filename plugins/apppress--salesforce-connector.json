@@ -19,7 +19,7 @@
     "checksum_sha256": "5a5a981578e89e90ad3b9e098e7b870fedcbf2dcd4415a847e4af02cc158f37b",
     "signature": "3018549346c3262190fbef64affe831d3bf410e1beee2950ff95722c8d1b627221909e429255233e9879f6578bfb6933e36a6a20bfeb32873641124fca63e307",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.salesforce",
@@ -33,7 +33,7 @@
             "checksum_sha256": "5a5a981578e89e90ad3b9e098e7b870fedcbf2dcd4415a847e4af02cc158f37b",
             "signature": "3018549346c3262190fbef64affe831d3bf410e1beee2950ff95722c8d1b627221909e429255233e9879f6578bfb6933e36a6a20bfeb32873641124fca63e307",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.salesforce",

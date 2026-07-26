@@ -19,7 +19,7 @@
     "checksum_sha256": "cff63bfbbfaff7910951e81192406135f6f365971276fbfd86bc178e263aa67e",
     "signature": "acb2f621de94ee985adda97975c422fc2c8d2dab2b63fb509f341d82639c3ec72001308c0567537224521238a35f5f7ca067496057ecbe52096762978e4b9800",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.dropbox",
@@ -34,7 +34,7 @@
             "checksum_sha256": "cff63bfbbfaff7910951e81192406135f6f365971276fbfd86bc178e263aa67e",
             "signature": "acb2f621de94ee985adda97975c422fc2c8d2dab2b63fb509f341d82639c3ec72001308c0567537224521238a35f5f7ca067496057ecbe52096762978e4b9800",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.dropbox",

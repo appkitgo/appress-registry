@@ -19,7 +19,7 @@
     "checksum_sha256": "c4d126486acae9d93fe1d3c616fced8cca24d5abb6968d5e454f6ea327619d7b",
     "signature": "ad2d22064317bcc1af13b8e158175ff7e4bb6c3b2907ec933e4c2a67694287d70ac559ba813d2e14e52d5e1b2b3776f5c83169e8c47c851102c5e98d799b300a",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.trello",
@@ -33,7 +33,7 @@
             "checksum_sha256": "c4d126486acae9d93fe1d3c616fced8cca24d5abb6968d5e454f6ea327619d7b",
             "signature": "ad2d22064317bcc1af13b8e158175ff7e4bb6c3b2907ec933e4c2a67694287d70ac559ba813d2e14e52d5e1b2b3776f5c83169e8c47c851102c5e98d799b300a",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.trello",

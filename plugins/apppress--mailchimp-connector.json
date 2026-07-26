@@ -19,7 +19,7 @@
     "checksum_sha256": "1997eef9edd4e9cb703f52ab657ec0e07f0cda72dd2398f30a40657e678c5a2e",
     "signature": "bcf630b1e1c3972766a8f383e58e23a4a8a8e38148d23af69f543b3a08e09c746862776f87eb5b7e54c310f3d0e279de5de23fe5d734d09c53001402ac54cd0e",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.mailchimp",
@@ -33,7 +33,7 @@
             "checksum_sha256": "1997eef9edd4e9cb703f52ab657ec0e07f0cda72dd2398f30a40657e678c5a2e",
             "signature": "bcf630b1e1c3972766a8f383e58e23a4a8a8e38148d23af69f543b3a08e09c746862776f87eb5b7e54c310f3d0e279de5de23fe5d734d09c53001402ac54cd0e",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.mailchimp",

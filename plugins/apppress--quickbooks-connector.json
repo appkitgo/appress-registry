@@ -19,7 +19,7 @@
     "checksum_sha256": "ea82434a0bb38fb1f4fb500c782f1436de1df3bce6be4e9e3704ac4926bdca12",
     "signature": "5361d923b2ef1dcb85b6d21208b6420816ccdceb6024cdca2c687222e256b5d0365e3b20fec90170586bbfe011080017c048e3b04e8bc9d6c2255c63c9ca780e",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.quickbooks",
@@ -34,7 +34,7 @@
             "checksum_sha256": "ea82434a0bb38fb1f4fb500c782f1436de1df3bce6be4e9e3704ac4926bdca12",
             "signature": "5361d923b2ef1dcb85b6d21208b6420816ccdceb6024cdca2c687222e256b5d0365e3b20fec90170586bbfe011080017c048e3b04e8bc9d6c2255c63c9ca780e",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.quickbooks",

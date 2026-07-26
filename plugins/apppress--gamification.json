@@ -19,7 +19,7 @@
     "checksum_sha256": "77c40932458613b64fe2d869572ab272fef70d292b067c80d2fda8a5a99c561d",
     "signature": "57e5cef38721f66d4e13be704b7489933fbb3c55a5b2be1f9f7428d54e68ffd7fee56d0487e4552bac45defb94a3e5890c5864fde9d9193309064c6b41397a0c",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "gamification",
@@ -67,7 +67,7 @@
             "checksum_sha256": "77c40932458613b64fe2d869572ab272fef70d292b067c80d2fda8a5a99c561d",
             "signature": "57e5cef38721f66d4e13be704b7489933fbb3c55a5b2be1f9f7428d54e68ffd7fee56d0487e4552bac45defb94a3e5890c5864fde9d9193309064c6b41397a0c",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "gamification",

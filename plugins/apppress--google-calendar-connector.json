@@ -19,7 +19,7 @@
     "checksum_sha256": "7969a0c44a8bc0a5531f401facf7d522aaf09738821a6d7657a92f7fe7219cf7",
     "signature": "f7764c591529491776cda40e9e8ad14f8df73955812e642e57e49d38c7944572a06d4eb4c61f396a48af2952e7d3ab8188a9bf0e322bb5e9e818a7c4102d9607",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.google_calendar",
@@ -35,7 +35,7 @@
             "checksum_sha256": "7969a0c44a8bc0a5531f401facf7d522aaf09738821a6d7657a92f7fe7219cf7",
             "signature": "f7764c591529491776cda40e9e8ad14f8df73955812e642e57e49d38c7944572a06d4eb4c61f396a48af2952e7d3ab8188a9bf0e322bb5e9e818a7c4102d9607",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.google_calendar",

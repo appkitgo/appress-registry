@@ -19,7 +19,7 @@
     "checksum_sha256": "e0f64c87a1b44b0397ca5cb8af41b876aed28d2f57aa8222b4cadfe7439a7f94",
     "signature": "3114dc4baf17d15825abaac858aa2054c048016e39052287e15fc2a2505b85929b86746ae06b1dbb662c75499d54544dbf13a3d4b4e733a38d6f6b4db857be09",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "geo",
@@ -56,7 +56,7 @@
             "checksum_sha256": "e0f64c87a1b44b0397ca5cb8af41b876aed28d2f57aa8222b4cadfe7439a7f94",
             "signature": "3114dc4baf17d15825abaac858aa2054c048016e39052287e15fc2a2505b85929b86746ae06b1dbb662c75499d54544dbf13a3d4b4e733a38d6f6b4db857be09",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "geo",

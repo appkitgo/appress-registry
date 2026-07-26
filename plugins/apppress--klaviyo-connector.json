@@ -19,7 +19,7 @@
     "checksum_sha256": "3890b611c444a3f9b6eda1c1f4dc6da6342a6c0f153a0ccde6c4cacbf9e9d24d",
     "signature": "3b5e04b4233dfb2eafff6813cf9fbd289be9eed9bf7d403022ef66ab0a3445b9e403fd73f23b6e9d8af3f78c1636e00bb000b6095088d314bde29d5489420209",
     "min_core_version": "1.0.0",
-    "dependencies": [],
+    "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "connector.klaviyo",
@@ -33,7 +33,7 @@
             "checksum_sha256": "3890b611c444a3f9b6eda1c1f4dc6da6342a6c0f153a0ccde6c4cacbf9e9d24d",
             "signature": "3b5e04b4233dfb2eafff6813cf9fbd289be9eed9bf7d403022ef66ab0a3445b9e403fd73f23b6e9d8af3f78c1636e00bb000b6095088d314bde29d5489420209",
             "min_core_version": "1.0.0",
-            "dependencies": [],
+            "dependencies": {},
             "requires_plugins": [],
             "capabilities": [
                 "connector.klaviyo",
