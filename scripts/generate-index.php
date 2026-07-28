@@ -89,7 +89,7 @@ foreach ($catalog['packages'] as $entry) {
 
     fwrite(STDERR, "Resolving {$slug} ({$githubRepo})...\n");
 
-    $tagPrefix = (string) ($entry['tag_prefix'] ?? '');
+    $tagPrefix = entryReleaseTagPrefix($entry);
     $release = $tagPrefix !== ''
         ? fetchLatestReleaseByPrefix($githubRepo, $tagPrefix, $githubToken)
         : fetchLatestRelease($githubRepo, $githubToken);

@@ -21,6 +21,10 @@ function check(bool $cond, string $label): void
 check(resolveArtifactName([], 'apppress--widgets', '1.0.0') === 'apppress--widgets-1.0.0.zip', 'default artifact name from short slug');
 check(resolveArtifactName(['artifact_prefix' => 'app-press-core'], 'appress-core', '1.2.0') === 'app-press-core-1.2.0.zip', 'artifact_prefix override wins');
 
+check(entryReleaseTagPrefix(['release_tag_prefix' => 'booking-appointments-v']) === 'booking-appointments-v', 'reads canonical release_tag_prefix key');
+check(entryReleaseTagPrefix(['tag_prefix' => 'wrong-v']) === '', 'ignores the wrong tag_prefix key (drift guard — this mismatch dropped app-packs from the index)');
+check(entryReleaseTagPrefix([]) === '', 'missing prefix yields empty (standalone-repo entries use /releases/latest)');
+
 check(matchesTagPrefix('core-v1.2.0', 'core-v') === true, 'matches core-v prefix');
 check(matchesTagPrefix('billing-v1.2.0', 'core-v') === false, 'rejects non-matching prefix');
 check(matchesTagPrefix('core-v1.2.0', '') === false, 'empty prefix never matches (use fetchLatestRelease instead)');
