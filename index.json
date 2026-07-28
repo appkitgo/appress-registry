@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-28T05:03:03+00:00",
+    "generated_at": "2026-07-28T12:42:15+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -678,7 +678,7 @@
                     "checksum_sha256": "9ba274151cd9b8f207b879e8294d8fc129517fc4b14a8d5c9f3ae671c1428031",
                     "signature": "36802aea013343845b1027d321af144b5101bf96cd4a8522303b70ecfa89cdcfd317f3834e1becb316dbb4adc69a73f2e19779b5c3d643a9d2f5fef0fc0ba60d",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "backup",
@@ -695,6 +695,30 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:37:54Z"
+                },
+                {
+                    "version": "1.2.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-backup/releases/assets/492702778",
+                    "checksum_sha256": "feb4a9db22c8aea9db528579c16a717da78506034c2b5ea8b07a31823507b26d",
+                    "signature": "c7def1f46f855a1a31c0ea289c96ae0e83cab45f23f0739c63dbeee560b75be3ee514e4eb7c15f1f433b9e54b28e53ccd783b3916d09e670be684d8a9c9d2500",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "backup",
+                        "restore",
+                        "disaster_recovery",
+                        "scheduled_backups",
+                        "database_backup",
+                        "file_backup",
+                        "s3_storage",
+                        "encryption_at_rest",
+                        "retention_policy",
+                        "integrity_verification",
+                        "admin_dashboard"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-28T12:37:48Z"
                 }
             ]
         },
@@ -7343,5 +7367,5 @@
             ]
         }
     },
-    "signature": "f33f389273a36214b634fac29098b23b850d815153810b34240d4bad935a38113af2967a2e9dfe8469891f99d14c5b8c056086a72e91be36ab98af09d2705d0c"
+    "signature": "99f3769a4c3dc9dc788378dffebc52b6c578ea52bfab01df1a04ccdae423f835d2c3a66b04a0dddd0036e64c4e2e2481c4dcc2c631847734e0d4327ac5c3390f"
 }
