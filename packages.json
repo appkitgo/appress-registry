@@ -523,6 +523,13 @@
       "manifest_path": "../plugin-onboarding/appress.json"
     },
     {
+      "slug": "apppress/incidents",
+      "github_repo": "appkitgo/plugin-incidents",
+      "tier": "first_party",
+      "type": "plugin",
+      "manifest_path": "../plugin-incidents/appress.json"
+    },
+    {
       "slug": "apppress/operations-blocks",
       "github_repo": "appkitgo/plugin-operations-blocks",
       "tier": "first_party",
