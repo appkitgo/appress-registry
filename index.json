@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-27T20:48:50+00:00",
+    "generated_at": "2026-07-28T00:07:04+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -7133,5 +7133,5 @@
             ]
         }
     },
-    "signature": "3ea16cf033f0eca75440e8554ea4a5b2bec3a55149d94e4a4c361b3c5169c2789680a7dc32908892aa83138b5fe04a2e1c28cd7883b76dc2ffe063df8590ad0d"
+    "signature": "c69b565b6c59227cf43787d65f592841accb551a7ba2845078a1af7c7984c5c2b559e4dda244be63cd91eece6001b126a207dc8bb8889688b5747c0b0a48bd05"
 }
