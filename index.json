@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-28T00:13:58+00:00",
+    "generated_at": "2026-07-28T00:47:16+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -4276,6 +4276,37 @@
                 }
             ]
         },
+        "apppress/incidents": {
+            "slug": "apppress/incidents",
+            "name": "AppPress Incidents",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-incidents",
+            "tier": "first_party",
+            "description": "The operational heart of an incident-response app: an incident lifecycle (new \u2192 acknowledged \u2192 responding \u2192 resolved) that can be triggered by external events, workflows, or created manually. Kanban triage board, acknowledge/resolve actions, and SLA escalation via the core escalate-unless timer \u2014 acknowledge in time and the escalation is cancelled, miss it and severity bumps and the on-call is paged. Vendor-neutral: an incident doesn't care whether it came from a detection platform, a form, or a person.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/incidents",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-incidents/releases/assets/492108163",
+                    "checksum_sha256": "a5b277fa35308091bd420e72d3325ffbc7cd74d1594b15af820759dc331f0842",
+                    "signature": "b52205af4df10f2e56a42e16252ff98827a58de0a411348f4ae3e28c4c0fc7d8247c1100eafb7f97c474873f4c207b2f8efef7e6bca98f5d33c4d2584918490e",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "incidents.manage",
+                        "incident_lifecycle",
+                        "sla_escalation",
+                        "kanban_triage"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-28T00:43:19Z"
+                }
+            ]
+        },
         "apppress/operations-blocks": {
             "slug": "apppress/operations-blocks",
             "name": "Operations Blocks",
@@ -7162,5 +7193,5 @@
             ]
         }
     },
-    "signature": "7d1e7ed5a2176f4afc5ca5c4f9a7fa6cd42d2e1ec8b596b756818eb6c29b3bf82cf3e5aba935f65251624ed4cd94f8f5b5ece91d3e1a380caf8a5b716c82940f"
+    "signature": "f88aeb80a0dcbe54764013e52b35ffaf4ea2d790e28d141b0863352b49fdedd3fe53de8784e112745d3fab21e89edbf7185c418bdbb9d712d240d02b138aa20f"
 }
