@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-28T04:41:36+00:00",
+    "generated_at": "2026-07-28T05:03:03+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -5643,7 +5643,7 @@
                     "checksum_sha256": "67413734c18d5196dd5ab583566869c84075c937cbb1969da8a003eabaecde19",
                     "signature": "9fdfc53b4934788bf953282dd4b2e114f5aa17e251adb4ee18d40fc8fe2c725d63dca7f30c0a1f68e2e3a86d597bbd9eae850ea2a0e92e8cd90516971b951902",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "reviews",
@@ -5664,6 +5664,34 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:43:36Z"
+                },
+                {
+                    "version": "1.1.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-reviews/releases/assets/492306891",
+                    "checksum_sha256": "e9635172a4832966d55c5277ff9ac3eb4ca5a1ac285a95879103af6eb590c0b8",
+                    "signature": "30180b64357bb31be2ae380f60a28f36232210bb7cf436aa3b637ac2c20f1693e60672049fdd4cddeba88dbbbf912db008a1b9686ca3a9dcc28c98b535c1d906",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "reviews",
+                        "moderation_queue",
+                        "app_context_management",
+                        "owner_replies",
+                        "accessible_star_rating_widget",
+                        "helpful_votes",
+                        "public_sort_filter_pagination",
+                        "rating_distribution_bars",
+                        "verified_review_hook",
+                        "rating_summaries",
+                        "member_review_history",
+                        "mobile_review_surfaces",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "reviews_widget_block"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-28T04:58:56Z"
                 }
             ]
         },
@@ -7315,5 +7343,5 @@
             ]
         }
     },
-    "signature": "cbdc3d31b0eee23daabf9be7f1a589223c782193df00e49e358ffbac3b370df4c4f37e5abeb138402059a05ecc187dcfeed73d27fcdc9095d67f4ef05ef2e109"
+    "signature": "f33f389273a36214b634fac29098b23b850d815153810b34240d4bad935a38113af2967a2e9dfe8469891f99d14c5b8c056086a72e91be36ab98af09d2705d0c"
 }
