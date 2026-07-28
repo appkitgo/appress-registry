@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-28T20:22:23+00:00",
+    "generated_at": "2026-07-28T22:43:25+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -6225,13 +6225,27 @@
                     "checksum_sha256": "5629b8c376dfc6e40165d0f8028ed8788532ab955174c6d9fef964a39a7644db",
                     "signature": "e18a596dd9cc150470be30edb821061cc2cdcfadde83cca5b4e3e1be83dd334692233cabeab6d1882ce90623b0c69c6d9ee8eaebdcd0ca97ea62fe68afd7d102",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "seo"
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:44:04Z"
+                },
+                {
+                    "version": "1.2.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-seo/releases/assets/493286861",
+                    "checksum_sha256": "8e7a3b7ba552eacad7e046960e7b20ddf474188b69b8022cfc9e422d7a48862f",
+                    "signature": "255df5bf49d7097445233175f13af27c345f577e5a1d13e93d34a972147088ec57acdb7397d6d150a0cfd3d4d861e2e03ca341ba212cf37d43d309fac3b3720e",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "seo"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-28T22:38:50Z"
                 }
             ]
         },
@@ -7611,5 +7625,5 @@
             ]
         }
     },
-    "signature": "78327d9201fc5f21bfa4d4cf0b69db848fccbe0bc01d5515568b7dd7f9ceeefe916c3734c298890e0a8300b6d0273eaf278cf4f984caa2d6e3fecd39f16d7707"
+    "signature": "d64f7c783805c5076d08b027f142843c6bb8ba0e4cfaf3c88fc1ae88c2bf6c4a96aba5caec23008d48a923273edc9ee812083e6e9ebc5344d9eda1650d7b2d00"
 }
