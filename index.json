@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-28T00:07:04+00:00",
+    "generated_at": "2026-07-28T00:13:58+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -4276,6 +4276,35 @@
                 }
             ]
         },
+        "apppress/operations-blocks": {
+            "slug": "apppress/operations-blocks",
+            "name": "Operations Blocks",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-operations-blocks",
+            "tier": "first_party",
+            "description": "Spatial and media blocks for operational and monitoring dashboards: a live Leaflet map with markers and zone overlays, a zone-status summary grid, and an evidence media player for video/image clips. Built for real-time operational apps (incident response, facility monitoring, field operations) \u2014 every block updates live via the core live-block channel and falls back to polling. Distinct from the geolocation-primitive plugin (apppress/geo): these are opt-in, Leaflet-backed dashboard visuals.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/operations-blocks",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-operations-blocks/releases/assets/492079250",
+                    "checksum_sha256": "fe0f3887e0598b903e1006f8303d5667c8bbada520b3553b98bd9551b6179068",
+                    "signature": "516f495664db3b028218e7115b5ebf3596d9c6d55829a00aac6efd6f3656042cbb8e4c1b0c8beded265872f98184c1c55b0fe708859278ce506f7fce58d28600",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "blocks.geo",
+                        "blocks.media"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-28T00:02:59Z"
+                }
+            ]
+        },
         "apppress/orders": {
             "slug": "apppress/orders",
             "name": "AppPress Orders",
@@ -7133,5 +7162,5 @@
             ]
         }
     },
-    "signature": "c69b565b6c59227cf43787d65f592841accb551a7ba2845078a1af7c7984c5c2b559e4dda244be63cd91eece6001b126a207dc8bb8889688b5747c0b0a48bd05"
+    "signature": "7d1e7ed5a2176f4afc5ca5c4f9a7fa6cd42d2e1ec8b596b756818eb6c29b3bf82cf3e5aba935f65251624ed4cd94f8f5b5ece91d3e1a380caf8a5b716c82940f"
 }
