@@ -25,6 +25,10 @@ check(entryReleaseTagPrefix(['release_tag_prefix' => 'booking-appointments-v']) 
 check(entryReleaseTagPrefix(['tag_prefix' => 'wrong-v']) === '', 'ignores the wrong tag_prefix key (drift guard — this mismatch dropped app-packs from the index)');
 check(entryReleaseTagPrefix([]) === '', 'missing prefix yields empty (standalone-repo entries use /releases/latest)');
 
+check(repoManifestSubpath(['manifest_path' => '../app-press/apps/api/modules/app-packs/booking-appointments/appress.json']) === 'apps/api/modules/app-packs/booking-appointments/appress.json', 'embedded app-pack manifest resolves to in-repo subpath');
+check(repoManifestSubpath(['manifest_path' => '../apppack-crm/appress.json']) === 'appress.json', 'standalone repo manifest resolves to repo root');
+check(repoManifestSubpath([]) === '', 'no manifest_path yields empty (falls back to repo-root filenames)');
+
 check(matchesTagPrefix('core-v1.2.0', 'core-v') === true, 'matches core-v prefix');
 check(matchesTagPrefix('billing-v1.2.0', 'core-v') === false, 'rejects non-matching prefix');
 check(matchesTagPrefix('core-v1.2.0', '') === false, 'empty prefix never matches (use fetchLatestRelease instead)');

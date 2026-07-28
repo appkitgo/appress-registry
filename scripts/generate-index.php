@@ -116,7 +116,7 @@ foreach ($catalog['packages'] as $entry) {
             'min_core_version' => $version,
         ];
     } else {
-        $manifest = fetchManifestAtRef($githubRepo, $tag, $githubToken);
+        $manifest = fetchManifestAtRef($githubRepo, $tag, $githubToken, repoManifestSubpath($entry));
         if ($manifest === null) {
             $failures[] = "{$slug}: could not fetch appress.json at tag {$tag} for {$githubRepo}";
 
@@ -434,11 +434,17 @@ function fetchRawFileAtRef(string $githubRepo, string $tag, string $path, string
  *
  * @return array<string, mixed>|null
  */
-function fetchManifestAtRef(string $githubRepo, string $tag, string $githubToken): ?array
+function fetchManifestAtRef(string $githubRepo, string $tag, string $githubToken, string $subpath = ''): ?array
 {
     $headers = $githubToken !== '' ? ["Authorization: Bearer {$githubToken}"] : [];
 
-    foreach (['appress.json', 'apppress.json'] as $filename) {
+    // Embedded app-packs keep appress.json in a subdirectory of the shared
+    // app-press repo (e.g. apps/api/modules/app-packs/<pack>/appress.json), not
+    // at the repo root. Try the catalog-derived subpath first, then fall back to
+    // the repo-root filenames used by standalone plugin repos.
+    $candidates = $subpath !== '' ? [$subpath, 'appress.json', 'apppress.json'] : ['appress.json', 'apppress.json'];
+
+    foreach ($candidates as $filename) {
         $url = "https://raw.githubusercontent.com/{$githubRepo}/{$tag}/{$filename}";
         $body = httpGet($url, $headers);
         if ($body === null) {
