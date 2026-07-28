@@ -1,0 +1,40 @@
+{
+    "slug": "apppress/minimal",
+    "name": "Minimal",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "An editorial, content-first theme with large serif headings, generous whitespace, and a near-monochrome palette. Ideal for blogs, knowledge bases, and content-heavy apps.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T20:35:40Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/theme-minimal/releases/assets/490676319",
+    "checksum_sha256": "f2fe085c9692a45b0c2a88c0a11f49d84c255a2c428afb42d35b0ab6485c27b7",
+    "signature": "e3bcf32d8d3b3b92d76987ed4e3431cf79fea03dae83059b1253fd9ac33d99694d7208c99cb5b7475293e9858e8fdab71d78f73bb28ac39aab62533c26ac7501",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/theme-minimal/releases/assets/490676319",
+            "checksum_sha256": "f2fe085c9692a45b0c2a88c0a11f49d84c255a2c428afb42d35b0ab6485c27b7",
+            "signature": "e3bcf32d8d3b3b92d76987ed4e3431cf79fea03dae83059b1253fd9ac33d99694d7208c99cb5b7475293e9858e8fdab71d78f73bb28ac39aab62533c26ac7501",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T20:35:40Z"
+        }
+    ]
+}

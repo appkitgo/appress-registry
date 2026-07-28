@@ -1,23 +1,23 @@
 {
     "slug": "apppress/jira-connector",
     "name": "Jira Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Production Jira Cloud connector for AppPress \u2014 find/create/update issues, read/search projects, and workflow automation on real Jira data.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T08:21:17Z",
+    "last_updated": "2026-07-26T20:04:35Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-jira-connector/releases/assets/473350200",
-    "checksum_sha256": "b61793ee41207b322f8802d011bcac0230a569c35a38c531b1e5dc86bb34dc13",
-    "signature": "7a88e49b2cdcbae78bbbc7a9547359b453e8ed698a10cbca78c08949689bb65247588c38116aa8631c4939db75d8eb9bf1462b5e85300cd4546bcc6ef2884f06",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-jira-connector/releases/assets/490652136",
+    "checksum_sha256": "b138bf8141fac62b6c840a84abcea39f11ce033d274c67bb202e00e0e088a83e",
+    "signature": "7c1f47e441b2d46706e1a27b5cf269382cd1970ff48f6218b57859e88a0f85874a684328029cee8190802ee1add0a31fc1f2c096d808ae709ba3eaf7e9e10709",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,7 +33,7 @@
             "checksum_sha256": "b61793ee41207b322f8802d011bcac0230a569c35a38c531b1e5dc86bb34dc13",
             "signature": "7a88e49b2cdcbae78bbbc7a9547359b453e8ed698a10cbca78c08949689bb65247588c38116aa8631c4939db75d8eb9bf1462b5e85300cd4546bcc6ef2884f06",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.jira",
@@ -41,6 +41,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T08:21:17Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-jira-connector/releases/assets/490652136",
+            "checksum_sha256": "b138bf8141fac62b6c840a84abcea39f11ce033d274c67bb202e00e0e088a83e",
+            "signature": "7c1f47e441b2d46706e1a27b5cf269382cd1970ff48f6218b57859e88a0f85874a684328029cee8190802ee1add0a31fc1f2c096d808ae709ba3eaf7e9e10709",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.jira",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:04:35Z"
         }
     ]
 }

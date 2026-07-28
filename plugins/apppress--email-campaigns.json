@@ -1,23 +1,23 @@
 {
     "slug": "apppress/email-campaigns",
     "name": "AppPress Email Campaigns",
-    "version": "1.0.1",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Operator-managed email marketing: mailing lists with double opt-in, HTML campaigns, scheduled queue-based sends, open/click tracking, bounce webhooks, RFC 8058 unsubscribe, and site-scoped analytics. Implements StandardContracts::EMAIL_CAMPAIGNS.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T04:56:55Z",
+    "last_updated": "2026-07-26T20:39:30Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-email-campaigns/releases/assets/476288679",
-    "checksum_sha256": "5b786866562c848e1f23f40a5582a47894d8a99411eb3c3650470c7649e31e31",
-    "signature": "ac1c70a5ceca597fd0a5cbb23e8df6e1c373da169b28bd8f5c2585e06870f517727e4a8f249caf25cc579a5b65875ffedff776012d30b605fd83f91b5e869f04",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-email-campaigns/releases/assets/490678710",
+    "checksum_sha256": "567b86e4fe83750603ce3ecc04635a300f9a996b4f490733e1e18b218facac73",
+    "signature": "5009bcd7abdf39af4629468adcd3f9d7633e2cf884dd5b53fd5d8c39b03f3eb6d7e39a5d0503a5f9efecb819c7bcebadb34931dc89500d6a87c836b803f8080e",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -46,13 +46,27 @@
             "checksum_sha256": "5b786866562c848e1f23f40a5582a47894d8a99411eb3c3650470c7649e31e31",
             "signature": "ac1c70a5ceca597fd0a5cbb23e8df6e1c373da169b28bd8f5c2585e06870f517727e4a8f249caf25cc579a5b65875ffedff776012d30b605fd83f91b5e869f04",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "email-campaigns"
             ],
             "yanked": false,
             "published_at": "2026-07-14T04:56:55Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-email-campaigns/releases/assets/490678710",
+            "checksum_sha256": "567b86e4fe83750603ce3ecc04635a300f9a996b4f490733e1e18b218facac73",
+            "signature": "5009bcd7abdf39af4629468adcd3f9d7633e2cf884dd5b53fd5d8c39b03f3eb6d7e39a5d0503a5f9efecb819c7bcebadb34931dc89500d6a87c836b803f8080e",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "email-campaigns"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:39:30Z"
         }
     ]
 }

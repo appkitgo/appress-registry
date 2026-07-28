@@ -1,23 +1,23 @@
 {
     "slug": "apppress/notes",
     "name": "AppPress Notes",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "author": "AppPress",
     "description": "Staff-only internal notes and annotations attachable to any entity via polymorphic relations. Operators use the admin dashboard and REST API; field staff use mobile ListScreen, DetailScreen, and FormScreen surfaces. Integrates with workflows (create/delete actions, created/updated/deleted triggers), activity-log audit entries, and outbound webhooks. Not visible to students or public users.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-24T19:49:02Z",
+    "last_updated": "2026-07-26T20:41:43Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-notes/releases/assets/488761411",
-    "checksum_sha256": "fa9dcd54eba85b44354e2217f7956a34fae40a56846a14cbd75db6014f0b8085",
-    "signature": "f141d7a86905cc03a39f13279a93fbfa51f22dd8d5fd4735f1e5ee48f53a70946755dda789a1f9bdeda005d4bc75fcb339b28d6f29cd0e8105623724ada6bf0c",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-notes/releases/assets/490680386",
+    "checksum_sha256": "fd657b1ae52e35156f51ed36719b407062cbe2cdd53a86197d2cfd0c01335dae",
+    "signature": "07097641a1a44c47ee6f821516479abc77e8d82a4e1d5d72f524560e9005dde7380852fa40a3d3cdce4627ed2694be7085f386475cbfd1d8f06e4c3545ad0103",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -75,7 +75,7 @@
             "checksum_sha256": "fa9dcd54eba85b44354e2217f7956a34fae40a56846a14cbd75db6014f0b8085",
             "signature": "f141d7a86905cc03a39f13279a93fbfa51f22dd8d5fd4735f1e5ee48f53a70946755dda789a1f9bdeda005d4bc75fcb339b28d6f29cd0e8105623724ada6bf0c",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "private_notes",
@@ -87,6 +87,25 @@
             ],
             "yanked": false,
             "published_at": "2026-07-24T19:49:02Z"
+        },
+        {
+            "version": "1.0.5",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-notes/releases/assets/490680386",
+            "checksum_sha256": "fd657b1ae52e35156f51ed36719b407062cbe2cdd53a86197d2cfd0c01335dae",
+            "signature": "07097641a1a44c47ee6f821516479abc77e8d82a4e1d5d72f524560e9005dde7380852fa40a3d3cdce4627ed2694be7085f386475cbfd1d8f06e4c3545ad0103",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "private_notes",
+                "case_notes",
+                "staff_annotations",
+                "entity_attached_notes",
+                "mobile_staff_notes",
+                "workflow_automation"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:41:43Z"
         }
     ]
 }

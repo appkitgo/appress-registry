@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/microsoft-graph-connector",
+    "name": "Microsoft Graph Connector",
+    "version": "1.1.1",
+    "author": "AppPress",
+    "description": "Microsoft Graph API foundation for AppPress \u2014 provides the shared OAuth2/OIDC token manager, throttling-aware Graph client, delta-query helpers, and change-notification framework used by all Microsoft 365 connectors (Teams, Outlook, SharePoint, Excel, Identity).",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T21:00:03Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-microsoft-graph-connector/releases/assets/490691876",
+    "checksum_sha256": "0f9346eb29b250e739f5487ea323b9d83d5346a01abef7bc6e52f11a8cb5805d",
+    "signature": "81f5952f731b9459a87d45bbee11f52d2102d56ce63384fc458ce3385dae76c2cdeeb0d278a251c6c3fd7cefb20af7c7a74c7a406c4b8c584ee7fb6b942e8103",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.microsoft_graph",
+        "data_source.external",
+        "microsoft365.foundation"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-microsoft-graph-connector/releases/assets/490691876",
+            "checksum_sha256": "0f9346eb29b250e739f5487ea323b9d83d5346a01abef7bc6e52f11a8cb5805d",
+            "signature": "81f5952f731b9459a87d45bbee11f52d2102d56ce63384fc458ce3385dae76c2cdeeb0d278a251c6c3fd7cefb20af7c7a74c7a406c4b8c584ee7fb6b942e8103",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.microsoft_graph",
+                "data_source.external",
+                "microsoft365.foundation"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T21:00:03Z"
+        }
+    ]
+}

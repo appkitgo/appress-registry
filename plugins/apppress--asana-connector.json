@@ -1,23 +1,23 @@
 {
     "slug": "apppress/asana-connector",
     "name": "Asana Connector",
-    "version": "1.0.0",
+    "version": "1.1.2",
     "author": "AppPress",
     "description": "Production Asana connector for CampusLaunch \u2014 find/create/update tasks, read projects and sections, and inbound workflow triggers for task-created and task-completed events via Asana's signed webhook handshake.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T03:01:47Z",
+    "last_updated": "2026-07-26T20:37:40Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-asana-connector/releases/assets/473145970",
-    "checksum_sha256": "b4b416d754612ee42c47d0bc9793e0df96a6e0f5fb2a65880b144ee530206ec9",
-    "signature": "5fe10b9fa3023f46c41bffcf91d5f4ef5dfbd3cbd5f04d97cdef30b152ec81e512d84573bfc485fa07907908c36866762032e5534ef3a0432a4bfe0eac593c08",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-asana-connector/releases/assets/490677589",
+    "checksum_sha256": "aa94478ae02aa2dd1090f2009a04aad7bebf0fdf80a063d5f21b09f42d62936d",
+    "signature": "d30230fae2eb76aa4c9e10910cd754bd000b11d3be58d5f002f8f3dfb4d6a7554a5418a00de5c28c94c5cc0100578e3408822e6d40c2a1afadbfbed8b6230901",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -34,7 +34,7 @@
             "checksum_sha256": "b4b416d754612ee42c47d0bc9793e0df96a6e0f5fb2a65880b144ee530206ec9",
             "signature": "5fe10b9fa3023f46c41bffcf91d5f4ef5dfbd3cbd5f04d97cdef30b152ec81e512d84573bfc485fa07907908c36866762032e5534ef3a0432a4bfe0eac593c08",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.asana",
@@ -43,6 +43,22 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T03:01:47Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-asana-connector/releases/assets/490677589",
+            "checksum_sha256": "aa94478ae02aa2dd1090f2009a04aad7bebf0fdf80a063d5f21b09f42d62936d",
+            "signature": "d30230fae2eb76aa4c9e10910cd754bd000b11d3be58d5f002f8f3dfb4d6a7554a5418a00de5c28c94c5cc0100578e3408822e6d40c2a1afadbfbed8b6230901",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.asana",
+                "project_management.external",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:37:40Z"
         }
     ]
 }

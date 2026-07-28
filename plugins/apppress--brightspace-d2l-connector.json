@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/brightspace-d2l-connector",
+    "name": "Brightspace D2L LMS Connector",
+    "version": "1.0.2",
+    "author": "AppPress",
+    "description": "D2L Brightspace LMS connector for CampusLaunch \u2014 course listing, section lookup, enrollment read (FERPA-gated), announcement creation, assignment due-date triggers, grade summary (permission-gated), and deep links back to Brightspace. Banner/SIS writeback is excluded by design.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T20:59:45Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-brightspace-d2l-connector/releases/assets/490691692",
+    "checksum_sha256": "bcc3b2923c17c01ce19d7f079a542e86dbfc750ca2c5339698a72c3cc7dc0d58",
+    "signature": "db932033084a1fadb6cb48b61c08dd6cb01ec8578bd8bd6bb5da9ae8dc99eb791674060ebffcf9e1ea9a139a0028e298396336f83f4b0869ad54e92a24484003",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.brightspace_d2l",
+        "lms.brightspace",
+        "data_source.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-brightspace-d2l-connector/releases/assets/490691692",
+            "checksum_sha256": "bcc3b2923c17c01ce19d7f079a542e86dbfc750ca2c5339698a72c3cc7dc0d58",
+            "signature": "db932033084a1fadb6cb48b61c08dd6cb01ec8578bd8bd6bb5da9ae8dc99eb791674060ebffcf9e1ea9a139a0028e298396336f83f4b0869ad54e92a24484003",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.brightspace_d2l",
+                "lms.brightspace",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:59:45Z"
+        }
+    ]
+}

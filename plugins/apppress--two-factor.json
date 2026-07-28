@@ -1,23 +1,23 @@
 {
     "slug": "apppress/two-factor",
     "name": "AppPress Two-Factor Authentication",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "AppPress",
     "description": "TOTP-based two-factor authentication for AppPress \u2014 backup codes, trusted devices, enforcement policies, admin compliance dashboard, workflow triggers, and StandardContracts::TWO_FACTOR for auth-sensitive App Packs without tight coupling.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T14:57:27Z",
+    "last_updated": "2026-07-26T20:45:21Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-two-factor/releases/assets/476820197",
-    "checksum_sha256": "9904fe377a38a3f8bb65450906249b990406793aa42a3f52a2bb993b0e83ba98",
-    "signature": "1c93250b8f1f08859bbacdb9c4687f34d1c9a21c831bc306af98bfd1fd4377af39b5eb61d57bb35ca23f2beca47b76d239d1046d5a239f3bb78203fdfd5f7c09",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-two-factor/releases/assets/490682775",
+    "checksum_sha256": "0cb870c6bd981b5b25db72e8a8136ee9c7b537b60c727ac6b87ac3060a34f472",
+    "signature": "60f050cb4ba256ee01796bf593e2d44924e3ce723a6e0cdc75a7c472ae61f247154a6b96d5928e777b0b936c528953a34e31df601d692615ce50d8dd9e1d9b05",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -62,7 +62,7 @@
             "checksum_sha256": "9904fe377a38a3f8bb65450906249b990406793aa42a3f52a2bb993b0e83ba98",
             "signature": "1c93250b8f1f08859bbacdb9c4687f34d1c9a21c831bc306af98bfd1fd4377af39b5eb61d57bb35ca23f2beca47b76d239d1046d5a239f3bb78203fdfd5f7c09",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "two-factor",
@@ -77,6 +77,28 @@
             ],
             "yanked": false,
             "published_at": "2026-07-14T14:57:27Z"
+        },
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-two-factor/releases/assets/490682775",
+            "checksum_sha256": "0cb870c6bd981b5b25db72e8a8136ee9c7b537b60c727ac6b87ac3060a34f472",
+            "signature": "60f050cb4ba256ee01796bf593e2d44924e3ce723a6e0cdc75a7c472ae61f247154a6b96d5928e777b0b936c528953a34e31df601d692615ce50d8dd9e1d9b05",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "two-factor",
+                "totp",
+                "backup_codes",
+                "trusted_devices",
+                "enforcement_policies",
+                "workflow_triggers",
+                "workflow_actions",
+                "admin_dashboard",
+                "standard_contract"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:45:21Z"
         }
     ]
 }

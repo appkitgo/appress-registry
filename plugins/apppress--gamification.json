@@ -1,23 +1,23 @@
 {
     "slug": "apppress/gamification",
     "name": "AppPress Gamification",
-    "version": "1.1.0",
+    "version": "1.1.2",
     "author": "AppPress",
     "description": "Gamification product: points/XP, badges, achievements, leaderboards, streaks, and named user levels with per-tier rewards. Dual-mounted (Studio + app) admin builders for badges/achievements/leaderboard/settings; a themed member profile panel (level ring, streak, rank, badges, achievements, earn/level-up celebration); a public/member themed leaderboard page; placeable points/badge/leaderboard blocks and shortcodes; and workflow actions so any plugin can award points or badges without coupling.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-25T00:25:56Z",
+    "last_updated": "2026-07-28T03:48:15Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-gamification/releases/assets/488977804",
-    "checksum_sha256": "77c40932458613b64fe2d869572ab272fef70d292b067c80d2fda8a5a99c561d",
-    "signature": "57e5cef38721f66d4e13be704b7489933fbb3c55a5b2be1f9f7428d54e68ffd7fee56d0487e4552bac45defb94a3e5890c5864fde9d9193309064c6b41397a0c",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-gamification/releases/assets/492252732",
+    "checksum_sha256": "a7bb9485f1c7eff1e397f927f9ad80b911c16300995da01d1ea7ca7e5bdb3fbd",
+    "signature": "f565ded46cf7adb89eb8f4f03bdf3dd3cd6800555513ad3da5eec038314689f0b994f791c511247b8559401a40d1002696a3159f536c2331410067edab376c0d",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -67,7 +67,7 @@
             "checksum_sha256": "77c40932458613b64fe2d869572ab272fef70d292b067c80d2fda8a5a99c561d",
             "signature": "57e5cef38721f66d4e13be704b7489933fbb3c55a5b2be1f9f7428d54e68ffd7fee56d0487e4552bac45defb94a3e5890c5864fde9d9193309064c6b41397a0c",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "gamification",
@@ -81,6 +81,48 @@
             ],
             "yanked": false,
             "published_at": "2026-07-25T00:25:56Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-gamification/releases/assets/490679071",
+            "checksum_sha256": "2c1841579d02af23a7812fb87245227b15782aa697662619701d1b79c37aa890",
+            "signature": "d38c1530a5fc84ddbc5bb38946aaf36fed9c2e817066b5ab80f9cadc07bf809dfe67e749cf7e076024f2829d91701e89ae530ede96e5ea4d389b4c00bb454c08",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "gamification",
+                "admin_builders",
+                "member_profile",
+                "public_leaderboard_page",
+                "placeable_blocks",
+                "workflow_actions",
+                "tier_rewards",
+                "earn_celebrations"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:40:04Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-gamification/releases/assets/492252732",
+            "checksum_sha256": "a7bb9485f1c7eff1e397f927f9ad80b911c16300995da01d1ea7ca7e5bdb3fbd",
+            "signature": "f565ded46cf7adb89eb8f4f03bdf3dd3cd6800555513ad3da5eec038314689f0b994f791c511247b8559401a40d1002696a3159f536c2331410067edab376c0d",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "gamification",
+                "admin_builders",
+                "member_profile",
+                "public_leaderboard_page",
+                "placeable_blocks",
+                "workflow_actions",
+                "tier_rewards",
+                "earn_celebrations"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T03:48:15Z"
         }
     ]
 }

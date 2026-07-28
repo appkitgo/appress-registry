@@ -1,23 +1,23 @@
 {
     "slug": "apppress/gusto-connector",
     "name": "Gusto Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Production Gusto connector for CampusLaunch \u2014 read/search employees, read compensation rates, and read payroll runs, scoped to a Gusto company (company UUID) via OAuth2. Highly sensitive HR/payroll data: no SSN or bank/direct-deposit fields are ever requested or exposed.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T06:36:20Z",
+    "last_updated": "2026-07-26T20:40:32Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-gusto-connector/releases/assets/473283133",
-    "checksum_sha256": "7b0e34493170182acb0867e4a3a38cc8d9a311d3d5a69feb4c21d5b3b4aa0af9",
-    "signature": "ded9c23aeed57a6872148c6761f813c9bcd2d3a2016c0a0f63d465e2dbbddeb8ee9ee47ba16903d7a361dbb3160d19354669afbe6dab12861ce92f581d1a6d0a",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-gusto-connector/releases/assets/490679604",
+    "checksum_sha256": "4945e54b18b217e1a56f4a473ae1f85893b32cf638647aa154a667343f61581d",
+    "signature": "d1b4cca686c9cebef2565d7b41423a9bebbd1cf3d8b8942013192db76235ac519cf9430ba1edd0b590009b619215fe8cce00dccc4690646341b99aa0b951b90b",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -34,7 +34,7 @@
             "checksum_sha256": "7b0e34493170182acb0867e4a3a38cc8d9a311d3d5a69feb4c21d5b3b4aa0af9",
             "signature": "ded9c23aeed57a6872148c6761f813c9bcd2d3a2016c0a0f63d465e2dbbddeb8ee9ee47ba16903d7a361dbb3160d19354669afbe6dab12861ce92f581d1a6d0a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.gusto",
@@ -43,6 +43,22 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T06:36:20Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-gusto-connector/releases/assets/490679604",
+            "checksum_sha256": "4945e54b18b217e1a56f4a473ae1f85893b32cf638647aa154a667343f61581d",
+            "signature": "d1b4cca686c9cebef2565d7b41423a9bebbd1cf3d8b8942013192db76235ac519cf9430ba1edd0b590009b619215fe8cce00dccc4690646341b99aa0b951b90b",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.gusto",
+                "hr.external",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:40:32Z"
         }
     ]
 }

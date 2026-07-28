@@ -1,23 +1,23 @@
 {
     "slug": "apppress/waitlist",
     "name": "AppPress Waitlist",
-    "version": "1.0.1",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Launch waitlist and early-access management with position tracking, referral-based position boosts, email confirmation, batch invite sending, and conversion tracking.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T12:54:45Z",
+    "last_updated": "2026-07-26T20:45:36Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-waitlist/releases/assets/476700558",
-    "checksum_sha256": "e72e6c6870f37c14acc63a1ed5608f27618a78bbe55f156da0a58869f55f5883",
-    "signature": "d00dc327dd63108a701eab2ef16b7b4d37f9b461910d7f992fe9c1136c599645a66762960eee54b089a745b53c534bbd3f9736da46196477fb27abec05f3fd03",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-waitlist/releases/assets/490682874",
+    "checksum_sha256": "1de7096ff47dafd583f9a08dd5f7370d3b03f9b7bdf89992d01c7acb28433b95",
+    "signature": "67c7931a3e9a0c6531cdcdcd8e9c4348e16980bd789f20096e9232851967184f327c5f5f4d46597914752eea9635a76f24c82ecd30177016e5ca575e2694720c",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -46,13 +46,27 @@
             "checksum_sha256": "e72e6c6870f37c14acc63a1ed5608f27618a78bbe55f156da0a58869f55f5883",
             "signature": "d00dc327dd63108a701eab2ef16b7b4d37f9b461910d7f992fe9c1136c599645a66762960eee54b089a745b53c534bbd3f9736da46196477fb27abec05f3fd03",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "waitlist"
             ],
             "yanked": false,
             "published_at": "2026-07-14T12:54:45Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-waitlist/releases/assets/490682874",
+            "checksum_sha256": "1de7096ff47dafd583f9a08dd5f7370d3b03f9b7bdf89992d01c7acb28433b95",
+            "signature": "67c7931a3e9a0c6531cdcdcd8e9c4348e16980bd789f20096e9232851967184f327c5f5f4d46597914752eea9635a76f24c82ecd30177016e5ca575e2694720c",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "waitlist"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:45:36Z"
         }
     ]
 }

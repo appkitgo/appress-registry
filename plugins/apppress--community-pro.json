@@ -1,0 +1,40 @@
+{
+    "slug": "apppress/community-pro",
+    "name": "Community Pro",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "A warm, welcoming theme for membership communities, forums, and social spaces. Burnt-orange-and-teal palette, friendly Nunito type, rounded avatar-driven layouts, and member-first styling layered over the Default theme.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T23:19:13Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/theme-community-pro/releases/assets/490776077",
+    "checksum_sha256": "4a128b8623baffe0edc7fc7af59cd948d15a0db8cc154b5813bbec7acd5a9c42",
+    "signature": "785b36311037c2d8b0b0ad270777cee961ea86994dece72a1399a01055125a4a4bef92bc2ea8be973450a75360cc5e64d94ca09fc19a839f40da7fd633546003",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/theme-community-pro/releases/assets/490776077",
+            "checksum_sha256": "4a128b8623baffe0edc7fc7af59cd948d15a0db8cc154b5813bbec7acd5a9c42",
+            "signature": "785b36311037c2d8b0b0ad270777cee961ea86994dece72a1399a01055125a4a4bef92bc2ea8be973450a75360cc5e64d94ca09fc19a839f40da7fd633546003",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T23:19:13Z"
+        }
+    ]
+}

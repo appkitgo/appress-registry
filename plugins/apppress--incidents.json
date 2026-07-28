@@ -1,0 +1,50 @@
+{
+    "slug": "apppress/incidents",
+    "name": "AppPress Incidents",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "The operational heart of an incident-response app: an incident lifecycle (new \u2192 acknowledged \u2192 responding \u2192 resolved) that can be triggered by external events, workflows, or created manually. Kanban triage board, acknowledge/resolve actions, and SLA escalation via the core escalate-unless timer \u2014 acknowledge in time and the escalation is cancelled, miss it and severity bumps and the on-call is paged. Vendor-neutral: an incident doesn't care whether it came from a detection platform, a form, or a person.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-28T00:43:19Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-incidents/releases/assets/492108163",
+    "checksum_sha256": "a5b277fa35308091bd420e72d3325ffbc7cd74d1594b15af820759dc331f0842",
+    "signature": "b52205af4df10f2e56a42e16252ff98827a58de0a411348f4ae3e28c4c0fc7d8247c1100eafb7f97c474873f4c207b2f8efef7e6bca98f5d33c4d2584918490e",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "incidents.manage",
+        "incident_lifecycle",
+        "sla_escalation",
+        "kanban_triage"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-incidents/releases/assets/492108163",
+            "checksum_sha256": "a5b277fa35308091bd420e72d3325ffbc7cd74d1594b15af820759dc331f0842",
+            "signature": "b52205af4df10f2e56a42e16252ff98827a58de0a411348f4ae3e28c4c0fc7d8247c1100eafb7f97c474873f4c207b2f8efef7e6bca98f5d33c4d2584918490e",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "incidents.manage",
+                "incident_lifecycle",
+                "sla_escalation",
+                "kanban_triage"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T00:43:19Z"
+        }
+    ]
+}

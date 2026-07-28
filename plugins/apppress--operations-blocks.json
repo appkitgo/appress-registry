@@ -1,0 +1,46 @@
+{
+    "slug": "apppress/operations-blocks",
+    "name": "Operations Blocks",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Spatial and media blocks for operational and monitoring dashboards: a live Leaflet map with markers and zone overlays, a zone-status summary grid, and an evidence media player for video/image clips. Built for real-time operational apps (incident response, facility monitoring, field operations) \u2014 every block updates live via the core live-block channel and falls back to polling. Distinct from the geolocation-primitive plugin (apppress/geo): these are opt-in, Leaflet-backed dashboard visuals.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-28T00:02:59Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-operations-blocks/releases/assets/492079250",
+    "checksum_sha256": "fe0f3887e0598b903e1006f8303d5667c8bbada520b3553b98bd9551b6179068",
+    "signature": "516f495664db3b028218e7115b5ebf3596d9c6d55829a00aac6efd6f3656042cbb8e4c1b0c8beded265872f98184c1c55b0fe708859278ce506f7fce58d28600",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "blocks.geo",
+        "blocks.media"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-operations-blocks/releases/assets/492079250",
+            "checksum_sha256": "fe0f3887e0598b903e1006f8303d5667c8bbada520b3553b98bd9551b6179068",
+            "signature": "516f495664db3b028218e7115b5ebf3596d9c6d55829a00aac6efd6f3656042cbb8e4c1b0c8beded265872f98184c1c55b0fe708859278ce506f7fce58d28600",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "blocks.geo",
+                "blocks.media"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T00:02:59Z"
+        }
+    ]
+}

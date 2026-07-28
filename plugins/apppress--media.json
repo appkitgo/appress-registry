@@ -1,23 +1,23 @@
 {
     "slug": "apppress/media",
     "name": "AppPress Media Processing",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "author": "AppPress",
     "description": "Image processing pipeline for the core media library: responsive variants, WebP conversion, EXIF stripping, metadata extraction, background queue processing, operator dashboard, and mobile gallery surfaces. Implements StandardContracts::MEDIA so App Packs and plugins can trigger processing without direct coupling.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-24T19:48:57Z",
+    "last_updated": "2026-07-28T03:48:21Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-media/releases/assets/488761344",
-    "checksum_sha256": "9adf3be56614fc721b27f7b59f283850664aebb551bec923f58e272f7f58c327",
-    "signature": "90547682bdb14aac50b46db62e2e268d413d24e4791cec494d742b322d34ac277e5ad17b3cd9fc42e3a6792186e4a82b97179e8ff76c78f21a02750f7302a402",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-media/releases/assets/492252863",
+    "checksum_sha256": "35e83f18d8388e0b9192ab01a2e3eb0fc57bafd98c60cddae314fae676344f7f",
+    "signature": "68374603e7a2b4d6a960cebd913d54a89877acaad56a3f37fdd5b7369892d6bc00fd5b6de044d6baa810ff6639c77564a4dc1f61cd69460ef827df14f2124301",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -75,7 +75,7 @@
             "checksum_sha256": "9adf3be56614fc721b27f7b59f283850664aebb551bec923f58e272f7f58c327",
             "signature": "90547682bdb14aac50b46db62e2e268d413d24e4791cec494d742b322d34ac277e5ad17b3cd9fc42e3a6792186e4a82b97179e8ff76c78f21a02750f7302a402",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "media-processing",
@@ -87,6 +87,44 @@
             ],
             "yanked": false,
             "published_at": "2026-07-24T19:48:57Z"
+        },
+        {
+            "version": "1.0.4",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-media/releases/assets/490680244",
+            "checksum_sha256": "4d3ef51f6e3d2bd7a6f7100ef8851c2b5f07ee8188f3ba0122684467c8e7732e",
+            "signature": "b9038e0c5545de8004f132aab389a0a3c7ef57276b0f647e9accdfb901eb9d28e2af9e580967132620f5ae7e07e70227ca58c17e89df92083117810b5b1a380c",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "media-processing",
+                "image-variants",
+                "webp",
+                "exif-stripping",
+                "processing-queue",
+                "storage-savings-reporting"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:41:29Z"
+        },
+        {
+            "version": "1.0.5",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-media/releases/assets/492252863",
+            "checksum_sha256": "35e83f18d8388e0b9192ab01a2e3eb0fc57bafd98c60cddae314fae676344f7f",
+            "signature": "68374603e7a2b4d6a960cebd913d54a89877acaad56a3f37fdd5b7369892d6bc00fd5b6de044d6baa810ff6639c77564a4dc1f61cd69460ef827df14f2124301",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "media-processing",
+                "image-variants",
+                "webp",
+                "exif-stripping",
+                "processing-queue",
+                "storage-savings-reporting"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T03:48:21Z"
         }
     ]
 }

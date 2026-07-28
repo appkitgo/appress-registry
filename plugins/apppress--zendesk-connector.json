@@ -1,23 +1,23 @@
 {
     "slug": "apppress/zendesk-connector",
     "name": "Zendesk Connector",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "author": "AppPress",
     "description": "Production Zendesk support-desk connector for CampusLaunch \u2014 create, update, and comment on tickets, list/search tickets and read users, and inbound webhook triggers for ticket-created and ticket-status-changed events.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T00:56:54Z",
+    "last_updated": "2026-07-26T20:45:56Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-zendesk-connector/releases/assets/473066572",
-    "checksum_sha256": "bdb9eea148da1c2c1b1f84304311e49a32b5d84d9ccbf0017173a2cfe7cb6761",
-    "signature": "b48af794095e2b26f64a1da9fc84c096eec4a66e1e7589e37d0bdc2b853a758f2c8197bd5b863d4c8259d76fdeb3d87713eccee6237cf531ce618ae4e88cd60a",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-zendesk-connector/releases/assets/490683085",
+    "checksum_sha256": "db992683ca1f0fcededc4873510383939eaedc8effe6c369c69072c64207b996",
+    "signature": "b2412bda0b16019a3a1313d4381e60c5ad07ba6b1ecdb0d2c184a018d6a6539bc6cea040b6edbbcac474fbd04411c61ac917cf8ec8f30ab1f8db6257b71d7a01",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -34,7 +34,7 @@
             "checksum_sha256": "bdb9eea148da1c2c1b1f84304311e49a32b5d84d9ccbf0017173a2cfe7cb6761",
             "signature": "b48af794095e2b26f64a1da9fc84c096eec4a66e1e7589e37d0bdc2b853a758f2c8197bd5b863d4c8259d76fdeb3d87713eccee6237cf531ce618ae4e88cd60a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.zendesk",
@@ -43,6 +43,22 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T00:56:54Z"
+        },
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-zendesk-connector/releases/assets/490683085",
+            "checksum_sha256": "db992683ca1f0fcededc4873510383939eaedc8effe6c369c69072c64207b996",
+            "signature": "b2412bda0b16019a3a1313d4381e60c5ad07ba6b1ecdb0d2c184a018d6a6539bc6cea040b6edbbcac474fbd04411c61ac917cf8ec8f30ab1f8db6257b71d7a01",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.zendesk",
+                "support.external",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:45:56Z"
         }
     ]
 }

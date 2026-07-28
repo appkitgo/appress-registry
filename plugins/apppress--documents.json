@@ -1,23 +1,23 @@
 {
     "slug": "apppress/documents",
     "name": "AppPress Documents",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "HTML templating and PDF generation for workflows and business records: admin/app document library with templates, member documents panel/page, expiring share links, PDF uploads, generated-document retention, and workflow triggers/actions (core.generate_pdf, documents.pdf_generated, send_document). Implements StandardContracts::DOCUMENTS.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-25T00:26:01Z",
+    "last_updated": "2026-07-26T20:04:41Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-documents/releases/assets/488977886",
-    "checksum_sha256": "fec29b5b57323235977553d723113c91279ae9e06b0167f072f32eeab8481dfc",
-    "signature": "244109a18cb8d5b425980e10d72bb307b1d22cc6987071ddd86b443b77d0e1e69a9af514fc8b695d2c4a84d990eed45d1fc378053ffd2f3151914f1b7d715808",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-documents/releases/assets/490652245",
+    "checksum_sha256": "2623af10b4356bcf90117ba78b0b0253bf50b3fd9357ae1752da49523d6569d7",
+    "signature": "72f31118cdb5be538d47ae1077d8ff175857cf2aacfb2ae0a500558101999a18776d10950df614ca824098a7972ef2561e1c5206e13353de983ccb0982d3f40f",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -71,7 +71,7 @@
             "checksum_sha256": "fec29b5b57323235977553d723113c91279ae9e06b0167f072f32eeab8481dfc",
             "signature": "244109a18cb8d5b425980e10d72bb307b1d22cc6987071ddd86b443b77d0e1e69a9af514fc8b695d2c4a84d990eed45d1fc378053ffd2f3151914f1b7d715808",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "documents",
@@ -87,6 +87,29 @@
             ],
             "yanked": false,
             "published_at": "2026-07-25T00:26:01Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-documents/releases/assets/490652245",
+            "checksum_sha256": "2623af10b4356bcf90117ba78b0b0253bf50b3fd9357ae1752da49523d6569d7",
+            "signature": "72f31118cdb5be538d47ae1077d8ff175857cf2aacfb2ae0a500558101999a18776d10950df614ca824098a7972ef2561e1c5206e13353de983ccb0982d3f40f",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "documents",
+                "pdf",
+                "templates",
+                "sharing",
+                "uploads",
+                "retention",
+                "member_panel",
+                "admin_dashboard",
+                "workflow_triggers",
+                "workflow_actions"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:04:41Z"
         }
     ]
 }

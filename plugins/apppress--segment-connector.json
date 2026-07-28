@@ -1,23 +1,23 @@
 {
     "slug": "apppress/segment-connector",
     "name": "Segment Connector",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "author": "AppPress",
     "description": "Write-only Segment Tracking API connector for AppPress \u2014 send track/identify events out to a Segment source from workflows. Segment is an event-ingestion endpoint, not a queryable data store: there is no read/search/update/delete operation because Segment's real API does not expose one.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T06:54:23Z",
+    "last_updated": "2026-07-26T20:04:39Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-segment-connector/releases/assets/473294382",
-    "checksum_sha256": "87d3af97defecece7fee8fc46e3bd488f447c50b081b00a73d2356adc3a296be",
-    "signature": "8fb98123541d3ecd6093b70408c9cf4578bdeb0c1c98ccfaf55e0e631e2d612cc284562d6458e68f0976449c5118eed8da21efc114ada79fc0d8d485f0024503",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-segment-connector/releases/assets/490652205",
+    "checksum_sha256": "7d913533bacaf85d1d756592c5fae23f96e203dadccd3348dbd6c5e1159af3d3",
+    "signature": "d606d7385f39293a97b2529bb9736cd837d750fdfb89483c17283ba7ccb3e91501a5fb3ae4ee9a748d15e2603e9adb1770d5eb1115f31ca332e52b90a90a4b0c",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,7 +33,7 @@
             "checksum_sha256": "87d3af97defecece7fee8fc46e3bd488f447c50b081b00a73d2356adc3a296be",
             "signature": "8fb98123541d3ecd6093b70408c9cf4578bdeb0c1c98ccfaf55e0e631e2d612cc284562d6458e68f0976449c5118eed8da21efc114ada79fc0d8d485f0024503",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.segment",
@@ -41,6 +41,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T06:54:23Z"
+        },
+        {
+            "version": "1.0.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-segment-connector/releases/assets/490652205",
+            "checksum_sha256": "7d913533bacaf85d1d756592c5fae23f96e203dadccd3348dbd6c5e1159af3d3",
+            "signature": "d606d7385f39293a97b2529bb9736cd837d750fdfb89483c17283ba7ccb3e91501a5fb3ae4ee9a748d15e2603e9adb1770d5eb1115f31ca332e52b90a90a4b0c",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.segment",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:04:39Z"
         }
     ]
 }

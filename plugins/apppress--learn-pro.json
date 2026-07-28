@@ -1,0 +1,40 @@
+{
+    "slug": "apppress/learn-pro",
+    "name": "Learn Pro",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "A focused, academic theme for courses, cohorts, and self-paced learning. Indigo-and-gold palette, Fraunces serif headings, a calm scholarly hero, and lesson/progress-cue styling layered over the Default theme.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T23:19:19Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/theme-learn-pro/releases/assets/490776111",
+    "checksum_sha256": "f64357f1c115972bed4fd292eae7d5c207754e6352cc1baf3634a2c63cb37e50",
+    "signature": "37f2a7eb16b14429e3884e3d363d0ab1f41e9b04a7cc29a4e2accbaaa56db3b04c584dbc052c5ad9a0456fb10d3003d8545477caf313ca913b9784ca47ec9f01",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/theme-learn-pro/releases/assets/490776111",
+            "checksum_sha256": "f64357f1c115972bed4fd292eae7d5c207754e6352cc1baf3634a2c63cb37e50",
+            "signature": "37f2a7eb16b14429e3884e3d363d0ab1f41e9b04a7cc29a4e2accbaaa56db3b04c584dbc052c5ad9a0456fb10d3003d8545477caf313ca913b9784ca47ec9f01",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T23:19:19Z"
+        }
+    ]
+}

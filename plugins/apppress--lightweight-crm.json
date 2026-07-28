@@ -1,23 +1,23 @@
 {
     "slug": "apppress/lightweight-crm",
     "name": "Lightweight CRM",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "AppPress",
     "description": "Track leads, build pipelines, assign tasks, and close deals without the bloat.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T16:36:02Z",
+    "last_updated": "2026-07-26T20:36:17Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/apppack-crm/releases/assets/476913617",
-    "checksum_sha256": "4399b114af95f57fdd84cc3c221404806888013fe86fcaa7565510df0b52a789",
-    "signature": "c4aa2513a4c0d3727c5ada4a44b70c8c365f2775e6502bbf6bfb651584cd535e8102ff26c76647b3dbc44bfd315cba439cc4b495de399d7b11f6cc1c623c2c01",
+    "download_url": "https://api.github.com/repos/appkitgo/apppack-crm/releases/assets/490676820",
+    "checksum_sha256": "d2638358970044884e0b9a9200e7779acefcff9b1d160b7983914f30f15167f4",
+    "signature": "20d2384c3b6da54240470e55974ca58111a16e2e95d3dd012cef13cd0034679e0357e0a9766238f85c3c25b579fb386dfa012f84748629ea66c9b32db9ddf306",
     "min_core_version": "1.0.0",
     "dependencies": {
         "apppress/contacts": "^1.0.0",
@@ -68,6 +68,25 @@
             "capabilities": [],
             "yanked": false,
             "published_at": "2026-07-14T16:36:02Z"
+        },
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/apppack-crm/releases/assets/490676820",
+            "checksum_sha256": "d2638358970044884e0b9a9200e7779acefcff9b1d160b7983914f30f15167f4",
+            "signature": "20d2384c3b6da54240470e55974ca58111a16e2e95d3dd012cef13cd0034679e0357e0a9766238f85c3c25b579fb386dfa012f84748629ea66c9b32db9ddf306",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/contacts": "^1.0.0",
+                "apppress/pipelines": "^1.0.0",
+                "apppress/projects": "^1.0.0",
+                "apppress/activity-log": "^1.0.0",
+                "apppress/quotes": "^1.0.0",
+                "apppress/notes": "^1.0.0"
+            },
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T20:36:17Z"
         }
     ]
 }

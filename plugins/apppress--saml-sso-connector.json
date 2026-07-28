@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/saml-sso-connector",
+    "name": "SAML SSO Connector",
+    "version": "1.1.0",
+    "author": "AppPress",
+    "description": "SAML 2.0 Service Provider for CampusLaunch \u2014 IdP metadata upload/manual config, ACS URL generation, signed assertion validation, clock-skew handling, attribute/role mapping, JIT user provisioning, certificate rollover, and multi-tenant campus isolation.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T21:00:27Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-saml-sso-connector/releases/assets/490692097",
+    "checksum_sha256": "ddcd1ff4fbffa51a11aa63143dc89594a905b4524b36cdfe94a7e5e7a16e7463",
+    "signature": "659d8a5a7ef5ae18d34f3ad7ea5d80c3fc97697b2d0d18dd9484e3a8ced4494f380145b6d4bf7c2345543978e124a91ab50fa98b3e074250d193fede7559e209",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.saml_sso",
+        "sso.saml2",
+        "identity.federated"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-saml-sso-connector/releases/assets/490692097",
+            "checksum_sha256": "ddcd1ff4fbffa51a11aa63143dc89594a905b4524b36cdfe94a7e5e7a16e7463",
+            "signature": "659d8a5a7ef5ae18d34f3ad7ea5d80c3fc97697b2d0d18dd9484e3a8ced4494f380145b6d4bf7c2345543978e124a91ab50fa98b3e074250d193fede7559e209",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.saml_sso",
+                "sso.saml2",
+                "identity.federated"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T21:00:27Z"
+        }
+    ]
+}

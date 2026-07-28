@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/microsoft-identity-connector",
+    "name": "Microsoft Identity Connector",
+    "version": "1.1.1",
+    "author": "AppPress",
+    "description": "Microsoft Entra ID / Azure AD identity and directory connector for CampusLaunch \u2014 OIDC login, user/group sync, role mapping from Microsoft groups, delta sync, and JIT user provisioning. The primary SSO and directory foundation for Microsoft 365 universities.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T21:00:09Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-microsoft-identity-connector/releases/assets/490691936",
+    "checksum_sha256": "cb45a84dc7a2565367d76229104b51b79a9deabba7b9e2f8566ec7e74625710c",
+    "signature": "6deeb8756a06c419215aa2e1403688843e44239d0e1f9954c428394b006834167d3c32e23413e88efd6da3a132da1b0021d6c0099e49bb3aaee6548c331d1006",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.microsoft_identity",
+        "sso.oidc",
+        "identity.microsoft365"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-microsoft-identity-connector/releases/assets/490691936",
+            "checksum_sha256": "cb45a84dc7a2565367d76229104b51b79a9deabba7b9e2f8566ec7e74625710c",
+            "signature": "6deeb8756a06c419215aa2e1403688843e44239d0e1f9954c428394b006834167d3c32e23413e88efd6da3a132da1b0021d6c0099e49bb3aaee6548c331d1006",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.microsoft_identity",
+                "sso.oidc",
+                "identity.microsoft365"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T21:00:09Z"
+        }
+    ]
+}

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/surveys",
     "name": "AppPress Surveys",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Survey builder with 12 question types (including date and ranking), NPS scoring, quiz scoring, poll results, conditional logic, response analytics, shareable public links, mobile pulse forms, workflow triggers/actions including send_survey, and StandardContracts::SURVEYS for cross-plugin integration.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-25T00:26:06Z",
+    "last_updated": "2026-07-26T20:44:39Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-surveys/releases/assets/488977931",
-    "checksum_sha256": "a87d5f013534290f32464694072e8220d160c328f9a4fe94f8f9560bada5c597",
-    "signature": "2b4130a4c773b5dc40765f4d2b1038d6c3380df33ebb47a9ef990334b05b65f0ec626a7ebe92d53b69a09d476184caceb9e28a6f6c79d6166f730224b1c09803",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-surveys/releases/assets/490682324",
+    "checksum_sha256": "e9d06480eed128c4caeab30b591deb28be407b66b9a0c5b4505cab81bb0e7b69",
+    "signature": "504678b2642809da10e1620b967f736791e87b9f67a17dec8f74a0ed56cecaa8da82523428f592fc47f210c70647396e9c1852b3a0d72e21ca0036ea5ab06e0a",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -84,7 +84,7 @@
             "checksum_sha256": "a87d5f013534290f32464694072e8220d160c328f9a4fe94f8f9560bada5c597",
             "signature": "2b4130a4c773b5dc40765f4d2b1038d6c3380df33ebb47a9ef990334b05b65f0ec626a7ebe92d53b69a09d476184caceb9e28a6f6c79d6166f730224b1c09803",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "surveys",
@@ -101,6 +101,30 @@
             ],
             "yanked": false,
             "published_at": "2026-07-25T00:26:06Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-surveys/releases/assets/490682324",
+            "checksum_sha256": "e9d06480eed128c4caeab30b591deb28be407b66b9a0c5b4505cab81bb0e7b69",
+            "signature": "504678b2642809da10e1620b967f736791e87b9f67a17dec8f74a0ed56cecaa8da82523428f592fc47f210c70647396e9c1852b3a0d72e21ca0036ea5ab06e0a",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "surveys",
+                "feedback_collection",
+                "nps_scoring",
+                "quiz_scoring",
+                "poll_results",
+                "public_links",
+                "response_analytics",
+                "workflow_triggers",
+                "workflow_actions",
+                "mobile_surfaces",
+                "admin_dashboard"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:44:39Z"
         }
     ]
 }

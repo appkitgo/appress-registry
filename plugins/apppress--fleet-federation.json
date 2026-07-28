@@ -1,0 +1,44 @@
+{
+    "slug": "apppress/fleet-federation",
+    "name": "Fleet Federation",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Fleet roll-up via app-press\u2192app-press event federation (OPERATIONAL_APPS Phase 4). Installed on child instances, it pushes signed summary events (incident lifecycle auto-federated; anything via the federation.push_event workflow action; 5-minute counter rollups) to a parent instance over the standard external-event.v1 gateway. The parent is just another app-press app whose event source happens to be its children \u2014 no new infrastructure, no vendor coupling.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-28T02:31:41Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-fleet-federation/releases/assets/492186653",
+    "checksum_sha256": "b0fd0020cfdd6851ad0696de1ea04d9b84fda49965d560b2e4bae52f67238c81",
+    "signature": "28aa05dac70f2c27e6c09911b263ade3449d9b623255827e2036f04ccacf82d16d9ca1f64e2e1c480938ed8cba5f07cb9fce8180b68aaa240e6df0831e867f00",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "federation.push"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-fleet-federation/releases/assets/492186653",
+            "checksum_sha256": "b0fd0020cfdd6851ad0696de1ea04d9b84fda49965d560b2e4bae52f67238c81",
+            "signature": "28aa05dac70f2c27e6c09911b263ade3449d9b623255827e2036f04ccacf82d16d9ca1f64e2e1c480938ed8cba5f07cb9fce8180b68aaa240e6df0831e867f00",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "federation.push"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T02:31:41Z"
+        }
+    ]
+}

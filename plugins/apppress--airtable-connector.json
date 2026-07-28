@@ -1,23 +1,23 @@
 {
     "slug": "apppress/airtable-connector",
     "name": "Airtable Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Connect Airtable bases for schema-flexible record read/search/create/update and workflow automation on record changes.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T06:04:41Z",
+    "last_updated": "2026-07-26T20:36:58Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-airtable-connector/releases/assets/473260199",
-    "checksum_sha256": "c4b24444b163d396aff9e78e472c58e66ae1b2f46fbe01e6ccf30689edb3f312",
-    "signature": "c72f6578a7a5033761dc788c7197c486893acc59874b060cf9703cc105ed420fcd029cd328f26430fdfeea1695bb018ade73c13623e6f587e0c24fbd215f0d0e",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-airtable-connector/releases/assets/490677203",
+    "checksum_sha256": "2f96fc408b990f60cd66427bb2a4995eea759a343a2c34b3775b2afe6f6246d7",
+    "signature": "2004881a9d1007fed150fb8f5b3eaa8d0a99e8eb5f8dc6bc02b82c13f9eef50c3660f9a11035eaea5847e669f795af628459abfd67fb975d76cadcdbf058a306",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,7 +33,7 @@
             "checksum_sha256": "c4b24444b163d396aff9e78e472c58e66ae1b2f46fbe01e6ccf30689edb3f312",
             "signature": "c72f6578a7a5033761dc788c7197c486893acc59874b060cf9703cc105ed420fcd029cd328f26430fdfeea1695bb018ade73c13623e6f587e0c24fbd215f0d0e",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.airtable",
@@ -41,6 +41,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T06:04:41Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-airtable-connector/releases/assets/490677203",
+            "checksum_sha256": "2f96fc408b990f60cd66427bb2a4995eea759a343a2c34b3775b2afe6f6246d7",
+            "signature": "2004881a9d1007fed150fb8f5b3eaa8d0a99e8eb5f8dc6bc02b82c13f9eef50c3660f9a11035eaea5847e669f795af628459abfd67fb975d76cadcdbf058a306",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.airtable",
+                "data.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:36:58Z"
         }
     ]
 }

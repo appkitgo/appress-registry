@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/cas-sso-connector",
+    "name": "CAS SSO Connector",
+    "version": "1.1.0",
+    "author": "AppPress",
+    "description": "Central Authentication Service (CAS) SSO connector for CampusLaunch \u2014 CAS 2.0/3.0 ticket validation, login URL generation, attribute extraction, role mapping, JIT user provisioning, multi-tenant campus isolation, and logout support.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T20:59:51Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-cas-sso-connector/releases/assets/490691752",
+    "checksum_sha256": "dd6673260c9417cde247a36262c9a74e8c82ee2440b71d8426ac272b0d1f87b0",
+    "signature": "bc261e1b0d888bce77964b3bbeec082f81b21c3d3561edaa67ac43a5b64c6c5f63ecee7f3be3caa9a39d5aedf8b9f8fcd7713229241950c5b5e849a24bfb7007",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.cas_sso",
+        "sso.cas",
+        "identity.federated"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-cas-sso-connector/releases/assets/490691752",
+            "checksum_sha256": "dd6673260c9417cde247a36262c9a74e8c82ee2440b71d8426ac272b0d1f87b0",
+            "signature": "bc261e1b0d888bce77964b3bbeec082f81b21c3d3561edaa67ac43a5b64c6c5f63ecee7f3be3caa9a39d5aedf8b9f8fcd7713229241950c5b5e849a24bfb7007",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.cas_sso",
+                "sso.cas",
+                "identity.federated"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:59:51Z"
+        }
+    ]
+}

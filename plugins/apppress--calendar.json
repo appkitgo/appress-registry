@@ -1,23 +1,23 @@
 {
     "slug": "apppress/calendar",
     "name": "AppPress Calendar",
-    "version": "1.0.2",
+    "version": "1.1.2",
     "author": "AppPress",
     "description": "Shared calendar and scheduling primitive \u2014 events with RRULE recurrence, availability windows, iCal import/export, and certified connector sync with Google Calendar and Outlook. Powers apppack-booking, apppack-project-management, apppack-lms, and CRM.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-13T03:58:19Z",
+    "last_updated": "2026-07-28T03:48:07Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-calendar/releases/assets/475047994",
-    "checksum_sha256": "7ad97e8fc30276e0b9e75cfb1ef90538d0c29c19e101cd66039620040dcf1f37",
-    "signature": "8021f47c537ecb1ca8e4645c3accf5343bf59e95a1a408955c90f171ec29c4868fc55d2b265afe6bd3d4bbf243b47b39779c4753f5d03c1e4a994b999901a209",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-calendar/releases/assets/492252612",
+    "checksum_sha256": "84d06e01e4762d8ad4aaad56c95056844b957a0b91e464d8e1472e6cae26a3fc",
+    "signature": "8721ce87eaf97affebf533022c0ad67339ac21d5aa32a06ee08002c4b3a193c48601532247b0108a3124267c52800a13495ea9826435a452857c597b7e872e0c",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -58,7 +58,7 @@
             "checksum_sha256": "7ad97e8fc30276e0b9e75cfb1ef90538d0c29c19e101cd66039620040dcf1f37",
             "signature": "8021f47c537ecb1ca8e4645c3accf5343bf59e95a1a408955c90f171ec29c4868fc55d2b265afe6bd3d4bbf243b47b39779c4753f5d03c1e4a994b999901a209",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "calendar_events",
@@ -71,6 +71,46 @@
             ],
             "yanked": false,
             "published_at": "2026-07-13T03:58:19Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-calendar/releases/assets/490677938",
+            "checksum_sha256": "abecd29767ee5dd2ce019da3dce0c38d77963249a1b6e0496f9c655df28bbdb8",
+            "signature": "55c001c0ccc71d8beeaa749f4e6c59e9f6fd504bc74ac5989b5f1cac9774049c82c289b4ec4deaf38790329371bf1125ce8e331d344edb192f6d8c5171c11a05",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "calendar_events",
+                "rrule_recurrence",
+                "availability_windows",
+                "ical_import_export",
+                "external_calendar_sync",
+                "rsvp_management",
+                "scheduling_primitive"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:38:09Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-calendar/releases/assets/492252612",
+            "checksum_sha256": "84d06e01e4762d8ad4aaad56c95056844b957a0b91e464d8e1472e6cae26a3fc",
+            "signature": "8721ce87eaf97affebf533022c0ad67339ac21d5aa32a06ee08002c4b3a193c48601532247b0108a3124267c52800a13495ea9826435a452857c597b7e872e0c",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "calendar_events",
+                "rrule_recurrence",
+                "availability_windows",
+                "ical_import_export",
+                "external_calendar_sync",
+                "rsvp_management",
+                "scheduling_primitive"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T03:48:07Z"
         }
     ]
 }

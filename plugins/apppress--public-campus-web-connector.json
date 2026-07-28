@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/public-campus-web-connector",
+    "name": "Public Campus Web Connector",
+    "version": "1.1.0",
+    "author": "AppPress",
+    "description": "Public campus web/calendar/directory connector for CampusLaunch \u2014 safely ingests public RSS/Atom feeds, iCal/ICS calendars, JSON endpoints, and HTML pages via configured CSS selectors. Full SSRF protection: private IP blocking, URL allowlisting, HTTPS enforcement, size/timeout limits, and robots.txt politeness. Never authenticates \u2014 public data only.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T21:00:21Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-public-campus-web-connector/releases/assets/490692035",
+    "checksum_sha256": "a0b5a982ab6163b869915d72bfa48fcf9105ea1498141d5c8b983a8302b962c7",
+    "signature": "c01d22faa9bfe689e62e3e44f8811e3c049b9312889dd831205948bd3e62074721b9490f76efa06c5c0f6ab2d84355efb393e50e40b21b92bb8a789efa1b8708",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.public_campus_web",
+        "data_source.public_web",
+        "calendar.ical"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-public-campus-web-connector/releases/assets/490692035",
+            "checksum_sha256": "a0b5a982ab6163b869915d72bfa48fcf9105ea1498141d5c8b983a8302b962c7",
+            "signature": "c01d22faa9bfe689e62e3e44f8811e3c049b9312889dd831205948bd3e62074721b9490f76efa06c5c0f6ab2d84355efb393e50e40b21b92bb8a789efa1b8708",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.public_campus_web",
+                "data_source.public_web",
+                "calendar.ical"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T21:00:21Z"
+        }
+    ]
+}

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/docusign-connector",
     "name": "DocuSign Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Production DocuSign eSignature connector for CampusLaunch \u2014 send envelopes for signature from templates, track envelope and recipient status, list/search envelopes, void envelopes, and inbound Connect webhook triggers for envelope-completed and recipient-completed events.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T00:26:06Z",
+    "last_updated": "2026-07-26T20:39:15Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-docusign-connector/releases/assets/473047705",
-    "checksum_sha256": "15643d70260990a7844d268efafd85eba37cad3544dab27b6c261d8222d71364",
-    "signature": "f5faec2d950042d802a16cd622701ebffed9889a7bde71b0cc9470d631f89c6a476049e61aa8c578d8b2524fc652e93e13049c5821308c7fe5f6a726cb808c09",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-docusign-connector/releases/assets/490678544",
+    "checksum_sha256": "11e4c166c45623a57bc3c2d37813be2057ee0c86697ea23a35847a2583e22f99",
+    "signature": "21548b83249a0245597af3fe15bc35872370ec29eb046d8cb001e404d9283e4b925e9cf04abc0ecad75fc9d6051cd1154006e18480f19c7858bef64f5d144705",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -34,7 +34,7 @@
             "checksum_sha256": "15643d70260990a7844d268efafd85eba37cad3544dab27b6c261d8222d71364",
             "signature": "f5faec2d950042d802a16cd622701ebffed9889a7bde71b0cc9470d631f89c6a476049e61aa8c578d8b2524fc652e93e13049c5821308c7fe5f6a726cb808c09",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.docusign",
@@ -43,6 +43,22 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T00:26:06Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-docusign-connector/releases/assets/490678544",
+            "checksum_sha256": "11e4c166c45623a57bc3c2d37813be2057ee0c86697ea23a35847a2583e22f99",
+            "signature": "21548b83249a0245597af3fe15bc35872370ec29eb046d8cb001e404d9283e4b925e9cf04abc0ecad75fc9d6051cd1154006e18480f19c7858bef64f5d144705",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.docusign",
+                "esign.external",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:39:15Z"
         }
     ]
 }

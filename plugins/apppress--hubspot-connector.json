@@ -1,0 +1,46 @@
+{
+    "slug": "apppress/hubspot-connector",
+    "name": "HubSpot Connector",
+    "version": "1.1.1",
+    "author": "AppPress",
+    "description": "Connect HubSpot CRM for contact, company, and deal sync plus pipeline workflow automation.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T20:40:38Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-hubspot-connector/releases/assets/490679663",
+    "checksum_sha256": "ac4439af7fc882be92b3a47ada671a300767a9d87e28e6de76caf37e3755bf1a",
+    "signature": "c81c785a3803b4a418e47e1c95020cb1453b176cb7e544209c095898d9c09701d55e6cedcf2201ba4bb31c5aa9e22eb5094bbffcf9bf49fae305766f79215f07",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.hubspot",
+        "data_source.external"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-hubspot-connector/releases/assets/490679663",
+            "checksum_sha256": "ac4439af7fc882be92b3a47ada671a300767a9d87e28e6de76caf37e3755bf1a",
+            "signature": "c81c785a3803b4a418e47e1c95020cb1453b176cb7e544209c095898d9c09701d55e6cedcf2201ba4bb31c5aa9e22eb5094bbffcf9bf49fae305766f79215f07",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.hubspot",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:40:38Z"
+        }
+    ]
+}

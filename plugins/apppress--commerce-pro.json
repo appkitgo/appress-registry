@@ -1,0 +1,40 @@
+{
+    "slug": "apppress/commerce-pro",
+    "name": "Commerce Pro",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "A confident, product-forward theme for online stores. Rose-and-amber palette, Poppins display type, a bold gradient hero, and Sale/New badge styling layered over the Default theme.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T23:19:07Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/theme-commerce-pro/releases/assets/490775846",
+    "checksum_sha256": "f0a555843db5ea0bc4ee39828d7da6cff4d0a6605b2aaf297c2a542dd5bdadad",
+    "signature": "b9268cafbc67a20b48401e9873a4420825e7528db211828d33da463e7abcdbc5dbf21c24b5d3bb4b481bbce4c9fe988288b7edfa4838b9159991ada88a5fb502",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/theme-commerce-pro/releases/assets/490775846",
+            "checksum_sha256": "f0a555843db5ea0bc4ee39828d7da6cff4d0a6605b2aaf297c2a542dd5bdadad",
+            "signature": "b9268cafbc67a20b48401e9873a4420825e7528db211828d33da463e7abcdbc5dbf21c24b5d3bb4b481bbce4c9fe988288b7edfa4838b9159991ada88a5fb502",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T23:19:07Z"
+        }
+    ]
+}

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/student-org-request-portal",
     "name": "Student Organization Request Portal",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "AppPress",
     "description": "A governed request portal for student organizations to submit requests, upload details, and route staff review.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T16:49:53Z",
+    "last_updated": "2026-07-26T20:36:45Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/apppack-student-org-request-portal/releases/assets/476926171",
-    "checksum_sha256": "9bbb1aa3f6465163cecc802bfc2662f30dedd1e49fe7d5624b80d4bcf3c763dd",
-    "signature": "7dcf5ac91388d6a50fe8e341ea7bfd4335d573642723fd42810e0e54e5626df7951269e0c956ea25855921d2ed445db0a3fc4b9de75b4d4cf4d2bdf5ea53130a",
+    "download_url": "https://api.github.com/repos/appkitgo/apppack-student-org-request-portal/releases/assets/490677055",
+    "checksum_sha256": "afe218ffad5d1e3a1b56be8213e07207151822b978db2523e0c1224318cb7636",
+    "signature": "5215c7046b8adbc5503420bcc5012a5cdca079d05907c83d884ada246d1d98aa1701e2f4687869fdd66b40c5a36560742cfda8e0e9c6dc93228aedca70c02906",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -54,7 +54,7 @@
             "checksum_sha256": "9bbb1aa3f6465163cecc802bfc2662f30dedd1e49fe7d5624b80d4bcf3c763dd",
             "signature": "7dcf5ac91388d6a50fe8e341ea7bfd4335d573642723fd42810e0e54e5626df7951269e0c956ea25855921d2ed445db0a3fc4b9de75b4d4cf4d2bdf5ea53130a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "forms",
@@ -65,6 +65,24 @@
             ],
             "yanked": false,
             "published_at": "2026-07-14T16:49:53Z"
+        },
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/apppack-student-org-request-portal/releases/assets/490677055",
+            "checksum_sha256": "afe218ffad5d1e3a1b56be8213e07207151822b978db2523e0c1224318cb7636",
+            "signature": "5215c7046b8adbc5503420bcc5012a5cdca079d05907c83d884ada246d1d98aa1701e2f4687869fdd66b40c5a36560742cfda8e0e9c6dc93228aedca70c02906",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "forms",
+                "workflow",
+                "mail",
+                "files",
+                "dashboards"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:36:45Z"
         }
     ]
 }

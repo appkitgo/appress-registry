@@ -1,23 +1,23 @@
 {
     "slug": "apppress/booking-portal",
     "name": "Booking & Appointments Portal",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "AppPress",
     "description": "Publish services, accept bookings, sync schedules, collect deposits, and manage appointments.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T16:31:12Z",
+    "last_updated": "2026-07-26T20:35:26Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/apppack-booking/releases/assets/476909341",
-    "checksum_sha256": "33bfdc84d4f2e28f6eb6126e96b5e72bf4a77f7cc89606b4e20f3f425a87cb6d",
-    "signature": "8821f300a27775b18f06f0e61d0f4d5f1d6e0db0a3742c387785b4b3c7d782cfca1e9a3e042e46f3e330dddbc8bf830eda94b91a243e27d007b5257b0547120c",
+    "download_url": "https://api.github.com/repos/appkitgo/apppack-booking/releases/assets/490676194",
+    "checksum_sha256": "aef168974444747fc45a5eecc0efc59fcef35042f5215e755e82340db5891ce8",
+    "signature": "e1a146a12456a84c1ee9030ad510e0bcaf3aeaf48c21451bda41e29e5af4b141bdbea06d8fd7b0188d53dff2d3cbd6ef994c3dd31aa6d1dbec98cbd3b8c37d0a",
     "min_core_version": "1.0.0",
     "dependencies": {
         "apppress/appointments": "^1.0.0",
@@ -71,6 +71,26 @@
             "capabilities": [],
             "yanked": false,
             "published_at": "2026-07-14T16:31:12Z"
+        },
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/apppack-booking/releases/assets/490676194",
+            "checksum_sha256": "aef168974444747fc45a5eecc0efc59fcef35042f5215e755e82340db5891ce8",
+            "signature": "e1a146a12456a84c1ee9030ad510e0bcaf3aeaf48c21451bda41e29e5af4b141bdbea06d8fd7b0188d53dff2d3cbd6ef994c3dd31aa6d1dbec98cbd3b8c37d0a",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/appointments": "^1.0.0",
+                "apppress/calendar": "^1.0.0",
+                "apppress/contacts": "^1.0.0",
+                "apppress/forms": "^1.0.0",
+                "apppress/payments": "^1.0.0",
+                "apppress/notifications": "^1.0.0",
+                "apppress/workflows": "^1.0.0"
+            },
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T20:35:26Z"
         }
     ]
 }

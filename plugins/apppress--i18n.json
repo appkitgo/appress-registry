@@ -1,23 +1,23 @@
 {
     "slug": "apppress/i18n",
     "name": "AppPress Multi-Language",
-    "version": "1.1.1",
+    "version": "1.1.3",
     "author": "AppPress",
     "description": "Shared localization primitive for AppPress \u2014 locale management, translation strings, content translation linking, locale detection, RTL support, public locale switcher embeds, and import/export. Consumed by pages, blogs, forms, and app packs via StandardContracts::I18N.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T13:59:39Z",
+    "last_updated": "2026-07-28T04:37:14Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-i18n/releases/assets/476762486",
-    "checksum_sha256": "951edd06fc1d165a8e7ff211c1c36158875f16616ec30cae05b0dcf76f9e4bf9",
-    "signature": "03b5cf3ebfee04e6da4117d8048c7c5db540476d672879aa3cdc6079909713b5353de99004ca9a83a5c4df17b63efdcff574f4dba6a84a00f1da8532d09d260a",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-i18n/releases/assets/492293446",
+    "checksum_sha256": "90abbd4450d31c5a6f81a5aa24e025adafa381f8e10e28abfd5516c061977ec6",
+    "signature": "a071dd0290c9760208dd36365f59ce861036e6e0b9d8c00583d56b0ca5f0d341c6ae826275e6c045248e0bb64da295a1fcd45a4ae5524019bc7489e201cefe0f",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -58,7 +58,7 @@
             "checksum_sha256": "951edd06fc1d165a8e7ff211c1c36158875f16616ec30cae05b0dcf76f9e4bf9",
             "signature": "03b5cf3ebfee04e6da4117d8048c7c5db540476d672879aa3cdc6079909713b5353de99004ca9a83a5c4df17b63efdcff574f4dba6a84a00f1da8532d09d260a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "i18n",
@@ -71,6 +71,46 @@
             ],
             "yanked": false,
             "published_at": "2026-07-14T13:59:39Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-i18n/releases/assets/490679795",
+            "checksum_sha256": "a971255c1c63b72043c1ceb91ec05aacbf83bc7ae74c20f29baa984ca80c59a9",
+            "signature": "5c75a16e54ce73623dea0f15dda71f1be99253df7253f68bc439790fa4d7dd8614cfcb4bda8eaf0705e0771c0a0ebc0ca257f2e69eb9610874fd5d5316b4ed05",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "i18n",
+                "locale_management",
+                "translation_strings",
+                "content_translation_linking",
+                "locale_detection",
+                "rtl",
+                "import_export"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:40:46Z"
+        },
+        {
+            "version": "1.1.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-i18n/releases/assets/492293446",
+            "checksum_sha256": "90abbd4450d31c5a6f81a5aa24e025adafa381f8e10e28abfd5516c061977ec6",
+            "signature": "a071dd0290c9760208dd36365f59ce861036e6e0b9d8c00583d56b0ca5f0d341c6ae826275e6c045248e0bb64da295a1fcd45a4ae5524019bc7489e201cefe0f",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "i18n",
+                "locale_management",
+                "translation_strings",
+                "content_translation_linking",
+                "locale_detection",
+                "rtl",
+                "import_export"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T04:37:14Z"
         }
     ]
 }

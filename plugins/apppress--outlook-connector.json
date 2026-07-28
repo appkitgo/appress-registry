@@ -1,0 +1,54 @@
+{
+    "slug": "apppress/outlook-connector",
+    "name": "Microsoft Outlook Connector",
+    "version": "1.1.0",
+    "author": "AppPress",
+    "description": "Production Outlook connector for CampusLaunch \u2014 email sending/search/drafts, calendar event creation/updates, free-busy availability checks, and webhook triggers for both mail and calendar. Merges outlook_mail and outlook_calendar into one package sharing a single Microsoft Graph OAuth2 connection.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T21:00:15Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-outlook-connector/releases/assets/490691986",
+    "checksum_sha256": "a55f96a6f1be4e522f7ed4b3b9cfa045bdec1fc1f433649d6e67fbbd59dc4d84",
+    "signature": "2bfead37c8bafc6d85ccdf47e5b60ea6efa886e9f36b1d887776f2bea748ec73aea530e86d92ba18368ee7edb1e78bdb33581e7e29438cb42c329372a119f40a",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.outlook_mail",
+        "connector.outlook_calendar",
+        "email.send",
+        "calendar.create",
+        "microsoft365.mail",
+        "microsoft365.calendar"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-outlook-connector/releases/assets/490691986",
+            "checksum_sha256": "a55f96a6f1be4e522f7ed4b3b9cfa045bdec1fc1f433649d6e67fbbd59dc4d84",
+            "signature": "2bfead37c8bafc6d85ccdf47e5b60ea6efa886e9f36b1d887776f2bea748ec73aea530e86d92ba18368ee7edb1e78bdb33581e7e29438cb42c329372a119f40a",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.outlook_mail",
+                "connector.outlook_calendar",
+                "email.send",
+                "calendar.create",
+                "microsoft365.mail",
+                "microsoft365.calendar"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T21:00:15Z"
+        }
+    ]
+}

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/dropbox-connector",
     "name": "Dropbox Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Production Dropbox connector for AppPress \u2014 find/upload/move files and folders, short-lived download links instead of embedded file bytes, and an inbound workflow trigger for file changes driven by Dropbox's real notification-only webhook (list_folder/continue delta discovery), with the GET challenge-echo handshake required for subscription registration.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T03:25:05Z",
+    "last_updated": "2026-07-26T20:39:23Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-dropbox-connector/releases/assets/473159856",
-    "checksum_sha256": "cff63bfbbfaff7910951e81192406135f6f365971276fbfd86bc178e263aa67e",
-    "signature": "acb2f621de94ee985adda97975c422fc2c8d2dab2b63fb509f341d82639c3ec72001308c0567537224521238a35f5f7ca067496057ecbe52096762978e4b9800",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-dropbox-connector/releases/assets/490678653",
+    "checksum_sha256": "462220b6a08d29ec9c41147aff2ecbf64dd9edec7ea24b46db7e094f3817e41b",
+    "signature": "9f51725a6355c88cb8c23af6956fd52103b847fae081a250b40613dd15b91e9157af77e41a32d1a44f6a43901669afadf1fbb8a755556c43b1b01967a1beeb03",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -34,7 +34,7 @@
             "checksum_sha256": "cff63bfbbfaff7910951e81192406135f6f365971276fbfd86bc178e263aa67e",
             "signature": "acb2f621de94ee985adda97975c422fc2c8d2dab2b63fb509f341d82639c3ec72001308c0567537224521238a35f5f7ca067496057ecbe52096762978e4b9800",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.dropbox",
@@ -43,6 +43,22 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T03:25:05Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-dropbox-connector/releases/assets/490678653",
+            "checksum_sha256": "462220b6a08d29ec9c41147aff2ecbf64dd9edec7ea24b46db7e094f3817e41b",
+            "signature": "9f51725a6355c88cb8c23af6956fd52103b847fae081a250b40613dd15b91e9157af77e41a32d1a44f6a43901669afadf1fbb8a755556c43b1b01967a1beeb03",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.dropbox",
+                "file_storage.external",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:39:23Z"
         }
     ]
 }

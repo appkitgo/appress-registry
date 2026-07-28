@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/zoom-connector",
+    "name": "Zoom Connector",
+    "version": "1.1.0",
+    "author": "AppPress",
+    "description": "Full Zoom connector for CampusLaunch \u2014 meeting creation, management, registrant tracking, attendance export, webhook triggers, and workflow integration. Designed for virtual orientation, advising appointments, and campus event sessions.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T21:01:03Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-zoom-connector/releases/assets/490692590",
+    "checksum_sha256": "2d3b8585c7da0dbc268a7d79e41d272410ec917536555f8ff4c04fcfe3d6111e",
+    "signature": "1fcaa515c0008601515cd57e35c31da0efaef639203d77b2cabec01181a7a965ffe9b634902ec0c40bbafc582e3ae80b53255ae13d0156b0c0d26a392248f906",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.zoom",
+        "data_source.external",
+        "video_conferencing"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-zoom-connector/releases/assets/490692590",
+            "checksum_sha256": "2d3b8585c7da0dbc268a7d79e41d272410ec917536555f8ff4c04fcfe3d6111e",
+            "signature": "1fcaa515c0008601515cd57e35c31da0efaef639203d77b2cabec01181a7a965ffe9b634902ec0c40bbafc582e3ae80b53255ae13d0156b0c0d26a392248f906",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.zoom",
+                "data_source.external",
+                "video_conferencing"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T21:01:03Z"
+        }
+    ]
+}

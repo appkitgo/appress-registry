@@ -1,31 +1,29 @@
 {
     "slug": "apppress/pages",
     "name": "AppPress Pages",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Read-only CMS surfaces for AppPress Core's page system: shortcodes ([page], [page_menu]), a page-menu widget, block-editor embed blocks, a mobile RichTextScreen surface, an operator metrics dashboard, and workflow triggers/webhooks fired from core's real page lifecycle events. Does not own page storage or CRUD \u2014 page creation, editing, and revision history are core's canonical apppress/pages system (Admin -> Pages).",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T17:15:20Z",
+    "last_updated": "2026-07-26T20:42:18Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-pages/releases/assets/473653212",
-    "checksum_sha256": "319e597f4ab4ed398ffe8c32f8bbe063329612ec7fec22c797625c40022a65c4",
-    "signature": "d5fa1280ac02c4a6c509d9fe9572beb84ce16921b9ff297f717b4e207baf58ea73f38cff3f5f2e55566d996e83ef7f65ea6942876bb7a0d1be21992612bddb01",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-pages/releases/assets/490680743",
+    "checksum_sha256": "9e15543ef7fdcb2036fe85d8000a49e844444382dd9075e15aca657be9dca133",
+    "signature": "9b9963441fbaed94612c5ddf77165d30d78b8ee29d1b3b66e682bf07b36c904e7ba6f0680ab621c6bbdbba2e7adca99fc2da094dfdb1253649ffb4fbb41ad60c",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
         "pages",
         "cms-content",
-        "page-hierarchy",
-        "page-revisions",
         "seo-metadata",
         "page-menu",
         "shortcodes",
@@ -43,7 +41,7 @@
             "checksum_sha256": "319e597f4ab4ed398ffe8c32f8bbe063329612ec7fec22c797625c40022a65c4",
             "signature": "d5fa1280ac02c4a6c509d9fe9572beb84ce16921b9ff297f717b4e207baf58ea73f38cff3f5f2e55566d996e83ef7f65ea6942876bb7a0d1be21992612bddb01",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "pages",
@@ -61,6 +59,29 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T17:15:20Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-pages/releases/assets/490680743",
+            "checksum_sha256": "9e15543ef7fdcb2036fe85d8000a49e844444382dd9075e15aca657be9dca133",
+            "signature": "9b9963441fbaed94612c5ddf77165d30d78b8ee29d1b3b66e682bf07b36c904e7ba6f0680ab621c6bbdbba2e7adca99fc2da094dfdb1253649ffb4fbb41ad60c",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "pages",
+                "cms-content",
+                "seo-metadata",
+                "page-menu",
+                "shortcodes",
+                "widgets",
+                "mobile-richtext-surface",
+                "workflow-triggers",
+                "webhook-events",
+                "block-editor"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:42:18Z"
         }
     ]
 }

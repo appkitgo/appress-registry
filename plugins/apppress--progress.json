@@ -1,23 +1,23 @@
 {
     "slug": "apppress/progress",
     "name": "AppPress Progress & Completion",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Step-by-step progress tracking for any model: define steps, record completions per user, calculate percentage, fire completion events, issue certificates, and resume where left off.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-24T19:47:00Z",
+    "last_updated": "2026-07-26T20:42:46Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-progress/releases/assets/488760005",
-    "checksum_sha256": "c0e6a51c85f19e5c1bb324a80a1f3507f2eec9415798931b254a369eecd543d6",
-    "signature": "13d0f1119d03223a3ca354c1beb0257fa816b978dbee318633982cd7dc2066de28cc3916754eb6f88e872dc0d3ec11e32420084ab7ff6891a9056daf54782903",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-progress/releases/assets/490681046",
+    "checksum_sha256": "9538273399c6ce7a31525128f1210b1a56d215c580aebacd6e2e60cab9dc9aad",
+    "signature": "32ff27edcaa2a5aad8c681aa4bce61f3487a7f4ff4303c99cec84e9b691198db7bb8cdecd23d063862fb527db6dac9f4ba05bf76e82fd156a7e57ddf5e282b0d",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -87,7 +87,7 @@
             "checksum_sha256": "c0e6a51c85f19e5c1bb324a80a1f3507f2eec9415798931b254a369eecd543d6",
             "signature": "13d0f1119d03223a3ca354c1beb0257fa816b978dbee318633982cd7dc2066de28cc3916754eb6f88e872dc0d3ec11e32420084ab7ff6891a9056daf54782903",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "progress_tracking",
@@ -105,6 +105,31 @@
             ],
             "yanked": false,
             "published_at": "2026-07-24T19:47:00Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-progress/releases/assets/490681046",
+            "checksum_sha256": "9538273399c6ce7a31525128f1210b1a56d215c580aebacd6e2e60cab9dc9aad",
+            "signature": "32ff27edcaa2a5aad8c681aa4bce61f3487a7f4ff4303c99cec84e9b691198db7bb8cdecd23d063862fb527db6dac9f4ba05bf76e82fd156a7e57ddf5e282b0d",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "progress_tracking",
+                "step_completion",
+                "completion_certificates",
+                "printable_certificate_fallback",
+                "prerequisite_trackables",
+                "completion_analytics",
+                "gamification_integration",
+                "workflow_triggers",
+                "workflow_actions",
+                "mobile_progress_surfaces",
+                "embeddable_progress_block",
+                "multi_site_scoped"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:42:46Z"
         }
     ]
 }

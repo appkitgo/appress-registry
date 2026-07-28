@@ -1,23 +1,23 @@
 {
     "slug": "apppress/intercom-connector",
     "name": "Intercom Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Production Intercom connector for AppPress \u2014 create, update, and look up contacts (leads/users), read and search conversations, post admin replies, and inbound webhook triggers for new conversations and new contacts.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T05:12:09Z",
+    "last_updated": "2026-07-26T20:41:00Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-intercom-connector/releases/assets/473228366",
-    "checksum_sha256": "3c7a323a3724505ff88e6b8bf8aa5f77fc18c5b09ae10fb86936538bd7351af4",
-    "signature": "4f90c55d419970bc670272feb7fdeed7bf6fb85117e426dd57d271d9800ebf658d44f0b0f4adae61feb2f2a803a5f12aeaeb49c0fc5d84b0790aaf5b89d02908",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-intercom-connector/releases/assets/490679969",
+    "checksum_sha256": "29ec086324956ba7e077ea9191b3357d0805d23b85f7fa5916f24296d6226512",
+    "signature": "ab0a864281f768aeae167e9c7cc2f151a1398c39fe19a417b82fd5389410a247d86b583e178319d52d864e339887a5265f829124e0a1a212dca9b5a9907b2806",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -34,7 +34,7 @@
             "checksum_sha256": "3c7a323a3724505ff88e6b8bf8aa5f77fc18c5b09ae10fb86936538bd7351af4",
             "signature": "4f90c55d419970bc670272feb7fdeed7bf6fb85117e426dd57d271d9800ebf658d44f0b0f4adae61feb2f2a803a5f12aeaeb49c0fc5d84b0790aaf5b89d02908",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.intercom",
@@ -43,6 +43,22 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T05:12:09Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-intercom-connector/releases/assets/490679969",
+            "checksum_sha256": "29ec086324956ba7e077ea9191b3357d0805d23b85f7fa5916f24296d6226512",
+            "signature": "ab0a864281f768aeae167e9c7cc2f151a1398c39fe19a417b82fd5389410a247d86b583e178319d52d864e339887a5265f829124e0a1a212dca9b5a9907b2806",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.intercom",
+                "support.external",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:41:00Z"
         }
     ]
 }

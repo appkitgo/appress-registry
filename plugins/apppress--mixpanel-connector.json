@@ -1,23 +1,23 @@
 {
     "slug": "apppress/mixpanel-connector",
     "name": "Mixpanel Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Mixpanel connector for AppPress \u2014 fire-and-forget event tracking via the real-time Track API, plus read/search of user profiles via the Query/Engage API (Service Account auth). Mixpanel's ingestion side is write-only, like Segment: there is no read/update/delete on tracked events because Mixpanel's real API does not expose one.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T07:48:17Z",
+    "last_updated": "2026-07-26T20:04:37Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-mixpanel-connector/releases/assets/473330821",
-    "checksum_sha256": "84e04704555454456b92155572fedfcbb9aa0c22037acff25d6a3b724a9462e1",
-    "signature": "0e62cb4fd412804abf1395714d8547f6e62a99f9152c47be0fb38f3739eab24087cd59c034f284842f1b02e94b09f2c2a5b135c1bd96669585b5d96873d5c703",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-mixpanel-connector/releases/assets/490652173",
+    "checksum_sha256": "6f0e206243024607d453735e35c52e6431643c493bb5a22ed8a9701bb7f3cb1b",
+    "signature": "bf8b4614f9fd32d58246e736472d1f3c41d2df432a5bbd64ac2797807b100ea4585a65d6dfca16b11c69fa8b17fdb765a1bf94e4b64fc038de4da8a6194b9c0c",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,7 +33,7 @@
             "checksum_sha256": "84e04704555454456b92155572fedfcbb9aa0c22037acff25d6a3b724a9462e1",
             "signature": "0e62cb4fd412804abf1395714d8547f6e62a99f9152c47be0fb38f3739eab24087cd59c034f284842f1b02e94b09f2c2a5b135c1bd96669585b5d96873d5c703",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.mixpanel",
@@ -41,6 +41,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T07:48:17Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-mixpanel-connector/releases/assets/490652173",
+            "checksum_sha256": "6f0e206243024607d453735e35c52e6431643c493bb5a22ed8a9701bb7f3cb1b",
+            "signature": "bf8b4614f9fd32d58246e736472d1f3c41d2df432a5bbd64ac2797807b100ea4585a65d6dfca16b11c69fa8b17fdb765a1bf94e4b64fc038de4da8a6194b9c0c",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.mixpanel",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:04:37Z"
         }
     ]
 }

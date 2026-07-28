@@ -1,23 +1,23 @@
 {
     "slug": "apppress/salesforce-connector",
     "name": "Salesforce Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Connect Salesforce CRM for lead, contact, and opportunity sync plus workflow automation.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-10T19:15:14Z",
+    "last_updated": "2026-07-26T20:43:43Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-salesforce-connector/releases/assets/472805511",
-    "checksum_sha256": "5a5a981578e89e90ad3b9e098e7b870fedcbf2dcd4415a847e4af02cc158f37b",
-    "signature": "3018549346c3262190fbef64affe831d3bf410e1beee2950ff95722c8d1b627221909e429255233e9879f6578bfb6933e36a6a20bfeb32873641124fca63e307",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-salesforce-connector/releases/assets/490681684",
+    "checksum_sha256": "cdbd7a12c2d16c73b14117ff6f3c8b4c2dc53ca90d212cc99429e4e37e7af1cc",
+    "signature": "9f795621b9a944d47908159bde225df1384836143d1ed4849e0b1c93e2b1c89aab62ae7b7b305f26f1290f651f33411027931450c6c0ba9fae9c930b8b2f460d",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,7 +33,7 @@
             "checksum_sha256": "5a5a981578e89e90ad3b9e098e7b870fedcbf2dcd4415a847e4af02cc158f37b",
             "signature": "3018549346c3262190fbef64affe831d3bf410e1beee2950ff95722c8d1b627221909e429255233e9879f6578bfb6933e36a6a20bfeb32873641124fca63e307",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.salesforce",
@@ -41,6 +41,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-10T19:15:14Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-salesforce-connector/releases/assets/490681684",
+            "checksum_sha256": "cdbd7a12c2d16c73b14117ff6f3c8b4c2dc53ca90d212cc99429e4e37e7af1cc",
+            "signature": "9f795621b9a944d47908159bde225df1384836143d1ed4849e0b1c93e2b1c89aab62ae7b7b305f26f1290f651f33411027931450c6c0ba9fae9c930b8b2f460d",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.salesforce",
+                "crm.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:43:43Z"
         }
     ]
 }

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/quickbooks-connector",
     "name": "QuickBooks Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Production QuickBooks Online connector for CampusLaunch \u2014 create/update customers, create invoices, find/search customers, and an inbound webhook trigger for invoice-paid events, scoped to a QuickBooks company (realm) via OAuth2.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T01:15:44Z",
+    "last_updated": "2026-07-26T20:43:01Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-quickbooks-connector/releases/assets/473077595",
-    "checksum_sha256": "ea82434a0bb38fb1f4fb500c782f1436de1df3bce6be4e9e3704ac4926bdca12",
-    "signature": "5361d923b2ef1dcb85b6d21208b6420816ccdceb6024cdca2c687222e256b5d0365e3b20fec90170586bbfe011080017c048e3b04e8bc9d6c2255c63c9ca780e",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-quickbooks-connector/releases/assets/490681206",
+    "checksum_sha256": "9f1b2f600f76f97b08c659926b6e7fb70f0d725d3d042925389c290ea4fecfef",
+    "signature": "9d79e9708a729edba2eac5d0afb46e820b4794063e295270833f036ccc30e961ee2a9af2722a95b4dbfea048dc18b3660b2e58a3e255c9514845716cd9b77803",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -34,7 +34,7 @@
             "checksum_sha256": "ea82434a0bb38fb1f4fb500c782f1436de1df3bce6be4e9e3704ac4926bdca12",
             "signature": "5361d923b2ef1dcb85b6d21208b6420816ccdceb6024cdca2c687222e256b5d0365e3b20fec90170586bbfe011080017c048e3b04e8bc9d6c2255c63c9ca780e",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.quickbooks",
@@ -43,6 +43,22 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T01:15:44Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-quickbooks-connector/releases/assets/490681206",
+            "checksum_sha256": "9f1b2f600f76f97b08c659926b6e7fb70f0d725d3d042925389c290ea4fecfef",
+            "signature": "9d79e9708a729edba2eac5d0afb46e820b4794063e295270833f036ccc30e961ee2a9af2722a95b4dbfea048dc18b3660b2e58a3e255c9514845716cd9b77803",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.quickbooks",
+                "accounting.external",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:43:01Z"
         }
     ]
 }

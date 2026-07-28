@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/sftp-csv-import-connector",
+    "name": "SFTP / CSV Import Connector",
+    "version": "1.1.0",
+    "author": "AppPress",
+    "description": "Safe institutional data import connector for CampusLaunch \u2014 SFTP pull (password + private key + host-pinning), manual file upload fallback, CSV/TSV parsing, field mapping with versioned templates, upsert, duplicate detection, import audit logs, FERPA classification, and Banner-style export support. Explicitly excludes Banner live API/DB access.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T21:00:33Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-sftp-csv-import-connector/releases/assets/490692170",
+    "checksum_sha256": "3e705c58d998da93b48e9ce9970a528c8e826588f5d9dd845f110f5cb7f39c0c",
+    "signature": "15880bd29a3cd464f7ca6ae8e33fc8827115eb424c56f75ccca7046a35fd3785193a21b86cefae94781315804c773263062aa6b99392a6df593fc4fdc55a7401",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.sftp_csv_import",
+        "data_import.institutional",
+        "data_source.sftp"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-sftp-csv-import-connector/releases/assets/490692170",
+            "checksum_sha256": "3e705c58d998da93b48e9ce9970a528c8e826588f5d9dd845f110f5cb7f39c0c",
+            "signature": "15880bd29a3cd464f7ca6ae8e33fc8827115eb424c56f75ccca7046a35fd3785193a21b86cefae94781315804c773263062aa6b99392a6df593fc4fdc55a7401",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.sftp_csv_import",
+                "data_import.institutional",
+                "data_source.sftp"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T21:00:33Z"
+        }
+    ]
+}

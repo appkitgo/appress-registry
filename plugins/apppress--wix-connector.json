@@ -1,23 +1,23 @@
 {
     "slug": "apppress/wix-connector",
     "name": "Wix Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Production Wix connector for AppPress \u2014 find/create/update Contacts via the real Contacts API v4, read/search eCommerce orders, and real JWT-signed order webhooks.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-12T20:36:23Z",
+    "last_updated": "2026-07-26T20:45:43Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-wix-connector/releases/assets/474707807",
-    "checksum_sha256": "cd0f43acd3eb515fc249847d69054e2870f7ae21ca4ccc3ee451d519ed137e05",
-    "signature": "377a9c8af341e9316d36f908591c7248b04f69d9c9c4ce118850babfc4d4e43ee1b315bab74cac977c32ddee3f83cffc1c0b0d21398df6a424e0e8e16204f40b",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-wix-connector/releases/assets/490682954",
+    "checksum_sha256": "5ee7a33bc0ea792d82ed185060ed48ba286d62c950ceb87e93192a460251559a",
+    "signature": "37e2313f635d3bf891e901301e95ab8250618bf9f816b7959e0ba1c77d5d882a5d0930894f3630f88b631e38711559fa6d80684e8085205fd53914815a57d50c",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,7 +33,7 @@
             "checksum_sha256": "cd0f43acd3eb515fc249847d69054e2870f7ae21ca4ccc3ee451d519ed137e05",
             "signature": "377a9c8af341e9316d36f908591c7248b04f69d9c9c4ce118850babfc4d4e43ee1b315bab74cac977c32ddee3f83cffc1c0b0d21398df6a424e0e8e16204f40b",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.wix",
@@ -41,6 +41,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-12T20:36:23Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-wix-connector/releases/assets/490682954",
+            "checksum_sha256": "5ee7a33bc0ea792d82ed185060ed48ba286d62c950ceb87e93192a460251559a",
+            "signature": "37e2313f635d3bf891e901301e95ab8250618bf9f816b7959e0ba1c77d5d882a5d0930894f3630f88b631e38711559fa6d80684e8085205fd53914815a57d50c",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.wix",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:45:43Z"
         }
     ]
 }

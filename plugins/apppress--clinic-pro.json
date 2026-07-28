@@ -1,0 +1,40 @@
+{
+    "slug": "apppress/clinic-pro",
+    "name": "Clinic Pro",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "A calm, reassuring theme for health clinics and wellness practices \u2014 online booking, patient portals, and appointment reminders. Teal-and-sky palette, Mulish display type, gentle gradient hero, and trust-focused styling layered over the Default theme.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T23:19:01Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/theme-clinic-pro/releases/assets/490775753",
+    "checksum_sha256": "ca50f9f8609ba148b5fe7fb3e55aa784922def869027d0f14279a24665aee9e3",
+    "signature": "31d034be5d1636f92a83f40077342f034f294198964548a9c507d81d5581940aba477edbf5fe8e995d5408f9d9e898ecd1380932f023f33831499dfc1f9e450e",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/theme-clinic-pro/releases/assets/490775753",
+            "checksum_sha256": "ca50f9f8609ba148b5fe7fb3e55aa784922def869027d0f14279a24665aee9e3",
+            "signature": "31d034be5d1636f92a83f40077342f034f294198964548a9c507d81d5581940aba477edbf5fe8e995d5408f9d9e898ecd1380932f023f33831499dfc1f9e450e",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T23:19:01Z"
+        }
+    ]
+}

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/referrals",
     "name": "AppPress Referrals",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "AppPress",
     "description": "Referral and affiliate tracking with unique codes, reward programs, multi-tier commissions, conversion tracking, and payout management.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T12:17:45Z",
+    "last_updated": "2026-07-26T20:43:29Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-referrals/releases/assets/476669377",
-    "checksum_sha256": "1007ff236baac1702a72b96564ccafa316c31884323ff408c089e0b8ebaf62f6",
-    "signature": "8278f29ec703c967f8df01d5dd56ffd07af36194d8b0d9c9d61d1326b06ed56a7c8d9bcb77bde6a43750cf7a737a5ad19fd3b13a5d52c228495085fb4c736709",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-referrals/releases/assets/490681550",
+    "checksum_sha256": "dd65a29e7772e322cf001f478554e9039f804b41ada5c9766e544480418ad39c",
+    "signature": "c388bd57f0a0daf9b55d05e382d3382d22e89ff7bedec6c8e96d498a156082fec05cee84643657dc5ac5f1f80fe1f17cd87ab03df5f41f271579198b571b050f",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -46,13 +46,27 @@
             "checksum_sha256": "1007ff236baac1702a72b96564ccafa316c31884323ff408c089e0b8ebaf62f6",
             "signature": "8278f29ec703c967f8df01d5dd56ffd07af36194d8b0d9c9d61d1326b06ed56a7c8d9bcb77bde6a43750cf7a737a5ad19fd3b13a5d52c228495085fb4c736709",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "referrals"
             ],
             "yanked": false,
             "published_at": "2026-07-14T12:17:45Z"
+        },
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-referrals/releases/assets/490681550",
+            "checksum_sha256": "dd65a29e7772e322cf001f478554e9039f804b41ada5c9766e544480418ad39c",
+            "signature": "c388bd57f0a0daf9b55d05e382d3382d22e89ff7bedec6c8e96d498a156082fec05cee84643657dc5ac5f1f80fe1f17cd87ab03df5f41f271579198b571b050f",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "referrals"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:43:29Z"
         }
     ]
 }

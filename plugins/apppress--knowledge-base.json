@@ -1,23 +1,23 @@
 {
     "slug": "apppress/knowledge-base",
     "name": "AppPress Knowledge Base",
-    "version": "1.0.1",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Full-featured knowledge base and help center with articles, hierarchical categories, curated collections, revision history, public search, helpfulness voting, mobile help surfaces, and workflow automation for campus support content.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-13T13:25:37Z",
+    "last_updated": "2026-07-26T20:41:14Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-knowledge-base/releases/assets/475508310",
-    "checksum_sha256": "ad42fbc67dab94f65871f55e21f9514ed49a369f2511d1b7bda43d353d91723f",
-    "signature": "9d6e64eb10dd70909b7bc834c16dd7782fa435e6392fa128ceaf313bdc41390529494c7554a426ce0f6ac473f9ac7232933b9ad1d5878a1cbfedbb417f6af40e",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-knowledge-base/releases/assets/490680094",
+    "checksum_sha256": "d59715f8245ae26373253b3a40547018463d8010d370643c0d37491e86a608ee",
+    "signature": "c49d228d2938db4def34692eeaad4066d70a8e84bc87069fad2292fa398e1693a56427bbf6d2da29d12cb7f205be328fe53f21395f66c00ee83c400bd4ba0c0e",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -58,7 +58,7 @@
             "checksum_sha256": "ad42fbc67dab94f65871f55e21f9514ed49a369f2511d1b7bda43d353d91723f",
             "signature": "9d6e64eb10dd70909b7bc834c16dd7782fa435e6392fa128ceaf313bdc41390529494c7554a426ce0f6ac473f9ac7232933b9ad1d5878a1cbfedbb417f6af40e",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "knowledge-base",
@@ -71,6 +71,26 @@
             ],
             "yanked": false,
             "published_at": "2026-07-13T13:25:37Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-knowledge-base/releases/assets/490680094",
+            "checksum_sha256": "d59715f8245ae26373253b3a40547018463d8010d370643c0d37491e86a608ee",
+            "signature": "c49d228d2938db4def34692eeaad4066d70a8e84bc87069fad2292fa398e1693a56427bbf6d2da29d12cb7f205be328fe53f21395f66c00ee83c400bd4ba0c0e",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "knowledge-base",
+                "help_center",
+                "articles",
+                "categories",
+                "collections",
+                "public_search",
+                "helpfulness_voting"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:41:14Z"
         }
     ]
 }

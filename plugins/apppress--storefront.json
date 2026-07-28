@@ -1,0 +1,40 @@
+{
+    "slug": "apppress/storefront",
+    "name": "Storefront",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "A minimal, high-contrast product storefront theme. Near-black plus a single vivid lime accent, crisp edges, big imagery, and bold minimal calls-to-action layered over the Default theme.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T23:19:36Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/theme-storefront/releases/assets/490776301",
+    "checksum_sha256": "e1a06656eeeebebad03ab7c60e77f47c30c1aaea77360d7ddb0df5be45d7aab2",
+    "signature": "4243e1b2449a42231dcfe8c313d36a54706303b83cf8c1a82b981b16b7e9c3aa8d2bc85f24838fd2b220ffca4fc297a61ed1eff3062544af9b7cb56e8f2b4a04",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/theme-storefront/releases/assets/490776301",
+            "checksum_sha256": "e1a06656eeeebebad03ab7c60e77f47c30c1aaea77360d7ddb0df5be45d7aab2",
+            "signature": "4243e1b2449a42231dcfe8c313d36a54706303b83cf8c1a82b981b16b7e9c3aa8d2bc85f24838fd2b220ffca4fc297a61ed1eff3062544af9b7cb56e8f2b4a04",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T23:19:36Z"
+        }
+    ]
+}

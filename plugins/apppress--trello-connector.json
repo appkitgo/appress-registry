@@ -1,23 +1,23 @@
 {
     "slug": "apppress/trello-connector",
     "name": "Trello Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Production Trello connector for AppPress \u2014 find/create/update cards, read boards and lists, and workflow automation on real card-activity webhooks.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T04:17:19Z",
+    "last_updated": "2026-07-26T20:45:07Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-trello-connector/releases/assets/473197222",
-    "checksum_sha256": "c4d126486acae9d93fe1d3c616fced8cca24d5abb6968d5e454f6ea327619d7b",
-    "signature": "ad2d22064317bcc1af13b8e158175ff7e4bb6c3b2907ec933e4c2a67694287d70ac559ba813d2e14e52d5e1b2b3776f5c83169e8c47c851102c5e98d799b300a",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-trello-connector/releases/assets/490682577",
+    "checksum_sha256": "e99ec35cc6ed0a7067b439ea2df7faacc3ee0c22f3dff53b23dc3eb2ef0f8b97",
+    "signature": "636b80fe6ea6549f3e5d4a1183292d7764fe38d9a07c4cbb5257dee2a172e770925346f7a583680d54cbd7444c71886f2bd0a51e89820368f474be0c8ff8c60b",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,7 +33,7 @@
             "checksum_sha256": "c4d126486acae9d93fe1d3c616fced8cca24d5abb6968d5e454f6ea327619d7b",
             "signature": "ad2d22064317bcc1af13b8e158175ff7e4bb6c3b2907ec933e4c2a67694287d70ac559ba813d2e14e52d5e1b2b3776f5c83169e8c47c851102c5e98d799b300a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.trello",
@@ -41,6 +41,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T04:17:19Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-trello-connector/releases/assets/490682577",
+            "checksum_sha256": "e99ec35cc6ed0a7067b439ea2df7faacc3ee0c22f3dff53b23dc3eb2ef0f8b97",
+            "signature": "636b80fe6ea6549f3e5d4a1183292d7764fe38d9a07c4cbb5257dee2a172e770925346f7a583680d54cbd7444c71886f2bd0a51e89820368f474be0c8ff8c60b",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.trello",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:45:07Z"
         }
     ]
 }

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/helpdesk",
     "name": "HelpDesk Pro",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "AppPress",
     "description": "Complete customer support platform: ticketing, SLA management, agent dashboard, knowledge base, and customer portal.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T15:46:12Z",
+    "last_updated": "2026-07-26T20:36:24Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/apppack-helpdesk/releases/assets/476867024",
-    "checksum_sha256": "6d3d7803bae4bdf4e25c7f5b09f6010a094b2a47e63f77224bc2a750771ada6e",
-    "signature": "4f24bba912d2cbdaffbb59422e63207ee9c8df00841407ed0a2cdcc05ff0641f33882f822c6f4e9ec9863be9cca8be27f86b26ae4d78606bb56b25e87fb8590f",
+    "download_url": "https://api.github.com/repos/appkitgo/apppack-helpdesk/releases/assets/490676888",
+    "checksum_sha256": "a5b9807f982807f84575debcf107fe8f161e256d824a41fcfabe40c79221c80b",
+    "signature": "5981fb1608109e4434352984973d7dd3a1d69d8ec9508e0e6acc0db04d7fdb7d726c3107910f582f1fb9160a7873e218ac04acc48d4fb80e6427ffea0b3ee209",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -46,13 +46,27 @@
             "checksum_sha256": "6d3d7803bae4bdf4e25c7f5b09f6010a094b2a47e63f77224bc2a750771ada6e",
             "signature": "4f24bba912d2cbdaffbb59422e63207ee9c8df00841407ed0a2cdcc05ff0641f33882f822c6f4e9ec9863be9cca8be27f86b26ae4d78606bb56b25e87fb8590f",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "helpdesk"
             ],
             "yanked": false,
             "published_at": "2026-07-14T15:46:12Z"
+        },
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/apppack-helpdesk/releases/assets/490676888",
+            "checksum_sha256": "a5b9807f982807f84575debcf107fe8f161e256d824a41fcfabe40c79221c80b",
+            "signature": "5981fb1608109e4434352984973d7dd3a1d69d8ec9508e0e6acc0db04d7fdb7d726c3107910f582f1fb9160a7873e218ac04acc48d4fb80e6427ffea0b3ee209",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "helpdesk"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:36:24Z"
         }
     ]
 }

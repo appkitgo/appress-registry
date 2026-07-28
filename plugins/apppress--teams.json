@@ -1,23 +1,23 @@
 {
     "slug": "apppress/teams",
     "name": "AppPress Teams",
-    "version": "1.0.1",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Team and organisation management for AppPress \u2014 create teams, invite members by email, manage owner/admin/member roles, switch team context, and expose StandardContracts::TEAMS for App Packs (helpdesk departments, LMS cohorts, CRM sales teams, chat channels). Includes workflow triggers/actions, outbound webhooks, mobile ListScreen/DetailScreen surfaces, team-switcher block, and site-scoped multi-tenant data.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T15:15:26Z",
+    "last_updated": "2026-07-26T20:44:53Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-teams/releases/assets/476837259",
-    "checksum_sha256": "8b3b8e4588ee2086b9bf52d42d16456a9f0159b9c4f63ffe8cc009079b631358",
-    "signature": "a820bb3c9ed61892d4ae703aac1c5393c9ae072170468e41d1dbb55c5ae1309993dac45ee48e80da759772cfd02d32a9e237fe601969dff7b07eaf9b3fec7a0b",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-teams/releases/assets/490682425",
+    "checksum_sha256": "336939c7463575fde17b0837daa1064fdc4aab6ae2d1d7b94d60894bf54019c8",
+    "signature": "175669f1ad6510c2c4f9eb9b8c074665f4c572c7a82e7bb5a63290c5c1182639a0ec781e7430d0d32e25f03319b8c020fa9365b934349518b0849788616dab05",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -64,7 +64,7 @@
             "checksum_sha256": "8b3b8e4588ee2086b9bf52d42d16456a9f0159b9c4f63ffe8cc009079b631358",
             "signature": "a820bb3c9ed61892d4ae703aac1c5393c9ae072170468e41d1dbb55c5ae1309993dac45ee48e80da759772cfd02d32a9e237fe601969dff7b07eaf9b3fec7a0b",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "teams",
@@ -80,6 +80,29 @@
             ],
             "yanked": false,
             "published_at": "2026-07-14T15:15:26Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-teams/releases/assets/490682425",
+            "checksum_sha256": "336939c7463575fde17b0837daa1064fdc4aab6ae2d1d7b94d60894bf54019c8",
+            "signature": "175669f1ad6510c2c4f9eb9b8c074665f4c572c7a82e7bb5a63290c5c1182639a0ec781e7430d0d32e25f03319b8c020fa9365b934349518b0849788616dab05",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "teams",
+                "team_management",
+                "member_invitations",
+                "role_management",
+                "team_context_switching",
+                "workflow_triggers",
+                "workflow_actions",
+                "mobile_surfaces",
+                "admin_dashboard",
+                "standard_contract"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:44:53Z"
         }
     ]
 }

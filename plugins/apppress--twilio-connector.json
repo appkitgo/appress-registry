@@ -1,23 +1,23 @@
 {
     "slug": "apppress/twilio-connector",
     "name": "Twilio Connector",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "author": "AppPress",
     "description": "Connect Twilio for SMS notifications, message lookup/redaction, and workflow automation on inbound SMS and delivery-status events.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-10T20:08:13Z",
+    "last_updated": "2026-07-26T20:45:14Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-twilio-connector/releases/assets/472849798",
-    "checksum_sha256": "1dd9244d29ef67c7300821e7debf6a698081fc66bd74113a0652f22be5939464",
-    "signature": "3aef6b69fdcb36c2699ad37c74ba59cc74b47f6ff835452e78fb86343b2b8f51521939306f36d3f3f7d40a41ab25f50e576b603949038dbf6b413f904265e60c",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-twilio-connector/releases/assets/490682648",
+    "checksum_sha256": "3d372d5dd57c2e10b1171e7a727317cd54dcc5e40fb67df7d85c688697a646f0",
+    "signature": "18e1d871e32113d683a7256da17f318f595e0a380bfb75a2db7b76d91a52c68f5c56337839cdb6badd455709a29440b4dd59f1c890febece56ee915d8165c00c",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,7 +33,7 @@
             "checksum_sha256": "1dd9244d29ef67c7300821e7debf6a698081fc66bd74113a0652f22be5939464",
             "signature": "3aef6b69fdcb36c2699ad37c74ba59cc74b47f6ff835452e78fb86343b2b8f51521939306f36d3f3f7d40a41ab25f50e576b603949038dbf6b413f904265e60c",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.twilio",
@@ -41,6 +41,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-10T20:08:13Z"
+        },
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-twilio-connector/releases/assets/490682648",
+            "checksum_sha256": "3d372d5dd57c2e10b1171e7a727317cd54dcc5e40fb67df7d85c688697a646f0",
+            "signature": "18e1d871e32113d683a7256da17f318f595e0a380bfb75a2db7b76d91a52c68f5c56337839cdb6badd455709a29440b4dd59f1c890febece56ee915d8165c00c",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.twilio",
+                "notifications.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:45:14Z"
         }
     ]
 }

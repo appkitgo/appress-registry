@@ -1,23 +1,23 @@
 {
     "slug": "apppress/analytics",
     "name": "AppPress Analytics",
-    "version": "1.0.2",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Privacy-friendly, FERPA-aware analytics that tracks page views, visitor sessions, UTM campaigns, and custom events \u2014 with a built-in admin dashboard and configurable data retention. Works out of the box for public pages; requires FERPA review before enabling authenticated-user tracking in campus apps.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-13T23:55:46Z",
+    "last_updated": "2026-07-26T20:37:05Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-analytics/releases/assets/476052682",
-    "checksum_sha256": "3e6f04b8dc52232ad7a0264a24a50688caaca6c73bb43dc88d5b3bbd6e468330",
-    "signature": "5a01cfdd67d7f6b73b109efd5bfa71e42a9f0caa94195069ce8dcd85a03b40798195b7e0df40ab5ee0366e36b303b1a830ae6aa240f3819d81c86ea43bb24007",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-analytics/releases/assets/490677265",
+    "checksum_sha256": "2c7bae6cc10151a1d08d86a404feb71e487aaa995e37cce3aa23163eecf5357d",
+    "signature": "66defd2986e0e214d34f6da47e721c3a8238c6c54fcde6a15d3ad3ccc120259b3444dfd2a87a60e00bad056188f6246ef9d7e98fd3586bbdf4c011f9a0dc1704",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -42,11 +42,23 @@
             "checksum_sha256": "3e6f04b8dc52232ad7a0264a24a50688caaca6c73bb43dc88d5b3bbd6e468330",
             "signature": "5a01cfdd67d7f6b73b109efd5bfa71e42a9f0caa94195069ce8dcd85a03b40798195b7e0df40ab5ee0366e36b303b1a830ae6aa240f3819d81c86ea43bb24007",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [],
             "yanked": false,
             "published_at": "2026-07-13T23:55:46Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-analytics/releases/assets/490677265",
+            "checksum_sha256": "2c7bae6cc10151a1d08d86a404feb71e487aaa995e37cce3aa23163eecf5357d",
+            "signature": "66defd2986e0e214d34f6da47e721c3a8238c6c54fcde6a15d3ad3ccc120259b3444dfd2a87a60e00bad056188f6246ef9d7e98fd3586bbdf4c011f9a0dc1704",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T20:37:05Z"
         }
     ]
 }

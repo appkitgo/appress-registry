@@ -1,23 +1,23 @@
 {
     "slug": "apppress/typeform-connector",
     "name": "Typeform Connector",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "author": "AppPress",
     "description": "Typeform connector for AppPress \u2014 inbound form-response webhook trigger plus read/search of forms and form responses via a Personal Access Token. Typeform's public API is response-ingestion-shaped: there is no create/update/delete operation for responses because form responses are end-user submissions, not something an API client writes.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T07:22:25Z",
+    "last_updated": "2026-07-26T20:45:29Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-typeform-connector/releases/assets/473314272",
-    "checksum_sha256": "64dff5bd79f05dc8ece85356d078e8072629801582ed2f81295bb08a8ff9a6c3",
-    "signature": "d30feb19c25f16a1b0483ec1d0f0542b3876c073e9ffbea1745576568ba1c1bfe57363350cdd2eaaf0b8d15dd24ae2220c5d56628d5b274910118bf2b7cab70a",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-typeform-connector/releases/assets/490682829",
+    "checksum_sha256": "6e1b08078f26de62d6cf5642db69402caa9a1e36b5b59a871e0ad6c2e77e03b1",
+    "signature": "c8bbe9d0d375c53a6e7aba17d2bb29c9bbf2ec39ad76bf6345e3586212eeb7127c98cdecd8ecaef7a0c831ac1e06e5df486d86fca12a2a376209095a7ed08701",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,7 +33,7 @@
             "checksum_sha256": "64dff5bd79f05dc8ece85356d078e8072629801582ed2f81295bb08a8ff9a6c3",
             "signature": "d30feb19c25f16a1b0483ec1d0f0542b3876c073e9ffbea1745576568ba1c1bfe57363350cdd2eaaf0b8d15dd24ae2220c5d56628d5b274910118bf2b7cab70a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.typeform",
@@ -41,6 +41,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T07:22:25Z"
+        },
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-typeform-connector/releases/assets/490682829",
+            "checksum_sha256": "6e1b08078f26de62d6cf5642db69402caa9a1e36b5b59a871e0ad6c2e77e03b1",
+            "signature": "c8bbe9d0d375c53a6e7aba17d2bb29c9bbf2ec39ad76bf6345e3586212eeb7127c98cdecd8ecaef7a0c831ac1e06e5df486d86fca12a2a376209095a7ed08701",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.typeform",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:45:29Z"
         }
     ]
 }

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/file-vault",
     "name": "AppPress File Vault",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "User-scoped file storage with per-user quotas, disk-backed uploads, signed download URLs, folder organization, and usage tracking. Implements StandardContracts::FILE_VAULT so App Packs, forms, and workflows can store private documents without coupling to this plugin. Ships a dual-mounted (Studio + App) admin dashboard with upload, search/filter (including folder), bulk delete, and a quota bar; a member-facing My Files page for self-service upload/download/delete/share; an embeddable member block; inline image/PDF previews on both surfaces; a member dashboard panel; mobile ListScreen and interactive DetailScreen; workflow triggers/actions; and outbound webhooks.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-24T19:54:38Z",
+    "last_updated": "2026-07-26T20:39:44Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-file-vault/releases/assets/488765964",
-    "checksum_sha256": "ca6ff512ced3f4b654ce3e83ae9981344f5a1c542d1a2f9860b969128f4234cb",
-    "signature": "e1bb0629220f712bf0943399a06ce4af8316fe5ddb122be368fc07a36d5d513e738132fb1ee43a2f5e885fe464852e856df7f0894e4a7ce25bdaf09ed4f67e0c",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-file-vault/releases/assets/490678824",
+    "checksum_sha256": "acd8b1bc851e224718b2a2c726dd479e795b73d2df982030b0799721143bdf49",
+    "signature": "9692a6c39ef7970562e21441ecfa9a80184853bfe4d1ee88b0d5d13c5bee61d789b7717a0b08047e5f600218f58e011399c0c94cbc56d57c3b64e45d388d4200",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -83,7 +83,7 @@
             "checksum_sha256": "ca6ff512ced3f4b654ce3e83ae9981344f5a1c542d1a2f9860b969128f4234cb",
             "signature": "e1bb0629220f712bf0943399a06ce4af8316fe5ddb122be368fc07a36d5d513e738132fb1ee43a2f5e885fe464852e856df7f0894e4a7ce25bdaf09ed4f67e0c",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "files",
@@ -103,6 +103,33 @@
             ],
             "yanked": false,
             "published_at": "2026-07-24T19:54:38Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-file-vault/releases/assets/490678824",
+            "checksum_sha256": "acd8b1bc851e224718b2a2c726dd479e795b73d2df982030b0799721143bdf49",
+            "signature": "9692a6c39ef7970562e21441ecfa9a80184853bfe4d1ee88b0d5d13c5bee61d789b7717a0b08047e5f600218f58e011399c0c94cbc56d57c3b64e45d388d4200",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "files",
+                "file-vault",
+                "private_file_storage",
+                "per_user_quotas",
+                "signed_download_urls",
+                "mobile_my_files",
+                "admin_dashboard",
+                "member_self_service",
+                "bulk_actions",
+                "folder_organization",
+                "inline_previews",
+                "embeddable_my_files_block",
+                "workflow_triggers",
+                "workflow_actions"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:39:44Z"
         }
     ]
 }

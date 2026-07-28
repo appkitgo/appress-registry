@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/webhooks-api-connector",
+    "name": "Webhooks & API Connector",
+    "version": "1.1.0",
+    "author": "AppPress",
+    "description": "Generic outbound REST API + inbound webhook connector for CampusLaunch \u2014 configurable HTTP actions (GET/POST/PUT/PATCH/DELETE), multiple auth methods (API key, bearer, basic, OAuth client credentials), HMAC/secret-token webhook receiver with replay protection, IP allowlist, schema validation, SSRF guard, and AI-safe action approval model.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T21:00:57Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-webhooks-api-connector/releases/assets/490692537",
+    "checksum_sha256": "7a011f4e47427e5c6fdbc840e2c8f69f9da223c4bdada566ec2216a493461609",
+    "signature": "fc3e974273c2d924df9a62f328eebab864b50b8728e0360162e6d3f68e0f073554bc39a8b0b82f00a2c4c9c5869eee421fd4206735397750cbd1610fabdc0101",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.webhooks_api",
+        "http.outbound",
+        "webhook.inbound"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-webhooks-api-connector/releases/assets/490692537",
+            "checksum_sha256": "7a011f4e47427e5c6fdbc840e2c8f69f9da223c4bdada566ec2216a493461609",
+            "signature": "fc3e974273c2d924df9a62f328eebab864b50b8728e0360162e6d3f68e0f073554bc39a8b0b82f00a2c4c9c5869eee421fd4206735397750cbd1610fabdc0101",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.webhooks_api",
+                "http.outbound",
+                "webhook.inbound"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T21:00:57Z"
+        }
+    ]
+}

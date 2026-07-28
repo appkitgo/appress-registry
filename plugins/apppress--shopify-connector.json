@@ -1,23 +1,23 @@
 {
     "slug": "apppress/shopify-connector",
     "name": "Shopify Connector",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "author": "AppPress",
     "description": "Production Shopify connector for AppPress \u2014 find/create/update customers and read orders via workflow automation, with real order webhooks.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T02:06:37Z",
+    "last_updated": "2026-07-26T20:44:11Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-shopify-connector/releases/assets/473108979",
-    "checksum_sha256": "3ae00770e6008c3312d86ee4bba79fb8b61eec46ebf75b8973a74dc1c1974c98",
-    "signature": "df6cc343c564f4511fcc76127e5eb286802256ad7ac1ad495f060efe85f2b603d565a482a6273e851748f4f840088c868741fab74d58b50bef4ad7662ef9b20a",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-shopify-connector/releases/assets/490681988",
+    "checksum_sha256": "1a887ef955955147b91d039124edd8524ddccac4e3efbee38d382103eb270bc4",
+    "signature": "fe452892866bdc508966a855942fecf7c323e4c2e8a0a753eadeb5077abd5eb1306baff222a6896afe638849c3b9e4b7b2a3d112a4069db90e017274a83e660b",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,7 +33,7 @@
             "checksum_sha256": "3ae00770e6008c3312d86ee4bba79fb8b61eec46ebf75b8973a74dc1c1974c98",
             "signature": "df6cc343c564f4511fcc76127e5eb286802256ad7ac1ad495f060efe85f2b603d565a482a6273e851748f4f840088c868741fab74d58b50bef4ad7662ef9b20a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.shopify",
@@ -41,6 +41,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T02:06:37Z"
+        },
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-shopify-connector/releases/assets/490681988",
+            "checksum_sha256": "1a887ef955955147b91d039124edd8524ddccac4e3efbee38d382103eb270bc4",
+            "signature": "fe452892866bdc508966a855942fecf7c323e4c2e8a0a753eadeb5077abd5eb1306baff222a6896afe638849c3b9e4b7b2a3d112a4069db90e017274a83e660b",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.shopify",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:44:11Z"
         }
     ]
 }

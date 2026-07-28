@@ -1,23 +1,23 @@
 {
     "slug": "apppress/freshdesk-connector",
     "name": "Freshdesk Connector",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "author": "AppPress",
     "description": "Production Freshdesk support-desk connector for AppPress \u2014 create, update, and annotate tickets, list/search tickets, look up contacts and companies, and inbound webhook triggers for ticket-created and ticket-updated events.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T04:46:28Z",
+    "last_updated": "2026-07-26T20:39:57Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-freshdesk-connector/releases/assets/473215043",
-    "checksum_sha256": "eadf3b6766aa5b11b1270fe0f3f0b4d4dcc5f0be7a86968c55d3f0ae141e36e3",
-    "signature": "312e0afbb6c9e2d4cde6de99b376edbfdc618798037eab81a017d66e923d3544ac1553d69858a0f08cab13684aa5a5ebeeb236bf6ace64761d3c87f6f2b17e07",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-freshdesk-connector/releases/assets/490678993",
+    "checksum_sha256": "2bea887e66ec9f343543ddcbcbfb87146b4fa2f6b10e4cf5d65ac78d7168fd66",
+    "signature": "f440280b9ef3f371d31566cc6e6f6223655fb4bc96f4568817fddbb3a75a66392092a0bb101af155c3aebd3255684ac882c087c037561c10bc29e1dd884b3607",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -34,7 +34,7 @@
             "checksum_sha256": "eadf3b6766aa5b11b1270fe0f3f0b4d4dcc5f0be7a86968c55d3f0ae141e36e3",
             "signature": "312e0afbb6c9e2d4cde6de99b376edbfdc618798037eab81a017d66e923d3544ac1553d69858a0f08cab13684aa5a5ebeeb236bf6ace64761d3c87f6f2b17e07",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.freshdesk",
@@ -43,6 +43,22 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T04:46:28Z"
+        },
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-freshdesk-connector/releases/assets/490678993",
+            "checksum_sha256": "2bea887e66ec9f343543ddcbcbfb87146b4fa2f6b10e4cf5d65ac78d7168fd66",
+            "signature": "f440280b9ef3f371d31566cc6e6f6223655fb4bc96f4568817fddbb3a75a66392092a0bb101af155c3aebd3255684ac882c087c037561c10bc29e1dd884b3607",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.freshdesk",
+                "support.external",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:39:57Z"
         }
     ]
 }

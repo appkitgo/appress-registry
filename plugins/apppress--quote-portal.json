@@ -1,23 +1,23 @@
 {
     "slug": "apppress/quote-portal",
     "name": "Quote & Estimate Portal",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "AppPress",
     "description": "A complete business workflow for capturing leads, sending quotes, and getting paid. Replaces disjointed form and invoicing tools.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T16:46:38Z",
+    "last_updated": "2026-07-26T20:36:38Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/apppack-quote-portal/releases/assets/476923813",
-    "checksum_sha256": "6ecff50aa4be6245df27fefab35d3ac0e86e39495b75662a29b0d566547116dd",
-    "signature": "7b47f0aa1783683694266e896ba0c7154c91eae4d8d7463c4aee0b965dc167db7e8e0f940d79da94744db17d4dbeef7befb1570b76e8f729a1d0439b24b1a203",
+    "download_url": "https://api.github.com/repos/appkitgo/apppack-quote-portal/releases/assets/490677001",
+    "checksum_sha256": "0369f0210f8879b938930020240ac1327e2d5f82310db13e84b91384b76d6fc1",
+    "signature": "e4305a8a40029a6231843a4c90b123e4459ecc512df33395f0cd0a98f91afbfd0eaa26f8b2e3d20e22a10a7a16dc29c03ffe693a337bf5cc812e7d4b131ee303",
     "min_core_version": "1.0.0",
     "dependencies": {
         "apppress/quotes": "^1.0.0",
@@ -74,6 +74,27 @@
             ],
             "yanked": false,
             "published_at": "2026-07-14T16:46:38Z"
+        },
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/apppack-quote-portal/releases/assets/490677001",
+            "checksum_sha256": "0369f0210f8879b938930020240ac1327e2d5f82310db13e84b91384b76d6fc1",
+            "signature": "e4305a8a40029a6231843a4c90b123e4459ecc512df33395f0cd0a98f91afbfd0eaa26f8b2e3d20e22a10a7a16dc29c03ffe693a337bf5cc812e7d4b131ee303",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/quotes": "^1.0.0",
+                "apppress/invoices": "^1.0.0",
+                "apppress/payments": "^1.0.0",
+                "apppress/contacts": "^1.0.0",
+                "apppress/forms": "^1.0.0",
+                "apppress/workflows": "^1.0.0"
+            },
+            "requires_plugins": [],
+            "capabilities": [
+                "quote_portal"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:36:38Z"
         }
     ]
 }

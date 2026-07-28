@@ -1,23 +1,23 @@
 {
     "slug": "apppress/github-connector",
     "name": "GitHub Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Production GitHub connector for AppPress \u2014 find/create issues, comment on issues, and read repositories via workflow automation, with real issue/comment webhooks.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T03:47:50Z",
+    "last_updated": "2026-07-26T20:40:18Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-github-connector/releases/assets/473177058",
-    "checksum_sha256": "6f686ce34082e30ade821ec72372ae8069fd572696edfdf9e563d47eba97faf6",
-    "signature": "34ff5b02026d40e864c00b49f3b2c0012c4bb7f40dc17d3e8763553794a7dd7c36c9b6c29341fe02acff2cebb920bd9e6e9eabfb44e940de1b46c40fe12cf901",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-github-connector/releases/assets/490679409",
+    "checksum_sha256": "22663a4d4a396e8ae28c2f6912b4913387907da974b14d6aba579c111d2d5d86",
+    "signature": "3b735ff6734087f8f79ca4819dccf320c7ce406e189e56071c4a017bc1c33a5506c699b4f4d91c2c04a1e151f89e997486ad0048528d8b8fba459cdf11ca780a",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,7 +33,7 @@
             "checksum_sha256": "6f686ce34082e30ade821ec72372ae8069fd572696edfdf9e563d47eba97faf6",
             "signature": "34ff5b02026d40e864c00b49f3b2c0012c4bb7f40dc17d3e8763553794a7dd7c36c9b6c29341fe02acff2cebb920bd9e6e9eabfb44e940de1b46c40fe12cf901",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.github",
@@ -41,6 +41,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T03:47:50Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-github-connector/releases/assets/490679409",
+            "checksum_sha256": "22663a4d4a396e8ae28c2f6912b4913387907da974b14d6aba579c111d2d5d86",
+            "signature": "3b735ff6734087f8f79ca4819dccf320c7ce406e189e56071c4a017bc1c33a5506c699b4f4d91c2c04a1e151f89e997486ad0048528d8b8fba459cdf11ca780a",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.github",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:40:18Z"
         }
     ]
 }

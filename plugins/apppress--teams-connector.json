@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/teams-connector",
+    "name": "Microsoft Teams Connector",
+    "version": "1.1.1",
+    "author": "AppPress",
+    "description": "Production Microsoft Teams connector for CampusLaunch \u2014 channel messaging, adaptive cards, team/channel discovery, workflow notifications, and incoming message triggers. Requires apppress/microsoft-graph-connector for OAuth2 token management.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T21:00:45Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-teams-connector/releases/assets/490692271",
+    "checksum_sha256": "ed641098712705aadd6f7c51b540cdff781ff595590ae5e10f72344a252a90ae",
+    "signature": "220c8443d2466ef13ae9e2390afbb57cf7c49142a1931d5b8740736410553979af240d4d5a2479526f1463f5cd0d7627dad3b1e40de705932440f40f06e01703",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.microsoft_teams",
+        "notifications.external",
+        "microsoft365.teams"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-teams-connector/releases/assets/490692271",
+            "checksum_sha256": "ed641098712705aadd6f7c51b540cdff781ff595590ae5e10f72344a252a90ae",
+            "signature": "220c8443d2466ef13ae9e2390afbb57cf7c49142a1931d5b8740736410553979af240d4d5a2479526f1463f5cd0d7627dad3b1e40de705932440f40f06e01703",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.microsoft_teams",
+                "notifications.external",
+                "microsoft365.teams"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T21:00:45Z"
+        }
+    ]
+}

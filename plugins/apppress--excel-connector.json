@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/excel-connector",
+    "name": "Microsoft Excel Connector",
+    "version": "1.1.0",
+    "author": "AppPress",
+    "description": "Microsoft Excel connector via Graph API \u2014 read/write workbook tables, append rows, export records to Excel, import rosters and course data, and map CampusLaunch form fields to Excel columns. ETag concurrency protection prevents data loss.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T20:59:57Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-excel-connector/releases/assets/490691808",
+    "checksum_sha256": "a407bb7f41ed36b74d325c72914ae3bae973efc6b20df1617804f4b6adc8b823",
+    "signature": "925923ae70a2b2385a115b675a25121be5234598a07a2ebfcfabc045e61d5dd116aab4ca6afa4baee17b5de084ad0d36cd4d6f86454b4a8477963ae88bf62600",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.excel",
+        "data_source.external",
+        "microsoft365.excel"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-excel-connector/releases/assets/490691808",
+            "checksum_sha256": "a407bb7f41ed36b74d325c72914ae3bae973efc6b20df1617804f4b6adc8b823",
+            "signature": "925923ae70a2b2385a115b675a25121be5234598a07a2ebfcfabc045e61d5dd116aab4ca6afa4baee17b5de084ad0d36cd4d6f86454b4a8477963ae88bf62600",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.excel",
+                "data_source.external",
+                "microsoft365.excel"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:59:57Z"
+        }
+    ]
+}

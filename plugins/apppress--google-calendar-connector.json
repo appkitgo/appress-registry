@@ -1,23 +1,23 @@
 {
     "slug": "apppress/google-calendar-connector",
     "name": "Google Calendar Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Production Google Calendar connector for CampusLaunch \u2014 event create/update/delete/get, calendar listing, free/busy availability lookups, search, and webhook triggers for event created/updated via Google's Calendar Watch push notifications.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T00:06:32Z",
+    "last_updated": "2026-07-26T20:40:25Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-google-calendar-connector/releases/assets/473035430",
-    "checksum_sha256": "7969a0c44a8bc0a5531f401facf7d522aaf09738821a6d7657a92f7fe7219cf7",
-    "signature": "f7764c591529491776cda40e9e8ad14f8df73955812e642e57e49d38c7944572a06d4eb4c61f396a48af2952e7d3ab8188a9bf0e322bb5e9e818a7c4102d9607",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-google-calendar-connector/releases/assets/490679488",
+    "checksum_sha256": "411c4a6dc83a7d6dc316af6e7c10f5f7b9bcb8024763c70dabab71514f73a7fe",
+    "signature": "c96305e13d7aa11034aa4db21c4c3c0cf430f04634eb8683a701c963216b30218d8a6a29aa2042e984e2e4e9ca3bdf441eb92c183b42cb7435a00bb535190507",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -35,7 +35,7 @@
             "checksum_sha256": "7969a0c44a8bc0a5531f401facf7d522aaf09738821a6d7657a92f7fe7219cf7",
             "signature": "f7764c591529491776cda40e9e8ad14f8df73955812e642e57e49d38c7944572a06d4eb4c61f396a48af2952e7d3ab8188a9bf0e322bb5e9e818a7c4102d9607",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.google_calendar",
@@ -45,6 +45,23 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T00:06:32Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-google-calendar-connector/releases/assets/490679488",
+            "checksum_sha256": "411c4a6dc83a7d6dc316af6e7c10f5f7b9bcb8024763c70dabab71514f73a7fe",
+            "signature": "c96305e13d7aa11034aa4db21c4c3c0cf430f04634eb8683a701c963216b30218d8a6a29aa2042e984e2e4e9ca3bdf441eb92c183b42cb7435a00bb535190507",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.google_calendar",
+                "calendar.create",
+                "calendar.read",
+                "data_source.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:40:25Z"
         }
     ]
 }

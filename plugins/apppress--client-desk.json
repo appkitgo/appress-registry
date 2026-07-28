@@ -1,0 +1,40 @@
+{
+    "slug": "apppress/client-desk",
+    "name": "Client Desk",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "A premium, understated theme for agencies and professional-services firms running client portals. Deep slate + muted gold palette, refined Space Grotesk headings, generous whitespace, and calm, professional client-desk styling layered over the Default theme.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T23:19:30Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/theme-client-desk/releases/assets/490776244",
+    "checksum_sha256": "0b8ba16ab5d44bb977d0620ad35de27be4d823187e1bc8d57aee4667eaa1eb25",
+    "signature": "f63c230fc6eea3e082b449d83a8e0ab1ebe0e9732b805cc82dae194c7eb31e2eda8b103806f818d8234013653c7032751f3e80fde40a9b585e648329b63cfb06",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/theme-client-desk/releases/assets/490776244",
+            "checksum_sha256": "0b8ba16ab5d44bb977d0620ad35de27be4d823187e1bc8d57aee4667eaa1eb25",
+            "signature": "f63c230fc6eea3e082b449d83a8e0ab1ebe0e9732b805cc82dae194c7eb31e2eda8b103806f818d8234013653c7032751f3e80fde40a9b585e648329b63cfb06",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T23:19:30Z"
+        }
+    ]
+}

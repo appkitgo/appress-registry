@@ -1,0 +1,48 @@
+{
+    "slug": "apppress/university-directory-connector",
+    "name": "University Directory Connector",
+    "version": "1.0.2",
+    "author": "AppPress",
+    "description": "University directory connector for CampusLaunch \u2014 people search, department listing, faculty/staff profiles, and advisor lookup. Wraps Microsoft Graph for Microsoft 365 institutions and provides a normalized CampusLaunch directory model (Person, Department, AdvisorProfile). FERPA: student directory records are gated; only directory-exempt fields are surfaced without explicit permission.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T21:00:51Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-university-directory-connector/releases/assets/490692322",
+    "checksum_sha256": "7a197c4d9798ed1f135b060ca6bf2669356fe0e4027f783025b9b2cefe267713",
+    "signature": "7d4f75680ef200e5fb05e34ee3c0c054a6b5ad705710496c53252c05581d05bf57d4fe9db089cc0a92ccb869424ecfa88c78d63927561b4d3f10bceb443dbf01",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [
+        "connector.university_directory",
+        "directory.people",
+        "directory.departments"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-university-directory-connector/releases/assets/490692322",
+            "checksum_sha256": "7a197c4d9798ed1f135b060ca6bf2669356fe0e4027f783025b9b2cefe267713",
+            "signature": "7d4f75680ef200e5fb05e34ee3c0c054a6b5ad705710496c53252c05581d05bf57d4fe9db089cc0a92ccb869424ecfa88c78d63927561b4d3f10bceb443dbf01",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.university_directory",
+                "directory.people",
+                "directory.departments"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T21:00:51Z"
+        }
+    ]
+}

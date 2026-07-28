@@ -1,23 +1,23 @@
 {
     "slug": "apppress/invoices",
     "name": "AppPress Invoices",
-    "version": "1.0.1",
+    "version": "1.1.1",
     "author": "AppPress",
-    "description": "Standalone invoice management with line items, tax, PDF generation, payment recording, overdue detection, automated reminders, and public client view links.",
+    "description": "Standalone invoice management with line items, tax, printable HTML invoices (browser print-to-PDF), payment recording, overdue detection, automated reminders, and public client view links.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-13T01:35:26Z",
+    "last_updated": "2026-07-26T20:41:07Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-invoices/releases/assets/474926903",
-    "checksum_sha256": "5c5f310083848b2c6dd7f4720fc175b6221e6267bf0abe227cc358782f5d68ea",
-    "signature": "231b3ad03d886161e6415dbe0b582d6382a4e0c3e07215e973d4497449c96a4cec6d46a9644d8cc1340278d26950e91fd0383ee307e0a73828fcc7af77a5d304",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-invoices/releases/assets/490680040",
+    "checksum_sha256": "cdd3bead8eed1a9da58af52765741ff41a5a6de062efb3e3cc164aba7f1c5406",
+    "signature": "0226a2b22aeaa806f1422cae6aea7d9e28d804d6dd62ecea67dfb3f56fd71fc8758413183f15fc3af4315984e7d3999941995d6c0c1333e760b78f6898cb7001",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -54,7 +54,7 @@
             "checksum_sha256": "5c5f310083848b2c6dd7f4720fc175b6221e6267bf0abe227cc358782f5d68ea",
             "signature": "231b3ad03d886161e6415dbe0b582d6382a4e0c3e07215e973d4497449c96a4cec6d46a9644d8cc1340278d26950e91fd0383ee307e0a73828fcc7af77a5d304",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "invoices",
@@ -65,6 +65,24 @@
             ],
             "yanked": false,
             "published_at": "2026-07-13T01:35:26Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-invoices/releases/assets/490680040",
+            "checksum_sha256": "cdd3bead8eed1a9da58af52765741ff41a5a6de062efb3e3cc164aba7f1c5406",
+            "signature": "0226a2b22aeaa806f1422cae6aea7d9e28d804d6dd62ecea67dfb3f56fd71fc8758413183f15fc3af4315984e7d3999941995d6c0c1333e760b78f6898cb7001",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "invoices",
+                "receivables",
+                "manual_payments",
+                "overdue_reminders",
+                "public_client_view"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:41:07Z"
         }
     ]
 }

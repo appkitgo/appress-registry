@@ -1,0 +1,40 @@
+{
+    "slug": "apppress/service-pro",
+    "name": "Service Pro",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "A sturdy, dependable theme for local trades and service businesses \u2014 plumbing, HVAC, cleaning, and more. Deep blue-and-orange palette, Rubik display type, bold trust-badge styling, and action-oriented \"Book now\" / \"Call now\" CTAs layered over the Default theme.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T23:19:24Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/theme-service-pro/releases/assets/490776196",
+    "checksum_sha256": "a36eec6541d95fa1c4c0f07132b2f890aaa5566946ad794aaf940030be1f48e2",
+    "signature": "6815a4426334437c63c65fec326050310a8f8c1ce841b06661420153dacb14a769e405b99db2ef09e49ab3eb76fba19dab887d77f87df3e83a5d55a8b71bb407",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/theme-service-pro/releases/assets/490776196",
+            "checksum_sha256": "a36eec6541d95fa1c4c0f07132b2f890aaa5566946ad794aaf940030be1f48e2",
+            "signature": "6815a4426334437c63c65fec326050310a8f8c1ce841b06661420153dacb14a769e405b99db2ef09e49ab3eb76fba19dab887d77f87df3e83a5d55a8b71bb407",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T23:19:24Z"
+        }
+    ]
+}

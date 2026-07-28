@@ -1,23 +1,23 @@
 {
     "slug": "apppress/search",
     "name": "AppPress Search",
-    "version": "1.0.2",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Driver-based full-text search across all content types. Implements StandardContracts::SEARCH with SQLite FTS5 / MySQL FULLTEXT / PostgreSQL tsvector (default) and an optional Meilisearch adapter.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T03:37:42Z",
+    "last_updated": "2026-07-26T20:43:57Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-search/releases/assets/476225216",
-    "checksum_sha256": "b6c80ed6f6ea57a8c906395bb38d7dcdb5c2ef331b24913c7f81b40315a427e8",
-    "signature": "4ace45d8b10f0e0823e67554fa5fe314329280a9a1d9ba33845a86dd056cc518585655fa1638dbc58820718edc589f13b2aae4dc5ca697c53dd33ddc2f8baa00",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-search/releases/assets/490681857",
+    "checksum_sha256": "5e809e71763904b7acc17b38da4d9c99d6e1c0c9f02435680e7fbf6225732d9c",
+    "signature": "618d79c3a55e6fe274cf6404aa6a18181ed818f5377ce52e5c8c699f15dd549828723500aec4640d698b14d26696caac54713ff0ffce51d76022a85f885f3703",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -42,11 +42,23 @@
             "checksum_sha256": "b6c80ed6f6ea57a8c906395bb38d7dcdb5c2ef331b24913c7f81b40315a427e8",
             "signature": "4ace45d8b10f0e0823e67554fa5fe314329280a9a1d9ba33845a86dd056cc518585655fa1638dbc58820718edc589f13b2aae4dc5ca697c53dd33ddc2f8baa00",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [],
             "yanked": false,
             "published_at": "2026-07-14T03:37:42Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-search/releases/assets/490681857",
+            "checksum_sha256": "5e809e71763904b7acc17b38da4d9c99d6e1c0c9f02435680e7fbf6225732d9c",
+            "signature": "618d79c3a55e6fe274cf6404aa6a18181ed818f5377ce52e5c8c699f15dd549828723500aec4640d698b14d26696caac54713ff0ffce51d76022a85f885f3703",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T20:43:57Z"
         }
     ]
 }

@@ -1,0 +1,40 @@
+{
+    "slug": "apppress/launch-pro",
+    "name": "Launch Pro",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "A high-energy launch theme for waitlists, beta access, newsletters, and referral programs. Violet-and-amber palette, Space Grotesk display type, gradient hero, and conversion-focused email-capture styling layered over the Default theme.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-26T23:18:55Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/theme-launch-pro/releases/assets/490775690",
+    "checksum_sha256": "37220f6998993cb259634e9576ff2439c188beb8347ed463635ab40489e8aeaa",
+    "signature": "52c55dc370129bb4f0e33e64f01a487f7e6804dd21095063c056f74db68494e8564c9f8f6e07306c7acd7efea09418e8048b36028af0b85a270a597e7eb2dc00",
+    "min_core_version": "1.0.0",
+    "dependencies": {},
+    "requires_plugins": [],
+    "capabilities": [],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/theme-launch-pro/releases/assets/490775690",
+            "checksum_sha256": "37220f6998993cb259634e9576ff2439c188beb8347ed463635ab40489e8aeaa",
+            "signature": "52c55dc370129bb4f0e33e64f01a487f7e6804dd21095063c056f74db68494e8564c9f8f6e07306c7acd7efea09418e8048b36028af0b85a270a597e7eb2dc00",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T23:18:55Z"
+        }
+    ]
+}

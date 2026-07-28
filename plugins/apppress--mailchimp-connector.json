@@ -1,23 +1,23 @@
 {
     "slug": "apppress/mailchimp-connector",
     "name": "Mailchimp Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Connect Mailchimp for audience/subscriber management and workflow automation on member subscribe, unsubscribe, and profile-update events.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-10T20:40:31Z",
+    "last_updated": "2026-07-26T20:04:32Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-mailchimp-connector/releases/assets/472876313",
-    "checksum_sha256": "1997eef9edd4e9cb703f52ab657ec0e07f0cda72dd2398f30a40657e678c5a2e",
-    "signature": "bcf630b1e1c3972766a8f383e58e23a4a8a8e38148d23af69f543b3a08e09c746862776f87eb5b7e54c310f3d0e279de5de23fe5d734d09c53001402ac54cd0e",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-mailchimp-connector/releases/assets/490652085",
+    "checksum_sha256": "0440b5057a8c11a85da2d60bf75ed2b7ea6984347d920d38645ac4083c463d30",
+    "signature": "231a468ec413d5efe9ce5d0f225ca2bf1cafccd8445b0248545c89e021ae20f30b54a11e04b24aa504f627891db830670bb6486399fedaa5a3a59eda4a69a909",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,7 +33,7 @@
             "checksum_sha256": "1997eef9edd4e9cb703f52ab657ec0e07f0cda72dd2398f30a40657e678c5a2e",
             "signature": "bcf630b1e1c3972766a8f383e58e23a4a8a8e38148d23af69f543b3a08e09c746862776f87eb5b7e54c310f3d0e279de5de23fe5d734d09c53001402ac54cd0e",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.mailchimp",
@@ -41,6 +41,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-10T20:40:31Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-mailchimp-connector/releases/assets/490652085",
+            "checksum_sha256": "0440b5057a8c11a85da2d60bf75ed2b7ea6984347d920d38645ac4083c463d30",
+            "signature": "231a468ec413d5efe9ce5d0f225ca2bf1cafccd8445b0248545c89e021ae20f30b54a11e04b24aa504f627891db830670bb6486399fedaa5a3a59eda4a69a909",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.mailchimp",
+                "marketing.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:04:32Z"
         }
     ]
 }

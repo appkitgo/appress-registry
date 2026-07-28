@@ -1,23 +1,23 @@
 {
     "slug": "apppress/forms",
     "name": "AppPress Forms",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": "AppPress",
     "description": "Drag-and-drop form builder for public intake and operator-managed capture \u2014 submissions, email notifications, honeypot and rate-limit spam protection, optional anti-spam middleware, CSV export, workflow triggers, and mobile FormScreen embeds. Implements StandardContracts::FORMS.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-24T19:48:53Z",
+    "last_updated": "2026-07-26T20:39:50Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-forms/releases/assets/488761300",
-    "checksum_sha256": "f68205541098acaee7d2d22fcad801ab440ac133a84fa528dd9b6705f23f4a61",
-    "signature": "bc00963d3e569ab0c7bd5594c81c22a5c016b84f556ba3608df7c51e8e268c793512aca675f4e6b86375428107bcb1988e158656a46a42d50f6b3ffb06548706",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-forms/releases/assets/490678899",
+    "checksum_sha256": "e6e949985791af8df158b555c52bdcbdbe43e6729826e630edb75691191f1f1b",
+    "signature": "ecd527bcf4bc541309c02af4f468f69e66525b159ba5f46f7ba6df3e2390704dacc6d10d651c3c12b18f45b56af82f3a0ce5a8e2d5056eb475e6a8f60cc1d609",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -69,7 +69,7 @@
             "checksum_sha256": "f68205541098acaee7d2d22fcad801ab440ac133a84fa528dd9b6705f23f4a61",
             "signature": "bc00963d3e569ab0c7bd5594c81c22a5c016b84f556ba3608df7c51e8e268c793512aca675f4e6b86375428107bcb1988e158656a46a42d50f6b3ffb06548706",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "forms",
@@ -79,6 +79,23 @@
             ],
             "yanked": false,
             "published_at": "2026-07-24T19:48:53Z"
+        },
+        {
+            "version": "1.0.5",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-forms/releases/assets/490678899",
+            "checksum_sha256": "e6e949985791af8df158b555c52bdcbdbe43e6729826e630edb75691191f1f1b",
+            "signature": "ecd527bcf4bc541309c02af4f468f69e66525b159ba5f46f7ba6df3e2390704dacc6d10d651c3c12b18f45b56af82f3a0ce5a8e2d5056eb475e6a8f60cc1d609",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "forms",
+                "intake",
+                "submission_storage",
+                "public_submission"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:39:50Z"
         }
     ]
 }

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/marketplace",
     "name": "AppPress Marketplace",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "AppPress",
     "description": "Full-featured marketplace platform: package listings, developer accounts, reviews, cloud hosting, and analytics.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-25T00:26:22Z",
+    "last_updated": "2026-07-26T20:36:31Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/apppack-marketplace/releases/assets/488978193",
-    "checksum_sha256": "6c7f0d5ec5af451a163acccd7c3cb87dd626a760a2c3a04c63fcf857830acfd3",
-    "signature": "81b63aead237e2d1acae293917d6717cb1cafcff27b99910ec82663a8b80b3d470fd0e79577249b08cde0252f7d0705514d513fef6eda0fd2f133e3002fee007",
+    "download_url": "https://api.github.com/repos/appkitgo/apppack-marketplace/releases/assets/490676956",
+    "checksum_sha256": "98334928215d36b5993444a5dc81d303284cc19790f6895c31e15bab7beab741",
+    "signature": "b44c7e6e748e10fe9dac4c0b7777c5ad5555e2aa9c36f3916d037d82ac53ae879545055f7c9471b909dcc2fa32c7a2aeafa072012d1a4714568ca7fb753f6001",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -54,11 +54,23 @@
             "checksum_sha256": "6c7f0d5ec5af451a163acccd7c3cb87dd626a760a2c3a04c63fcf857830acfd3",
             "signature": "81b63aead237e2d1acae293917d6717cb1cafcff27b99910ec82663a8b80b3d470fd0e79577249b08cde0252f7d0705514d513fef6eda0fd2f133e3002fee007",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [],
             "yanked": false,
             "published_at": "2026-07-25T00:26:22Z"
+        },
+        {
+            "version": "1.0.3",
+            "download_url": "https://api.github.com/repos/appkitgo/apppack-marketplace/releases/assets/490676956",
+            "checksum_sha256": "98334928215d36b5993444a5dc81d303284cc19790f6895c31e15bab7beab741",
+            "signature": "b44c7e6e748e10fe9dac4c0b7777c5ad5555e2aa9c36f3916d037d82ac53ae879545055f7c9471b909dcc2fa32c7a2aeafa072012d1a4714568ca7fb753f6001",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T20:36:31Z"
         }
     ]
 }

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/quizzes",
     "name": "AppPress Quizzes",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "author": "AppPress",
     "description": "Assessment engine with question banks, multiple question types (incl. multiple_select partial credit), auto and manual grading, time limits, multiple attempts, random draw pools, pass/fail thresholds, shareable public quiz links, an assign_quiz workflow action, and detailed result analytics.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-25T00:25:52Z",
+    "last_updated": "2026-07-26T20:43:08Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-quizzes/releases/assets/488977740",
-    "checksum_sha256": "1a9fe60400443fde2a8fc90c3c4ac7687fe76237cb03a19b387e0fe021a02470",
-    "signature": "032450fa26c955c3cd9ecf7919d46775ef0ce78068461017de0ddd4fd10409fb6705d804f03f78e809474ecc12e71914695905db8f82fe0e65a593fcbf601f09",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-quizzes/releases/assets/490681354",
+    "checksum_sha256": "498f88b81d9140b8cc799a569e5bd1f8fd1c8d9377fcd2d62f71c4e0abc5b78a",
+    "signature": "c5a25da21cdbe5b3bbc5f2e9f14a3b5029381d3abf00a0cfa1a46f31d02d9437ffae2fd1e9fbab4a427f94d7f1974ef41ae097504247357dae1abc6f79766a0c",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -64,7 +64,7 @@
             "checksum_sha256": "1a9fe60400443fde2a8fc90c3c4ac7687fe76237cb03a19b387e0fe021a02470",
             "signature": "032450fa26c955c3cd9ecf7919d46775ef0ce78068461017de0ddd4fd10409fb6705d804f03f78e809474ecc12e71914695905db8f82fe0e65a593fcbf601f09",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "quizzes",
@@ -75,6 +75,24 @@
             ],
             "yanked": false,
             "published_at": "2026-07-25T00:25:52Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-quizzes/releases/assets/490681354",
+            "checksum_sha256": "498f88b81d9140b8cc799a569e5bd1f8fd1c8d9377fcd2d62f71c4e0abc5b78a",
+            "signature": "c5a25da21cdbe5b3bbc5f2e9f14a3b5029381d3abf00a0cfa1a46f31d02d9437ffae2fd1e9fbab4a427f94d7f1974ef41ae097504247357dae1abc6f79766a0c",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "quizzes",
+                "public_links",
+                "workflow_triggers",
+                "workflow_actions",
+                "random_draw_pools"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:43:08Z"
         }
     ]
 }

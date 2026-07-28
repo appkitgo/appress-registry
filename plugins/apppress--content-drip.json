@@ -1,23 +1,23 @@
 {
     "slug": "apppress/content-drip",
     "name": "AppPress Content Drip",
-    "version": "1.0.1",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Scheduled, prerequisite-based, and time-gated content release for AppPress. Supports course dripping, onboarding sequences, and membership content.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T13:28:24Z",
+    "last_updated": "2026-07-26T20:38:47Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-content-drip/releases/assets/476732610",
-    "checksum_sha256": "d2f698320acda5d61b7e300f70883689339b1a0ffb270c93cd02132a5cd76b69",
-    "signature": "f1b47c1aa639298a9bf61ad24987deccf7d5ae1dfe8f55ac644f37f1a6c3729a2440c8477de8a1511b7de640b3b19d0c0ba3eaf8305116b7e31558c3ff2dd708",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-content-drip/releases/assets/490678290",
+    "checksum_sha256": "d326247946303579fe42473c441bd691af62a74a94033f79adceafbe2c327254",
+    "signature": "00031c5bd3c1e2ca1361de3e619d9e1854540ee5811f70c0b6b183328f91c6b7f019e714a0a37a65994ee2b96e55a3ac2c4e7c4e4dcfa47ce0a5f8eaff9d2a0f",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -42,11 +42,23 @@
             "checksum_sha256": "d2f698320acda5d61b7e300f70883689339b1a0ffb270c93cd02132a5cd76b69",
             "signature": "f1b47c1aa639298a9bf61ad24987deccf7d5ae1dfe8f55ac644f37f1a6c3729a2440c8477de8a1511b7de640b3b19d0c0ba3eaf8305116b7e31558c3ff2dd708",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [],
             "yanked": false,
             "published_at": "2026-07-14T13:28:24Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-content-drip/releases/assets/490678290",
+            "checksum_sha256": "d326247946303579fe42473c441bd691af62a74a94033f79adceafbe2c327254",
+            "signature": "00031c5bd3c1e2ca1361de3e619d9e1854540ee5811f70c0b6b183328f91c6b7f019e714a0a37a65994ee2b96e55a3ac2c4e7c4e4dcfa47ce0a5f8eaff9d2a0f",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [],
+            "yanked": false,
+            "published_at": "2026-07-26T20:38:47Z"
         }
     ]
 }

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/backup",
     "name": "AppPress Backup & Restore",
-    "version": "1.0.2",
+    "version": "1.2.0",
     "author": "AppPress",
     "description": "Protect your AppPress site with automated database and file backups \u2014 scheduled or on-demand, stored locally or on S3-compatible storage, optionally AES-256 encrypted, with retention policies, integrity verification, and one-click restore. Implements StandardContracts::BACKUP so App Packs and workflows can trigger backups without direct coupling. Not a content JSON export \u2014 use core export for site migration; use this plugin for disaster recovery.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T00:12:17Z",
+    "last_updated": "2026-07-28T12:37:48Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-backup/releases/assets/476065808",
-    "checksum_sha256": "941d370752fa23d58ba8fd9dc38331583b39d1969571dcb9ba3f63bdd298a71d",
-    "signature": "4d41decdcbd514acb820aa4910316252330ae65c02aab349ae3896f4cd156b1010e30e51ca3c40d0ff92c9cbc196b416cce30417c8735dc20c58920df9f9e908",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-backup/releases/assets/492702778",
+    "checksum_sha256": "feb4a9db22c8aea9db528579c16a717da78506034c2b5ea8b07a31823507b26d",
+    "signature": "c7def1f46f855a1a31c0ea289c96ae0e83cab45f23f0739c63dbeee560b75be3ee514e4eb7c15f1f433b9e54b28e53ccd783b3916d09e670be684d8a9c9d2500",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -66,7 +66,7 @@
             "checksum_sha256": "941d370752fa23d58ba8fd9dc38331583b39d1969571dcb9ba3f63bdd298a71d",
             "signature": "4d41decdcbd514acb820aa4910316252330ae65c02aab349ae3896f4cd156b1010e30e51ca3c40d0ff92c9cbc196b416cce30417c8735dc20c58920df9f9e908",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "backup",
@@ -83,6 +83,54 @@
             ],
             "yanked": false,
             "published_at": "2026-07-14T00:12:17Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-backup/releases/assets/490677699",
+            "checksum_sha256": "9ba274151cd9b8f207b879e8294d8fc129517fc4b14a8d5c9f3ae671c1428031",
+            "signature": "36802aea013343845b1027d321af144b5101bf96cd4a8522303b70ecfa89cdcfd317f3834e1becb316dbb4adc69a73f2e19779b5c3d643a9d2f5fef0fc0ba60d",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "backup",
+                "restore",
+                "disaster_recovery",
+                "scheduled_backups",
+                "database_backup",
+                "file_backup",
+                "s3_storage",
+                "encryption_at_rest",
+                "retention_policy",
+                "integrity_verification",
+                "admin_dashboard"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:37:54Z"
+        },
+        {
+            "version": "1.2.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-backup/releases/assets/492702778",
+            "checksum_sha256": "feb4a9db22c8aea9db528579c16a717da78506034c2b5ea8b07a31823507b26d",
+            "signature": "c7def1f46f855a1a31c0ea289c96ae0e83cab45f23f0739c63dbeee560b75be3ee514e4eb7c15f1f433b9e54b28e53ccd783b3916d09e670be684d8a9c9d2500",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "backup",
+                "restore",
+                "disaster_recovery",
+                "scheduled_backups",
+                "database_backup",
+                "file_backup",
+                "s3_storage",
+                "encryption_at_rest",
+                "retention_policy",
+                "integrity_verification",
+                "admin_dashboard"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T12:37:48Z"
         }
     ]
 }

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/reports",
     "name": "AppPress Reports",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "author": "AppPress",
     "description": "Plugin-agnostic reporting framework for AppPress \u2014 pluggable data source registry, saved report definitions, operator dashboards with chart widgets, PDF/CSV export, and scheduled email delivery. Implements StandardContracts::REPORTS so App Packs register metrics without coupling to this plugin.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-14T03:02:34Z",
+    "last_updated": "2026-07-26T20:04:43Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-reports/releases/assets/476195754",
-    "checksum_sha256": "1e0070c3a739aceea2d1389101f00ab8d635ebc9f201c99b15dd968a078b6ae3",
-    "signature": "0964a2c0b65f2cef8515b19e3e89e27f780ebbff800b60706319ab4fa11067c642405455d68e99d389c72a7198a1d097a2bb0f6b105d8b403f92b5cc0fa4970f",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-reports/releases/assets/490652278",
+    "checksum_sha256": "3aee2546d0165319ce360092ba20c371b5362797d1c43936befe82bd5768b8e0",
+    "signature": "53ab3bddb7c6fb4b658e408a44ee83bd04a5e104c7478266980aa0b9073b15e6bd6d16af02af794f7ee005c39d0fa8f8811ef71404c1ed3de93cb261445a9f05",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -56,7 +56,7 @@
             "checksum_sha256": "1e0070c3a739aceea2d1389101f00ab8d635ebc9f201c99b15dd968a078b6ae3",
             "signature": "0964a2c0b65f2cef8515b19e3e89e27f780ebbff800b60706319ab4fa11067c642405455d68e99d389c72a7198a1d097a2bb0f6b105d8b403f92b5cc0fa4970f",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "reports",
@@ -68,6 +68,25 @@
             ],
             "yanked": false,
             "published_at": "2026-07-14T03:02:34Z"
+        },
+        {
+            "version": "1.0.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-reports/releases/assets/490652278",
+            "checksum_sha256": "3aee2546d0165319ce360092ba20c371b5362797d1c43936befe82bd5768b8e0",
+            "signature": "53ab3bddb7c6fb4b658e408a44ee83bd04a5e104c7478266980aa0b9073b15e6bd6d16af02af794f7ee005c39d0fa8f8811ef71404c1ed3de93cb261445a9f05",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "reports",
+                "dashboards",
+                "exports",
+                "metrics",
+                "scheduled_delivery",
+                "data_source_registry"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:04:43Z"
         }
     ]
 }

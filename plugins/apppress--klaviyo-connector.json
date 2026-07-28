@@ -1,23 +1,23 @@
 {
     "slug": "apppress/klaviyo-connector",
     "name": "Klaviyo Connector",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "author": "AppPress",
     "description": "Connect Klaviyo for marketing profile/event management and workflow automation on list-subscribe and email-engagement events.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-11T05:37:09Z",
+    "last_updated": "2026-07-26T20:04:34Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-klaviyo-connector/releases/assets/473243636",
-    "checksum_sha256": "3890b611c444a3f9b6eda1c1f4dc6da6342a6c0f153a0ccde6c4cacbf9e9d24d",
-    "signature": "3b5e04b4233dfb2eafff6813cf9fbd289be9eed9bf7d403022ef66ab0a3445b9e403fd73f23b6e9d8af3f78c1636e00bb000b6095088d314bde29d5489420209",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-klaviyo-connector/releases/assets/490652103",
+    "checksum_sha256": "1759d4e8f6869788099731c1e5d2d6b6a4541db3ff3e85431c88ec915fd5bea3",
+    "signature": "50fe6005ab12f0654afe5675970c35d7571d377cef8f6740f92d53f9773d9d38ad79054abe1e910e5c7d7169344836884f4cbf556239e691794eaddd08c1b403",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -33,7 +33,7 @@
             "checksum_sha256": "3890b611c444a3f9b6eda1c1f4dc6da6342a6c0f153a0ccde6c4cacbf9e9d24d",
             "signature": "3b5e04b4233dfb2eafff6813cf9fbd289be9eed9bf7d403022ef66ab0a3445b9e403fd73f23b6e9d8af3f78c1636e00bb000b6095088d314bde29d5489420209",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "connector.klaviyo",
@@ -41,6 +41,21 @@
             ],
             "yanked": false,
             "published_at": "2026-07-11T05:37:09Z"
+        },
+        {
+            "version": "1.1.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-klaviyo-connector/releases/assets/490652103",
+            "checksum_sha256": "1759d4e8f6869788099731c1e5d2d6b6a4541db3ff3e85431c88ec915fd5bea3",
+            "signature": "50fe6005ab12f0654afe5675970c35d7571d377cef8f6740f92d53f9773d9d38ad79054abe1e910e5c7d7169344836884f4cbf556239e691794eaddd08c1b403",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "connector.klaviyo",
+                "marketing.external"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-26T20:04:34Z"
         }
     ]
 }
