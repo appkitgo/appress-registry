@@ -530,6 +530,13 @@
       "manifest_path": "../plugin-incidents/appress.json"
     },
     {
+      "slug": "apppress/fleet-federation",
+      "github_repo": "appkitgo/plugin-fleet-federation",
+      "tier": "first_party",
+      "type": "plugin",
+      "manifest_path": "../plugin-fleet-federation/appress.json"
+    },
+    {
       "slug": "apppress/operations-blocks",
       "github_repo": "appkitgo/plugin-operations-blocks",
       "tier": "first_party",
