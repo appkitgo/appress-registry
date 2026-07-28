@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-28T00:47:16+00:00",
+    "generated_at": "2026-07-28T02:35:56+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -4307,6 +4307,34 @@
                 }
             ]
         },
+        "apppress/fleet-federation": {
+            "slug": "apppress/fleet-federation",
+            "name": "Fleet Federation",
+            "type": "plugin",
+            "github_repo": "appkitgo/plugin-fleet-federation",
+            "tier": "first_party",
+            "description": "Fleet roll-up via app-press\u2192app-press event federation (OPERATIONAL_APPS Phase 4). Installed on child instances, it pushes signed summary events (incident lifecycle auto-federated; anything via the federation.push_event workflow action; 5-minute counter rollups) to a parent instance over the standard external-event.v1 gateway. The parent is just another app-press app whose event source happens to be its children \u2014 no new infrastructure, no vendor coupling.",
+            "author": "AppPress",
+            "categories": [],
+            "license_type": "free",
+            "product_slug": "apppress/fleet-federation",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-fleet-federation/releases/assets/492186653",
+                    "checksum_sha256": "b0fd0020cfdd6851ad0696de1ea04d9b84fda49965d560b2e4bae52f67238c81",
+                    "signature": "28aa05dac70f2c27e6c09911b263ade3449d9b623255827e2036f04ccacf82d16d9ca1f64e2e1c480938ed8cba5f07cb9fce8180b68aaa240e6df0831e867f00",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "federation.push"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-28T02:31:41Z"
+                }
+            ]
+        },
         "apppress/operations-blocks": {
             "slug": "apppress/operations-blocks",
             "name": "Operations Blocks",
@@ -7193,5 +7221,5 @@
             ]
         }
     },
-    "signature": "f88aeb80a0dcbe54764013e52b35ffaf4ea2d790e28d141b0863352b49fdedd3fe53de8784e112745d3fab21e89edbf7185c418bdbb9d712d240d02b138aa20f"
+    "signature": "a17f374c0b935b4ca1ec6212b339f02a52d95da69ca4ea56a5579e18a367903a76d8f496b519e2b368d8f41949af9ad0abad2c14d36d70d67f637476b2e2dc0a"
 }
