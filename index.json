@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-30T01:16:07+00:00",
+    "generated_at": "2026-07-30T01:30:10+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -1223,6 +1223,34 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-28T20:03:54Z"
+                },
+                {
+                    "version": "1.1.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/494750732",
+                    "checksum_sha256": "97aadfab59311990c469ce4d416a3cfacb60074f21558c993501d645286cdf0a",
+                    "signature": "423713de105204737770738f201ccf5cb1796d9a93fd0213fb806084bbe492efb78a1152cd5ed199d5e5f9e5ca59e51abe69a350147064915deb5327d72bf90d",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {
+                        "apppress/workflows": "^1.0.0",
+                        "apppress/events": "^1.0.0",
+                        "apppress/surveys": "^1.0.0",
+                        "apppress/notifications": "^1.0.0"
+                    },
+                    "requires_plugins": {
+                        "apppress/workflows": "^1.0.0",
+                        "apppress/events": "^1.0.0",
+                        "apppress/surveys": "^1.0.0",
+                        "apppress/notifications": "^1.0.0"
+                    },
+                    "capabilities": [
+                        "forms",
+                        "workflow",
+                        "mail",
+                        "events",
+                        "surveys"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-30T01:26:08Z"
                 }
             ]
         },
@@ -8086,5 +8114,5 @@
             ]
         }
     },
-    "signature": "2f749048c267cba7ebad8f6be100e23e3a6ef33eba916d971c3742818fbd264d40b86bae63b0d270bbd2dc17b5556b13b57b6c057972d931e907a091fb164d00"
+    "signature": "4669e67c93f6ee6dec26a5049db8fa490b362ba6290f1c40456966e9640e4f2aeeb190de3bcda2bd4549a3c58d2e7e8aa7bde224007146c025597ec8a44c6409"
 }
