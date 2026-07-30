@@ -1,23 +1,23 @@
 {
     "slug": "apppress/workflows",
     "name": "AppPress Workflows",
-    "version": "1.3.7",
+    "version": "1.3.8",
     "author": "AppPress",
     "description": "Visual automation engine for AppPress \u2014 trigger \u2192 conditions \u2192 actions. When X happens, do Y. Supports 19 built-in triggers, 17 built-in actions (including AI prompt/response, round-robin assignment, field transforms, and generic outbound HTTP requests), HMAC-signed webhook ingress, approval gates, delayed steps, conditional branching, formula evaluation, version snapshots with rollback, multi-site scoping, and rate-limiting circuit breakers. Implements StandardContracts::WORKFLOWS so any App Pack can resolve the workflow service without a direct dependency.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-30T15:21:39Z",
+    "last_updated": "2026-07-30T18:33:36Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-workflows/releases/assets/495520232",
-    "checksum_sha256": "4cc12d4c6f947059c1ee4cb7e5ef6eb26a21ab0fcd61062b144fbca40bd3dddd",
-    "signature": "f3051bee330ec773eec63da228b978f164e0de3500ff4b95c79ff02e781a1237bb63ef65d9c8ee290c2091983fb3e99f43dcdc7deced9115d516334bea205a07",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-workflows/releases/assets/495717395",
+    "checksum_sha256": "83475f9721b1bf29f4223ac4a2ac22d8a479e0913568617676c0f5a86fdce2f1",
+    "signature": "5601efd2ccf00a346723dc7c66940519002b3acdebcd92c371be113266cfbfa8dd50a7bd28998a8bd35d773dbecc93106783cb9367af4ff32f776d9ea6de2e03",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -222,7 +222,7 @@
             "checksum_sha256": "4cc12d4c6f947059c1ee4cb7e5ef6eb26a21ab0fcd61062b144fbca40bd3dddd",
             "signature": "f3051bee330ec773eec63da228b978f164e0de3500ff4b95c79ff02e781a1237bb63ef65d9c8ee290c2091983fb3e99f43dcdc7deced9115d516334bea205a07",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "workflow",
@@ -232,6 +232,23 @@
             ],
             "yanked": false,
             "published_at": "2026-07-30T15:21:39Z"
+        },
+        {
+            "version": "1.3.8",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-workflows/releases/assets/495717395",
+            "checksum_sha256": "83475f9721b1bf29f4223ac4a2ac22d8a479e0913568617676c0f5a86fdce2f1",
+            "signature": "5601efd2ccf00a346723dc7c66940519002b3acdebcd92c371be113266cfbfa8dd50a7bd28998a8bd35d773dbecc93106783cb9367af4ff32f776d9ea6de2e03",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "workflow",
+                "workflow.trigger",
+                "workflow.action",
+                "workflow.condition"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T18:33:36Z"
         }
     ]
 }
