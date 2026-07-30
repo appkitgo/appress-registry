@@ -1,23 +1,23 @@
 {
     "slug": "apppress/events",
     "name": "AppPress Events",
-    "version": "1.5.3",
+    "version": "1.5.4",
     "author": "AppPress",
     "description": "Campus event management with ticket types, capacity control, waitlist promotion, QR-based check-in, and guest or authenticated registration. Implements StandardContracts::EVENTS for cross-plugin registration flows.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-30T15:44:55Z",
+    "last_updated": "2026-07-30T19:49:09Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-events/releases/assets/495544654",
-    "checksum_sha256": "e4c66ef1dc9480d0ced42edf851f16942069f32242ee1ee20ab81aea971fc6a0",
-    "signature": "e67fe234276545abe9d237b25aac4dcf7719c290ec9b9affa3e6a0f6c3fda7abf784f0ce9d7063910708ddf3f8075fb4dead47610140125c2a3bd4e9b95faa0d",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-events/releases/assets/495789966",
+    "checksum_sha256": "3445f35348ef73ad322c5a71876cbab42752cbcce5e0bd8ee990c685cbaa9a04",
+    "signature": "b479a54f356242c07ea4e7ecde5db306234576a8031b9c673606f8b8b80f56b6b7f407d51ea617ee8f37c4f941142d95bcaa6c306c9c60fde9db57fcf9169c07",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -208,7 +208,7 @@
             "checksum_sha256": "e4c66ef1dc9480d0ced42edf851f16942069f32242ee1ee20ab81aea971fc6a0",
             "signature": "e67fe234276545abe9d237b25aac4dcf7719c290ec9b9affa3e6a0f6c3fda7abf784f0ce9d7063910708ddf3f8075fb4dead47610140125c2a3bd4e9b95faa0d",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "events",
@@ -220,6 +220,25 @@
             ],
             "yanked": false,
             "published_at": "2026-07-30T15:44:55Z"
+        },
+        {
+            "version": "1.5.4",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-events/releases/assets/495789966",
+            "checksum_sha256": "3445f35348ef73ad322c5a71876cbab42752cbcce5e0bd8ee990c685cbaa9a04",
+            "signature": "b479a54f356242c07ea4e7ecde5db306234576a8031b9c673606f8b8b80f56b6b7f407d51ea617ee8f37c4f941142d95bcaa6c306c9c60fde9db57fcf9169c07",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "events",
+                "event_registration",
+                "qr_checkin",
+                "attendance_tracking",
+                "capacity_management",
+                "waitlist"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T19:49:09Z"
         }
     ]
 }
