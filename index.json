@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-30T14:22:14+00:00",
+    "generated_at": "2026-07-30T14:50:52+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -8548,7 +8548,7 @@
                     "checksum_sha256": "7f53d2bd2b34ff1a3b18f2fe7f51190d1771eec716d79e6841e9b08db6cbcd2e",
                     "signature": "c89db4306b7cb5fa15c99c482eeabb0287b215a1ceb0ff52631164d1fc48ee07fe71c801e12ebde050d2c57af02d884769b40ef8d10cfadf8223f47511899a08",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "workflow",
@@ -8558,6 +8558,23 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-30T14:17:11Z"
+                },
+                {
+                    "version": "1.3.6",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-workflows/releases/assets/495481423",
+                    "checksum_sha256": "3b1f99ec436620d68ecfba507e7f3c85bf820719b9f38fecfd09c47fb36c1ae1",
+                    "signature": "b83f02622d767b5ab94ad739a10ab7541795d25f1423ae8744c7b8bdb3559686b2b4b04ff3f2877c34889fe8cfcbaa111b1ef5d273452a4a254134442f4aed08",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "workflow",
+                        "workflow.trigger",
+                        "workflow.action",
+                        "workflow.condition"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-30T14:46:45Z"
                 }
             ]
         },
@@ -8684,5 +8701,5 @@
             ]
         }
     },
-    "signature": "9ac3a83c4f0ca396045b510420e6e3ab5beb7671874b25a83a66c59c2d0fb4aa694e0da20196a06adfd09fc827fe22398f519bc0db7409db6b498575f03c0f0b"
+    "signature": "3fdf461c402def7ecfded16941053b9778d9d035701d0429f45c2783e953768ce99259d35c610083de89179a5857b91678e724b1017acf094a088906e5d33500"
 }
