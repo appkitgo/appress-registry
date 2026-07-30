@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-30T19:53:32+00:00",
+    "generated_at": "2026-07-30T20:55:52+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -7705,7 +7705,7 @@
                     "checksum_sha256": "ea59730a3e6169dd441fe39062147f7e55d8865aefaf1c82735a420ce3a81836",
                     "signature": "30750dcac3390e912b9eb3d86410636f3e4a4158a23b184bc1aab3755be7b5f0ef9ca9758a0cf81b649e46085de766342d2760df59e614d6ec8f4238fc343e0b",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "surveys",
@@ -7722,6 +7722,30 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-30T12:23:15Z"
+                },
+                {
+                    "version": "1.2.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-surveys/releases/assets/495849968",
+                    "checksum_sha256": "c57ea0d5a528bbf2c5939b5910deb82b0f97f32bd09121463840eda1c744104a",
+                    "signature": "0c222485cf4f7e898f044f2bec3da134ac861e80d615d2d5a6958a41c28983256e369646fa44c43f0396ee8967666922ee66e52c26b38bdb50c0123861aa0e02",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "surveys",
+                        "feedback_collection",
+                        "nps_scoring",
+                        "quiz_scoring",
+                        "poll_results",
+                        "public_links",
+                        "response_analytics",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "mobile_surfaces",
+                        "admin_dashboard"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-30T20:50:35Z"
                 }
             ]
         },
@@ -8773,5 +8797,5 @@
             ]
         }
     },
-    "signature": "a30a03d1b006dd9c0fc17c37446af809be9e46f5808a4af3bf02c4d3c9fc18ee2d0044c8fcfdb2508695a4d491b108fdbe0f46f234d19cd7ea786646651e9a0e"
+    "signature": "05a47216faaacd6cefa929a3d88f8dcde1c5a728ef624077fbf552284923f71b9b26f4903c30c135ca9ec1c5056a1648ff7f389a562ad736a97916e402d47403"
 }
