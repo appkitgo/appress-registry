@@ -1,0 +1,56 @@
+{
+    "slug": "apppress/composed-app",
+    "name": "Composed App",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Shell App Pack for AI-authored assemblies. Objects, forms, workflows, and dashboards are provisioned from validated blueprints.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-28T20:04:01Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/493138214",
+    "checksum_sha256": "070b57048e5f7d9b9cbc4a90948a335eea3912f95a1beedc7c40811b351288b7",
+    "signature": "95947367d7cf479bd7cde8808dc33dd24ea4f074325b41f0aec7213e0a3fcb99ab221383051585735178fa6cbf7c087feec48bec5c03c645d9a0ae5ae590c103",
+    "min_core_version": "1.0.0",
+    "dependencies": {
+        "apppress/workflows": "^1.0.0"
+    },
+    "requires_plugins": {
+        "apppress/workflows": "^1.0.0"
+    },
+    "capabilities": [
+        "forms",
+        "workflow",
+        "mail"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/493138214",
+            "checksum_sha256": "070b57048e5f7d9b9cbc4a90948a335eea3912f95a1beedc7c40811b351288b7",
+            "signature": "95947367d7cf479bd7cde8808dc33dd24ea4f074325b41f0aec7213e0a3fcb99ab221383051585735178fa6cbf7c087feec48bec5c03c645d9a0ae5ae590c103",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/workflows": "^1.0.0"
+            },
+            "requires_plugins": {
+                "apppress/workflows": "^1.0.0"
+            },
+            "capabilities": [
+                "forms",
+                "workflow",
+                "mail"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T20:04:01Z"
+        }
+    ]
+}

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/newsletters",
     "name": "AppPress Newsletters",
-    "version": "1.1.1",
+    "version": "1.1.3",
     "author": "AppPress",
     "description": "Newsletter list management with subscriber opt-in (single or double), HTML issue composition, scheduled or immediate delivery, open and click tracking, public subscribe blocks, mobile FormScreen subscription, and subscriber import/export. Implements StandardContracts::NEWSLETTERS.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:41:36Z",
+    "last_updated": "2026-07-30T05:45:40Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-newsletters/releases/assets/490680321",
-    "checksum_sha256": "3c85061a382f16bfc7cf1cdd4ce24e9ddac332cbd1ae3170cae88c5b55558fec",
-    "signature": "62296cc29836423c3350d36d26400c3e193b8398a4afee5d0404ed994f8d78ebc3e7c0f5d7c0ab52e5f44953bc63e8199c21bafd79047fdf8ea9a669cec71a0c",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-newsletters/releases/assets/494974004",
+    "checksum_sha256": "9f8c6617a0a22b781ec3e41c0be1c39674c9a60cf1529f6c8ff6c4fd4e1fc93b",
+    "signature": "ade708faf26973e6017e0cb873390ab4565f4d78b3e8c2160700470d189ba14add20a5615589cd16fd677fea4742dd8efe17b504e51e65e1b35ba1bfcd39200a",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -60,13 +60,41 @@
             "checksum_sha256": "3c85061a382f16bfc7cf1cdd4ce24e9ddac332cbd1ae3170cae88c5b55558fec",
             "signature": "62296cc29836423c3350d36d26400c3e193b8398a4afee5d0404ed994f8d78ebc3e7c0f5d7c0ab52e5f44953bc63e8199c21bafd79047fdf8ea9a669cec71a0c",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "newsletters"
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:41:36Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-newsletters/releases/assets/494737075",
+            "checksum_sha256": "384dcc465e604f9ca64c1f4197eb46897e2ffad81a3be41b88fcca2d97dfd4a7",
+            "signature": "92d6192a781e21db1352316e4af78429f9be621eae26a3ab23baa7d4cd5f5ba496499c9c071db43994b6c01f26aaa290ac3cb63aba11334a2b84a017bce0300b",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "newsletters"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T01:10:05Z"
+        },
+        {
+            "version": "1.1.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-newsletters/releases/assets/494974004",
+            "checksum_sha256": "9f8c6617a0a22b781ec3e41c0be1c39674c9a60cf1529f6c8ff6c4fd4e1fc93b",
+            "signature": "ade708faf26973e6017e0cb873390ab4565f4d78b3e8c2160700470d189ba14add20a5615589cd16fd677fea4742dd8efe17b504e51e65e1b35ba1bfcd39200a",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "newsletters"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T05:45:40Z"
         }
     ]
 }

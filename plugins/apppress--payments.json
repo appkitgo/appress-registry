@@ -1,23 +1,23 @@
 {
     "slug": "apppress/payments",
     "name": "AppPress Payments",
-    "version": "1.2.2",
+    "version": "1.2.4",
     "author": "AppPress",
     "description": "One-time payments through any installed payment connector (Stripe, Square, or a future gateway implementing the PaymentGateway contract): checkout sessions, payment records, full/partial refunds, receipts, and webhook sync. Implements StandardContracts::PAYMENTS.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:42:25Z",
+    "last_updated": "2026-07-30T05:46:44Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-payments/releases/assets/490680810",
-    "checksum_sha256": "9a5ad3ee47829e75dcdc07b1cf99243c8a1e6111be5b5db18d69840d363c1ed3",
-    "signature": "2ead59715516d2c2c2d36549bb3bbf4176227b24b2f1b3b0abc1e715bb90dbaad6b8420b0f02a034743a5e043cf6080393908b0dd4020fb61fd4d101e9039609",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-payments/releases/assets/494974896",
+    "checksum_sha256": "d429f60da5efe34564d45e1d74a8e0dfdb83773b7767a67679c4f1b2851f6ede",
+    "signature": "6d78a98ccc2e6cca2f474d0c50259ddc88922b5379ae2a5dbcea22b207e9634f4f85de4a9dce7f02ba0ec66a5247eae44e7b1273c0c3fb33aae7178a6877310c",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -88,13 +88,27 @@
             "checksum_sha256": "9a5ad3ee47829e75dcdc07b1cf99243c8a1e6111be5b5db18d69840d363c1ed3",
             "signature": "2ead59715516d2c2c2d36549bb3bbf4176227b24b2f1b3b0abc1e715bb90dbaad6b8420b0f02a034743a5e043cf6080393908b0dd4020fb61fd4d101e9039609",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "payments"
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:42:25Z"
+        },
+        {
+            "version": "1.2.4",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-payments/releases/assets/494974896",
+            "checksum_sha256": "d429f60da5efe34564d45e1d74a8e0dfdb83773b7767a67679c4f1b2851f6ede",
+            "signature": "6d78a98ccc2e6cca2f474d0c50259ddc88922b5379ae2a5dbcea22b207e9634f4f85de4a9dce7f02ba0ec66a5247eae44e7b1273c0c3fb33aae7178a6877310c",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "payments"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T05:46:44Z"
         }
     ]
 }

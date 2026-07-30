@@ -1,23 +1,23 @@
 {
     "slug": "apppress/projects",
     "name": "AppPress Projects",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "author": "AppPress",
     "description": "Project and task management with kanban board, milestones, member roles, priority levels, due dates, task comments, and completion tracking.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:42:54Z",
+    "last_updated": "2026-07-30T05:46:52Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-projects/releases/assets/490681121",
-    "checksum_sha256": "82bb2424ea0f06cb011959ffc6869cbc438dbe0dd00bb4f3c7979d5466cc2f81",
-    "signature": "0135ab6f07744940b8eaa28fcd247d356eafd7622092c5313382f95607e037028541e599e7c73e6b1b80298d047f6eb87b5414917abc6ff43a82824cf4df820c",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-projects/releases/assets/494974965",
+    "checksum_sha256": "55b5ba91c6a3438eca96fb5c17f31ce872cce8dd275647c6ffb97d47ac32d790",
+    "signature": "a7c9b4a2351d4a3725a0d49249df678b21ee3d1ec4f38fab1b653ec49c2262935c6ac9967d4d5699f028e53b218f983351adcbcf82ef01c6fbe09ce256e1330e",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -60,13 +60,41 @@
             "checksum_sha256": "82bb2424ea0f06cb011959ffc6869cbc438dbe0dd00bb4f3c7979d5466cc2f81",
             "signature": "0135ab6f07744940b8eaa28fcd247d356eafd7622092c5313382f95607e037028541e599e7c73e6b1b80298d047f6eb87b5414917abc6ff43a82824cf4df820c",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "projects"
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:42:54Z"
+        },
+        {
+            "version": "1.0.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-projects/releases/assets/494737336",
+            "checksum_sha256": "d6d281fc53d83eae1bdffc0ec191e04b377cd24b8223645fec0741d8f75dc52d",
+            "signature": "a5578f88cb853a98704cd72b32257249edf8fefba7a8adfb75f86816b1f09b85ecfa299166054202860fe0f4ebc237b1a827f2e140cf9131bce54a70f2969700",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "projects"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T01:10:27Z"
+        },
+        {
+            "version": "1.0.4",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-projects/releases/assets/494974965",
+            "checksum_sha256": "55b5ba91c6a3438eca96fb5c17f31ce872cce8dd275647c6ffb97d47ac32d790",
+            "signature": "a7c9b4a2351d4a3725a0d49249df678b21ee3d1ec4f38fab1b653ec49c2262935c6ac9967d4d5699f028e53b218f983351adcbcf82ef01c6fbe09ce256e1330e",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "projects"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T05:46:52Z"
         }
     ]
 }

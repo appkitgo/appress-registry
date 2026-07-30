@@ -1,0 +1,60 @@
+{
+    "slug": "apppress/real-estate-leads",
+    "name": "Real Estate Leads",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Property inquiry capture, buyer pipeline, and optional HubSpot or Salesforce CRM sync for real estate teams.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-28T20:04:15Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/493138453",
+    "checksum_sha256": "ec68bbc113aaf48171e80754d942a18852d8edb4a0d1671cba64764dd2773ccf",
+    "signature": "07cd7e3c593c05fa59ca9dd9e6c980be62369f3a7fbacee404a60c414092e74ddc3b4a609cb0977bb65b5a111f343e60183d852bbdecccab133f6dcb5a46be00",
+    "min_core_version": "1.0.0",
+    "dependencies": {
+        "apppress/workflows": "^1.0.0"
+    },
+    "requires_plugins": {
+        "apppress/workflows": "^1.0.0"
+    },
+    "capabilities": [
+        "forms",
+        "contacts",
+        "workflow",
+        "mail",
+        "pipeline"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/493138453",
+            "checksum_sha256": "ec68bbc113aaf48171e80754d942a18852d8edb4a0d1671cba64764dd2773ccf",
+            "signature": "07cd7e3c593c05fa59ca9dd9e6c980be62369f3a7fbacee404a60c414092e74ddc3b4a609cb0977bb65b5a111f343e60183d852bbdecccab133f6dcb5a46be00",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/workflows": "^1.0.0"
+            },
+            "requires_plugins": {
+                "apppress/workflows": "^1.0.0"
+            },
+            "capabilities": [
+                "forms",
+                "contacts",
+                "workflow",
+                "mail",
+                "pipeline"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T20:04:15Z"
+        }
+    ]
+}

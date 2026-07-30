@@ -1,23 +1,23 @@
 {
     "slug": "apppress/onboarding",
     "name": "AppPress Onboarding",
-    "version": "1.1.1",
+    "version": "1.1.3",
     "author": "AppPress",
     "description": "User onboarding checklists and guided flows for campus apps. Operators define step-by-step checklists with links, videos, and manual actions; users track progress via member API, embedded page blocks, theme widgets, and mobile surfaces. Integrates with workflows (assign on registration, completion notifications), optional gamification rewards, activity-log audit entries, and the StandardContracts::ONBOARDING service.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:42:04Z",
+    "last_updated": "2026-07-30T05:45:54Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-onboarding/releases/assets/490680584",
-    "checksum_sha256": "9ea710706b6020833d60156e820b022e1378e96c906556e03322aa8acc282028",
-    "signature": "82f0ac7eeca11322f66269717644410d3486ced1a2d3e9a94c7a838b4e2390392152ddd90951ead4f523e7e985d5f49ae970331892fc98284ff99eb57d838b05",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-onboarding/releases/assets/494974168",
+    "checksum_sha256": "8c3652e8acf5b76c1167c5f30df420c796bb4e724eb9c329c89ed327d1a881a2",
+    "signature": "51712ea645ca851ea513069e336562f1635ea3cb79835c2b7c2097f0bbaa1733c9318c008d0fc5ea0f1dd70f765f2440a2cd272e3a7c3563a0f0889b30743209",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -81,7 +81,7 @@
             "checksum_sha256": "9ea710706b6020833d60156e820b022e1378e96c906556e03322aa8acc282028",
             "signature": "82f0ac7eeca11322f66269717644410d3486ced1a2d3e9a94c7a838b4e2390392152ddd90951ead4f523e7e985d5f49ae970331892fc98284ff99eb57d838b05",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "onboarding_checklists",
@@ -95,6 +95,48 @@
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:42:04Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-onboarding/releases/assets/494737178",
+            "checksum_sha256": "acf1d420b65ada49fbb93f923e7b14c6beab2128def1670350a2e678407a85f8",
+            "signature": "30812dbb8b8e7490f5b2f75a13c2f5dde4f17bf778fcae5caede5aeddb45bafef7645770ec139b1f9745564efb9f568275d024d8dee8605179054541dfde9c01",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "onboarding_checklists",
+                "step_progress_tracking",
+                "auto_assign_on_registration",
+                "completion_analytics",
+                "mobile_checklist_surfaces",
+                "workflow_triggers",
+                "workflow_actions",
+                "embeddable_checklist_widget"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T01:10:12Z"
+        },
+        {
+            "version": "1.1.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-onboarding/releases/assets/494974168",
+            "checksum_sha256": "8c3652e8acf5b76c1167c5f30df420c796bb4e724eb9c329c89ed327d1a881a2",
+            "signature": "51712ea645ca851ea513069e336562f1635ea3cb79835c2b7c2097f0bbaa1733c9318c008d0fc5ea0f1dd70f765f2440a2cd272e3a7c3563a0f0889b30743209",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "onboarding_checklists",
+                "step_progress_tracking",
+                "auto_assign_on_registration",
+                "completion_analytics",
+                "mobile_checklist_surfaces",
+                "workflow_triggers",
+                "workflow_actions",
+                "embeddable_checklist_widget"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T05:45:54Z"
         }
     ]
 }

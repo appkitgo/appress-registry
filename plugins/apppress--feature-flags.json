@@ -1,23 +1,23 @@
 {
     "slug": "apppress/feature-flags",
     "name": "AppPress Feature Flags",
-    "version": "1.2.1",
+    "version": "1.2.3",
     "author": "AppPress",
     "description": "Site-scoped boolean, percentage, segment, and plan-based feature flags with per-user and global overrides, expiring overrides, and evaluation caching. Implements StandardContracts::FEATURE_FLAGS so host plugins gate features without hard dependencies. Operator-only \u2014 flags are resolved server-side via contract or service injection, not member UI.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:39:37Z",
+    "last_updated": "2026-07-30T05:45:03Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-feature-flags/releases/assets/490678769",
-    "checksum_sha256": "166737a14db9ee1dc5c966aa783d21b124f419242920eb58793fb55d6c596497",
-    "signature": "bd4261559a7766998496144548799b30ececb1c995367dfa3aa4e187e2d5d7571b2fe4a1e636d831dcfebeb5c1abab46562a29cc8c5bd3016caccab5ca50330a",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-feature-flags/releases/assets/494973523",
+    "checksum_sha256": "140aa26b97e0edf2a967974f8c227b40e3b91f6aff8d89eeeb5ce5c370131d34",
+    "signature": "c15a7685fc768759118efbe03113709e4801c6df5e621dd3ee7c457b7c3fa15c669515f6bd312d53feb83c2d657eca633b6b3409ec468af34bcf45068cbd2d0f",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -78,7 +78,7 @@
             "checksum_sha256": "166737a14db9ee1dc5c966aa783d21b124f419242920eb58793fb55d6c596497",
             "signature": "bd4261559a7766998496144548799b30ececb1c995367dfa3aa4e187e2d5d7571b2fe4a1e636d831dcfebeb5c1abab46562a29cc8c5bd3016caccab5ca50330a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "feature-flags",
@@ -91,6 +91,46 @@
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:39:37Z"
+        },
+        {
+            "version": "1.2.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-feature-flags/releases/assets/494736678",
+            "checksum_sha256": "88fc6b8b220d739222f64dd3ae0906054c28e67f1b9644ff4db13b1176605e6c",
+            "signature": "37dcbfa54f52f979f64cf3309d7ab9b91720979006a2239e972d725e37cb0b529df82725c4e995d2da48c48f58e8db91cb4b0d5f40a339609991dbe531a25d07",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "feature-flags",
+                "rollout_management",
+                "percentage_rollouts",
+                "segment_targeting",
+                "plan_gating",
+                "override_management",
+                "contract_resolution"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T01:09:29Z"
+        },
+        {
+            "version": "1.2.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-feature-flags/releases/assets/494973523",
+            "checksum_sha256": "140aa26b97e0edf2a967974f8c227b40e3b91f6aff8d89eeeb5ce5c370131d34",
+            "signature": "c15a7685fc768759118efbe03113709e4801c6df5e621dd3ee7c457b7c3fa15c669515f6bd312d53feb83c2d657eca633b6b3409ec468af34bcf45068cbd2d0f",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "feature-flags",
+                "rollout_management",
+                "percentage_rollouts",
+                "segment_targeting",
+                "plan_gating",
+                "override_management",
+                "contract_resolution"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T05:45:03Z"
         }
     ]
 }

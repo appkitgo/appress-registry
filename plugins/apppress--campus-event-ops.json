@@ -1,0 +1,100 @@
+{
+    "slug": "apppress/campus-event-ops",
+    "name": "Campus Event Ops",
+    "version": "1.1.0",
+    "author": "AppPress",
+    "description": "Time-bound campus micro-apps: orientation, move-in, career fair, and event registration with QR check-in, maps, surveys, and staff dashboards.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-30T01:26:08Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/494750732",
+    "checksum_sha256": "97aadfab59311990c469ce4d416a3cfacb60074f21558c993501d645286cdf0a",
+    "signature": "423713de105204737770738f201ccf5cb1796d9a93fd0213fb806084bbe492efb78a1152cd5ed199d5e5f9e5ca59e51abe69a350147064915deb5327d72bf90d",
+    "min_core_version": "1.0.0",
+    "dependencies": {
+        "apppress/workflows": "^1.0.0",
+        "apppress/events": "^1.0.0",
+        "apppress/surveys": "^1.0.0",
+        "apppress/notifications": "^1.0.0"
+    },
+    "requires_plugins": {
+        "apppress/workflows": "^1.0.0",
+        "apppress/events": "^1.0.0",
+        "apppress/surveys": "^1.0.0",
+        "apppress/notifications": "^1.0.0"
+    },
+    "capabilities": [
+        "forms",
+        "workflow",
+        "mail",
+        "events",
+        "surveys"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/493138077",
+            "checksum_sha256": "9f23e4bb051b5e0b144365a05e7a9b166bdab8a42717c5502915ec96f874d312",
+            "signature": "26956b3401a03943f2b2e75dacb4a7938153a621eb15d3e9a01ddaaea8c22d3afc51d26ffad528b99bb1fa0fa97e1e02001c3550b8d50e7ac1527a2ce7b5c300",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/workflows": "^1.0.0",
+                "apppress/events": "^1.0.0",
+                "apppress/surveys": "^1.0.0",
+                "apppress/notifications": "^1.0.0"
+            },
+            "requires_plugins": {
+                "apppress/workflows": "^1.0.0",
+                "apppress/events": "^1.0.0",
+                "apppress/surveys": "^1.0.0",
+                "apppress/notifications": "^1.0.0"
+            },
+            "capabilities": [
+                "forms",
+                "workflow",
+                "mail",
+                "events",
+                "surveys"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T20:03:54Z"
+        },
+        {
+            "version": "1.1.0",
+            "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/494750732",
+            "checksum_sha256": "97aadfab59311990c469ce4d416a3cfacb60074f21558c993501d645286cdf0a",
+            "signature": "423713de105204737770738f201ccf5cb1796d9a93fd0213fb806084bbe492efb78a1152cd5ed199d5e5f9e5ca59e51abe69a350147064915deb5327d72bf90d",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/workflows": "^1.0.0",
+                "apppress/events": "^1.0.0",
+                "apppress/surveys": "^1.0.0",
+                "apppress/notifications": "^1.0.0"
+            },
+            "requires_plugins": {
+                "apppress/workflows": "^1.0.0",
+                "apppress/events": "^1.0.0",
+                "apppress/surveys": "^1.0.0",
+                "apppress/notifications": "^1.0.0"
+            },
+            "capabilities": [
+                "forms",
+                "workflow",
+                "mail",
+                "events",
+                "surveys"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T01:26:08Z"
+        }
+    ]
+}

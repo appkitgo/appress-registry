@@ -1,23 +1,23 @@
 {
     "slug": "apppress/orders",
     "name": "AppPress Orders",
-    "version": "1.1.1",
+    "version": "1.1.3",
     "author": "AppPress",
     "description": "Order management system covering the full lifecycle from placement through fulfilment, shipping, delivery, and refunds, with status history, member self-service, mobile surfaces, and StandardContracts::ORDERS for commerce App Packs.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:42:11Z",
+    "last_updated": "2026-07-30T05:46:02Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-orders/releases/assets/490680669",
-    "checksum_sha256": "7459144ceb26eae0938635aed8a9d4c9ff99501ad6d04ff7f184fdf7c27fa465",
-    "signature": "71c10a7d2810daf6b9fa1f4778c4d383de524c41252608f41a0205b2bc073b0557aa68bd85175b1663e16919b920a20f9a8647ef49885adc90483179988b7f09",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-orders/releases/assets/494974266",
+    "checksum_sha256": "dd85fd505e711d31a4b08a474161670fe12adb5fbae3473e240224324437bd96",
+    "signature": "a9ff9be7e030059da09c3ed77342dbf5021895a6f8ce7f12c33ccce46b044299b44feebdcd459da44618fdbae557094306556ca8835b0881699512996c244008",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -75,7 +75,7 @@
             "checksum_sha256": "7459144ceb26eae0938635aed8a9d4c9ff99501ad6d04ff7f184fdf7c27fa465",
             "signature": "71c10a7d2810daf6b9fa1f4778c4d383de524c41252608f41a0205b2bc073b0557aa68bd85175b1663e16919b920a20f9a8647ef49885adc90483179988b7f09",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "orders",
@@ -87,6 +87,44 @@
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:42:11Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-orders/releases/assets/494737251",
+            "checksum_sha256": "558134e3ea58d6a78e4789d180b6621147d1f61d4c0d584ebc84344950667d23",
+            "signature": "35e36ca1528ffa8fb70bcaaf28cc5c94ca3a9930b9bbcf331f7ea3ff81823208052588f9f84d925fe92ba135fb378c0606d45560007b6d606106561f55181b06",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "orders",
+                "commerce",
+                "fulfillment",
+                "refunds",
+                "member_self_service",
+                "mobile_surfaces"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T01:10:19Z"
+        },
+        {
+            "version": "1.1.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-orders/releases/assets/494974266",
+            "checksum_sha256": "dd85fd505e711d31a4b08a474161670fe12adb5fbae3473e240224324437bd96",
+            "signature": "a9ff9be7e030059da09c3ed77342dbf5021895a6f8ce7f12c33ccce46b044299b44feebdcd459da44618fdbae557094306556ca8835b0881699512996c244008",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "orders",
+                "commerce",
+                "fulfillment",
+                "refunds",
+                "member_self_service",
+                "mobile_surfaces"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T05:46:02Z"
         }
     ]
 }

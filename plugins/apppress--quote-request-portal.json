@@ -1,0 +1,68 @@
+{
+    "slug": "apppress/quote-request-portal",
+    "name": "Quote Request Portal",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Public quote request forms, staff queue, and email automations for service businesses.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-28T20:04:11Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/493138378",
+    "checksum_sha256": "4a4501e6d77fddc0b10432cde4aeaca8d2e6dc1766cc15f5d4cacdfd6c7fa87e",
+    "signature": "f233615d81da3136d82ff37dc17dfe632a3b8fb12bace4db743d8d6879c9588f0c3a1e4d7ca5a17ebbcf8f7d2aaada77f4cc3b8b22eef51040c9535f40b6970a",
+    "min_core_version": "1.0.0",
+    "dependencies": {
+        "apppress/documents": "^1.0.0",
+        "apppress/billing": "^1.0.0",
+        "apppress/workflows": "^1.0.0"
+    },
+    "requires_plugins": {
+        "apppress/documents": "^1.0.0",
+        "apppress/billing": "^1.0.0",
+        "apppress/workflows": "^1.0.0"
+    },
+    "capabilities": [
+        "forms",
+        "contacts",
+        "workflow",
+        "mail",
+        "files"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/493138378",
+            "checksum_sha256": "4a4501e6d77fddc0b10432cde4aeaca8d2e6dc1766cc15f5d4cacdfd6c7fa87e",
+            "signature": "f233615d81da3136d82ff37dc17dfe632a3b8fb12bace4db743d8d6879c9588f0c3a1e4d7ca5a17ebbcf8f7d2aaada77f4cc3b8b22eef51040c9535f40b6970a",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/documents": "^1.0.0",
+                "apppress/billing": "^1.0.0",
+                "apppress/workflows": "^1.0.0"
+            },
+            "requires_plugins": {
+                "apppress/documents": "^1.0.0",
+                "apppress/billing": "^1.0.0",
+                "apppress/workflows": "^1.0.0"
+            },
+            "capabilities": [
+                "forms",
+                "contacts",
+                "workflow",
+                "mail",
+                "files"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T20:04:11Z"
+        }
+    ]
+}

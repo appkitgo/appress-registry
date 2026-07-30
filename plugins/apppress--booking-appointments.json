@@ -1,0 +1,62 @@
+{
+    "slug": "apppress/booking-appointments",
+    "name": "Booking & Appointments",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Client booking pages, booking records pipeline, calendars, and notification workflows.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-28T20:03:50Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/493138032",
+    "checksum_sha256": "6b351a4fe4fd6a06295054e9187772d536693f421f993f6536d2f0c520788c71",
+    "signature": "22142e6b7d30ad4e3ec760b72c0802c2a7b7f198d19530b7167d03c2cd846ba554e1f005fb59c17d9a45444a2f00edae40e5295e3b3e2bf53530bc8b84455a0b",
+    "min_core_version": "1.0.0",
+    "dependencies": {
+        "apppress/appointments": "^1.0.0",
+        "apppress/workflows": "^1.0.0"
+    },
+    "requires_plugins": {
+        "apppress/appointments": "^1.0.0",
+        "apppress/workflows": "^1.0.0"
+    },
+    "capabilities": [
+        "forms",
+        "contacts",
+        "workflow",
+        "mail"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/493138032",
+            "checksum_sha256": "6b351a4fe4fd6a06295054e9187772d536693f421f993f6536d2f0c520788c71",
+            "signature": "22142e6b7d30ad4e3ec760b72c0802c2a7b7f198d19530b7167d03c2cd846ba554e1f005fb59c17d9a45444a2f00edae40e5295e3b3e2bf53530bc8b84455a0b",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/appointments": "^1.0.0",
+                "apppress/workflows": "^1.0.0"
+            },
+            "requires_plugins": {
+                "apppress/appointments": "^1.0.0",
+                "apppress/workflows": "^1.0.0"
+            },
+            "capabilities": [
+                "forms",
+                "contacts",
+                "workflow",
+                "mail"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T20:03:50Z"
+        }
+    ]
+}

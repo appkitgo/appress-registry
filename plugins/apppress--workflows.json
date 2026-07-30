@@ -1,23 +1,23 @@
 {
     "slug": "apppress/workflows",
     "name": "AppPress Workflows",
-    "version": "1.3.1",
+    "version": "1.3.3",
     "author": "AppPress",
     "description": "Visual automation engine for AppPress \u2014 trigger \u2192 conditions \u2192 actions. When X happens, do Y. Supports 19 built-in triggers, 17 built-in actions (including AI prompt/response, round-robin assignment, field transforms, and generic outbound HTTP requests), HMAC-signed webhook ingress, approval gates, delayed steps, conditional branching, formula evaluation, version snapshots with rollback, multi-site scoping, and rate-limiting circuit breakers. Implements StandardContracts::WORKFLOWS so any App Pack can resolve the workflow service without a direct dependency.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-28T19:06:55Z",
+    "last_updated": "2026-07-30T05:44:12Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-workflows/releases/assets/493079553",
-    "checksum_sha256": "fa491248b928031bceba273c74add7bc445d922e70d89eb19deb64338e453c3c",
-    "signature": "66905da0577658e9189144508f6b10835a4c06659f7ad3644acfddb0df7a37acddfb54fd151d99defa2025e36c169fe0dff40b3804cc7db2e51aa88cedaca707",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-workflows/releases/assets/494972839",
+    "checksum_sha256": "c09465ad333245d3267222c91661cd4a1f3b212a52731551291007f6212cc1b5",
+    "signature": "01bcbed6600ffa1e1cf0e20ede84381603d31100cf2edac4ccabc9c4072bbdf17c0c355051d3fa0b42688c4a9039f3b7b80b57af290416e4f8282b891acdaa09",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -120,7 +120,7 @@
             "checksum_sha256": "fa491248b928031bceba273c74add7bc445d922e70d89eb19deb64338e453c3c",
             "signature": "66905da0577658e9189144508f6b10835a4c06659f7ad3644acfddb0df7a37acddfb54fd151d99defa2025e36c169fe0dff40b3804cc7db2e51aa88cedaca707",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "workflow",
@@ -130,6 +130,40 @@
             ],
             "yanked": false,
             "published_at": "2026-07-28T19:06:55Z"
+        },
+        {
+            "version": "1.3.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-workflows/releases/assets/494735286",
+            "checksum_sha256": "4cd7a6fffafb615d890c5a8d73d19c61636f7a0d4029b1f71cdd51e92254489d",
+            "signature": "62fd715daeb9882cb896c5363c987c870a3fd5880c0be91d2933cb10f17c0dbdfd6c1682a0809bc80541e40640493d55257924565ae46248126872ad2652fb02",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "workflow",
+                "workflow.trigger",
+                "workflow.action",
+                "workflow.condition"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T01:08:10Z"
+        },
+        {
+            "version": "1.3.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-workflows/releases/assets/494972839",
+            "checksum_sha256": "c09465ad333245d3267222c91661cd4a1f3b212a52731551291007f6212cc1b5",
+            "signature": "01bcbed6600ffa1e1cf0e20ede84381603d31100cf2edac4ccabc9c4072bbdf17c0c355051d3fa0b42688c4a9039f3b7b80b57af290416e4f8282b891acdaa09",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "workflow",
+                "workflow.trigger",
+                "workflow.action",
+                "workflow.condition"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T05:44:12Z"
         }
     ]
 }

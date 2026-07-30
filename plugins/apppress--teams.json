@@ -1,23 +1,23 @@
 {
     "slug": "apppress/teams",
     "name": "AppPress Teams",
-    "version": "1.1.1",
+    "version": "1.1.3",
     "author": "AppPress",
     "description": "Team and organisation management for AppPress \u2014 create teams, invite members by email, manage owner/admin/member roles, switch team context, and expose StandardContracts::TEAMS for App Packs (helpdesk departments, LMS cohorts, CRM sales teams, chat channels). Includes workflow triggers/actions, outbound webhooks, mobile ListScreen/DetailScreen surfaces, team-switcher block, and site-scoped multi-tenant data.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:44:53Z",
+    "last_updated": "2026-07-30T05:47:28Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-teams/releases/assets/490682425",
-    "checksum_sha256": "336939c7463575fde17b0837daa1064fdc4aab6ae2d1d7b94d60894bf54019c8",
-    "signature": "175669f1ad6510c2c4f9eb9b8c074665f4c572c7a82e7bb5a63290c5c1182639a0ec781e7430d0d32e25f03319b8c020fa9365b934349518b0849788616dab05",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-teams/releases/assets/494975380",
+    "checksum_sha256": "88d0a2b716bc4be4e3d6fc37158982507e4ac57f4c07ed3e86b15d8e0b2404c2",
+    "signature": "eb1d30c8128463b9aebd8473fe7e71eb1a6be009c26b4910306008e37cdc80021bb4738329ddf4392d436267bfdcc2f9b89102ade0c36a7c57bebd3cbb93ab03",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -87,7 +87,7 @@
             "checksum_sha256": "336939c7463575fde17b0837daa1064fdc4aab6ae2d1d7b94d60894bf54019c8",
             "signature": "175669f1ad6510c2c4f9eb9b8c074665f4c572c7a82e7bb5a63290c5c1182639a0ec781e7430d0d32e25f03319b8c020fa9365b934349518b0849788616dab05",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "teams",
@@ -103,6 +103,52 @@
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:44:53Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-teams/releases/assets/494737799",
+            "checksum_sha256": "eb50cf8018eac002618f22a24bdbb573b888f79c51cf2c4230bde3b285063db6",
+            "signature": "ee94c01c77c1651793bfbc12f6ba6e817e97fcf8b283a755f45fa79a9aded1c2623d7b9292f7d64b07149945f1f1ca68c887ef21ba0295020cdb0624c745010e",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "teams",
+                "team_management",
+                "member_invitations",
+                "role_management",
+                "team_context_switching",
+                "workflow_triggers",
+                "workflow_actions",
+                "mobile_surfaces",
+                "admin_dashboard",
+                "standard_contract"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T01:11:02Z"
+        },
+        {
+            "version": "1.1.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-teams/releases/assets/494975380",
+            "checksum_sha256": "88d0a2b716bc4be4e3d6fc37158982507e4ac57f4c07ed3e86b15d8e0b2404c2",
+            "signature": "eb1d30c8128463b9aebd8473fe7e71eb1a6be009c26b4910306008e37cdc80021bb4738329ddf4392d436267bfdcc2f9b89102ade0c36a7c57bebd3cbb93ab03",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "teams",
+                "team_management",
+                "member_invitations",
+                "role_management",
+                "team_context_switching",
+                "workflow_triggers",
+                "workflow_actions",
+                "mobile_surfaces",
+                "admin_dashboard",
+                "standard_contract"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T05:47:28Z"
         }
     ]
 }

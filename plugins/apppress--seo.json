@@ -1,23 +1,23 @@
 {
     "slug": "apppress/seo",
     "name": "AppPress SEO",
-    "version": "1.1.1",
+    "version": "1.2.2",
     "author": "AppPress",
     "description": "SEO for AppPress. Per-entry meta, Open Graph, Twitter Cards, JSON-LD, sitemap.xml, and robots.txt management.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:44:04Z",
+    "last_updated": "2026-07-30T05:47:13Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-seo/releases/assets/490681930",
-    "checksum_sha256": "5629b8c376dfc6e40165d0f8028ed8788532ab955174c6d9fef964a39a7644db",
-    "signature": "e18a596dd9cc150470be30edb821061cc2cdcfadde83cca5b4e3e1be83dd334692233cabeab6d1882ce90623b0c69c6d9ee8eaebdcd0ca97ea62fe68afd7d102",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-seo/releases/assets/494975243",
+    "checksum_sha256": "dec67ba0c6ef4608d38d5d528a3ec3f68e6e6968eb4fe2b6f3f47cf9b98fd3ce",
+    "signature": "67eac93008087a43db93f733e28b586925c7165fbb688e40e9a4e94a9da6036a16f3c74c2dd99354257f520e84aadc940a7f57bad6a8d1c5b8df261ad915ef09",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -60,13 +60,55 @@
             "checksum_sha256": "5629b8c376dfc6e40165d0f8028ed8788532ab955174c6d9fef964a39a7644db",
             "signature": "e18a596dd9cc150470be30edb821061cc2cdcfadde83cca5b4e3e1be83dd334692233cabeab6d1882ce90623b0c69c6d9ee8eaebdcd0ca97ea62fe68afd7d102",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "seo"
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:44:04Z"
+        },
+        {
+            "version": "1.2.0",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-seo/releases/assets/493286861",
+            "checksum_sha256": "8e7a3b7ba552eacad7e046960e7b20ddf474188b69b8022cfc9e422d7a48862f",
+            "signature": "255df5bf49d7097445233175f13af27c345f577e5a1d13e93d34a972147088ec57acdb7397d6d150a0cfd3d4d861e2e03ca341ba212cf37d43d309fac3b3720e",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "seo"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T22:38:50Z"
+        },
+        {
+            "version": "1.2.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-seo/releases/assets/494737607",
+            "checksum_sha256": "cc022fef9eed38ac4ec2c8656293d06494918ee0e431424bea80d03da72aaa86",
+            "signature": "5e5b3dd7b89247c323ad3260d14074630de64a3face5d4f6dee0cfa0a2b0315dfca5059bb0ce502a8305a9f11b9f78dcf32b114632bf92f43465fbf31a0f5e00",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "seo"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T01:10:48Z"
+        },
+        {
+            "version": "1.2.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-seo/releases/assets/494975243",
+            "checksum_sha256": "dec67ba0c6ef4608d38d5d528a3ec3f68e6e6968eb4fe2b6f3f47cf9b98fd3ce",
+            "signature": "67eac93008087a43db93f733e28b586925c7165fbb688e40e9a4e94a9da6036a16f3c74c2dd99354257f520e84aadc940a7f57bad6a8d1c5b8df261ad915ef09",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "seo"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T05:47:13Z"
         }
     ]
 }

@@ -1,0 +1,64 @@
+{
+    "slug": "apppress/contractor-connector-pack",
+    "name": "Contractor Connector Pack",
+    "version": "1.0.0",
+    "author": "AppPress",
+    "description": "Quote request portal with certified QuickBooks, HubSpot, and Google Sheets connector workflows for contractors.",
+    "categories": [],
+    "downloads": 0,
+    "rating": 0,
+    "rating_count": 0,
+    "last_updated": "2026-07-28T20:04:04Z",
+    "requires": {
+        "core": ">=1.0.0"
+    },
+    "is_verified": true,
+    "is_premium": false,
+    "license_type": "free",
+    "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/493138273",
+    "checksum_sha256": "a43f1645eab2107816d0a3762172d633c33101a9fee0283d9dafa1cc4c3ad5d5",
+    "signature": "2d24738916be14d35be20d5953ac38dc3b33cd3395a2f6e72e388593dbf9c462bca58371901cf555ac8abebc9304b118c0916255ec39da34c4c6fa4be5e28a0d",
+    "min_core_version": "1.0.0",
+    "dependencies": {
+        "apppress/documents": "^1.0.0",
+        "apppress/billing": "^1.0.0"
+    },
+    "requires_plugins": {
+        "apppress/documents": "^1.0.0",
+        "apppress/billing": "^1.0.0"
+    },
+    "capabilities": [
+        "forms",
+        "contacts",
+        "workflow",
+        "mail",
+        "files"
+    ],
+    "yanked": false,
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download_url": "https://api.github.com/repos/appkitgo/app-press/releases/assets/493138273",
+            "checksum_sha256": "a43f1645eab2107816d0a3762172d633c33101a9fee0283d9dafa1cc4c3ad5d5",
+            "signature": "2d24738916be14d35be20d5953ac38dc3b33cd3395a2f6e72e388593dbf9c462bca58371901cf555ac8abebc9304b118c0916255ec39da34c4c6fa4be5e28a0d",
+            "min_core_version": "1.0.0",
+            "dependencies": {
+                "apppress/documents": "^1.0.0",
+                "apppress/billing": "^1.0.0"
+            },
+            "requires_plugins": {
+                "apppress/documents": "^1.0.0",
+                "apppress/billing": "^1.0.0"
+            },
+            "capabilities": [
+                "forms",
+                "contacts",
+                "workflow",
+                "mail",
+                "files"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-28T20:04:04Z"
+        }
+    ]
+}

@@ -1,23 +1,23 @@
 {
     "slug": "apppress/surveys",
     "name": "AppPress Surveys",
-    "version": "1.1.1",
+    "version": "1.1.3",
     "author": "AppPress",
     "description": "Survey builder with 12 question types (including date and ranking), NPS scoring, quiz scoring, poll results, conditional logic, response analytics, shareable public links, mobile pulse forms, workflow triggers/actions including send_survey, and StandardContracts::SURVEYS for cross-plugin integration.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:44:39Z",
+    "last_updated": "2026-07-30T05:47:21Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-surveys/releases/assets/490682324",
-    "checksum_sha256": "e9d06480eed128c4caeab30b591deb28be407b66b9a0c5b4505cab81bb0e7b69",
-    "signature": "504678b2642809da10e1620b967f736791e87b9f67a17dec8f74a0ed56cecaa8da82523428f592fc47f210c70647396e9c1852b3a0d72e21ca0036ea5ab06e0a",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-surveys/releases/assets/494975334",
+    "checksum_sha256": "536ce0f53a47bf311432b02a17fda0882ee283c9b4d1ed82ddc277565b913816",
+    "signature": "f35f09c0ed3c1c32f52d9684248655128a811cd97b44527e24b3afb535e9c980e5a95ccbf30b0c900141a69c37bd597f18640040dc10b468daf5a20b119c9f00",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -108,7 +108,7 @@
             "checksum_sha256": "e9d06480eed128c4caeab30b591deb28be407b66b9a0c5b4505cab81bb0e7b69",
             "signature": "504678b2642809da10e1620b967f736791e87b9f67a17dec8f74a0ed56cecaa8da82523428f592fc47f210c70647396e9c1852b3a0d72e21ca0036ea5ab06e0a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "surveys",
@@ -125,6 +125,54 @@
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:44:39Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-surveys/releases/assets/494737682",
+            "checksum_sha256": "7055881a3f32c457e8b3ac56bda1f20ca5ee69ce2e926f3a7be4a6fe5ed45563",
+            "signature": "dfa42495f363be47e6f0d1b0365e22502afc43eba371f702e2fe9cbb96491634c0bff2bda51149da1986563fedff784a5416d656fb6dacfe4be77d6c6737030b",
+            "min_core_version": "1.0.0",
+            "dependencies": [],
+            "requires_plugins": [],
+            "capabilities": [
+                "surveys",
+                "feedback_collection",
+                "nps_scoring",
+                "quiz_scoring",
+                "poll_results",
+                "public_links",
+                "response_analytics",
+                "workflow_triggers",
+                "workflow_actions",
+                "mobile_surfaces",
+                "admin_dashboard"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T01:10:55Z"
+        },
+        {
+            "version": "1.1.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-surveys/releases/assets/494975334",
+            "checksum_sha256": "536ce0f53a47bf311432b02a17fda0882ee283c9b4d1ed82ddc277565b913816",
+            "signature": "f35f09c0ed3c1c32f52d9684248655128a811cd97b44527e24b3afb535e9c980e5a95ccbf30b0c900141a69c37bd597f18640040dc10b468daf5a20b119c9f00",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "surveys",
+                "feedback_collection",
+                "nps_scoring",
+                "quiz_scoring",
+                "poll_results",
+                "public_links",
+                "response_analytics",
+                "workflow_triggers",
+                "workflow_actions",
+                "mobile_surfaces",
+                "admin_dashboard"
+            ],
+            "yanked": false,
+            "published_at": "2026-07-30T05:47:21Z"
         }
     ]
 }
