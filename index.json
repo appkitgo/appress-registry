@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-30T20:55:52+00:00",
+    "generated_at": "2026-07-30T21:11:57+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -2818,7 +2818,7 @@
                     "checksum_sha256": "3445f35348ef73ad322c5a71876cbab42752cbcce5e0bd8ee990c685cbaa9a04",
                     "signature": "b479a54f356242c07ea4e7ecde5db306234576a8031b9c673606f8b8b80f56b6b7f407d51ea617ee8f37c4f941142d95bcaa6c306c9c60fde9db57fcf9169c07",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "events",
@@ -2830,6 +2830,25 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-30T19:49:09Z"
+                },
+                {
+                    "version": "1.5.5",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-events/releases/assets/495866622",
+                    "checksum_sha256": "f4cb7dee98005eb524535e8a4ca3e1c6b8bf960ec2a90f29d5b01bbe6c08fcf3",
+                    "signature": "43a0c17affaa00a2a35967ba0a70f361eca65c946724006380db404730007821e3ff6fd2d6c7e585416732903de586481bc9e7aedd295e589817feb60ffa3702",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "events",
+                        "event_registration",
+                        "qr_checkin",
+                        "attendance_tracking",
+                        "capacity_management",
+                        "waitlist"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-07-30T21:07:53Z"
                 }
             ]
         },
@@ -8797,5 +8816,5 @@
             ]
         }
     },
-    "signature": "05a47216faaacd6cefa929a3d88f8dcde1c5a728ef624077fbf552284923f71b9b26f4903c30c135ca9ec1c5056a1648ff7f389a562ad736a97916e402d47403"
+    "signature": "a8156afef5e6725a4649f3e22f3e78cf5a26c040cff1595b586767da8a9a206353ae5868a170ac9d283a05480133af2108c0b3677d9e58840622970b543be70d"
 }
