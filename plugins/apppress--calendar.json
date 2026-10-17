@@ -1,24 +1,24 @@
 {
     "slug": "apppress/calendar",
     "name": "AppPress Calendar",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "author": "AppPress",
     "description": "Shared calendar and scheduling primitive \u2014 events with RRULE recurrence, availability windows, iCal import/export, and certified connector sync with Google Calendar and Outlook. Powers apppack-booking, apppack-project-management, apppack-lms, and CRM.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-30T05:44:20Z",
+    "last_updated": "2026-10-17T15:04:35Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-calendar/releases/assets/494972915",
-    "checksum_sha256": "a4cb307ba1964b519cd03bd255adeff6db468ab5db5664ea53da46b17bf26541",
-    "signature": "c3948dee30e99916bd0e7c41753ebfe4d637cbaf3ed18a1fd0fd761103e4637c713d7565f18bf89ba5051dc3b1eca5ab16764d241407bf4f56c4a49bb8ed4706",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-calendar/releases/assets/650762278",
+    "checksum_sha256": "dca17c6dfba923152dbe87dd26bd9240edf2cff4ca1269a2349aced8d4ec7c5c",
+    "signature": "5636a4e964bbeb88a473982ed8e89724ae382e3feedef8f0c7ed964aef260c97a4f06995670110821c5668abe628b3a461c5223cd4c0731dbc1e7230c224a609",
+    "min_core_version": "1.5.0",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -138,7 +138,7 @@
             "checksum_sha256": "a4cb307ba1964b519cd03bd255adeff6db468ab5db5664ea53da46b17bf26541",
             "signature": "c3948dee30e99916bd0e7c41753ebfe4d637cbaf3ed18a1fd0fd761103e4637c713d7565f18bf89ba5051dc3b1eca5ab16764d241407bf4f56c4a49bb8ed4706",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "calendar_events",
@@ -151,6 +151,26 @@
             ],
             "yanked": false,
             "published_at": "2026-07-30T05:44:20Z"
+        },
+        {
+            "version": "1.1.5",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-calendar/releases/assets/650762278",
+            "checksum_sha256": "dca17c6dfba923152dbe87dd26bd9240edf2cff4ca1269a2349aced8d4ec7c5c",
+            "signature": "5636a4e964bbeb88a473982ed8e89724ae382e3feedef8f0c7ed964aef260c97a4f06995670110821c5668abe628b3a461c5223cd4c0731dbc1e7230c224a609",
+            "min_core_version": "1.5.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "calendar_events",
+                "rrule_recurrence",
+                "availability_windows",
+                "ical_import_export",
+                "external_calendar_sync",
+                "rsvp_management",
+                "scheduling_primitive"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T15:04:35Z"
         }
     ]
 }

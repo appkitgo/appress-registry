@@ -1,23 +1,23 @@
 {
     "slug": "apppress/approvals",
     "name": "AppPress Approvals",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "author": "AppPress",
     "description": "Approval workflow plugin that assigns sign-off requests to any record (quote, form, document, or custom entity), captures approve/reject decisions with a full audit trail, fires 8 workflow triggers for automation, and bridges to DocuSign for e-signatures. Use this plugin whenever an app needs a human to review and sign off on something before a process can continue.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-30T01:08:32Z",
+    "last_updated": "2026-10-17T15:04:01Z",
     "requires": {
         "core": ">=1.0.0"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-approvals/releases/assets/494735685",
-    "checksum_sha256": "394807a29308723312300c7f067abf1837de1be49dab051bf19574ec864801d3",
-    "signature": "db034e1dcf504c5234db3c5d051341c05c51c4b13d0ff397b5418b63cbfca4cdef09425b177092fcaefdd46fc02ec12643e6ee203d497a2830531e168a9d5605",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-approvals/releases/assets/650761053",
+    "checksum_sha256": "0ceb52726cae095656961c8849c0f3a7ec9585af63ccb3bca1e5f2e9bc4729cf",
+    "signature": "fb272c540ccb77a7e3dee6e6f8e6c7cc44e9bea6fd60afe13243a2e61e6ff9e1e236fe01d61ae6fa7df6e8c49db72cb0085c437389cd1580a3b204359f9b3804",
     "min_core_version": "1.0.0",
     "dependencies": {},
     "requires_plugins": [],
@@ -98,7 +98,7 @@
             "checksum_sha256": "394807a29308723312300c7f067abf1837de1be49dab051bf19574ec864801d3",
             "signature": "db034e1dcf504c5234db3c5d051341c05c51c4b13d0ff397b5418b63cbfca4cdef09425b177092fcaefdd46fc02ec12643e6ee203d497a2830531e168a9d5605",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "approval_workflow",
@@ -111,6 +111,26 @@
             ],
             "yanked": false,
             "published_at": "2026-07-30T01:08:32Z"
+        },
+        {
+            "version": "1.1.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-approvals/releases/assets/650761053",
+            "checksum_sha256": "0ceb52726cae095656961c8849c0f3a7ec9585af63ccb3bca1e5f2e9bc4729cf",
+            "signature": "fb272c540ccb77a7e3dee6e6f8e6c7cc44e9bea6fd60afe13243a2e61e6ff9e1e236fe01d61ae6fa7df6e8c49db72cb0085c437389cd1580a3b204359f9b3804",
+            "min_core_version": "1.0.0",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "approval_workflow",
+                "review_queue",
+                "decision_tracking",
+                "esignature",
+                "docusign_bridge",
+                "webhook_ingress",
+                "signer_assignment"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T15:04:01Z"
         }
     ]
 }
