@@ -1,24 +1,24 @@
 {
     "slug": "apppress/contacts",
     "name": "AppPress Contacts",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "author": "AppPress",
     "description": "CRM-style contact and company management with lifecycle stages, notes, tasks, and activity tracking.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-30T05:44:34Z",
+    "last_updated": "2026-10-17T23:12:02Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-contacts/releases/assets/494973084",
-    "checksum_sha256": "c4d0343a899e76b1b6048ae7554ff085a0068eccd1e88b7107eb1dfdc7f91e19",
-    "signature": "dd9c2322b849c2e932a973cbc97e41fe4dba6e4412da32a4e81175c7e2fd2b3bfb706603e3c2e97942544efd534b1bb91146776a14adcfad20e6e25131518902",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-contacts/releases/assets/651855510",
+    "checksum_sha256": "801cbc585a1536d26b73bf14230fa3d0dbb6952ef3ad6bb58aa07812e2c2a1d7",
+    "signature": "1fe8926368517c9b5e6d62d30bdeaa73183566cb377bae6ca3b37bf44f517a0d2bb2236f56d66392b0a9bf8b032dc176937a8634f069995f1a112f48a18b570a",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -102,13 +102,27 @@
             "checksum_sha256": "c4d0343a899e76b1b6048ae7554ff085a0068eccd1e88b7107eb1dfdc7f91e19",
             "signature": "dd9c2322b849c2e932a973cbc97e41fe4dba6e4412da32a4e81175c7e2fd2b3bfb706603e3c2e97942544efd534b1bb91146776a14adcfad20e6e25131518902",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "contacts"
             ],
             "yanked": false,
             "published_at": "2026-07-30T05:44:34Z"
+        },
+        {
+            "version": "1.0.7",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-contacts/releases/assets/651855510",
+            "checksum_sha256": "801cbc585a1536d26b73bf14230fa3d0dbb6952ef3ad6bb58aa07812e2c2a1d7",
+            "signature": "1fe8926368517c9b5e6d62d30bdeaa73183566cb377bae6ca3b37bf44f517a0d2bb2236f56d66392b0a9bf8b032dc176937a8634f069995f1a112f48a18b570a",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "contacts"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:12:02Z"
         }
     ]
 }

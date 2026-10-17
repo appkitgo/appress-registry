@@ -1,24 +1,24 @@
 {
     "slug": "apppress/blog",
     "name": "AppPress Blog",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "author": "AppPress",
     "description": "Full blog and content publishing engine with post scheduling, revision history with restore, RSS feed, category management, reading time, and cross-plugin integrations for tags, activity logging, analytics, and workflows.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:38:01Z",
+    "last_updated": "2026-10-17T23:11:00Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-blog/releases/assets/490677854",
-    "checksum_sha256": "15eb86366c8d976a9b7fa3edade688c1d9c95659a1e85e8c27a11fe6deac9419",
-    "signature": "0acc2abab6b73da19013e687fdb1628f7771120741b635c82a67b166a895086a433efd4ab7ff9cb0600616808609a5c963282ea415ab79cf8a323b75d0429f03",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-blog/releases/assets/651853603",
+    "checksum_sha256": "ce8056fbb1612f7504f56b1887b605cb063809ea5d1548c56c1619ee99ebda6c",
+    "signature": "be237f2ae64ae5aa520d9aeeba139544b1252cef00bbbd7a38d291ca570407f1e9890e3b309a6da81471afe818697a7fa40f780d6279c6cea5ece90406349509",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -60,13 +60,27 @@
             "checksum_sha256": "15eb86366c8d976a9b7fa3edade688c1d9c95659a1e85e8c27a11fe6deac9419",
             "signature": "0acc2abab6b73da19013e687fdb1628f7771120741b635c82a67b166a895086a433efd4ab7ff9cb0600616808609a5c963282ea415ab79cf8a323b75d0429f03",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "blog"
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:38:01Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-blog/releases/assets/651853603",
+            "checksum_sha256": "ce8056fbb1612f7504f56b1887b605cb063809ea5d1548c56c1619ee99ebda6c",
+            "signature": "be237f2ae64ae5aa520d9aeeba139544b1252cef00bbbd7a38d291ca570407f1e9890e3b309a6da81471afe818697a7fa40f780d6279c6cea5ece90406349509",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "blog"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:11:00Z"
         }
     ]
 }

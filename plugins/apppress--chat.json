@@ -1,24 +1,24 @@
 {
     "slug": "apppress/chat",
     "name": "AppPress Chat",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "author": "AppPress",
     "description": "Real-time messaging with channels, DMs, threading, reactions, presence, and file attachments. Implements StandardContracts::CHAT.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-30T05:44:27Z",
+    "last_updated": "2026-10-17T23:11:40Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-chat/releases/assets/494972982",
-    "checksum_sha256": "825ee0cc439f9f6fe459938246685e25a94a4db61e75f03dd8d4581afbcf5871",
-    "signature": "20f3930b8f24c0dd4eed280330d08ba6b56f16831097697372f8e9f5ea0323c18aa959b4738ac12908e7a3607d005cdc57456a811fc45e64e7a5972754dd820f",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-chat/releases/assets/651854813",
+    "checksum_sha256": "dfc6df817ffc0c8b60d8d5d99ea1176b26eb4b3cea76016edff7a3765eca4ec4",
+    "signature": "8e2e25c0dcf1a84716189a75dc0792fd066c7c76ea0ca7462d6f3dc5f88622de1b5bbe33459af470e7098c35c311d6f62f4579be64299649dc8799c125944d00",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -102,13 +102,27 @@
             "checksum_sha256": "825ee0cc439f9f6fe459938246685e25a94a4db61e75f03dd8d4581afbcf5871",
             "signature": "20f3930b8f24c0dd4eed280330d08ba6b56f16831097697372f8e9f5ea0323c18aa959b4738ac12908e7a3607d005cdc57456a811fc45e64e7a5972754dd820f",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "chat"
             ],
             "yanked": false,
             "published_at": "2026-07-30T05:44:27Z"
+        },
+        {
+            "version": "1.1.4",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-chat/releases/assets/651854813",
+            "checksum_sha256": "dfc6df817ffc0c8b60d8d5d99ea1176b26eb4b3cea76016edff7a3765eca4ec4",
+            "signature": "8e2e25c0dcf1a84716189a75dc0792fd066c7c76ea0ca7462d6f3dc5f88622de1b5bbe33459af470e7098c35c311d6f62f4579be64299649dc8799c125944d00",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "chat"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:11:40Z"
         }
     ]
 }

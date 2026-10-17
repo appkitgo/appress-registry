@@ -1,24 +1,24 @@
 {
     "slug": "apppress/social-auth",
     "name": "AppPress Social Auth",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "AppPress",
     "description": "OAuth 2.0 social login for AppPress \u2014 Google, GitHub, Facebook, Twitter/X, and Microsoft. Supports auto-registration, email-based account linking, encrypted token storage, connected-accounts API, workflow triggers, and StandardContracts::SOCIAL_AUTH for cross-plugin integration without tight coupling.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:44:25Z",
+    "last_updated": "2026-10-17T23:17:53Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-social-auth/releases/assets/490682139",
-    "checksum_sha256": "d06bf1fe215de8b8b093a77a69d887007d01edfb632c391b5fce48f0cb4b3465",
-    "signature": "8f6c75251ae56271ee59d00c870eef6137003d8bf873297ada28c53f518fef0fa575496d2cd192fc9bd18d3f414ba52b2e145c111da6f441620f75ffef2e180b",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-social-auth/releases/assets/651866104",
+    "checksum_sha256": "22c56776e313cf581c1a6671278ff58be14c3eb698dc198e83476c522d28cd5a",
+    "signature": "8f275781c41e784b3fa3ed7b00d57e811ff92c7731ad4dceccd95aa1b998ebd41fa9619b94dfaa5b6b819facc3c1165cff648d1f3475079ad098400fc8336b06",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -81,7 +81,7 @@
             "checksum_sha256": "d06bf1fe215de8b8b093a77a69d887007d01edfb632c391b5fce48f0cb4b3465",
             "signature": "8f6c75251ae56271ee59d00c870eef6137003d8bf873297ada28c53f518fef0fa575496d2cd192fc9bd18d3f414ba52b2e145c111da6f441620f75ffef2e180b",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "social-auth",
@@ -95,6 +95,27 @@
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:44:25Z"
+        },
+        {
+            "version": "1.0.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-social-auth/releases/assets/651866104",
+            "checksum_sha256": "22c56776e313cf581c1a6671278ff58be14c3eb698dc198e83476c522d28cd5a",
+            "signature": "8f275781c41e784b3fa3ed7b00d57e811ff92c7731ad4dceccd95aa1b998ebd41fa9619b94dfaa5b6b819facc3c1165cff648d1f3475079ad098400fc8336b06",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "social-auth",
+                "oauth_login",
+                "account_linking",
+                "auto_registration",
+                "connected_accounts_api",
+                "workflow_triggers",
+                "workflow_actions",
+                "admin_dashboard"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:17:53Z"
         }
     ]
 }

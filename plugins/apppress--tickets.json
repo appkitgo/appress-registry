@@ -1,24 +1,24 @@
 {
     "slug": "apppress/tickets",
     "name": "AppPress Tickets",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "author": "AppPress",
     "description": "Full-featured help desk ticketing with priority levels, SLA tracking, internal notes, agent assignment, and category management. Students submit tickets; staff agents manage and resolve them; admins track volume, response time, and SLA health.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:45:00Z",
+    "last_updated": "2026-10-17T23:18:26Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-tickets/releases/assets/490682498",
-    "checksum_sha256": "710e85a7053f163b05ad3f85d32598b2a88ccd051c17b1ef19c540ade8d7aebe",
-    "signature": "5876fba11fc52d656413c2507b46874ad6d404ee1535354b0ecb0ae4e9f8203de17bdfbd6b597d0b552d1043b52a7a7e85f32ba638f9a9f5c6e3d2659454730e",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-tickets/releases/assets/651867090",
+    "checksum_sha256": "fd592eabd1e49c25c15ab7bed607ce154739cc0de20f3ca6afa3b4a450c86a86",
+    "signature": "7f4d2c0792a2737db88ca134e11e76783d38f12b0a8453be6e21e8ba955c216d5c2d3ee89379631c723e959dfc2bd0873d6eed8f2803ca85ec7eaa104aebf90e",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -107,7 +107,7 @@
             "checksum_sha256": "710e85a7053f163b05ad3f85d32598b2a88ccd051c17b1ef19c540ade8d7aebe",
             "signature": "5876fba11fc52d656413c2507b46874ad6d404ee1535354b0ecb0ae4e9f8203de17bdfbd6b597d0b552d1043b52a7a7e85f32ba638f9a9f5c6e3d2659454730e",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "tickets",
@@ -131,6 +131,37 @@
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:45:00Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-tickets/releases/assets/651867090",
+            "checksum_sha256": "fd592eabd1e49c25c15ab7bed607ce154739cc0de20f3ca6afa3b4a450c86a86",
+            "signature": "7f4d2c0792a2737db88ca134e11e76783d38f12b0a8453be6e21e8ba955c216d5c2d3ee89379631c723e959dfc2bd0873d6eed8f2803ca85ec7eaa104aebf90e",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "tickets",
+                "case_management",
+                "support_desk",
+                "help_desk",
+                "incident_tracking",
+                "sla_tracking",
+                "agent_assignment",
+                "internal_notes",
+                "category_management",
+                "mobile_ticket_submission",
+                "mobile_ticket_tracking",
+                "public_ticket_tracking",
+                "app_world_agent_queue",
+                "workflow_triggers",
+                "workflow_actions",
+                "webhook_events",
+                "admin_block_resolvers",
+                "member_dashboard_panel"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:18:26Z"
         }
     ]
 }

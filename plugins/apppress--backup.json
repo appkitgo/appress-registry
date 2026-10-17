@@ -1,24 +1,24 @@
 {
     "slug": "apppress/backup",
     "name": "AppPress Backup & Restore",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "author": "AppPress",
     "description": "Protect your AppPress site with automated database and file backups \u2014 scheduled or on-demand, stored locally or on S3-compatible storage, optionally AES-256 encrypted, with retention policies, integrity verification, and one-click restore. Implements StandardContracts::BACKUP so App Packs and workflows can trigger backups without direct coupling. Not a content JSON export \u2014 use core export for site migration; use this plugin for disaster recovery.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-28T12:37:48Z",
+    "last_updated": "2026-10-17T23:10:52Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-backup/releases/assets/492702778",
-    "checksum_sha256": "feb4a9db22c8aea9db528579c16a717da78506034c2b5ea8b07a31823507b26d",
-    "signature": "c7def1f46f855a1a31c0ea289c96ae0e83cab45f23f0739c63dbeee560b75be3ee514e4eb7c15f1f433b9e54b28e53ccd783b3916d09e670be684d8a9c9d2500",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-backup/releases/assets/651853336",
+    "checksum_sha256": "b65bca72c8700b6520aad44baa0234b6160bae05fdf93279443e828f1a3108f0",
+    "signature": "c5743c09d10012cc9189395d2609d60f38a9fd885b66c29ca4e1b715b4e68e9d2be26100ebd2a418f0b4cb45afa775971c14492af36babefd5511b7245b8dd0d",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -114,7 +114,7 @@
             "checksum_sha256": "feb4a9db22c8aea9db528579c16a717da78506034c2b5ea8b07a31823507b26d",
             "signature": "c7def1f46f855a1a31c0ea289c96ae0e83cab45f23f0739c63dbeee560b75be3ee514e4eb7c15f1f433b9e54b28e53ccd783b3916d09e670be684d8a9c9d2500",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "backup",
@@ -131,6 +131,30 @@
             ],
             "yanked": false,
             "published_at": "2026-07-28T12:37:48Z"
+        },
+        {
+            "version": "1.2.1",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-backup/releases/assets/651853336",
+            "checksum_sha256": "b65bca72c8700b6520aad44baa0234b6160bae05fdf93279443e828f1a3108f0",
+            "signature": "c5743c09d10012cc9189395d2609d60f38a9fd885b66c29ca4e1b715b4e68e9d2be26100ebd2a418f0b4cb45afa775971c14492af36babefd5511b7245b8dd0d",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "backup",
+                "restore",
+                "disaster_recovery",
+                "scheduled_backups",
+                "database_backup",
+                "file_backup",
+                "s3_storage",
+                "encryption_at_rest",
+                "retention_policy",
+                "integrity_verification",
+                "admin_dashboard"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:10:52Z"
         }
     ]
 }

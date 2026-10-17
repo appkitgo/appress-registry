@@ -1,24 +1,24 @@
 {
     "slug": "apppress/quotes",
     "name": "AppPress Quotes & Estimates",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "author": "AppPress",
     "description": "Create, send, and track quotes and estimates for campus departments and commercial operators. Features a token-based customer approval portal, line-item pricing, optional invoice conversion, member and mobile client surfaces, workflow triggers, and sales pipeline admin blocks.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-30T12:23:22Z",
+    "last_updated": "2026-10-17T23:16:48Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-quotes/releases/assets/495334233",
-    "checksum_sha256": "811ac63b343735794469433dd060ccbcf965419ec3fe36243d828dd6f4b7d75f",
-    "signature": "3f04b9637a99dd8dd90445746829cd148b76d02cffbf4ba34949fdf0f38ed25ef5125a38e1d16f4c9f98a1002f63f22fa44ce8331738d68806cac2c7e9fa6a0e",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-quotes/releases/assets/651864186",
+    "checksum_sha256": "d3b6685a0d106dae5551cd0ada705387473943e80f6f550bb30f1e1d2713577d",
+    "signature": "ec2fddef099caf45e429487777775f4bd4a0a004506b01939e429adcbafc0615350a3a07017e2caf7b7f4e779486479696a5ca6f34b06627cff26012edaaa502",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -144,7 +144,7 @@
             "checksum_sha256": "811ac63b343735794469433dd060ccbcf965419ec3fe36243d828dd6f4b7d75f",
             "signature": "3f04b9637a99dd8dd90445746829cd148b76d02cffbf4ba34949fdf0f38ed25ef5125a38e1d16f4c9f98a1002f63f22fa44ce8331738d68806cac2c7e9fa6a0e",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "quotes",
@@ -158,6 +158,27 @@
             ],
             "yanked": false,
             "published_at": "2026-07-30T12:23:22Z"
+        },
+        {
+            "version": "1.1.5",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-quotes/releases/assets/651864186",
+            "checksum_sha256": "d3b6685a0d106dae5551cd0ada705387473943e80f6f550bb30f1e1d2713577d",
+            "signature": "ec2fddef099caf45e429487777775f4bd4a0a004506b01939e429adcbafc0615350a3a07017e2caf7b7f4e779486479696a5ca6f34b06627cff26012edaaa502",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "quotes",
+                "estimates",
+                "quote_approval_portal",
+                "invoice_conversion",
+                "workflow_triggers",
+                "workflow_actions",
+                "mobile_client_quotes",
+                "member_quote_portal"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:16:48Z"
         }
     ]
 }

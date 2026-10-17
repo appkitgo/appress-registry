@@ -1,24 +1,24 @@
 {
     "slug": "apppress/certificates",
     "name": "AppPress Certificates",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "author": "AppPress",
     "description": "Issue and verify PDF certificates for course completions, quiz passes, and custom achievements. Supports customizable HTML/CSS templates with dynamic variable substitution.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:38:16Z",
+    "last_updated": "2026-10-17T23:11:20Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-certificates/releases/assets/490677988",
-    "checksum_sha256": "c67c3043c93c1fffd9230a845d0e324c5ec9903a8607271ccea80281348b4215",
-    "signature": "046902ec7f973c4ec67975e42b0293f9d5195de1b3c1a4c00782d3668c09a0188ac5c954903d732fb93420efe6e3361f5b957de920531ab72913423ecc1ad700",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-certificates/releases/assets/651854240",
+    "checksum_sha256": "0a62a37d4d518a596f6d2537560b2b1b115c402ec414726bce01607fb38dd406",
+    "signature": "f37e4cf237272ebfe1fbce3cf0dd523101cbffd45e53c06cdb1d79a40498f34d285a34a2e21f6d8426c75323809a5d7fe29108e2f9dd0e1ce4150533ab18270b",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -69,7 +69,7 @@
             "checksum_sha256": "c67c3043c93c1fffd9230a845d0e324c5ec9903a8607271ccea80281348b4215",
             "signature": "046902ec7f973c4ec67975e42b0293f9d5195de1b3c1a4c00782d3668c09a0188ac5c954903d732fb93420efe6e3361f5b957de920531ab72913423ecc1ad700",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "certificates",
@@ -79,6 +79,23 @@
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:38:16Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-certificates/releases/assets/651854240",
+            "checksum_sha256": "0a62a37d4d518a596f6d2537560b2b1b115c402ec414726bce01607fb38dd406",
+            "signature": "f37e4cf237272ebfe1fbce3cf0dd523101cbffd45e53c06cdb1d79a40498f34d285a34a2e21f6d8426c75323809a5d7fe29108e2f9dd0e1ce4150533ab18270b",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "certificates",
+                "pdf_generation",
+                "certificate_verification",
+                "achievement_credentials"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:11:20Z"
         }
     ]
 }

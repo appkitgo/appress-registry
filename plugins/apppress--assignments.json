@@ -1,24 +1,24 @@
 {
     "slug": "apppress/assignments",
     "name": "AppPress Assignments",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": "AppPress",
     "description": "Assignment submission, rubric grading, and grade management for LMS and campus apps. Supports due dates, late penalties, pass/fail thresholds, file uploads, SIS/LMS grade import via signed webhook, and workflow automation covering the full submission lifecycle: created \u2192 published \u2192 submitted \u2192 graded \u2192 passed/failed \u2192 returned.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:37:47Z",
+    "last_updated": "2026-10-17T23:10:43Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-assignments/releases/assets/490677648",
-    "checksum_sha256": "eb33f47bd40fdabab3f87f15305c34f376b77e64b893b037bd21ea78f6fce896",
-    "signature": "fd899e6c643bb5a706d7608be05b99196d711dba4152029c814d22f8cc65d50fc6344c3cfa2d016db5b196204f749095635ad62aae2e729e442048838332270a",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-assignments/releases/assets/651853033",
+    "checksum_sha256": "0cc6226f83a50605477b53c792d958bbbdca77ab6c24335f80a446b3e8bb87da",
+    "signature": "b58552dce611041b66f88a61207b1e431e5886d5918f3279b8ffde5f0f1dcf29b67f3d20cce3ce2da82650ed48092ed495b1f79fc83597231bdecb805e2dbc01",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -118,7 +118,7 @@
             "checksum_sha256": "eb33f47bd40fdabab3f87f15305c34f376b77e64b893b037bd21ea78f6fce896",
             "signature": "fd899e6c643bb5a706d7608be05b99196d711dba4152029c814d22f8cc65d50fc6344c3cfa2d016db5b196204f749095635ad62aae2e729e442048838332270a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "assignments",
@@ -136,6 +136,31 @@
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:37:47Z"
+        },
+        {
+            "version": "1.0.5",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-assignments/releases/assets/651853033",
+            "checksum_sha256": "0cc6226f83a50605477b53c792d958bbbdca77ab6c24335f80a446b3e8bb87da",
+            "signature": "b58552dce611041b66f88a61207b1e431e5886d5918f3279b8ffde5f0f1dcf29b67f3d20cce3ce2da82650ed48092ed495b1f79fc83597231bdecb805e2dbc01",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "assignments",
+                "grading",
+                "rubric_grading",
+                "submission_management",
+                "pass_fail_thresholds",
+                "due_dates",
+                "late_submission_policy",
+                "grade_import",
+                "grade_export",
+                "sis_integration",
+                "lms",
+                "file_submissions"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:10:43Z"
         }
     ]
 }

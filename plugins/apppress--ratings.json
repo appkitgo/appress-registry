@@ -1,24 +1,24 @@
 {
     "slug": "apppress/ratings",
     "name": "AppPress Ratings & Reviews",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "AppPress",
     "description": "Universal ratings and reviews: 1-5 stars, text reviews, moderation queue, aggregate scores, helpful voting, and owner replies. Works on any model.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:43:22Z",
+    "last_updated": "2026-10-17T23:16:58Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-ratings/releases/assets/490681486",
-    "checksum_sha256": "484b2fcf293f5dc2928f987bee1718b2dedc443f2c965b044c99acf6016e24ae",
-    "signature": "cf5d3f89c85cf371803fa0fba5935955aa33ae3bbb0a662c393c538f177069790bf5dfba94adb6ace6eaa5d99bf1c536ca82a0a201b953502769454e3614ac0a",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-ratings/releases/assets/651864575",
+    "checksum_sha256": "47c3ae3058422fbcb65378238a920fe57c9e50bf62f7a91a8d696fa17df42084",
+    "signature": "973d730d67ca1721e7091b01ed64edad1283e72eba486f1993258fa6b15f001cdb902d9e37878e9fa0e62c73d52a6de3b947f1e2dafcb0b05c5344ef58d8e10a",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -60,13 +60,27 @@
             "checksum_sha256": "484b2fcf293f5dc2928f987bee1718b2dedc443f2c965b044c99acf6016e24ae",
             "signature": "cf5d3f89c85cf371803fa0fba5935955aa33ae3bbb0a662c393c538f177069790bf5dfba94adb6ace6eaa5d99bf1c536ca82a0a201b953502769454e3614ac0a",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "ratings"
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:43:22Z"
+        },
+        {
+            "version": "1.0.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-ratings/releases/assets/651864575",
+            "checksum_sha256": "47c3ae3058422fbcb65378238a920fe57c9e50bf62f7a91a8d696fa17df42084",
+            "signature": "973d730d67ca1721e7091b01ed64edad1283e72eba486f1993258fa6b15f001cdb902d9e37878e9fa0e62c73d52a6de3b947f1e2dafcb0b05c5344ef58d8e10a",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "ratings"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:16:58Z"
         }
     ]
 }

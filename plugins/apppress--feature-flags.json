@@ -1,24 +1,24 @@
 {
     "slug": "apppress/feature-flags",
     "name": "AppPress Feature Flags",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "author": "AppPress",
     "description": "Site-scoped boolean, percentage, segment, and plan-based feature flags with per-user and global overrides, expiring overrides, and evaluation caching. Implements StandardContracts::FEATURE_FLAGS so host plugins gate features without hard dependencies. Operator-only \u2014 flags are resolved server-side via contract or service injection, not member UI.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-30T05:45:03Z",
+    "last_updated": "2026-10-17T23:13:26Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-feature-flags/releases/assets/494973523",
-    "checksum_sha256": "140aa26b97e0edf2a967974f8c227b40e3b91f6aff8d89eeeb5ce5c370131d34",
-    "signature": "c15a7685fc768759118efbe03113709e4801c6df5e621dd3ee7c457b7c3fa15c669515f6bd312d53feb83c2d657eca633b6b3409ec468af34bcf45068cbd2d0f",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-feature-flags/releases/assets/651858056",
+    "checksum_sha256": "bff7103fc9f5ad5ebd0a77066cf9293a391707c40398c5195e696755b5234e80",
+    "signature": "417c9f4c67d9546ec513e6953fef69cc172752ee9719585714b87ab587271297b0e0390cd6421a3b4203196956b651310ed4977397f6a8864dae008d39257209",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -118,7 +118,7 @@
             "checksum_sha256": "140aa26b97e0edf2a967974f8c227b40e3b91f6aff8d89eeeb5ce5c370131d34",
             "signature": "c15a7685fc768759118efbe03113709e4801c6df5e621dd3ee7c457b7c3fa15c669515f6bd312d53feb83c2d657eca633b6b3409ec468af34bcf45068cbd2d0f",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "feature-flags",
@@ -131,6 +131,26 @@
             ],
             "yanked": false,
             "published_at": "2026-07-30T05:45:03Z"
+        },
+        {
+            "version": "1.2.4",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-feature-flags/releases/assets/651858056",
+            "checksum_sha256": "bff7103fc9f5ad5ebd0a77066cf9293a391707c40398c5195e696755b5234e80",
+            "signature": "417c9f4c67d9546ec513e6953fef69cc172752ee9719585714b87ab587271297b0e0390cd6421a3b4203196956b651310ed4977397f6a8864dae008d39257209",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "feature-flags",
+                "rollout_management",
+                "percentage_rollouts",
+                "segment_targeting",
+                "plan_gating",
+                "override_management",
+                "contract_resolution"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:13:26Z"
         }
     ]
 }

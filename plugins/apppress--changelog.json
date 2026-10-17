@@ -1,24 +1,24 @@
 {
     "slug": "apppress/changelog",
     "name": "AppPress Changelog",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "author": "AppPress",
     "description": "Product changelog and release notes system for campus apps and SaaS products. Teams publish versioned entries (new, improvement, fix, security, deprecation) with rich content, schedule releases, track reads and reactions, and email digest notifications to subscribers. Exposes mobile What's New surfaces, admin dashboard blocks, workflow triggers, and the StandardContracts::CHANGELOG service for App Packs.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:38:23Z",
+    "last_updated": "2026-10-17T23:11:29Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-changelog/releases/assets/490678080",
-    "checksum_sha256": "83423d3fb021fc8aa75ffe0d6c61a1f53025a5d794031b53b61141f29d8294c3",
-    "signature": "561928ec8f985b1f777a5f9ba1b5628c2b96f5324eebae0a49282ea5537166183183efb9e30432e8ae04890d0d12ce855447c026d75ec8c2d05ad01335e77a01",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-changelog/releases/assets/651854481",
+    "checksum_sha256": "2b511e7a4936d68a565829c34ba421df3dfd266fd3755124ba399b8b5954dc0f",
+    "signature": "5b2b2c45425a741fb8c2111c4f0996e4db3a15bf6c946dcf1793f1adf8ce055328dc2c552058dc22c9a749d68cb819a409a106154151ce89c9150f33cbca1c00",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -81,7 +81,7 @@
             "checksum_sha256": "83423d3fb021fc8aa75ffe0d6c61a1f53025a5d794031b53b61141f29d8294c3",
             "signature": "561928ec8f985b1f777a5f9ba1b5628c2b96f5324eebae0a49282ea5537166183183efb9e30432e8ae04890d0d12ce855447c026d75ec8c2d05ad01335e77a01",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "changelog",
@@ -95,6 +95,27 @@
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:38:23Z"
+        },
+        {
+            "version": "1.0.4",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-changelog/releases/assets/651854481",
+            "checksum_sha256": "2b511e7a4936d68a565829c34ba421df3dfd266fd3755124ba399b8b5954dc0f",
+            "signature": "5b2b2c45425a741fb8c2111c4f0996e4db3a15bf6c946dcf1793f1adf8ce055328dc2c552058dc22c9a749d68cb819a409a106154151ce89c9150f33cbca1c00",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "changelog",
+                "release_notes",
+                "product_updates",
+                "subscriber_digest",
+                "scheduled_publishing",
+                "read_tracking",
+                "reactions",
+                "mobile_whats_new"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:11:29Z"
         }
     ]
 }

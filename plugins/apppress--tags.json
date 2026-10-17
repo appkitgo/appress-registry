@@ -1,24 +1,24 @@
 {
     "slug": "apppress/tags",
     "name": "AppPress Tags & Categories",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "author": "AppPress",
     "description": "Universal tagging and hierarchical categorization: flat tags, nested categories, tag clouds, polymorphic attachment to any model.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:44:46Z",
+    "last_updated": "2026-10-17T23:18:10Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-tags/releases/assets/490682377",
-    "checksum_sha256": "b1af3ca2170be7b68221e6bcf5c5a50dc555539e5e9cf035e078b784e3eebe02",
-    "signature": "5086d003e76529e53f7b99aefe6e74b976a5415744b2d03588b0262ba010683f2f1da641ffa5eeb0054f0225f001b1c90cb1047abde63833f27f62d0e188bf05",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-tags/releases/assets/651866632",
+    "checksum_sha256": "eb27f820ec5b81853eec21f0ed4ba3d43f9cce8228a9a1c9f905391fcd62f7a5",
+    "signature": "199c903aff97f1b589c11f1530f3e8c5d1471c8435a60e02822cff33a90f14eb453b7a68d42b774b9aa755ec5b8ffdeb625e3217cb3cb8499f3680a54e606f01",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -60,13 +60,27 @@
             "checksum_sha256": "b1af3ca2170be7b68221e6bcf5c5a50dc555539e5e9cf035e078b784e3eebe02",
             "signature": "5086d003e76529e53f7b99aefe6e74b976a5415744b2d03588b0262ba010683f2f1da641ffa5eeb0054f0225f001b1c90cb1047abde63833f27f62d0e188bf05",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "tags"
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:44:46Z"
+        },
+        {
+            "version": "1.1.2",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-tags/releases/assets/651866632",
+            "checksum_sha256": "eb27f820ec5b81853eec21f0ed4ba3d43f9cce8228a9a1c9f905391fcd62f7a5",
+            "signature": "199c903aff97f1b589c11f1530f3e8c5d1471c8435a60e02822cff33a90f14eb453b7a68d42b774b9aa755ec5b8ffdeb625e3217cb3cb8499f3680a54e606f01",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "tags"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:18:10Z"
         }
     ]
 }

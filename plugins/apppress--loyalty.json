@@ -1,24 +1,24 @@
 {
     "slug": "apppress/loyalty",
     "name": "AppPress Loyalty",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "AppPress",
     "description": "Commerce-focused customer loyalty program with tiered points, earning rules, redeemable reward catalog, point expiry, and tier-based benefits.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-26T20:41:22Z",
+    "last_updated": "2026-10-17T23:14:56Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-loyalty/releases/assets/490680167",
-    "checksum_sha256": "03fcb41051e071405b8d15c8521e727fbb0d85a196ad3efd9afc1bab34b192f9",
-    "signature": "08c04a74d8b9bd26469bc51e27f5ac9e8be52b6d506c415d7c452e95401c41381b85bc660e213a30d164ab6b7a1aa346a71dc3612d3c47f55883520259114d0b",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-loyalty/releases/assets/651860758",
+    "checksum_sha256": "3e99d3067d7887e543fa2744e55904bf4eea6125c546e375c4a8b587c44d4a9e",
+    "signature": "d75fd308f7d74591c52690bff353f4e0dffbae01fd41db8bb6089a7548b9c3af53d1717a029ae850abe444491fd91ffaf54fce2d51d93ef94f0b4dd89d6c8c05",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -60,13 +60,27 @@
             "checksum_sha256": "03fcb41051e071405b8d15c8521e727fbb0d85a196ad3efd9afc1bab34b192f9",
             "signature": "08c04a74d8b9bd26469bc51e27f5ac9e8be52b6d506c415d7c452e95401c41381b85bc660e213a30d164ab6b7a1aa346a71dc3612d3c47f55883520259114d0b",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "loyalty"
             ],
             "yanked": false,
             "published_at": "2026-07-26T20:41:22Z"
+        },
+        {
+            "version": "1.0.3",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-loyalty/releases/assets/651860758",
+            "checksum_sha256": "3e99d3067d7887e543fa2744e55904bf4eea6125c546e375c4a8b587c44d4a9e",
+            "signature": "d75fd308f7d74591c52690bff353f4e0dffbae01fd41db8bb6089a7548b9c3af53d1717a029ae850abe444491fd91ffaf54fce2d51d93ef94f0b4dd89d6c8c05",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "loyalty"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:14:56Z"
         }
     ]
 }

@@ -1,24 +1,24 @@
 {
     "slug": "apppress/reviews",
     "name": "AppPress Reviews",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "author": "AppPress",
     "description": "Polymorphic text-and-star reviews for any reviewable subject (products, pages, events). Features a moderation queue dual-mounted in both Studio and the App-context (approve/reject/pin/verify, bulk actions, owner-reply compose form), an accessible public embed (keyboard-operable star-rating widget honoring a configurable min/max scale, helpful/not-helpful votes, sort/filter/pagination, rating-distribution bars), cached rating summaries, a generic verified-review integration hook any commerce/enrollment plugin can call, a member My Reviews panel, mobile FormScreen/ListScreen surfaces, workflow triggers/actions, and outbound webhooks. Implements StandardContracts::REVIEWS for cross-plugin submission without tight coupling.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-07-30T05:47:06Z",
+    "last_updated": "2026-10-17T23:17:28Z",
     "requires": {
-        "core": ">=1.0.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-reviews/releases/assets/494975143",
-    "checksum_sha256": "f447f202b5643743913a0bd4f1f97110fb0e96e9efed852fc568fbfc15940d12",
-    "signature": "359089ab0b3d4d16a8972c6fcbc188b6d8c24d18382f0001b2c4e16ed0bb2e56122a6f1d8a2d781a00f86e57957a790779e526e9eee7db33cce84f3aa6043807",
-    "min_core_version": "1.0.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-reviews/releases/assets/651865409",
+    "checksum_sha256": "bacc49bfe86f356d66ddfc9e2e54755318dd3bf42f032ee8f6b78e7f8c8450dc",
+    "signature": "f339dbdfe0324d9ab1e4808986223c57171d97aa232296af8448fad98cd7e5359198e3b775f8f35852e81efdefe0c6f40c31f894fe71d695dc92e25478cdbb09",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -200,7 +200,7 @@
             "checksum_sha256": "f447f202b5643743913a0bd4f1f97110fb0e96e9efed852fc568fbfc15940d12",
             "signature": "359089ab0b3d4d16a8972c6fcbc188b6d8c24d18382f0001b2c4e16ed0bb2e56122a6f1d8a2d781a00f86e57957a790779e526e9eee7db33cce84f3aa6043807",
             "min_core_version": "1.0.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "reviews",
@@ -221,6 +221,34 @@
             ],
             "yanked": false,
             "published_at": "2026-07-30T05:47:06Z"
+        },
+        {
+            "version": "1.1.5",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-reviews/releases/assets/651865409",
+            "checksum_sha256": "bacc49bfe86f356d66ddfc9e2e54755318dd3bf42f032ee8f6b78e7f8c8450dc",
+            "signature": "f339dbdfe0324d9ab1e4808986223c57171d97aa232296af8448fad98cd7e5359198e3b775f8f35852e81efdefe0c6f40c31f894fe71d695dc92e25478cdbb09",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "reviews",
+                "moderation_queue",
+                "app_context_management",
+                "owner_replies",
+                "accessible_star_rating_widget",
+                "helpful_votes",
+                "public_sort_filter_pagination",
+                "rating_distribution_bars",
+                "verified_review_hook",
+                "rating_summaries",
+                "member_review_history",
+                "mobile_review_surfaces",
+                "workflow_triggers",
+                "workflow_actions",
+                "reviews_widget_block"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:17:28Z"
         }
     ]
 }

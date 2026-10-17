@@ -1,24 +1,24 @@
 {
     "slug": "apppress/notifications",
     "name": "AppPress Notifications",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "author": "AppPress",
     "description": "Multi-channel notification center for AppPress \u2014 stored in-app notifications, email, browser push (VAPID), SMS (Twilio), and Expo mobile push. Implements StandardContracts::NOTIFICATIONS so workflows and plugins deliver alerts without direct coupling.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-10-17T15:05:23Z",
+    "last_updated": "2026-10-17T23:15:26Z",
     "requires": {
-        "core": ">=1.5.0"
+        "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": false,
     "license_type": "free",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-notifications/releases/assets/650763887",
-    "checksum_sha256": "e3eac1b5c5814619eabbd620d0af6c21740bcc7e45e587e18621e1989d3b1bf9",
-    "signature": "8f1f25b4c8e0e0fc41b97e049e247c586c996800a84c4c6d688aea19a122657ae7390afa92afba1c06b535e032d1e2e38870d6704bb360202256cfbd8cc6ce02",
-    "min_core_version": "1.5.0",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-notifications/releases/assets/651861727",
+    "checksum_sha256": "40bfa941c88f6cfc98a4b9140a77e5bd643b6d89a8a56e8b5af75415c08c0ba9",
+    "signature": "0e06a9f2f0ac2c6c3aba68606f518328dd0b85ca0e33bd98de718b967bec1343d6a580c3373eaab973183d907b797af09bc9d52eaa67ef76f52974bf6586680e",
+    "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
     "capabilities": [
@@ -120,7 +120,7 @@
             "checksum_sha256": "e3eac1b5c5814619eabbd620d0af6c21740bcc7e45e587e18621e1989d3b1bf9",
             "signature": "8f1f25b4c8e0e0fc41b97e049e247c586c996800a84c4c6d688aea19a122657ae7390afa92afba1c06b535e032d1e2e38870d6704bb360202256cfbd8cc6ce02",
             "min_core_version": "1.5.0",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "notifications",
@@ -130,6 +130,23 @@
             ],
             "yanked": false,
             "published_at": "2026-10-17T15:05:23Z"
+        },
+        {
+            "version": "1.1.5",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-notifications/releases/assets/651861727",
+            "checksum_sha256": "40bfa941c88f6cfc98a4b9140a77e5bd643b6d89a8a56e8b5af75415c08c0ba9",
+            "signature": "0e06a9f2f0ac2c6c3aba68606f518328dd0b85ca0e33bd98de718b967bec1343d6a580c3373eaab973183d907b797af09bc9d52eaa67ef76f52974bf6586680e",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "notifications",
+                "mail",
+                "in_app_notifications",
+                "expo_push"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-17T23:15:26Z"
         }
     ]
 }
