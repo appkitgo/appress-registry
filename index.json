@@ -1,6 +1,6 @@
 {
     "schema_version": "1.0.0",
-    "generated_at": "2026-07-30T22:09:37+00:00",
+    "generated_at": "2026-10-17T15:13:28+00:00",
     "index_ref": "tags",
     "packages": {
         "apppress/activity-log": {
@@ -478,7 +478,7 @@
                     "checksum_sha256": "394807a29308723312300c7f067abf1837de1be49dab051bf19574ec864801d3",
                     "signature": "db034e1dcf504c5234db3c5d051341c05c51c4b13d0ff397b5418b63cbfca4cdef09425b177092fcaefdd46fc02ec12643e6ee203d497a2830531e168a9d5605",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "approval_workflow",
@@ -491,6 +491,26 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-30T01:08:32Z"
+                },
+                {
+                    "version": "1.1.3",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-approvals/releases/assets/650761053",
+                    "checksum_sha256": "0ceb52726cae095656961c8849c0f3a7ec9585af63ccb3bca1e5f2e9bc4729cf",
+                    "signature": "fb272c540ccb77a7e3dee6e6f8e6c7cc44e9bea6fd60afe13243a2e61e6ff9e1e236fe01d61ae6fa7df6e8c49db72cb0085c437389cd1580a3b204359f9b3804",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "approval_workflow",
+                        "review_queue",
+                        "decision_tracking",
+                        "esignature",
+                        "docusign_bridge",
+                        "webhook_ingress",
+                        "signer_assignment"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-10-17T15:04:01Z"
                 }
             ]
         },
@@ -1188,7 +1208,7 @@
                     "checksum_sha256": "a4cb307ba1964b519cd03bd255adeff6db468ab5db5664ea53da46b17bf26541",
                     "signature": "c3948dee30e99916bd0e7c41753ebfe4d637cbaf3ed18a1fd0fd761103e4637c713d7565f18bf89ba5051dc3b1eca5ab16764d241407bf4f56c4a49bb8ed4706",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "calendar_events",
@@ -1201,6 +1221,26 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-30T05:44:20Z"
+                },
+                {
+                    "version": "1.1.5",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-calendar/releases/assets/650762278",
+                    "checksum_sha256": "dca17c6dfba923152dbe87dd26bd9240edf2cff4ca1269a2349aced8d4ec7c5c",
+                    "signature": "5636a4e964bbeb88a473982ed8e89724ae382e3feedef8f0c7ed964aef260c97a4f06995670110821c5668abe628b3a461c5223cd4c0731dbc1e7230c224a609",
+                    "min_core_version": "1.5.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "calendar_events",
+                        "rrule_recurrence",
+                        "availability_windows",
+                        "ical_import_export",
+                        "external_calendar_sync",
+                        "rsvp_management",
+                        "scheduling_primitive"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-10-17T15:04:35Z"
                 }
             ]
         },
@@ -2415,7 +2455,7 @@
                     "checksum_sha256": "2623af10b4356bcf90117ba78b0b0253bf50b3fd9357ae1752da49523d6569d7",
                     "signature": "72f31118cdb5be538d47ae1077d8ff175857cf2aacfb2ae0a500558101999a18776d10950df614ca824098a7972ef2561e1c5206e13353de983ccb0982d3f40f",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "documents",
@@ -2431,6 +2471,29 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:04:41Z"
+                },
+                {
+                    "version": "1.1.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-documents/releases/assets/650762558",
+                    "checksum_sha256": "fd10b278b676badfbf1cdf6e4f660ab4c09bb8f547658c549d7922c789199852",
+                    "signature": "92a9298a67ace4a6289b80767b2fff03f6f2b628faef03eb70f629e02cdedeab111320ffb56bd69bafb1eae0c694874f4b92fcf4ad6350c57c1e866854dac308",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "documents",
+                        "pdf",
+                        "templates",
+                        "sharing",
+                        "uploads",
+                        "retention",
+                        "member_panel",
+                        "admin_dashboard",
+                        "workflow_triggers",
+                        "workflow_actions"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-10-17T15:04:43Z"
                 }
             ]
         },
@@ -3098,7 +3161,7 @@
                     "checksum_sha256": "acd8b1bc851e224718b2a2c726dd479e795b73d2df982030b0799721143bdf49",
                     "signature": "9692a6c39ef7970562e21441ecfa9a80184853bfe4d1ee88b0d5d13c5bee61d789b7717a0b08047e5f600218f58e011399c0c94cbc56d57c3b64e45d388d4200",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "files",
@@ -3118,6 +3181,33 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:39:44Z"
+                },
+                {
+                    "version": "1.1.2",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-file-vault/releases/assets/650762783",
+                    "checksum_sha256": "e702479ebee99c7f9fff7f50fae14373a2923c9e7723e5d9ecafea3df65f7233",
+                    "signature": "c6ab43d410388ecff700b0d763b8a0385e2cab440d9d4be34a1e84116e25d6bcfee66db6c7d52d1e60a6dfce1c962ab6f8cd1bd338d2d4e26a081477015f0a06",
+                    "min_core_version": "1.5.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "files",
+                        "file-vault",
+                        "private_file_storage",
+                        "per_user_quotas",
+                        "signed_download_urls",
+                        "mobile_my_files",
+                        "admin_dashboard",
+                        "member_self_service",
+                        "bulk_actions",
+                        "folder_organization",
+                        "inline_previews",
+                        "embeddable_my_files_block",
+                        "workflow_triggers",
+                        "workflow_actions"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-10-17T15:04:51Z"
                 }
             ]
         },
@@ -3337,7 +3427,7 @@
                     "checksum_sha256": "a7bb9485f1c7eff1e397f927f9ad80b911c16300995da01d1ea7ca7e5bdb3fbd",
                     "signature": "f565ded46cf7adb89eb8f4f03bdf3dd3cd6800555513ad3da5eec038314689f0b994f791c511247b8559401a40d1002696a3159f536c2331410067edab376c0d",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "gamification",
@@ -3351,6 +3441,27 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-28T03:48:15Z"
+                },
+                {
+                    "version": "1.1.3",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-gamification/releases/assets/650763071",
+                    "checksum_sha256": "cfeebac6f8d7de39c70772d1045acd630f4368b909f2566fe522c8621050a794",
+                    "signature": "682827389e65d26bf482a052fcd283ee4bbc93cc84cbcf87793586be97542065f9a71a80c8cd6c879aa7617249ca584b022281d205a8a4c7117b0d08766bcb09",
+                    "min_core_version": "1.5.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "gamification",
+                        "admin_builders",
+                        "member_profile",
+                        "public_leaderboard_page",
+                        "placeable_blocks",
+                        "workflow_actions",
+                        "tier_rewards",
+                        "earn_celebrations"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-10-17T15:05:00Z"
                 }
             ]
         },
@@ -3880,7 +3991,7 @@
                     "checksum_sha256": "b426697a441d05e0b3caf097140c90c70ab99060b7f505998b9ba5f6ff855d6b",
                     "signature": "e97d3d9ff89de7dd86aba371d8e9be9b7f477264c3c1f24c1269835dd7bd90f1776fc2673e59e28bf0e3f26d27d37070c42a79ce7bcf4c08c236d8e778d73305",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "import-export",
@@ -3894,6 +4005,27 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:40:53Z"
+                },
+                {
+                    "version": "1.2.0",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-import-export/releases/assets/650762022",
+                    "checksum_sha256": "6ca53b53b004d6c93164ebfefbb3670ce3aca0ae42b1c7ab670f370c85b7b8a6",
+                    "signature": "8e1fc49cd4aa06ad17e0633da8f4c3878a0e3b5c4432279b702d6bdd15235964ce437b195f19ce21fe92130c4f7b9a43fea208d062752ae212e85079b6123f01",
+                    "min_core_version": "1.5.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "import-export",
+                        "csv_import",
+                        "excel_import",
+                        "json_import",
+                        "data_export",
+                        "bulk_data_transfer",
+                        "column_mapping",
+                        "background_jobs"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-10-17T15:04:26Z"
                 }
             ]
         },
@@ -4051,7 +4183,7 @@
                     "checksum_sha256": "7fc2430711ae472036f37a745a37f443660ad9f41fe7a366d273b513d51e2ebc",
                     "signature": "b54ceefc37227a207c045c26009c529957ef69910a25271bc4468a191da5e07eedfadbf3e9d5b87bd82affac079d4b15d016680b740705885db9574c3c11ae0d",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "invoices",
@@ -4062,6 +4194,24 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-30T12:23:29Z"
+                },
+                {
+                    "version": "1.1.5",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-invoices/releases/assets/650763333",
+                    "checksum_sha256": "658d35312889dd96af665189207b45c9898436207ba8b805857c47ee92f6bb44",
+                    "signature": "2dec1769b6bcbb276be1f1f54eac93719d6432240dd5188d2c954d02e9c323550e27416b3aafbb98d8890341192712fa26590ee6bffa5bb0f1e19d3e533f1208",
+                    "min_core_version": "1.5.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "invoices",
+                        "receivables",
+                        "manual_payments",
+                        "overdue_reminders",
+                        "public_client_view"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-10-17T15:05:08Z"
                 }
             ]
         },
@@ -4865,13 +5015,27 @@
                     "checksum_sha256": "9f8c6617a0a22b781ec3e41c0be1c39674c9a60cf1529f6c8ff6c4fd4e1fc93b",
                     "signature": "ade708faf26973e6017e0cb873390ab4565f4d78b3e8c2160700470d189ba14add20a5615589cd16fd677fea4742dd8efe17b504e51e65e1b35ba1bfcd39200a",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "newsletters"
                     ],
                     "yanked": false,
                     "published_at": "2026-07-30T05:45:40Z"
+                },
+                {
+                    "version": "1.1.4",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-newsletters/releases/assets/650763645",
+                    "checksum_sha256": "3f2fa5e15dcee24b8ff585f2f14fb12b4e8bd37a13340b5649463dd5f63632c7",
+                    "signature": "c451ca80d1120df40508ed6f0387a122f1d2081602b479e59d0f3829e7f0c01a5c62d158f867e0519fc6d3c8d2170d99dd45e43d49662378d14573ffd3517e0c",
+                    "min_core_version": "1.5.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "newsletters"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-10-17T15:05:16Z"
                 }
             ]
         },
@@ -4950,7 +5114,7 @@
                     "checksum_sha256": "fd657b1ae52e35156f51ed36719b407062cbe2cdd53a86197d2cfd0c01335dae",
                     "signature": "07097641a1a44c47ee6f821516479abc77e8d82a4e1d5d72f524560e9005dde7380852fa40a3d3cdce4627ed2694be7085f386475cbfd1d8f06e4c3545ad0103",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "private_notes",
@@ -4962,6 +5126,25 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-26T20:41:43Z"
+                },
+                {
+                    "version": "1.0.6",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-notes/releases/assets/650761336",
+                    "checksum_sha256": "18136f7cb1392271c1ea6d096b9b436a19764a03f9145051738e5e741cdbafc1",
+                    "signature": "94181634e3b05f07e09154ca91ade30322ac918e8ac828921c00afc6d3311357bcc3813f08b6abfcc1a0ad4ac75f3e31fd4ed6809483fed7bcf660330e5db908",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "private_notes",
+                        "case_notes",
+                        "staff_annotations",
+                        "entity_attached_notes",
+                        "mobile_staff_notes",
+                        "workflow_automation"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-10-17T15:04:09Z"
                 }
             ]
         },
@@ -5051,7 +5234,7 @@
                     "checksum_sha256": "535c7eb5a3ebdcd8f3444bfecc770c1f7fe1e6ede6623f7224fdd661844d5891",
                     "signature": "6ef27ca2c382329ae100838a3e7afe945715e41ec22c036f952538478865f8d6823a5bd88f7b094807035c7b2d7dd43eaeb10ff14297747ed8c8b3975aca8a03",
                     "min_core_version": "1.2.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "notifications",
@@ -5061,6 +5244,23 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-30T05:45:47Z"
+                },
+                {
+                    "version": "1.1.4",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-notifications/releases/assets/650763887",
+                    "checksum_sha256": "e3eac1b5c5814619eabbd620d0af6c21740bcc7e45e587e18621e1989d3b1bf9",
+                    "signature": "8f1f25b4c8e0e0fc41b97e049e247c586c996800a84c4c6d688aea19a122657ae7390afa92afba1c06b535e032d1e2e38870d6704bb360202256cfbd8cc6ce02",
+                    "min_core_version": "1.5.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "notifications",
+                        "mail",
+                        "in_app_notifications",
+                        "expo_push"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-10-17T15:05:23Z"
                 }
             ]
         },
@@ -7188,13 +7388,27 @@
                     "checksum_sha256": "dec67ba0c6ef4608d38d5d528a3ec3f68e6e6968eb4fe2b6f3f47cf9b98fd3ce",
                     "signature": "67eac93008087a43db93f733e28b586925c7165fbb688e40e9a4e94a9da6036a16f3c74c2dd99354257f520e84aadc940a7f57bad6a8d1c5b8df261ad915ef09",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "seo"
                     ],
                     "yanked": false,
                     "published_at": "2026-07-30T05:47:13Z"
+                },
+                {
+                    "version": "1.2.3",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-seo/releases/assets/650764134",
+                    "checksum_sha256": "e066eb419e6fa15fc15f656cf0bdc6a7cf24006b2cf8ab34ec7cf6d423ab3476",
+                    "signature": "6494887950bd903d25d4f16ae4770bce14b2b530cb05acfa95ea10f163c0d82ed481fc729718145017f3a571bd3f92e09ac4e3eda93ccae8e24067e4d8135c04",
+                    "min_core_version": "1.5.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "seo"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-10-17T15:05:31Z"
                 }
             ]
         },
@@ -7767,7 +7981,7 @@
                     "checksum_sha256": "c57ea0d5a528bbf2c5939b5910deb82b0f97f32bd09121463840eda1c744104a",
                     "signature": "0c222485cf4f7e898f044f2bec3da134ac861e80d615d2d5a6958a41c28983256e369646fa44c43f0396ee8967666922ee66e52c26b38bdb50c0123861aa0e02",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "surveys",
@@ -7784,6 +7998,30 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-30T20:50:35Z"
+                },
+                {
+                    "version": "1.2.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-surveys/releases/assets/650764377",
+                    "checksum_sha256": "1d46f211a75004da54756aea6654a5c0fd13fd4038d5e4a3e5d7f09030e71b9f",
+                    "signature": "90f25c167deca72d6cb9019ee5690db9c7966925e34efbb9f3300c68b54d03e9be0d90361703ea5fde27580b90111f30dc09c2c5bbe090a9ef441aefc7b27e0a",
+                    "min_core_version": "1.0.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "surveys",
+                        "feedback_collection",
+                        "nps_scoring",
+                        "quiz_scoring",
+                        "poll_results",
+                        "public_links",
+                        "response_analytics",
+                        "workflow_triggers",
+                        "workflow_actions",
+                        "mobile_surfaces",
+                        "admin_dashboard"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-10-17T15:05:40Z"
                 }
             ]
         },
@@ -8699,7 +8937,7 @@
                     "checksum_sha256": "83475f9721b1bf29f4223ac4a2ac22d8a479e0913568617676c0f5a86fdce2f1",
                     "signature": "5601efd2ccf00a346723dc7c66940519002b3acdebcd92c371be113266cfbfa8dd50a7bd28998a8bd35d773dbecc93106783cb9367af4ff32f776d9ea6de2e03",
                     "min_core_version": "1.0.0",
-                    "dependencies": {},
+                    "dependencies": [],
                     "requires_plugins": [],
                     "capabilities": [
                         "workflow",
@@ -8709,6 +8947,23 @@
                     ],
                     "yanked": false,
                     "published_at": "2026-07-30T18:33:36Z"
+                },
+                {
+                    "version": "1.4.1",
+                    "download_url": "https://api.github.com/repos/appkitgo/plugin-workflows/releases/assets/650761701",
+                    "checksum_sha256": "7e8a214519a4b5ee6664ad68f6cc41a9778dd1e5aed2dca965f25e5bc9698d0f",
+                    "signature": "565be936ffbe803f95baa7e7ed0f60275bbe816c0b102a8d649d92a6fd16472673e37aa1efbcd13eb942321f63f61b5ab3e047663f144e61151cdcc012255508",
+                    "min_core_version": "1.5.0",
+                    "dependencies": {},
+                    "requires_plugins": [],
+                    "capabilities": [
+                        "workflow",
+                        "workflow.trigger",
+                        "workflow.action",
+                        "workflow.condition"
+                    ],
+                    "yanked": false,
+                    "published_at": "2026-10-17T15:04:18Z"
                 }
             ]
         },
@@ -8835,5 +9090,5 @@
             ]
         }
     },
-    "signature": "19d6269a9036c14c7fe1a2f963805745172a059be31b76027fa030bdbcbea41ba2143a8c3f618c744b54cc5dc3383902aaa40c01ff947b986012e4ea5e221a08"
+    "signature": "bb8e8a4a846b710bd751dd49c5d41fc965c0e39681848ac571a028a05ddd23b8a851480dc90b3ebfd2f173638bb2dfb97dfda5708b8d77e7532e881559e65c0a"
 }
