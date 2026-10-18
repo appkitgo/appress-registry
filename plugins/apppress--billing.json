@@ -1,23 +1,23 @@
 {
     "slug": "apppress/billing",
     "name": "AppPress Billing",
-    "version": "1.1.1",
+    "version": "1.1.4",
     "author": "AppPress",
     "description": "Stripe-powered subscription billing with plans, feature quotas, usage tracking, customer portal, and webhook sync. Implements StandardContracts::BILLING and emits eight outbound workflow triggers (subscription_created, subscription_cancelled, subscription_renewed, payment_failed, payment_succeeded, plan_changed, trial_started, trial_ended). Provides workflow actions for sending payment links, cancelling subscriptions, checking subscription status, assigning plans, and recording usage. Exposes connector query surfaces for subscriptions, invoices, and feature usage.",
     "categories": [],
     "downloads": 0,
     "rating": 0,
     "rating_count": 0,
-    "last_updated": "2026-10-17T23:19:21Z",
+    "last_updated": "2026-10-18T01:32:33Z",
     "requires": {
         "core": ">=1.5.1"
     },
     "is_verified": true,
     "is_premium": true,
     "license_type": "premium",
-    "download_url": "https://api.github.com/repos/appkitgo/plugin-billing/releases/assets/651868537",
-    "checksum_sha256": "d62156f96018a44c47ce351bfe3ea2fc35a4ce9aa7afdb5184e14829023c9d44",
-    "signature": "4f14bcc7b24b42d63cf4e30b715875bcbe353eb29fa54b6e2b6f0cffc8041121db580c9a296f07a1154e75aebd8feb5c042b3468c874e9ffdfa0bc2f93b9d50b",
+    "download_url": "https://api.github.com/repos/appkitgo/plugin-billing/releases/assets/652128326",
+    "checksum_sha256": "e38778fc0a46df7eeb0f5740e949c18e840f3634742a1cb80051738354d1a540",
+    "signature": "14a928a6a226030d6c3a7babe62c81c18605919a7c25eeddb76f6d92b2928c710f72058408ebbdb003e7438eeabdd2f2db2dde6aaa33eb71dafd40915db8200f",
     "min_core_version": "1.5.1",
     "dependencies": {},
     "requires_plugins": [],
@@ -132,7 +132,7 @@
             "checksum_sha256": "d62156f96018a44c47ce351bfe3ea2fc35a4ce9aa7afdb5184e14829023c9d44",
             "signature": "4f14bcc7b24b42d63cf4e30b715875bcbe353eb29fa54b6e2b6f0cffc8041121db580c9a296f07a1154e75aebd8feb5c042b3468c874e9ffdfa0bc2f93b9d50b",
             "min_core_version": "1.5.1",
-            "dependencies": {},
+            "dependencies": [],
             "requires_plugins": [],
             "capabilities": [
                 "billing",
@@ -144,6 +144,25 @@
             ],
             "yanked": false,
             "published_at": "2026-10-17T23:19:21Z"
+        },
+        {
+            "version": "1.1.4",
+            "download_url": "https://api.github.com/repos/appkitgo/plugin-billing/releases/assets/652128326",
+            "checksum_sha256": "e38778fc0a46df7eeb0f5740e949c18e840f3634742a1cb80051738354d1a540",
+            "signature": "14a928a6a226030d6c3a7babe62c81c18605919a7c25eeddb76f6d92b2928c710f72058408ebbdb003e7438eeabdd2f2db2dde6aaa33eb71dafd40915db8200f",
+            "min_core_version": "1.5.1",
+            "dependencies": {},
+            "requires_plugins": [],
+            "capabilities": [
+                "billing",
+                "payments",
+                "subscriptions",
+                "feature_gating",
+                "usage_tracking",
+                "customer_portal"
+            ],
+            "yanked": false,
+            "published_at": "2026-10-18T01:32:33Z"
         }
     ]
 }
